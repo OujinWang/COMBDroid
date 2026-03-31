@@ -1,12 +1,12 @@
 # COMBDroid
 
-## 📖 Overview
+## Overview
 
 COMBDroid is an automated GUI testing framework for handling **combination interactions** in Android apps. It targets page-level, function-oriented interaction workflows that require coordinated operations across multiple dependent widgets within the same functional context, rather than isolated single-widget actions. The approach is built around **structured planning** and **dual memory**, enabling reliable execution of multi-step GUI tasks such as logging, search, booking, editing, and configuration flows.
 
 ![overview](./assets/overview.png)
 
-## 🚀 Key Features
+## Key Features
 
 - **Combination-Interaction-Aware Testing**: Detects pages that require coordinated operations across multiple widgets before a functionality can proceed
 - **Structure-Aware Detection**: Screens candidate pages from GUI structure and verifies them with multimodal semantic analysis
@@ -50,7 +50,6 @@ Follow the steps below to set up, configure, and run the available components.
 - Stores step-level artifacts for traceability and debugging
 - Maintains context memory across multi-step interactions
 
----
 
 ### Project Structure
 
@@ -102,7 +101,6 @@ GUI_AGENT/
 * `memory/context_memory.py`
   Stores recent execution history and interaction context across steps.
 
----
 
 ### Workflow
 
@@ -138,7 +136,6 @@ COMBDroid operates in the following stages:
    * Record action history and feedback
    * Continue until a termination condition is met
 
----
 
 ### Environment Setup
 
@@ -167,13 +164,11 @@ Before running the framework, ensure that:
 * UI automation is available
 * screenshots and UI hierarchy dumping work correctly
 
----
 
 ### Requirements
 
 Dependencies are listed separately in `requirements.txt`.
 
----
 
 ### Running COMBDroid
 
@@ -212,7 +207,6 @@ python main.py --device <device_serial> --run-name demo_run --max-steps 10
 * `--no-wait`
   Do not wait for LLM response files
 
----
 
 ### Manual LLM-Driven Loop
 
@@ -249,7 +243,6 @@ Supported action types:
 * `wait`
 * `stop`
 
----
 
 ### Output Artifacts
 
@@ -282,7 +275,6 @@ These artifacts support:
 * trace analysis
 * memory inspection
 
----
 
 ### Current Capabilities
 
@@ -296,7 +288,6 @@ The current codebase supports:
 * repeated-state detection
 * run logging and memory snapshots
 
----
 
 ### Notes
 
@@ -304,7 +295,6 @@ The current codebase supports:
 * The framework is currently oriented toward Android GUI automation and structured multi-step interaction execution.
 * The current implementation is suitable for experimentation, debugging, and extension of LLM-based GUI testing workflows.
 
----
 
 ## Pilot Study Dataset
 
