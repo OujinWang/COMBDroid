@@ -1,5 +1,7 @@
 # COMBDroid
 
+[![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.31932618-blue)](https://doi.org/10.6084/m9.figshare.31932618)
+
 ## Overview
 
 COMBDroid is an automated GUI testing framework for handling **combination interactions** in Android apps. It targets page-level, function-oriented interaction workflows that require coordinated operations across multiple dependent widgets within the same functional context, rather than isolated single-widget actions. The approach is built around **structured planning** and **dual memory**, enabling reliable execution of multi-step GUI tasks such as logging, search, booking, editing, and configuration flows.
