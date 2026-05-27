@@ -1,0 +1,1365 @@
+{
+  "screenshot_path": "runs\\295_timePlanner\\step_003\\screen.png",
+  "xml_path": "runs\\295_timePlanner\\step_003\\hierarchy.xml",
+  "component_count": 43,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5",
+        "node_41"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_5",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/toolbar_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_14",
+        "node_16",
+        "node_17"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_6",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        288
+      ],
+      "center": [
+        720,
+        192
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_7",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        288
+      ],
+      "center": [
+        720,
+        192
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8",
+        "node_10"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_8",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/toolbar_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        864,
+        288
+      ],
+      "center": [
+        432,
+        192
+      ],
+      "area": 165888,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_9",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Logging",
+      "resource_id": "com.albul.timeplanner:id/toolbar_label",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        864,
+        288
+      ],
+      "center": [
+        432,
+        192
+      ],
+      "area": 165888,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_10",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        864,
+        96,
+        1440,
+        288
+      ],
+      "center": [
+        1152,
+        192
+      ],
+      "area": 110592,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_11",
+        "node_12",
+        "node_13"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_11",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/filter_button",
+      "content_desc": "Filter",
+      "bounds": [
+        864,
+        96,
+        1056,
+        288
+      ],
+      "center": [
+        960,
+        192
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_12",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/search_button",
+      "content_desc": "Search",
+      "bounds": [
+        1056,
+        96,
+        1248,
+        288
+      ],
+      "center": [
+        1152,
+        192
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_13",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1248,
+        96,
+        1440,
+        288
+      ],
+      "center": [
+        1344,
+        192
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_14",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/fab_menu",
+      "content_desc": "",
+      "bounds": [
+        0,
+        742,
+        909,
+        2560
+      ],
+      "center": [
+        454,
+        1651
+      ],
+      "area": 1652562,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_15"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_15",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/fab_expand_menu_button",
+      "content_desc": "",
+      "bounds": [
+        32,
+        2258,
+        256,
+        2482
+      ],
+      "center": [
+        144,
+        2370
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_16",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/form_content_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        288,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1424
+      ],
+      "area": 3271680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_17",
+      "type": "Other",
+      "class_name": "androidx.drawerlayout.widget.DrawerLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/drawer_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        288,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1424
+      ],
+      "area": 3271680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_18"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_18",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        288,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1424
+      ],
+      "area": 3271680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_19",
+        "node_26",
+        "node_27"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_19",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/content_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        288,
+        1440,
+        2360
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2983680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_20",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/logging_scroll",
+      "content_desc": "",
+      "bounds": [
+        0,
+        288,
+        1440,
+        2360
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2983680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_21"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_21",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/logging_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        288,
+        1440,
+        2360
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2983680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_22",
+        "node_23"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_22",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/popup_anchor",
+      "content_desc": "",
+      "bounds": [
+        0,
+        288,
+        1,
+        289
+      ],
+      "center": [
+        0,
+        288
+      ],
+      "area": 1,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_23",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        305,
+        1036,
+        1135,
+        1611
+      ],
+      "center": [
+        720,
+        1323
+      ],
+      "area": 477250,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_24",
+        "node_25"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_24",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Nothing planned for today",
+      "resource_id": "com.albul.timeplanner:id/empty_log_area",
+      "content_desc": "",
+      "bounds": [
+        305,
+        1036,
+        1135,
+        1493
+      ],
+      "center": [
+        720,
+        1264
+      ],
+      "area": 379310,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_25",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Or filters applied",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        511,
+        1525,
+        928,
+        1611
+      ],
+      "center": [
+        719,
+        1568
+      ],
+      "area": 35862,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_26",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2359,
+        1440,
+        2360
+      ],
+      "center": [
+        720,
+        2359
+      ],
+      "area": 1440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_27",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/bottom_bar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2360,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2460
+      ],
+      "area": 288000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_28"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_28",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/bb_bottom_bar_outer_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2360,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2460
+      ],
+      "area": 288000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [
+        "node_29"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/bb_bottom_bar_item_container",
+      "content_desc": "",
+      "bounds": [
+        224,
+        2360,
+        1440,
+        2560
+      ],
+      "center": [
+        832,
+        2460
+      ],
+      "area": 243200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30",
+        "node_33",
+        "node_35",
+        "node_37",
+        "node_39"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_30",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/log_button",
+      "content_desc": "",
+      "bounds": [
+        232,
+        2360,
+        568,
+        2560
+      ],
+      "center": [
+        400,
+        2460
+      ],
+      "area": 67200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31",
+        "node_32"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_31",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/bb_bottom_bar_icon",
+      "content_desc": "",
+      "bounds": [
+        352,
+        2360,
+        448,
+        2470
+      ],
+      "center": [
+        400,
+        2415
+      ],
+      "area": 10560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_32",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Logging",
+      "resource_id": "com.albul.timeplanner:id/bb_bottom_bar_title",
+      "content_desc": "",
+      "bounds": [
+        312,
+        2470,
+        487,
+        2560
+      ],
+      "center": [
+        399,
+        2515
+      ],
+      "area": 15750,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_33",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/control_button",
+      "content_desc": "",
+      "bounds": [
+        568,
+        2360,
+        784,
+        2560
+      ],
+      "center": [
+        676,
+        2460
+      ],
+      "area": 43200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_34"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_34",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/bb_bottom_bar_icon",
+      "content_desc": "",
+      "bounds": [
+        628,
+        2360,
+        724,
+        2508
+      ],
+      "center": [
+        676,
+        2434
+      ],
+      "area": 14208,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/schedule_button",
+      "content_desc": "",
+      "bounds": [
+        784,
+        2360,
+        1000,
+        2560
+      ],
+      "center": [
+        892,
+        2460
+      ],
+      "area": 43200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_36",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/bb_bottom_bar_icon",
+      "content_desc": "",
+      "bounds": [
+        844,
+        2360,
+        940,
+        2508
+      ],
+      "center": [
+        892,
+        2434
+      ],
+      "area": 14208,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_37",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/stat_button",
+      "content_desc": "",
+      "bounds": [
+        1000,
+        2360,
+        1216,
+        2560
+      ],
+      "center": [
+        1108,
+        2460
+      ],
+      "area": 43200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_38"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_38",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/bb_bottom_bar_icon",
+      "content_desc": "",
+      "bounds": [
+        1060,
+        2360,
+        1156,
+        2508
+      ],
+      "center": [
+        1108,
+        2434
+      ],
+      "area": 14208,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_39",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/misc_button",
+      "content_desc": "",
+      "bounds": [
+        1216,
+        2360,
+        1432,
+        2560
+      ],
+      "center": [
+        1324,
+        2460
+      ],
+      "area": 43200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_40"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_40",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/bb_bottom_bar_icon",
+      "content_desc": "",
+      "bounds": [
+        1276,
+        2360,
+        1372,
+        2508
+      ],
+      "center": [
+        1324,
+        2434
+      ],
+      "area": 14208,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_41",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_42"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    },
+    {
+      "id": "node_42",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.albul.timeplanner:id/tutorial_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.albul.timeplanner"
+    }
+  ]
+}

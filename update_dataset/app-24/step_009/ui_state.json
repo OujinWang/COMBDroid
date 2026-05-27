@@ -1,0 +1,2673 @@
+{
+  "screenshot_path": "runs\\57_ytKids\\step_009\\screen.png",
+  "xml_path": "runs\\57_ytKids\\step_009\\hierarchy.xml",
+  "component_count": 85,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "center": [
+        1280,
+        720
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "center": [
+        1280,
+        720
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "center": [
+        1280,
+        720
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.youtube.kids:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "center": [
+        1280,
+        720
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "center": [
+        1280,
+        720
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_5",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.youtube.kids:id/onboarding_flow_data_fragment",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "center": [
+        1280,
+        720
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_6",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.google.android.apps.youtube.kids:id/pager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "center": [
+        1280,
+        720
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_7",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "center": [
+        1280,
+        720
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_8",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        2560,
+        1440
+      ],
+      "center": [
+        1280,
+        720
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9",
+        "node_10",
+        "node_80",
+        "node_81"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_9",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Notice to parents",
+      "resource_id": "com.google.android.apps.youtube.kids:id/title_text",
+      "content_desc": "",
+      "bounds": [
+        176,
+        112,
+        2384,
+        218
+      ],
+      "center": [
+        1280,
+        165
+      ],
+      "area": 234048,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_10",
+      "type": "Other",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        250,
+        2384,
+        1080
+      ],
+      "center": [
+        1280,
+        665
+      ],
+      "area": 1832640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_11"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_11",
+      "type": "ScrollContainer",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        250,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        666
+      ],
+      "area": 1837056,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12",
+        "node_13",
+        "node_14",
+        "node_15",
+        "node_16",
+        "node_17",
+        "node_18",
+        "node_31",
+        "node_32",
+        "node_33",
+        "node_34",
+        "node_35",
+        "node_36",
+        "node_37",
+        "node_38",
+        "node_39",
+        "node_40",
+        "node_47",
+        "node_48",
+        "node_61",
+        "node_62",
+        "node_66",
+        "node_67",
+        "node_68",
+        "node_79"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_12",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Important privacy information about YouTube Kids",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        310,
+        2384,
+        394
+      ],
+      "center": [
+        1280,
+        352
+      ],
+      "area": 185472,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_13",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Before your child gets started, we want to make sure you understand how the app collects and uses personal information and the privacy controls available to you.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        454,
+        2384,
+        622
+      ],
+      "center": [
+        1280,
+        538
+      ],
+      "area": 370944,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_14",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "You are choosing to use YouTube Kids as a signed-out service. This means that you don't need to use your Google account for the app to work.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        682,
+        2384,
+        850
+      ],
+      "center": [
+        1280,
+        766
+      ],
+      "area": 370944,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_15",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Information we collect",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        922,
+        2384,
+        1010
+      ],
+      "center": [
+        1280,
+        966
+      ],
+      "area": 194304,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_16",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "YouTube Kids collects information based on your child's use of the app, like when they watch a video.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        1082,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        1082
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_17",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Information about the device and app used to access the service. This information includes:",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        1310,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        1196
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_18",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ListView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        1538,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        1310
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_19",
+        "node_22",
+        "node_25",
+        "node_28"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_19",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        1538,
+        2384,
+        1082
+      ],
+      "center": [
+        1360,
+        1310
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_20",
+        "node_21"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_20",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "• ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        1538,
+        312,
+        1082
+      ],
+      "center": [
+        300,
+        1310
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_21",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "device type and settings, such as hardware model and operating system version;",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        1542,
+        2252,
+        1082
+      ],
+      "center": [
+        1294,
+        1312
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_22",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        1746,
+        2384,
+        1082
+      ],
+      "center": [
+        1360,
+        1414
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_23",
+        "node_24"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_23",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "• ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        1746,
+        312,
+        1082
+      ],
+      "center": [
+        300,
+        1414
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_24",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "log information, including details of how our service is used, device event information, and the device's Internet protocol (IP) address;",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        1754,
+        2276,
+        1082
+      ],
+      "center": [
+        1306,
+        1418
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_25",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        1958,
+        2384,
+        1082
+      ],
+      "center": [
+        1360,
+        1520
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_26",
+        "node_27"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_26",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "• ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        1958,
+        312,
+        1082
+      ],
+      "center": [
+        300,
+        1520
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_27",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "unique application numbers, such as application version number; and",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        1962,
+        2176,
+        1082
+      ],
+      "center": [
+        1256,
+        1522
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_28",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        2082,
+        2384,
+        1082
+      ],
+      "center": [
+        1360,
+        1582
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_29",
+        "node_30"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_29",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "• ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        2082,
+        312,
+        1082
+      ],
+      "center": [
+        300,
+        1582
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_30",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "unique identifiers, which are used to collect and store information about an app or device, such as preferred language, app activity and other settings.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        2090,
+        2324,
+        1082
+      ],
+      "center": [
+        1330,
+        1586
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_31",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "App activity. This information includes the videos your child watches, their search terms, and other interactions with content and ads in the app. If a child uses audio features in the app such as voice search, the app briefly collects voice information. This information is processed to allow for use of the audio feature and immediately deleted.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        2310,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        1696
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_32",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "How we use the information we collect",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        2806,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        1944
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_33",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "We use the information we collect for internal operational purposes, such as spam and abuse prevention, enforcing our content license restrictions, determining preferred language and providing and improving the service.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        2966,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        2024
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_34",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "We also use this information to offer users personalized content. We associate an identifier that's unique to the app with the videos your child has watched and terms they've searched for to recommend content likely to be of interest to them, subject to the controls described below.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        3278,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        2180
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_35",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "We use unique identifiers to provide contextual advertising, including ad frequency capping. The app does not allow interest-based advertising or remarketing.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        3674,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        2378
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_36",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "YouTube Kids does not allow your child to share personal information with third parties or make it publicly available.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        3902,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        2492
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_37",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Information we share",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        4142,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        2612
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_38",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "We will not disclose individual user information outside of Google unless one of the following circumstances applies:",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        4302,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        2692
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_39",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "With consent",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        4542,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        2812
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_40",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ListView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        4694,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        2888
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_41",
+        "node_44"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_41",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        4694,
+        2384,
+        1082
+      ],
+      "center": [
+        1360,
+        2888
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_42",
+        "node_43"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_42",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "• ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        4694,
+        312,
+        1082
+      ],
+      "center": [
+        300,
+        2888
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_43",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "We may share individual user information with companies, organizations or individuals outside of Google when we have parental consent.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        4702,
+        2332,
+        1082
+      ],
+      "center": [
+        1334,
+        2892
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_44",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        4906,
+        2384,
+        1082
+      ],
+      "center": [
+        1360,
+        2994
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_45",
+        "node_46"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_45",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "• ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        4906,
+        312,
+        1082
+      ],
+      "center": [
+        300,
+        2994
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_46",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "We will share individual user information with companies, organizations or individuals outside of Google if we have a good-faith belief that access, use, preservation or disclosure of the information is reasonably necessary to:",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        4910,
+        2348,
+        1082
+      ],
+      "center": [
+        1342,
+        2996
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_47",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "For legal reasons",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        5226,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        3154
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_48",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ListView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        5382,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        3232
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_49",
+        "node_52",
+        "node_55",
+        "node_58"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_49",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        5382,
+        2384,
+        1082
+      ],
+      "center": [
+        1360,
+        3232
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_50",
+        "node_51"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_50",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "• ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        5382,
+        312,
+        1082
+      ],
+      "center": [
+        300,
+        3232
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_51",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "meet any applicable law, regulation, legal process or enforceable governmental request.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        5386,
+        2048,
+        1082
+      ],
+      "center": [
+        1192,
+        3234
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_52",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        5590,
+        2384,
+        1082
+      ],
+      "center": [
+        1360,
+        3336
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_53",
+        "node_54"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_53",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "• ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        5590,
+        312,
+        1082
+      ],
+      "center": [
+        300,
+        3336
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_54",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "enforce applicable Terms of Service, including investigation of potential violations.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        5598,
+        2232,
+        1082
+      ],
+      "center": [
+        1284,
+        3340
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_55",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        5802,
+        2384,
+        1082
+      ],
+      "center": [
+        1360,
+        3442
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_56",
+        "node_57"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_56",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "• ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        5802,
+        312,
+        1082
+      ],
+      "center": [
+        300,
+        3442
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_57",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "detect, prevent, or otherwise address fraud, security or technical issues.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        5806,
+        2236,
+        1082
+      ],
+      "center": [
+        1286,
+        3444
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_58",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        5926,
+        2384,
+        1082
+      ],
+      "center": [
+        1360,
+        3504
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_59",
+        "node_60"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_59",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "• ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        5926,
+        312,
+        1082
+      ],
+      "center": [
+        300,
+        3504
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_60",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "protect against harm to the rights, property or safety of Google, our users or the public as required or permitted by law.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        5934,
+        2344,
+        1082
+      ],
+      "center": [
+        1340,
+        3508
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_61",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "For external processing",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        6166,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        3624
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_62",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ListView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        6318,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        3700
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_63"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_63",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        6318,
+        2384,
+        1082
+      ],
+      "center": [
+        1360,
+        3700
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [
+        "node_64",
+        "node_65"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_64",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "• ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        6318,
+        312,
+        1082
+      ],
+      "center": [
+        300,
+        3700
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_63",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_65",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "We may provide individual user information to our affiliates or other trusted businesses or persons to process it for us, based on our instructions and in compliance with our Privacy Policy and any other appropriate confidentiality and security measures.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        6326,
+        2348,
+        1082
+      ],
+      "center": [
+        1342,
+        3704
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_63",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_66",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Parental Access and Controls",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        6730,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        3906
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_67",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "You can access the videos your child has recently watched in the Watch it again section of the app. You can pause the collection of watch and search history or clear the watch and search history in the parental settings section of the app. While history is paused, the app will not use new video views or search terms to recommend content. When watch and search history are cleared, the app resets Recommended and Watch it again videos. Finally, you can always uninstall and reinstall the app on a device to reset the app-specific identifiers used to collect watch and search history.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        6890,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        3986
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_68",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        7622,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        4352
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_69",
+        "node_70",
+        "node_72",
+        "node_73",
+        "node_75",
+        "node_76",
+        "node_78"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_69",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "You can find additional information about the app in the ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        7626,
+        1668,
+        1082
+      ],
+      "center": [
+        922,
+        4354
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_70",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "YouTube Kids Privacy Notice",
+      "bounds": [
+        176,
+        7626,
+        2256,
+        1082
+      ],
+      "center": [
+        1216,
+        4354
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [
+        "node_71"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_71",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "YouTube Kids Privacy Notice",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        7626,
+        2256,
+        1082
+      ],
+      "center": [
+        1216,
+        4354
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_72",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " and the ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        352,
+        7710,
+        584,
+        1082
+      ],
+      "center": [
+        468,
+        4396
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_73",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Parental Guide",
+      "bounds": [
+        580,
+        7710,
+        980,
+        1082
+      ],
+      "center": [
+        780,
+        4396
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [
+        "node_74"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_74",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Parental Guide",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        580,
+        7710,
+        980,
+        1082
+      ],
+      "center": [
+        780,
+        4396
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_75",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": ". Our ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        976,
+        7710,
+        1120,
+        1082
+      ],
+      "center": [
+        1048,
+        4396
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_76",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Disclosure for Children",
+      "bounds": [
+        1116,
+        7710,
+        1740,
+        1082
+      ],
+      "center": [
+        1428,
+        4396
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [
+        "node_77"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_77",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Disclosure for Children",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1116,
+        7710,
+        1740,
+        1082
+      ],
+      "center": [
+        1428,
+        4396
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_78",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " explains our data processing practices to your child, which we encourage you to review with them.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        7710,
+        2304,
+        1082
+      ],
+      "center": [
+        1240,
+        4396
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_79",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Dated: August 7, 2019",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        176,
+        7934,
+        2384,
+        1082
+      ],
+      "center": [
+        1280,
+        4508
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_80",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1128,
+        2560,
+        1152
+      ],
+      "center": [
+        1280,
+        1140
+      ],
+      "area": 61440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_81",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1152,
+        2560,
+        1440
+      ],
+      "center": [
+        1280,
+        1296
+      ],
+      "area": 737280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_82"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_82",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.youtube.kids:id/flow_footer",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1152,
+        2560,
+        1440
+      ],
+      "center": [
+        1280,
+        1296
+      ],
+      "area": 737280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_83",
+        "node_84"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_83",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.google.android.apps.youtube.kids:id/footer_back",
+      "content_desc": "back",
+      "bounds": [
+        64,
+        1200,
+        256,
+        1392
+      ],
+      "center": [
+        160,
+        1296
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_84",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "I AGREE",
+      "resource_id": "com.google.android.apps.youtube.kids:id/footer_next_text",
+      "content_desc": "I agree button",
+      "bounds": [
+        2200,
+        1200,
+        2496,
+        1392
+      ],
+      "center": [
+        2348,
+        1296
+      ],
+      "area": 56832,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    }
+  ]
+}

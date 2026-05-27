@@ -1,0 +1,3084 @@
+{
+  "screenshot_path": "runs\\284_journal\\step_002\\screen.png",
+  "xml_path": "runs\\284_journal\\step_002\\hierarchy.xml",
+  "component_count": 98,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_3",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4",
+        "node_5"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_4",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/viewSpace",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        256
+      ],
+      "center": [
+        720,
+        176
+      ],
+      "area": 230400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_5",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        256,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1408
+      ],
+      "area": 3317760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_6",
+        "node_9",
+        "node_97"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_6",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        256,
+        1440,
+        448
+      ],
+      "center": [
+        720,
+        352
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7",
+        "node_8"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_7",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/backButton",
+      "content_desc": "",
+      "bounds": [
+        64,
+        288,
+        192,
+        416
+      ],
+      "center": [
+        128,
+        352
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_8",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Save",
+      "resource_id": "journal.notes.planner.starnest:id/tvSave",
+      "content_desc": "",
+      "bounds": [
+        1149,
+        302,
+        1376,
+        402
+      ],
+      "center": [
+        1262,
+        352
+      ],
+      "area": 22700,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_9",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        448,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1504
+      ],
+      "area": 3041280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_10",
+        "node_14"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_10",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/llPreview",
+      "content_desc": "",
+      "bounds": [
+        452,
+        448,
+        988,
+        1196
+      ],
+      "center": [
+        720,
+        822
+      ],
+      "area": 400928,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_11",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/journalView",
+      "content_desc": "",
+      "bounds": [
+        452,
+        448,
+        988,
+        1196
+      ],
+      "center": [
+        720,
+        822
+      ],
+      "area": 400928,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_12",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        452,
+        448,
+        988,
+        1196
+      ],
+      "center": [
+        720,
+        822
+      ],
+      "area": 400928,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_13",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        452,
+        448,
+        988,
+        1196
+      ],
+      "center": [
+        720,
+        822
+      ],
+      "area": 400928,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_14",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1228,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1894
+      ],
+      "area": 1918080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_15"
+      ],
+      "depth": 6,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_15",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1260,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1910
+      ],
+      "area": 1872000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_16",
+        "node_17",
+        "node_18",
+        "node_21",
+        "node_78"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_16",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Planner",
+      "resource_id": "journal.notes.planner.starnest:id/edtName",
+      "content_desc": "",
+      "bounds": [
+        392,
+        1260,
+        1048,
+        1424
+      ],
+      "center": [
+        720,
+        1342
+      ],
+      "area": 107584,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_17",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        400,
+        1440,
+        1040,
+        1500
+      ],
+      "center": [
+        720,
+        1470
+      ],
+      "area": 38400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_18",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1532,
+        1376,
+        1660
+      ],
+      "center": [
+        720,
+        1596
+      ],
+      "area": 167936,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_19",
+        "node_20"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_19",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Cover",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1548,
+        1248,
+        1644
+      ],
+      "center": [
+        656,
+        1596
+      ],
+      "area": 113664,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_20",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/ivCamera",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        1532,
+        1376,
+        1660
+      ],
+      "center": [
+        1312,
+        1596
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_21",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/colorView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1724,
+        1376,
+        2028
+      ],
+      "center": [
+        720,
+        1876
+      ],
+      "area": 398848,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_22"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_22",
+      "type": "Other",
+      "class_name": "android.widget.GridView",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/recyclerView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1724,
+        1376,
+        2028
+      ],
+      "center": [
+        720,
+        1876
+      ],
+      "area": 398848,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_23",
+        "node_27",
+        "node_33",
+        "node_39",
+        "node_45",
+        "node_51",
+        "node_57",
+        "node_63",
+        "node_69",
+        "node_75"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_23",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1724,
+        301,
+        1860
+      ],
+      "center": [
+        182,
+        1792
+      ],
+      "area": 32232,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_24",
+        "node_25",
+        "node_26"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_24",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardView",
+      "content_desc": "",
+      "bounds": [
+        131,
+        1740,
+        235,
+        1844
+      ],
+      "center": [
+        183,
+        1792
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_25",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardColorView",
+      "content_desc": "",
+      "bounds": [
+        135,
+        1744,
+        231,
+        1840
+      ],
+      "center": [
+        183,
+        1792
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_26",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/selectedCardView",
+      "content_desc": "",
+      "bounds": [
+        157,
+        1766,
+        209,
+        1818
+      ],
+      "center": [
+        183,
+        1792
+      ],
+      "area": 2704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_27",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        333,
+        1724,
+        571,
+        1860
+      ],
+      "center": [
+        452,
+        1792
+      ],
+      "area": 32368,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_28",
+        "node_29",
+        "node_30",
+        "node_31",
+        "node_32"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_28",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardView",
+      "content_desc": "",
+      "bounds": [
+        400,
+        1740,
+        504,
+        1844
+      ],
+      "center": [
+        452,
+        1792
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        400,
+        1740,
+        504,
+        1844
+      ],
+      "center": [
+        452,
+        1792
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_30",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        401,
+        1741,
+        503,
+        1843
+      ],
+      "center": [
+        452,
+        1792
+      ],
+      "area": 10404,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_31",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardColorView",
+      "content_desc": "",
+      "bounds": [
+        404,
+        1744,
+        500,
+        1840
+      ],
+      "center": [
+        452,
+        1792
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_32",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/selectedCardView",
+      "content_desc": "",
+      "bounds": [
+        426,
+        1766,
+        478,
+        1818
+      ],
+      "center": [
+        452,
+        1792
+      ],
+      "area": 2704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_33",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        603,
+        1724,
+        840,
+        1860
+      ],
+      "center": [
+        721,
+        1792
+      ],
+      "area": 32232,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_34",
+        "node_35",
+        "node_36",
+        "node_37",
+        "node_38"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_34",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardView",
+      "content_desc": "",
+      "bounds": [
+        670,
+        1740,
+        774,
+        1844
+      ],
+      "center": [
+        722,
+        1792
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_35",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        670,
+        1740,
+        774,
+        1844
+      ],
+      "center": [
+        722,
+        1792
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_36",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        671,
+        1741,
+        773,
+        1843
+      ],
+      "center": [
+        722,
+        1792
+      ],
+      "area": 10404,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_37",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardColorView",
+      "content_desc": "",
+      "bounds": [
+        674,
+        1744,
+        770,
+        1840
+      ],
+      "center": [
+        722,
+        1792
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_38",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/selectedCardView",
+      "content_desc": "",
+      "bounds": [
+        696,
+        1766,
+        748,
+        1818
+      ],
+      "center": [
+        722,
+        1792
+      ],
+      "area": 2704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_39",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        872,
+        1724,
+        1109,
+        1860
+      ],
+      "center": [
+        990,
+        1792
+      ],
+      "area": 32232,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_40",
+        "node_41",
+        "node_42",
+        "node_43",
+        "node_44"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_40",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardView",
+      "content_desc": "",
+      "bounds": [
+        939,
+        1740,
+        1043,
+        1844
+      ],
+      "center": [
+        991,
+        1792
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_41",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        939,
+        1740,
+        1043,
+        1844
+      ],
+      "center": [
+        991,
+        1792
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_42",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        940,
+        1741,
+        1042,
+        1843
+      ],
+      "center": [
+        991,
+        1792
+      ],
+      "area": 10404,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_43",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardColorView",
+      "content_desc": "",
+      "bounds": [
+        943,
+        1744,
+        1039,
+        1840
+      ],
+      "center": [
+        991,
+        1792
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_44",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/selectedCardView",
+      "content_desc": "",
+      "bounds": [
+        965,
+        1766,
+        1017,
+        1818
+      ],
+      "center": [
+        991,
+        1792
+      ],
+      "area": 2704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_45",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1141,
+        1724,
+        1376,
+        1860
+      ],
+      "center": [
+        1258,
+        1792
+      ],
+      "area": 31960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_46",
+        "node_47",
+        "node_48",
+        "node_49",
+        "node_50"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardView",
+      "content_desc": "",
+      "bounds": [
+        1208,
+        1740,
+        1312,
+        1844
+      ],
+      "center": [
+        1260,
+        1792
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_47",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1208,
+        1740,
+        1312,
+        1844
+      ],
+      "center": [
+        1260,
+        1792
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_48",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1209,
+        1741,
+        1311,
+        1843
+      ],
+      "center": [
+        1260,
+        1792
+      ],
+      "area": 10404,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_49",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardColorView",
+      "content_desc": "",
+      "bounds": [
+        1212,
+        1744,
+        1308,
+        1840
+      ],
+      "center": [
+        1260,
+        1792
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_50",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/selectedCardView",
+      "content_desc": "",
+      "bounds": [
+        1234,
+        1766,
+        1286,
+        1818
+      ],
+      "center": [
+        1260,
+        1792
+      ],
+      "area": 2704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_51",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1892,
+        301,
+        2028
+      ],
+      "center": [
+        182,
+        1960
+      ],
+      "area": 32232,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_52",
+        "node_53",
+        "node_54",
+        "node_55",
+        "node_56"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_52",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardView",
+      "content_desc": "",
+      "bounds": [
+        131,
+        1908,
+        235,
+        2012
+      ],
+      "center": [
+        183,
+        1960
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_53",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        131,
+        1908,
+        235,
+        2012
+      ],
+      "center": [
+        183,
+        1960
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_54",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1909,
+        234,
+        2011
+      ],
+      "center": [
+        183,
+        1960
+      ],
+      "area": 10404,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_55",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardColorView",
+      "content_desc": "",
+      "bounds": [
+        135,
+        1912,
+        231,
+        2008
+      ],
+      "center": [
+        183,
+        1960
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_56",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/selectedCardView",
+      "content_desc": "",
+      "bounds": [
+        157,
+        1934,
+        209,
+        1986
+      ],
+      "center": [
+        183,
+        1960
+      ],
+      "area": 2704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_57",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        333,
+        1892,
+        571,
+        2028
+      ],
+      "center": [
+        452,
+        1960
+      ],
+      "area": 32368,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_58",
+        "node_59",
+        "node_60",
+        "node_61",
+        "node_62"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_58",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardView",
+      "content_desc": "",
+      "bounds": [
+        400,
+        1908,
+        504,
+        2012
+      ],
+      "center": [
+        452,
+        1960
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_59",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        400,
+        1908,
+        504,
+        2012
+      ],
+      "center": [
+        452,
+        1960
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_60",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        401,
+        1909,
+        503,
+        2011
+      ],
+      "center": [
+        452,
+        1960
+      ],
+      "area": 10404,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_61",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardColorView",
+      "content_desc": "",
+      "bounds": [
+        404,
+        1912,
+        500,
+        2008
+      ],
+      "center": [
+        452,
+        1960
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_62",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/selectedCardView",
+      "content_desc": "",
+      "bounds": [
+        426,
+        1934,
+        478,
+        1986
+      ],
+      "center": [
+        452,
+        1960
+      ],
+      "area": 2704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_63",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        603,
+        1892,
+        840,
+        2028
+      ],
+      "center": [
+        721,
+        1960
+      ],
+      "area": 32232,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_64",
+        "node_65",
+        "node_66",
+        "node_67",
+        "node_68"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_64",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardView",
+      "content_desc": "",
+      "bounds": [
+        670,
+        1908,
+        774,
+        2012
+      ],
+      "center": [
+        722,
+        1960
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_63",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_65",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        670,
+        1908,
+        774,
+        2012
+      ],
+      "center": [
+        722,
+        1960
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_63",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_66",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        671,
+        1909,
+        773,
+        2011
+      ],
+      "center": [
+        722,
+        1960
+      ],
+      "area": 10404,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_63",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_67",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardColorView",
+      "content_desc": "",
+      "bounds": [
+        674,
+        1912,
+        770,
+        2008
+      ],
+      "center": [
+        722,
+        1960
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_63",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_68",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/selectedCardView",
+      "content_desc": "",
+      "bounds": [
+        696,
+        1934,
+        748,
+        1986
+      ],
+      "center": [
+        722,
+        1960
+      ],
+      "area": 2704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_63",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_69",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        872,
+        1892,
+        1109,
+        2028
+      ],
+      "center": [
+        990,
+        1960
+      ],
+      "area": 32232,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_70",
+        "node_71",
+        "node_72",
+        "node_73",
+        "node_74"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_70",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardView",
+      "content_desc": "",
+      "bounds": [
+        939,
+        1908,
+        1043,
+        2012
+      ],
+      "center": [
+        991,
+        1960
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_71",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        939,
+        1908,
+        1043,
+        2012
+      ],
+      "center": [
+        991,
+        1960
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_72",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        940,
+        1909,
+        1042,
+        2011
+      ],
+      "center": [
+        991,
+        1960
+      ],
+      "area": 10404,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_73",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardColorView",
+      "content_desc": "",
+      "bounds": [
+        943,
+        1912,
+        1039,
+        2008
+      ],
+      "center": [
+        991,
+        1960
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_74",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/selectedCardView",
+      "content_desc": "",
+      "bounds": [
+        965,
+        1934,
+        1017,
+        1986
+      ],
+      "center": [
+        991,
+        1960
+      ],
+      "area": 2704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_75",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1141,
+        1892,
+        1376,
+        2028
+      ],
+      "center": [
+        1258,
+        1960
+      ],
+      "area": 31960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_76",
+        "node_77"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_76",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/cardView",
+      "content_desc": "",
+      "bounds": [
+        1208,
+        1908,
+        1312,
+        2012
+      ],
+      "center": [
+        1260,
+        1960
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_75",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_77",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/imMoreColor",
+      "content_desc": "",
+      "bounds": [
+        1208,
+        1908,
+        1312,
+        2012
+      ],
+      "center": [
+        1260,
+        1960
+      ],
+      "area": 10816,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_75",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_78",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/rvCover",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2124,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2342
+      ],
+      "area": 627840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_79"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_79",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2124,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2342
+      ],
+      "area": 572032,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [
+        "node_80",
+        "node_81"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_80",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Business",
+      "resource_id": "journal.notes.planner.starnest:id/tvTitle",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2124,
+        338,
+        2220
+      ],
+      "center": [
+        201,
+        2172
+      ],
+      "area": 26304,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_79",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_81",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.GridView",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/recyclerView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2236,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2398
+      ],
+      "area": 425088,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_79",
+      "children_ids": [
+        "node_82",
+        "node_87",
+        "node_92"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_82",
+      "type": "Clickable",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/llContainer",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2236,
+        528,
+        2560
+      ],
+      "center": [
+        296,
+        2398
+      ],
+      "area": 150336,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_83"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_83",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        2268,
+        496,
+        2560
+      ],
+      "center": [
+        296,
+        2414
+      ],
+      "area": 116800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [
+        "node_84"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_84",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        96,
+        2268,
+        496,
+        2560
+      ],
+      "center": [
+        296,
+        2414
+      ],
+      "area": 116800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [
+        "node_85"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_85",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        2268,
+        496,
+        2560
+      ],
+      "center": [
+        296,
+        2414
+      ],
+      "area": 116800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_84",
+      "children_ids": [
+        "node_86"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_86",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        96,
+        2268,
+        496,
+        2560
+      ],
+      "center": [
+        296,
+        2414
+      ],
+      "area": 116800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_87",
+      "type": "Clickable",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/llContainer",
+      "content_desc": "",
+      "bounds": [
+        528,
+        2236,
+        992,
+        2560
+      ],
+      "center": [
+        760,
+        2398
+      ],
+      "area": 150336,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_88"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_88",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        560,
+        2268,
+        960,
+        2560
+      ],
+      "center": [
+        760,
+        2414
+      ],
+      "area": 116800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_87",
+      "children_ids": [
+        "node_89"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_89",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        560,
+        2268,
+        960,
+        2560
+      ],
+      "center": [
+        760,
+        2414
+      ],
+      "area": 116800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_88",
+      "children_ids": [
+        "node_90"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_90",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        560,
+        2268,
+        960,
+        2560
+      ],
+      "center": [
+        760,
+        2414
+      ],
+      "area": 116800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_89",
+      "children_ids": [
+        "node_91"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_91",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        560,
+        2268,
+        960,
+        2560
+      ],
+      "center": [
+        760,
+        2414
+      ],
+      "area": 116800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_92",
+      "type": "Clickable",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/llContainer",
+      "content_desc": "",
+      "bounds": [
+        992,
+        2236,
+        1376,
+        2560
+      ],
+      "center": [
+        1184,
+        2398
+      ],
+      "area": 124416,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_93"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_93",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1024,
+        2268,
+        1376,
+        2560
+      ],
+      "center": [
+        1200,
+        2414
+      ],
+      "area": 102784,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_92",
+      "children_ids": [
+        "node_94"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_94",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        1024,
+        2268,
+        1376,
+        2560
+      ],
+      "center": [
+        1200,
+        2414
+      ],
+      "area": 102784,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [
+        "node_95"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_95",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1024,
+        2268,
+        1376,
+        2560
+      ],
+      "center": [
+        1200,
+        2414
+      ],
+      "area": 102784,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_94",
+      "children_ids": [
+        "node_96"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_96",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "journal.notes.planner.starnest:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        1024,
+        2268,
+        1376,
+        2560
+      ],
+      "center": [
+        1200,
+        2414
+      ],
+      "area": 102784,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "journal.notes.planner.starnest"
+    },
+    {
+      "id": "node_97",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Save",
+      "resource_id": "journal.notes.planner.starnest:id/tvSave",
+      "content_desc": "",
+      "bounds": [
+        288,
+        2320,
+        1152,
+        2496
+      ],
+      "center": [
+        720,
+        2408
+      ],
+      "area": 152064,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "journal.notes.planner.starnest"
+    }
+  ]
+}

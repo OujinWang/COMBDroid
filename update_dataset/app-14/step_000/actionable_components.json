@@ -1,0 +1,383 @@
+{
+  "actionable_component_count": 12,
+  "actionable_components": [
+    {
+      "id": "node_11",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/iv_back_btn",
+      "content_desc": "",
+      "bounds": [
+        56,
+        128,
+        192,
+        248
+      ],
+      "center": [
+        124,
+        188
+      ],
+      "area": 16320,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_13",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/tabsRecoCl",
+      "content_desc": "",
+      "bounds": [
+        80,
+        408,
+        1440,
+        600
+      ],
+      "center": [
+        760,
+        504
+      ],
+      "area": 261120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_14"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_17",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Preferences (0)",
+      "bounds": [
+        507,
+        408,
+        1043,
+        600
+      ],
+      "center": [
+        775,
+        504
+      ],
+      "area": 102912,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_18"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_19",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "IT / Tech (74)",
+      "bounds": [
+        1043,
+        408,
+        1440,
+        600
+      ],
+      "center": [
+        1241,
+        504
+      ],
+      "area": 76224,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_22",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/viewPagerRecoCl",
+      "content_desc": "",
+      "bounds": [
+        0,
+        616,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1588
+      ],
+      "area": 2799360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_23"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_23",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        616,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1588
+      ],
+      "area": 2799360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_24"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_26",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/rvRecoClList",
+      "content_desc": "",
+      "bounds": [
+        0,
+        616,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1588
+      ],
+      "area": 2799360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27",
+        "node_30",
+        "node_48"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_29",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/ivCross",
+      "content_desc": "",
+      "bounds": [
+        1280,
+        739,
+        1328,
+        787
+      ],
+      "center": [
+        1304,
+        763
+      ],
+      "area": 2304,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_31",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/parent_jobs_tuple",
+      "content_desc": "",
+      "bounds": [
+        48,
+        909,
+        1392,
+        1940
+      ],
+      "center": [
+        720,
+        1424
+      ],
+      "area": 1385664,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_33",
+      "type": "Selection",
+      "class_name": "android.widget.CheckBox",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/checkBoxMultipleSelect",
+      "content_desc": "",
+      "bounds": [
+        88,
+        961,
+        216,
+        1089
+      ],
+      "center": [
+        152,
+        1025
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_47",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Hide",
+      "resource_id": "naukriApp.appModules.login:id/textViewHideAndUnhide",
+      "content_desc": "",
+      "bounds": [
+        1086,
+        1780,
+        1328,
+        1876
+      ],
+      "center": [
+        1207,
+        1828
+      ],
+      "area": 23232,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_49",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/parent_jobs_tuple",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1988,
+        1392,
+        2560
+      ],
+      "center": [
+        720,
+        2274
+      ],
+      "area": 768768,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_50"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    }
+  ]
+}

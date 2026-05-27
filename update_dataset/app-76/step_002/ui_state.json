@@ -1,0 +1,889 @@
+{
+  "screenshot_path": "runs\\myMoney_20260313_160207\\step_002\\screen.png",
+  "xml_path": "runs\\myMoney_20260313_160207\\step_002\\hierarchy.xml",
+  "component_count": 28,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.raha.app.mymoney.free:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_5",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.raha.app.mymoney.free:id/container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_6",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.raha.app.mymoney.free:id/coordinator",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7",
+        "node_8"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_7",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.raha.app.mymoney.free:id/touch_outside",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_8",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.raha.app.mymoney.free:id/design_bottom_sheet",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1132,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1846
+      ],
+      "area": 2056320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_9"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_9",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1132,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1846
+      ],
+      "area": 2056320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10",
+        "node_11"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_10",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Select an account",
+      "resource_id": "com.raha.app.mymoney.free:id/tv_title",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1132,
+        1440,
+        1356
+      ],
+      "center": [
+        720,
+        1244
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_11",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1360,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1960
+      ],
+      "area": 1728000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_12",
+        "node_27"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_12",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.raha.app.mymoney.free:id/rv",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1360,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1960
+      ],
+      "area": 1728000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13",
+        "node_17",
+        "node_21",
+        "node_25"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_13",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        24,
+        1360,
+        1416,
+        1640
+      ],
+      "center": [
+        720,
+        1500
+      ],
+      "area": 389760,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14",
+        "node_15",
+        "node_16"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_14",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.raha.app.mymoney.free:id/iv_icon",
+      "content_desc": "Account Icon",
+      "bounds": [
+        64,
+        1380,
+        304,
+        1620
+      ],
+      "center": [
+        184,
+        1500
+      ],
+      "area": 57600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_15",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Card",
+      "resource_id": "com.raha.app.mymoney.free:id/tv_title",
+      "content_desc": "",
+      "bounds": [
+        304,
+        1427,
+        1172,
+        1573
+      ],
+      "center": [
+        738,
+        1500
+      ],
+      "area": 126728,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_16",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "$0.00",
+      "resource_id": "com.raha.app.mymoney.free:id/tv_amount",
+      "content_desc": "",
+      "bounds": [
+        1172,
+        1433,
+        1376,
+        1568
+      ],
+      "center": [
+        1274,
+        1500
+      ],
+      "area": 27540,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_17",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        24,
+        1640,
+        1416,
+        1920
+      ],
+      "center": [
+        720,
+        1780
+      ],
+      "area": 389760,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_18",
+        "node_19",
+        "node_20"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_18",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.raha.app.mymoney.free:id/iv_icon",
+      "content_desc": "Account Icon",
+      "bounds": [
+        64,
+        1660,
+        304,
+        1900
+      ],
+      "center": [
+        184,
+        1780
+      ],
+      "area": 57600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_19",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Cash",
+      "resource_id": "com.raha.app.mymoney.free:id/tv_title",
+      "content_desc": "",
+      "bounds": [
+        304,
+        1707,
+        1172,
+        1853
+      ],
+      "center": [
+        738,
+        1780
+      ],
+      "area": 126728,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_20",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "$0.00",
+      "resource_id": "com.raha.app.mymoney.free:id/tv_amount",
+      "content_desc": "",
+      "bounds": [
+        1172,
+        1713,
+        1376,
+        1848
+      ],
+      "center": [
+        1274,
+        1780
+      ],
+      "area": 27540,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_21",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        24,
+        1920,
+        1416,
+        2200
+      ],
+      "center": [
+        720,
+        2060
+      ],
+      "area": 389760,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_22",
+        "node_23",
+        "node_24"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_22",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.raha.app.mymoney.free:id/iv_icon",
+      "content_desc": "Account Icon",
+      "bounds": [
+        64,
+        1940,
+        304,
+        2180
+      ],
+      "center": [
+        184,
+        2060
+      ],
+      "area": 57600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_23",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Savings",
+      "resource_id": "com.raha.app.mymoney.free:id/tv_title",
+      "content_desc": "",
+      "bounds": [
+        304,
+        1987,
+        1172,
+        2133
+      ],
+      "center": [
+        738,
+        2060
+      ],
+      "area": 126728,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_24",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "$0.00",
+      "resource_id": "com.raha.app.mymoney.free:id/tv_amount",
+      "content_desc": "",
+      "bounds": [
+        1172,
+        1993,
+        1376,
+        2128
+      ],
+      "center": [
+        1274,
+        2060
+      ],
+      "area": 27540,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_25",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        24,
+        2200,
+        1416,
+        2432
+      ],
+      "center": [
+        720,
+        2316
+      ],
+      "area": 322944,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_26"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_26",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "ADD NEW ACCOUNT",
+      "resource_id": "com.raha.app.mymoney.free:id/btn_add",
+      "content_desc": "",
+      "bounds": [
+        285,
+        2220,
+        1155,
+        2412
+      ],
+      "center": [
+        720,
+        2316
+      ],
+      "area": 167040,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    },
+    {
+      "id": "node_27",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.raha.app.mymoney.free:id/bottom_shade_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2432,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2496
+      ],
+      "area": 184320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.raha.app.mymoney.free"
+    }
+  ]
+}

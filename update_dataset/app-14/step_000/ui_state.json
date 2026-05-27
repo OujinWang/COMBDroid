@@ -1,0 +1,1803 @@
+{
+  "screenshot_path": "runs\\35_naukri\\step_000\\screen.png",
+  "xml_path": "runs\\35_naukri\\step_000\\hierarchy.xml",
+  "component_count": 57,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_5",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/cl_fragment_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_6",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/frag_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_7",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/parentContainer",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8",
+        "node_9",
+        "node_22"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_8",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_9",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/appBarLayoutRecoCl",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        616
+      ],
+      "center": [
+        720,
+        356
+      ],
+      "area": 748800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_10",
+        "node_13",
+        "node_21"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_10",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/toolbarRecoCl",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        408
+      ],
+      "center": [
+        720,
+        252
+      ],
+      "area": 449280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11",
+        "node_12"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_11",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/iv_back_btn",
+      "content_desc": "",
+      "bounds": [
+        56,
+        128,
+        192,
+        248
+      ],
+      "center": [
+        124,
+        188
+      ],
+      "area": 16320,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_12",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Recommended Jobs",
+      "resource_id": "naukriApp.appModules.login:id/tv_header",
+      "content_desc": "",
+      "bounds": [
+        88,
+        296,
+        887,
+        408
+      ],
+      "center": [
+        487,
+        352
+      ],
+      "area": 89488,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_13",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/tabsRecoCl",
+      "content_desc": "",
+      "bounds": [
+        80,
+        408,
+        1440,
+        600
+      ],
+      "center": [
+        760,
+        504
+      ],
+      "area": 261120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_14"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_14",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        408,
+        1440,
+        600
+      ],
+      "center": [
+        760,
+        504
+      ],
+      "area": 261120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15",
+        "node_17",
+        "node_19"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_15",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Profile (46)",
+      "bounds": [
+        80,
+        408,
+        507,
+        600
+      ],
+      "center": [
+        293,
+        504
+      ],
+      "area": 81984,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_16"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_16",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Profile (46)",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        461,
+        459,
+        547
+      ],
+      "center": [
+        293,
+        504
+      ],
+      "area": 28466,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_17",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Preferences (0)",
+      "bounds": [
+        507,
+        408,
+        1043,
+        600
+      ],
+      "center": [
+        775,
+        504
+      ],
+      "area": 102912,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_18"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_18",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Preferences (0)",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        555,
+        461,
+        995,
+        547
+      ],
+      "center": [
+        775,
+        504
+      ],
+      "area": 37840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_19",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "IT / Tech (74)",
+      "bounds": [
+        1043,
+        408,
+        1440,
+        600
+      ],
+      "center": [
+        1241,
+        504
+      ],
+      "area": 76224,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_20",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "IT / Tech (74)",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1091,
+        461,
+        1440,
+        547
+      ],
+      "center": [
+        1265,
+        504
+      ],
+      "area": 30014,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_21",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/viewBottomNav",
+      "content_desc": "",
+      "bounds": [
+        0,
+        600,
+        1440,
+        616
+      ],
+      "center": [
+        720,
+        608
+      ],
+      "area": 23040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_22",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/viewPagerRecoCl",
+      "content_desc": "",
+      "bounds": [
+        0,
+        616,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1588
+      ],
+      "area": 2799360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_23"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_23",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        616,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1588
+      ],
+      "area": 2799360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_24"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_24",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        616,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1588
+      ],
+      "area": 2799360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_25"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_25",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/parentContainerReco",
+      "content_desc": "",
+      "bounds": [
+        0,
+        616,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1588
+      ],
+      "area": 2799360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [
+        "node_26"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_26",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/rvRecoClList",
+      "content_desc": "",
+      "bounds": [
+        0,
+        616,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1588
+      ],
+      "area": 2799360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27",
+        "node_30",
+        "node_48"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_27",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        664,
+        1392,
+        861
+      ],
+      "center": [
+        720,
+        762
+      ],
+      "area": 264768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [
+        "node_28",
+        "node_29"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_28",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "You can select multiple jobs to apply! Please do check that your job criterias match",
+      "resource_id": "naukriApp.appModules.login:id/tvEducation",
+      "content_desc": "",
+      "bounds": [
+        112,
+        704,
+        1220,
+        821
+      ],
+      "center": [
+        666,
+        762
+      ],
+      "area": 129636,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_29",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/ivCross",
+      "content_desc": "",
+      "bounds": [
+        1280,
+        739,
+        1328,
+        787
+      ],
+      "center": [
+        1304,
+        763
+      ],
+      "area": 2304,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_30",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/flJobCard",
+      "content_desc": "",
+      "bounds": [
+        0,
+        909,
+        1440,
+        1940
+      ],
+      "center": [
+        720,
+        1424
+      ],
+      "area": 1484640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_31",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/parent_jobs_tuple",
+      "content_desc": "",
+      "bounds": [
+        48,
+        909,
+        1392,
+        1940
+      ],
+      "center": [
+        720,
+        1424
+      ],
+      "area": 1385664,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_32",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        909,
+        1392,
+        1940
+      ],
+      "center": [
+        720,
+        1424
+      ],
+      "area": 1385664,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33",
+        "node_34",
+        "node_35",
+        "node_36",
+        "node_37",
+        "node_38",
+        "node_39",
+        "node_40",
+        "node_42",
+        "node_43",
+        "node_46"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_33",
+      "type": "Selection",
+      "class_name": "android.widget.CheckBox",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/checkBoxMultipleSelect",
+      "content_desc": "",
+      "bounds": [
+        88,
+        961,
+        216,
+        1089
+      ],
+      "center": [
+        152,
+        1025
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_34",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Service desk Management -Technical support executive- 3LPA - WFO",
+      "resource_id": "naukriApp.appModules.login:id/textViewDesignation",
+      "content_desc": "",
+      "bounds": [
+        240,
+        973,
+        1096,
+        1143
+      ],
+      "center": [
+        668,
+        1058
+      ],
+      "area": 145520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_35",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/imageViewCompanyLogo",
+      "content_desc": "",
+      "bounds": [
+        1160,
+        973,
+        1328,
+        1141
+      ],
+      "center": [
+        1244,
+        1057
+      ],
+      "area": 28224,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_36",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Trigent Software,",
+      "resource_id": "naukriApp.appModules.login:id/textViewCompanyName",
+      "content_desc": "",
+      "bounds": [
+        240,
+        1143,
+        1064,
+        1229
+      ],
+      "center": [
+        652,
+        1186
+      ],
+      "area": 70864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_37",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Posted by Trigent Software",
+      "resource_id": "naukriApp.appModules.login:id/textViewConsultantName",
+      "content_desc": "",
+      "bounds": [
+        240,
+        1229,
+        1310,
+        1315
+      ],
+      "center": [
+        775,
+        1272
+      ],
+      "area": 92020,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_38",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Bengaluru",
+      "resource_id": "naukriApp.appModules.login:id/textViewLocation",
+      "content_desc": "",
+      "bounds": [
+        112,
+        1315,
+        446,
+        1437
+      ],
+      "center": [
+        279,
+        1376
+      ],
+      "area": 40748,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_39",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "0 Yrs",
+      "resource_id": "naukriApp.appModules.login:id/textViewTotalWorkExperience",
+      "content_desc": "",
+      "bounds": [
+        112,
+        1437,
+        327,
+        1535
+      ],
+      "center": [
+        219,
+        1486
+      ],
+      "area": 21070,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_40",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/cl_salary_duration",
+      "content_desc": "",
+      "bounds": [
+        112,
+        1535,
+        1328,
+        1633
+      ],
+      "center": [
+        720,
+        1584
+      ],
+      "area": 119168,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_41",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "2-3 Lacs PA",
+      "resource_id": "naukriApp.appModules.login:id/textViewCTC",
+      "content_desc": "",
+      "bounds": [
+        128,
+        1535,
+        1328,
+        1633
+      ],
+      "center": [
+        728,
+        1584
+      ],
+      "area": 117600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_42",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Technical Support, IT Helpdesk, L1 Support, IT Service Desk, Technical Helpdesk, International Technical Support, Technical Voice Process, IT Support",
+      "resource_id": "naukriApp.appModules.login:id/textViewKeySkills",
+      "content_desc": "",
+      "bounds": [
+        112,
+        1633,
+        1328,
+        1720
+      ],
+      "center": [
+        720,
+        1676
+      ],
+      "area": 105792,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_43",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/diversity_tags_layout",
+      "content_desc": "",
+      "bounds": [
+        112,
+        1788,
+        1086,
+        1867
+      ],
+      "center": [
+        599,
+        1827
+      ],
+      "area": 76946,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_44",
+        "node_45"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_44",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "5 vacancies",
+      "resource_id": "naukriApp.appModules.login:id/textViewVacancyTags",
+      "content_desc": "",
+      "bounds": [
+        112,
+        1788,
+        427,
+        1867
+      ],
+      "center": [
+        269,
+        1827
+      ],
+      "area": 24885,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_45",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "3d ago",
+      "resource_id": "naukriApp.appModules.login:id/textViewDate",
+      "content_desc": "",
+      "bounds": [
+        475,
+        1796,
+        620,
+        1859
+      ],
+      "center": [
+        547,
+        1827
+      ],
+      "area": 9135,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_46",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/date_save_tv_layout",
+      "content_desc": "",
+      "bounds": [
+        1086,
+        1780,
+        1328,
+        1876
+      ],
+      "center": [
+        1207,
+        1828
+      ],
+      "area": 23232,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_47",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Hide",
+      "resource_id": "naukriApp.appModules.login:id/textViewHideAndUnhide",
+      "content_desc": "",
+      "bounds": [
+        1086,
+        1780,
+        1328,
+        1876
+      ],
+      "center": [
+        1207,
+        1828
+      ],
+      "area": 23232,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_48",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/flJobCard",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1988,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2274
+      ],
+      "area": 823680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [
+        "node_49"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_49",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/parent_jobs_tuple",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1988,
+        1392,
+        2560
+      ],
+      "center": [
+        720,
+        2274
+      ],
+      "area": 768768,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_50"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_50",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1988,
+        1392,
+        2560
+      ],
+      "center": [
+        720,
+        2274
+      ],
+      "area": 768768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_51",
+        "node_52",
+        "node_53",
+        "node_54",
+        "node_55",
+        "node_56"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_51",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Hiring For Technical Support / Service Desk role",
+      "resource_id": "naukriApp.appModules.login:id/textViewDesignation",
+      "content_desc": "",
+      "bounds": [
+        112,
+        2052,
+        1096,
+        2222
+      ],
+      "center": [
+        604,
+        2137
+      ],
+      "area": 167280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_52",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "naukriApp.appModules.login:id/imageViewCompanyLogo",
+      "content_desc": "",
+      "bounds": [
+        1160,
+        2052,
+        1328,
+        2220
+      ],
+      "center": [
+        1244,
+        2136
+      ],
+      "area": 28224,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_53",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Wipro",
+      "resource_id": "naukriApp.appModules.login:id/textViewCompanyName",
+      "content_desc": "",
+      "bounds": [
+        112,
+        2222,
+        655,
+        2308
+      ],
+      "center": [
+        383,
+        2265
+      ],
+      "area": 46698,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_54",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "3.6 (64.3K+ Reviews)",
+      "resource_id": "naukriApp.appModules.login:id/textViewStar",
+      "content_desc": "",
+      "bounds": [
+        112,
+        2308,
+        620,
+        2388
+      ],
+      "center": [
+        366,
+        2348
+      ],
+      "area": 40640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_55",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Bengaluru",
+      "resource_id": "naukriApp.appModules.login:id/textViewLocation",
+      "content_desc": "",
+      "bounds": [
+        112,
+        2388,
+        446,
+        2510
+      ],
+      "center": [
+        279,
+        2449
+      ],
+      "area": 40748,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    },
+    {
+      "id": "node_56",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "0-1 Yrs",
+      "resource_id": "naukriApp.appModules.login:id/textViewTotalWorkExperience",
+      "content_desc": "",
+      "bounds": [
+        112,
+        2510,
+        375,
+        2560
+      ],
+      "center": [
+        243,
+        2535
+      ],
+      "area": 13150,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "naukriApp.appModules.login"
+    }
+  ]
+}

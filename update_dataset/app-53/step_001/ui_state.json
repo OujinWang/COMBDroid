@@ -1,0 +1,322 @@
+{
+  "screenshot_path": "runs\\270_smartBudget\\step_001\\screen.png",
+  "xml_path": "runs\\270_smartBudget\\step_001\\hierarchy.xml",
+  "component_count": 10,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.SmartBudget.GoldFlyApps:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_5",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.SmartBudget.GoldFlyApps:id/wrapper",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_7",
+        "node_8",
+        "node_9"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_6",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Add Account",
+      "resource_id": "com.SmartBudget.GoldFlyApps:id/titleLabel",
+      "content_desc": "",
+      "bounds": [
+        396,
+        296,
+        1043,
+        446
+      ],
+      "center": [
+        719,
+        371
+      ],
+      "area": 97050,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_7",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Choose A Name For Your Account",
+      "resource_id": "com.SmartBudget.GoldFlyApps:id/detailLabel",
+      "content_desc": "",
+      "bounds": [
+        175,
+        526,
+        1265,
+        623
+      ],
+      "center": [
+        720,
+        574
+      ],
+      "area": 105730,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_8",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "My account",
+      "resource_id": "com.SmartBudget.GoldFlyApps:id/nameEditText",
+      "content_desc": "",
+      "bounds": [
+        120,
+        743,
+        1320,
+        963
+      ],
+      "center": [
+        720,
+        853
+      ],
+      "area": 264000,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_9",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.SmartBudget.GoldFlyApps:id/nextButton",
+      "content_desc": "",
+      "bounds": [
+        40,
+        1163,
+        1400,
+        1522
+      ],
+      "center": [
+        720,
+        1342
+      ],
+      "area": 488240,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    }
+  ]
+}

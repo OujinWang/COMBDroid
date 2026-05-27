@@ -1,0 +1,559 @@
+{
+  "actionable_component_count": 18,
+  "actionable_components": [
+    {
+      "id": "node_13",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "android:id/empty",
+      "content_desc": "",
+      "bounds": [
+        0,
+        224,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3041280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_15",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.todoist:id/empty_help_icon",
+      "content_desc": "How to declutter your mind with the Inbox",
+      "bounds": [
+        64,
+        1952,
+        272,
+        2176
+      ],
+      "center": [
+        168,
+        2064
+      ],
+      "area": 46592,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_24",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.todoist:id/quick_add_item_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_25"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_26",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.todoist:id/quick_add_item_content_wrapper",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1673,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2116
+      ],
+      "area": 1277280,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27",
+        "node_31"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_27",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.todoist:id/text_scroll_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1673,
+        1440,
+        2108
+      ],
+      "center": [
+        720,
+        1890
+      ],
+      "area": 626400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [
+        "node_28"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_29",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Prepare presentation for science project meeting tomorrow p1",
+      "resource_id": "android:id/message",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1737,
+        1376,
+        1942
+      ],
+      "center": [
+        720,
+        1839
+      ],
+      "area": 268960,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_30",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Description",
+      "resource_id": "com.todoist:id/description",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1990,
+        1376,
+        2076
+      ],
+      "center": [
+        720,
+        2033
+      ],
+      "area": 112832,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_32",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.todoist:id/chips_scroll",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2124,
+        1440,
+        2316
+      ],
+      "center": [
+        720,
+        2220
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_34",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Tomorrow",
+      "resource_id": "com.todoist:id/schedule",
+      "content_desc": "Date",
+      "bounds": [
+        64,
+        2124,
+        495,
+        2268
+      ],
+      "center": [
+        279,
+        2196
+      ],
+      "area": 62064,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Attachment",
+      "resource_id": "com.todoist:id/attachment_chip",
+      "content_desc": "Attachment",
+      "bounds": [
+        527,
+        2124,
+        999,
+        2268
+      ],
+      "center": [
+        763,
+        2196
+      ],
+      "area": 67968,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_36",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "P1",
+      "resource_id": "com.todoist:id/priority",
+      "content_desc": "Priority",
+      "bounds": [
+        1031,
+        2124,
+        1269,
+        2268
+      ],
+      "center": [
+        1150,
+        2196
+      ],
+      "area": 34272,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_37",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Reminders",
+      "resource_id": "com.todoist:id/reminders",
+      "content_desc": "Reminders",
+      "bounds": [
+        1301,
+        2124,
+        1440,
+        2268
+      ],
+      "center": [
+        1370,
+        2196
+      ],
+      "area": 20016,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_39",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Inbox",
+      "resource_id": "com.todoist:id/project",
+      "content_desc": "Project",
+      "bounds": [
+        32,
+        2368,
+        408,
+        2512
+      ],
+      "center": [
+        220,
+        2440
+      ],
+      "area": 54144,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_40",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "android:id/button1",
+      "content_desc": "Add",
+      "bounds": [
+        1208,
+        2368,
+        1376,
+        2512
+      ],
+      "center": [
+        1292,
+        2440
+      ],
+      "area": 24192,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_43",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.todoist:id/toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        352
+      ],
+      "center": [
+        720,
+        176
+      ],
+      "area": 506880,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_44",
+        "node_45"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_46",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.todoist:id/menu_content_view_options",
+      "content_desc": "List layout",
+      "bounds": [
+        1088,
+        128,
+        1280,
+        320
+      ],
+      "center": [
+        1184,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_47",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1280,
+        128,
+        1440,
+        320
+      ],
+      "center": [
+        1360,
+        224
+      ],
+      "area": 30720,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_48",
+      "type": "Button",
+      "class_name": "com.google.android.material.floatingactionbutton.FloatingActionButton",
+      "text": "",
+      "resource_id": "com.todoist:id/fab",
+      "content_desc": "Quick add",
+      "bounds": [
+        1152,
+        1952,
+        1376,
+        2176
+      ],
+      "center": [
+        1264,
+        2064
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    }
+  ]
+}

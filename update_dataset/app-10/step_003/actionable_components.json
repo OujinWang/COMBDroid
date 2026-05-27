@@ -1,0 +1,628 @@
+{
+  "actionable_component_count": 20,
+  "actionable_components": [
+    {
+      "id": "node_14",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.pinterest:id/home_feed_view_pager_tab_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_19",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.pinterest:id/hf_tuner_icon",
+      "content_desc": "Refine your recommendations button",
+      "bounds": [
+        1232,
+        136,
+        1376,
+        280
+      ],
+      "center": [
+        1304,
+        208
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_21",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.pinterest:id/icon_button",
+      "content_desc": "",
+      "bounds": [
+        1232,
+        136,
+        1376,
+        280
+      ],
+      "center": [
+        1304,
+        208
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_22",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_23"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_30",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.pinterest:id/recycler_adapter_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31",
+        "node_34",
+        "node_37",
+        "node_40",
+        "node_43",
+        "node_45"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_32",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_rep_id",
+      "content_desc": "Pin from Aurora, This may contain: the sky is filled with clouds and there is a bright light in the middle of it",
+      "bounds": [
+        16,
+        320,
+        712,
+        405
+      ],
+      "center": [
+        364,
+        362
+      ],
+      "area": 59160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_33",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_overflow_action_id",
+      "content_desc": "",
+      "bounds": [
+        624,
+        320,
+        688,
+        381
+      ],
+      "center": [
+        656,
+        350
+      ],
+      "area": 3904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_rep_id",
+      "content_desc": "Pin from Emili, This may contain: a cat wearing a los angeles angels hat and holding flowers",
+      "bounds": [
+        728,
+        320,
+        1424,
+        410
+      ],
+      "center": [
+        1076,
+        365
+      ],
+      "area": 62640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_36",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_overflow_action_id",
+      "content_desc": "",
+      "bounds": [
+        1336,
+        320,
+        1400,
+        376
+      ],
+      "center": [
+        1368,
+        348
+      ],
+      "area": 3584,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_rep_id",
+      "content_desc": "Pin from Reximus Decimus Meridius",
+      "bounds": [
+        16,
+        421,
+        712,
+        1752
+      ],
+      "center": [
+        364,
+        1086
+      ],
+      "area": 926376,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_39",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_overflow_action_id",
+      "content_desc": "",
+      "bounds": [
+        624,
+        1664,
+        688,
+        1728
+      ],
+      "center": [
+        656,
+        1696
+      ],
+      "area": 4096,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_41",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_rep_id",
+      "content_desc": "Pin, This may contain: the human heart on an old book page",
+      "bounds": [
+        728,
+        426,
+        1424,
+        1515
+      ],
+      "center": [
+        1076,
+        970
+      ],
+      "area": 757944,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_42",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_overflow_action_id",
+      "content_desc": "",
+      "bounds": [
+        1336,
+        1427,
+        1400,
+        1491
+      ],
+      "center": [
+        1368,
+        1459
+      ],
+      "area": 4096,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_rep_id",
+      "content_desc": "Pin from Patricia, This may contain: snoopy and his dog in the starr night",
+      "bounds": [
+        16,
+        1768,
+        712,
+        2560
+      ],
+      "center": [
+        364,
+        2164
+      ],
+      "area": 551232,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_rep_id",
+      "content_desc": "Pin from Vdbrgkarin, Description: Sorgeloos, This may contain: a girl swinging on a tree swing with the moon in the sky above her and water below",
+      "bounds": [
+        728,
+        1531,
+        1424,
+        2560
+      ],
+      "center": [
+        1076,
+        2045
+      ],
+      "area": 716184,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.pinterest:id/bottom_nav_home_icon",
+      "content_desc": "Home",
+      "bounds": [
+        80,
+        2368,
+        310,
+        2560
+      ],
+      "center": [
+        195,
+        2464
+      ],
+      "area": 44160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_51"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_54",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.pinterest:id/menu_search",
+      "content_desc": "Search",
+      "bounds": [
+        342,
+        2368,
+        572,
+        2560
+      ],
+      "center": [
+        457,
+        2464
+      ],
+      "area": 44160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_55"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_58",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.pinterest:id/menu_creation",
+      "content_desc": "Create",
+      "bounds": [
+        604,
+        2368,
+        834,
+        2560
+      ],
+      "center": [
+        719,
+        2464
+      ],
+      "area": 44160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_59"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_62",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.pinterest:id/menu_notifications",
+      "content_desc": "Inbox",
+      "bounds": [
+        866,
+        2368,
+        1097,
+        2560
+      ],
+      "center": [
+        981,
+        2464
+      ],
+      "area": 44352,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_63"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_67",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.pinterest:id/profile_menu_view",
+      "content_desc": "Saved",
+      "bounds": [
+        1129,
+        2368,
+        1360,
+        2560
+      ],
+      "center": [
+        1244,
+        2464
+      ],
+      "area": 44352,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_68"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    }
+  ]
+}

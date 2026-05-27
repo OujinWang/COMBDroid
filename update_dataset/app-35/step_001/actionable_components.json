@@ -1,0 +1,327 @@
+{
+  "actionable_component_count": 10,
+  "actionable_components": [
+    {
+      "id": "node_31",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32",
+        "node_44"
+      ],
+      "depth": 6,
+      "in_scroll_container": true,
+      "package_name": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy"
+    },
+    {
+      "id": "node_37",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy:id/iv_back",
+      "content_desc": "",
+      "bounds": [
+        32,
+        120,
+        208,
+        296
+      ],
+      "center": [
+        120,
+        208
+      ],
+      "area": 30976,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy"
+    },
+    {
+      "id": "node_39",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy:id/fl_alarm",
+      "content_desc": "",
+      "bounds": [
+        1008,
+        120,
+        1184,
+        296
+      ],
+      "center": [
+        1096,
+        208
+      ],
+      "area": 30976,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_40"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy"
+    },
+    {
+      "id": "node_42",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy:id/iv_date",
+      "content_desc": "",
+      "bounds": [
+        1272,
+        160,
+        1368,
+        256
+      ],
+      "center": [
+        1320,
+        208
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy"
+    },
+    {
+      "id": "node_44",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy:id/nested_scroll_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        853,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1706
+      ],
+      "area": 2458080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy"
+    },
+    {
+      "id": "node_52",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy:id/rv_equipment",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1616,
+        1440,
+        1856
+      ],
+      "center": [
+        720,
+        1736
+      ],
+      "area": 345600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [
+        "node_53",
+        "node_59",
+        "node_64"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy"
+    },
+    {
+      "id": "node_74",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy:id/rv_exercises",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2120,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2340
+      ],
+      "area": 633600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [
+        "node_75",
+        "node_81"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy"
+    },
+    {
+      "id": "node_75",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2120,
+        1440,
+        2504
+      ],
+      "center": [
+        720,
+        2312
+      ],
+      "area": 552960,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_74",
+      "children_ids": [
+        "node_76",
+        "node_79",
+        "node_80"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy"
+    },
+    {
+      "id": "node_81",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2505,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2532
+      ],
+      "area": 79200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_74",
+      "children_ids": [
+        "node_82"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy"
+    },
+    {
+      "id": "node_85",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy:id/fl_start_now",
+      "content_desc": "",
+      "bounds": [
+        40,
+        2306,
+        1400,
+        2518
+      ],
+      "center": [
+        720,
+        2412
+      ],
+      "area": 288320,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_86"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "swiftflyers.homeworkout.chair.floor.bed.exercise.forlazy"
+    }
+  ]
+}

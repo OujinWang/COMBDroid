@@ -1,0 +1,2692 @@
+{
+  "screenshot_path": "runs\\5_airbnb\\step_005\\screen.png",
+  "xml_path": "runs\\5_airbnb\\step_005\\hierarchy.xml",
+  "component_count": 85,
+  "components": [
+    {
+      "id": "node_28",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_29"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_30",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_31",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.airbnb.android:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_32",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_33",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.airbnb.android:id/container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_34",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.airbnb.android:id/frame_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_35",
+        "node_112"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_35",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.airbnb.android:id/interop_compose_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_36",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_37"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_37",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_38"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_38",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [
+        "node_39"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_39",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_40"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_40",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_41",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_42"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_42",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [
+        "node_43"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_43",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_44"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_44",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_45",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_46",
+        "node_102"
+      ],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_46",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 18,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_47",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [
+        "node_48"
+      ],
+      "depth": 19,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_48",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [
+        "node_49"
+      ],
+      "depth": 20,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_49",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Checkout",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_50"
+      ],
+      "depth": 21,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_50",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_51",
+        "node_92"
+      ],
+      "depth": 22,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_51",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        326,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1443
+      ],
+      "area": 3216960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_52"
+      ],
+      "depth": 23,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_52",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        326,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1443
+      ],
+      "area": 3216960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [
+        "node_53"
+      ],
+      "depth": 24,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_53",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        326,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1443
+      ],
+      "area": 3216960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [
+        "node_54",
+        "node_56"
+      ],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_54",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        374,
+        1068,
+        510
+      ],
+      "center": [
+        582,
+        442
+      ],
+      "area": 132192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [
+        "node_55"
+      ],
+      "depth": 26,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_55",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Review and continue",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        374,
+        1068,
+        510
+      ],
+      "center": [
+        582,
+        442
+      ],
+      "area": 132192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_56",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        606,
+        1344,
+        2560
+      ],
+      "center": [
+        720,
+        1583
+      ],
+      "area": 2438592,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [
+        "node_57",
+        "node_64",
+        "node_65",
+        "node_68",
+        "node_72",
+        "node_73",
+        "node_76",
+        "node_80",
+        "node_81",
+        "node_85",
+        "node_89",
+        "node_90",
+        "node_91"
+      ],
+      "depth": 26,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_57",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        670,
+        1280,
+        1025
+      ],
+      "center": [
+        720,
+        847
+      ],
+      "area": 397600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_58",
+        "node_61",
+        "node_62",
+        "node_63"
+      ],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_58",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        688,
+        480,
+        1008
+      ],
+      "center": [
+        320,
+        848
+      ],
+      "area": 102400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [
+        "node_59"
+      ],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_59",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        688,
+        480,
+        1008
+      ],
+      "center": [
+        320,
+        848
+      ],
+      "area": 102400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [
+        "node_60"
+      ],
+      "depth": 29,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_60",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        688,
+        480,
+        1008
+      ],
+      "center": [
+        320,
+        848
+      ],
+      "area": 102400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [],
+      "depth": 30,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_61",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Skylight Villa Johor Bahru • Pool • Cinema • Ktv",
+      "resource_id": "",
+      "content_desc": "Skylight Villa Johor Bahru • Pool • Cinema • Ktv",
+      "bounds": [
+        544,
+        670,
+        1280,
+        955
+      ],
+      "center": [
+        912,
+        812
+      ],
+      "area": 209760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_62",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "4.95 (160)",
+      "resource_id": "",
+      "content_desc": "Rating 4.95 out of 5; 160 reviews",
+      "bounds": [
+        608,
+        963,
+        822,
+        1025
+      ],
+      "center": [
+        715,
+        994
+      ],
+      "area": 13268,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_63",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Guest favorite",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        926,
+        963,
+        1250,
+        1025
+      ],
+      "center": [
+        1088,
+        994
+      ],
+      "area": 20088,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_64",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        995,
+        1280,
+        1187
+      ],
+      "center": [
+        720,
+        1091
+      ],
+      "area": 215040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_65",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        1157,
+        602,
+        1319
+      ],
+      "center": [
+        381,
+        1238
+      ],
+      "area": 71604,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_66",
+        "node_67"
+      ],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_66",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Dates",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        1157,
+        316,
+        1230
+      ],
+      "center": [
+        238,
+        1193
+      ],
+      "area": 11388,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_67",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Mar 27 – 29, 2026",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        1246,
+        602,
+        1319
+      ],
+      "center": [
+        381,
+        1282
+      ],
+      "area": 32266,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_68",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        976,
+        1125,
+        1280,
+        1317
+      ],
+      "center": [
+        1128,
+        1221
+      ],
+      "area": 58368,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_69",
+        "node_71"
+      ],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_69",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1032,
+        1125,
+        1224,
+        1317
+      ],
+      "center": [
+        1128,
+        1221
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [
+        "node_70"
+      ],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_70",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Change",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1040,
+        1190,
+        1216,
+        1252
+      ],
+      "center": [
+        1128,
+        1221
+      ],
+      "area": 10912,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [],
+      "depth": 29,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_71",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        976,
+        1157,
+        1280,
+        1285
+      ],
+      "center": [
+        1128,
+        1221
+      ],
+      "area": 38912,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_72",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        1289,
+        1280,
+        1481
+      ],
+      "center": [
+        720,
+        1385
+      ],
+      "area": 215040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_73",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        1451,
+        349,
+        1613
+      ],
+      "center": [
+        254,
+        1532
+      ],
+      "area": 30618,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_74",
+        "node_75"
+      ],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_74",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Guests",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        1451,
+        349,
+        1524
+      ],
+      "center": [
+        254,
+        1487
+      ],
+      "area": 13797,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_75",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "1 adult",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        1540,
+        328,
+        1613
+      ],
+      "center": [
+        244,
+        1576
+      ],
+      "area": 12264,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_76",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        976,
+        1419,
+        1280,
+        1611
+      ],
+      "center": [
+        1128,
+        1515
+      ],
+      "area": 58368,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_77",
+        "node_79"
+      ],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_77",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1032,
+        1419,
+        1224,
+        1611
+      ],
+      "center": [
+        1128,
+        1515
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [
+        "node_78"
+      ],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_78",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Change",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1040,
+        1484,
+        1216,
+        1546
+      ],
+      "center": [
+        1128,
+        1515
+      ],
+      "area": 10912,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_77",
+      "children_ids": [],
+      "depth": 29,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_79",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        976,
+        1451,
+        1280,
+        1579
+      ],
+      "center": [
+        1128,
+        1515
+      ],
+      "area": 38912,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_80",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        1583,
+        1280,
+        1775
+      ],
+      "center": [
+        720,
+        1679
+      ],
+      "area": 215040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_81",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        1745,
+        916,
+        2164
+      ],
+      "center": [
+        538,
+        1954
+      ],
+      "area": 316764,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_82",
+        "node_83",
+        "node_84"
+      ],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_82",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Total price",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        1745,
+        443,
+        1818
+      ],
+      "center": [
+        301,
+        1781
+      ],
+      "area": 20659,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_83",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "￥8,286.29 including taxes CNY",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        1834,
+        916,
+        1979
+      ],
+      "center": [
+        538,
+        1906
+      ],
+      "area": 109620,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_84",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Price is below the 60-day average",
+      "bounds": [
+        224,
+        2019,
+        916,
+        2164
+      ],
+      "center": [
+        570,
+        2091
+      ],
+      "area": 100340,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_85",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        980,
+        1713,
+        1280,
+        1905
+      ],
+      "center": [
+        1130,
+        1809
+      ],
+      "area": 57600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_86",
+        "node_88"
+      ],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_86",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1034,
+        1713,
+        1226,
+        1905
+      ],
+      "center": [
+        1130,
+        1809
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [
+        "node_87"
+      ],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_87",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Details",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1051,
+        1778,
+        1210,
+        1840
+      ],
+      "center": [
+        1130,
+        1809
+      ],
+      "area": 9858,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_86",
+      "children_ids": [],
+      "depth": 29,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_88",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        980,
+        1745,
+        1280,
+        1873
+      ],
+      "center": [
+        1130,
+        1809
+      ],
+      "area": 38400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_89",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        2134,
+        1280,
+        2304
+      ],
+      "center": [
+        720,
+        2219
+      ],
+      "area": 190400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_90",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Free cancellation",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        2296,
+        614,
+        2304
+      ],
+      "center": [
+        387,
+        2300
+      ],
+      "area": 3632,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_91",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Cancel within 24 hours for a full refund. Full policy",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        2496,
+        1280,
+        2550
+      ],
+      "center": [
+        720,
+        2523
+      ],
+      "area": 60480,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_92",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        326
+      ],
+      "center": [
+        720,
+        163
+      ],
+      "area": 469440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_93"
+      ],
+      "depth": 23,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_93",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        326
+      ],
+      "center": [
+        720,
+        163
+      ],
+      "area": 469440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_92",
+      "children_ids": [
+        "node_94",
+        "node_101"
+      ],
+      "depth": 24,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_94",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        322
+      ],
+      "center": [
+        720,
+        209
+      ],
+      "area": 325440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [
+        "node_95",
+        "node_100"
+      ],
+      "depth": 25,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_95",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        322
+      ],
+      "center": [
+        720,
+        209
+      ],
+      "area": 325440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_94",
+      "children_ids": [
+        "node_96"
+      ],
+      "depth": 26,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_96",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        322
+      ],
+      "center": [
+        720,
+        209
+      ],
+      "area": 325440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [
+        "node_97"
+      ],
+      "depth": 27,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_97",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1216,
+        114,
+        1408,
+        306
+      ],
+      "center": [
+        1312,
+        210
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [
+        "node_98",
+        "node_99"
+      ],
+      "depth": 28,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_98",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Close",
+      "bounds": [
+        1280,
+        178,
+        1344,
+        242
+      ],
+      "center": [
+        1312,
+        210
+      ],
+      "area": 4096,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_97",
+      "children_ids": [],
+      "depth": 29,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_99",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        146,
+        1376,
+        274
+      ],
+      "center": [
+        1312,
+        210
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_97",
+      "children_ids": [],
+      "depth": 29,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_100",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        226,
+        96,
+        418
+      ],
+      "center": [
+        48,
+        322
+      ],
+      "area": 18432,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_94",
+      "children_ids": [],
+      "depth": 26,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_101",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        322,
+        1440,
+        326
+      ],
+      "center": [
+        720,
+        324
+      ],
+      "area": 5760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [],
+      "depth": 25,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_102",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2224,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2392
+      ],
+      "area": 483840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [
+        "node_103"
+      ],
+      "depth": 18,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_103",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2224,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2392
+      ],
+      "area": 483840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_102",
+      "children_ids": [
+        "node_104",
+        "node_108"
+      ],
+      "depth": 19,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_104",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Step 1 of 3",
+      "bounds": [
+        0,
+        2224,
+        1440,
+        2240
+      ],
+      "center": [
+        720,
+        2232
+      ],
+      "area": 23040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_103",
+      "children_ids": [
+        "node_105",
+        "node_106",
+        "node_107"
+      ],
+      "depth": 20,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_105",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2136,
+        472,
+        2328
+      ],
+      "center": [
+        236,
+        2232
+      ],
+      "area": 90624,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [],
+      "depth": 21,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_106",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        484,
+        2136,
+        956,
+        2304
+      ],
+      "center": [
+        720,
+        2220
+      ],
+      "area": 79296,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [],
+      "depth": 21,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_107",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        968,
+        2136,
+        1440,
+        2328
+      ],
+      "center": [
+        1204,
+        2232
+      ],
+      "area": 90624,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [],
+      "depth": 21,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_108",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        2304,
+        1344,
+        2496
+      ],
+      "center": [
+        720,
+        2400
+      ],
+      "area": 239616,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_103",
+      "children_ids": [
+        "node_109",
+        "node_111"
+      ],
+      "depth": 20,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_109",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        592,
+        2304,
+        848,
+        2496
+      ],
+      "center": [
+        720,
+        2400
+      ],
+      "area": 49152,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_108",
+      "children_ids": [
+        "node_110"
+      ],
+      "depth": 21,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_110",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Next",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        648,
+        2359,
+        792,
+        2442
+      ],
+      "center": [
+        720,
+        2400
+      ],
+      "area": 11952,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_109",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_111",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        2304,
+        1344,
+        2496
+      ],
+      "center": [
+        720,
+        2400
+      ],
+      "area": 239616,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_108",
+      "children_ids": [],
+      "depth": 21,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    },
+    {
+      "id": "node_112",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.airbnb.android:id/modal_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.airbnb.android"
+    }
+  ]
+}

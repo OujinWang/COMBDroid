@@ -1,0 +1,1615 @@
+{
+  "screenshot_path": "runs\\53_googleTV\\step_001\\screen.png",
+  "xml_path": "runs\\53_googleTV\\step_001\\hierarchy.xml",
+  "component_count": 51,
+  "components": [
+    {
+      "id": "node_38",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_39"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_39",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_40"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_40",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_41",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_42"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_42",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [
+        "node_43"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_43",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/entity_page_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_44",
+        "node_81",
+        "node_82",
+        "node_88"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_44",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/stream_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_45",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/swipe_refresh",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_46"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_46",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_47",
+      "type": "ScrollContainer",
+      "class_name": "android.support.v7.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/recycler_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [
+        "node_48",
+        "node_68",
+        "node_72"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_48",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/title_component",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        1952
+      ],
+      "center": [
+        720,
+        976
+      ],
+      "area": 2810880,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [
+        "node_49",
+        "node_57"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_49",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/trailer_item_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        1548
+      ],
+      "center": [
+        720,
+        774
+      ],
+      "area": 2229120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_50",
+        "node_51",
+        "node_52"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_50",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/player_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        1548
+      ],
+      "center": [
+        720,
+        774
+      ],
+      "area": 2229120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_51",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/trailer_thumbnail",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        1548
+      ],
+      "center": [
+        720,
+        774
+      ],
+      "area": 2229120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_52",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/gradient_background",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        1548
+      ],
+      "center": [
+        720,
+        774
+      ],
+      "area": 2229120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_53",
+        "node_54",
+        "node_55",
+        "node_56"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_53",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/gradient_background_layer_1",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        541
+      ],
+      "center": [
+        720,
+        270
+      ],
+      "area": 779040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_54",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/gradient_background_layer_2",
+      "content_desc": "",
+      "bounds": [
+        0,
+        541,
+        1440,
+        773
+      ],
+      "center": [
+        720,
+        657
+      ],
+      "area": 334080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_55",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/gradient_background_layer_3",
+      "content_desc": "",
+      "bounds": [
+        0,
+        773,
+        1440,
+        1005
+      ],
+      "center": [
+        720,
+        889
+      ],
+      "area": 334080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_56",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/gradient_background_layer_4",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1005,
+        1440,
+        1548
+      ],
+      "center": [
+        720,
+        1276
+      ],
+      "area": 781920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_57",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/title_section",
+      "content_desc": "",
+      "bounds": [
+        0,
+        816,
+        1440,
+        1904
+      ],
+      "center": [
+        720,
+        1360
+      ],
+      "area": 1566720,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_58",
+        "node_60",
+        "node_61"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_58",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        517,
+        1075,
+        923,
+        1274
+      ],
+      "center": [
+        720,
+        1174
+      ],
+      "area": 80794,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [
+        "node_59"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_59",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Trailer",
+      "resource_id": "com.google.android.videos:id/trailer_button",
+      "content_desc": "",
+      "bounds": [
+        517,
+        1075,
+        923,
+        1274
+      ],
+      "center": [
+        720,
+        1174
+      ],
+      "area": 80794,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_60",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "One Battle After Another",
+      "resource_id": "com.google.android.videos:id/title",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1306,
+        1376,
+        1788
+      ],
+      "center": [
+        720,
+        1547
+      ],
+      "area": 632384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_61",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/stats_container",
+      "content_desc": "",
+      "bounds": [
+        344,
+        1820,
+        1095,
+        1904
+      ],
+      "center": [
+        719,
+        1862
+      ],
+      "area": 63084,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [
+        "node_62",
+        "node_65",
+        "node_67"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_62",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/tomato_rating",
+      "content_desc": "Rated 94% on Rotten Tomatoes with Fresh status",
+      "bounds": [
+        344,
+        1825,
+        518,
+        1898
+      ],
+      "center": [
+        431,
+        1861
+      ],
+      "area": 12702,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [
+        "node_63",
+        "node_64"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_63",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/rotten_tomatoes_rating_image",
+      "content_desc": "",
+      "bounds": [
+        344,
+        1829,
+        408,
+        1893
+      ],
+      "center": [
+        376,
+        1861
+      ],
+      "area": 4096,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_64",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "94%",
+      "resource_id": "com.google.android.videos:id/rotten_tomatoes_rating_txt",
+      "content_desc": "",
+      "bounds": [
+        420,
+        1825,
+        518,
+        1898
+      ],
+      "center": [
+        469,
+        1861
+      ],
+      "area": 7154,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_65",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/content_rating",
+      "content_desc": "",
+      "bounds": [
+        538,
+        1820,
+        669,
+        1904
+      ],
+      "center": [
+        603,
+        1862
+      ],
+      "area": 11004,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [
+        "node_66"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_66",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "M18",
+      "resource_id": "com.google.android.videos:id/content_rating_txt",
+      "content_desc": "",
+      "bounds": [
+        538,
+        1820,
+        669,
+        1904
+      ],
+      "center": [
+        603,
+        1862
+      ],
+      "area": 11004,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_67",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "2025 · 2 hr 42 min",
+      "resource_id": "com.google.android.videos:id/stats",
+      "content_desc": "",
+      "bounds": [
+        705,
+        1825,
+        1095,
+        1898
+      ],
+      "center": [
+        900,
+        1861
+      ],
+      "area": 28470,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_68",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/tvm_entity_synopsis_component",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1952,
+        1440,
+        2292
+      ],
+      "center": [
+        720,
+        2122
+      ],
+      "area": 489600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [
+        "node_69"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_69",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2000,
+        1376,
+        2244
+      ],
+      "center": [
+        720,
+        2122
+      ],
+      "area": 320128,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [
+        "node_70",
+        "node_71"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_70",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Washed-up revolutionary Bob (Leonardo DiCaprio) exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa (Chase Infiniti).  When his evil nemesis (Sean Penn) resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "resource_id": "com.google.android.videos:id/synopsis_text",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2000,
+        1376,
+        2244
+      ],
+      "center": [
+        720,
+        2122
+      ],
+      "area": 320128,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_71",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "MORE",
+      "resource_id": "com.google.android.videos:id/read_more",
+      "content_desc": "",
+      "bounds": [
+        1219,
+        2169,
+        1376,
+        2244
+      ],
+      "center": [
+        1297,
+        2206
+      ],
+      "area": 11775,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_72",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/tvm_entity_action_panel_component",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2292,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2426
+      ],
+      "area": 385920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [
+        "node_73"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_73",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/ai_overview_cta_layout",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2388,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2474
+      ],
+      "area": 225664,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_72",
+      "children_ids": [
+        "node_74",
+        "node_78",
+        "node_79",
+        "node_80"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_74",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/ai_background",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2388,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2474
+      ],
+      "area": 225664,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [
+        "node_75"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_75",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2388,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2474
+      ],
+      "area": 225664,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_74",
+      "children_ids": [
+        "node_76"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_76",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        70,
+        2394,
+        1370,
+        2560
+      ],
+      "center": [
+        720,
+        2477
+      ],
+      "area": 215800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_75",
+      "children_ids": [
+        "node_77"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_77",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        70,
+        2394,
+        1370,
+        2560
+      ],
+      "center": [
+        720,
+        2477
+      ],
+      "area": 215800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_78",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/button",
+      "content_desc": "Summaries, reviews & more",
+      "bounds": [
+        64,
+        2388,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2474
+      ],
+      "area": 225664,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_79",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/icon",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2456,
+        224,
+        2552
+      ],
+      "center": [
+        176,
+        2504
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_80",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Summaries, reviews & more",
+      "resource_id": "com.google.android.videos:id/button_title",
+      "content_desc": "",
+      "bounds": [
+        306,
+        2454,
+        1134,
+        2554
+      ],
+      "center": [
+        720,
+        2504
+      ],
+      "area": 82800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_81",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/companion_bar_fragment",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_82",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/appbar_expressive",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        352
+      ],
+      "center": [
+        720,
+        176
+      ],
+      "area": 506880,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_83"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_83",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/toolbar_expressive",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        352
+      ],
+      "center": [
+        720,
+        224
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [
+        "node_84",
+        "node_85",
+        "node_86"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_84",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/expressive_back_button",
+      "content_desc": "Back",
+      "bounds": [
+        64,
+        128,
+        256,
+        320
+      ],
+      "center": [
+        160,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_85",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.google.android.videos:id/expressive_share_button",
+      "content_desc": "Share",
+      "bounds": [
+        1056,
+        128,
+        1248,
+        320
+      ],
+      "center": [
+        1152,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_86",
+      "type": "Container",
+      "class_name": "android.support.v7.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        112,
+        1440,
+        336
+      ],
+      "center": [
+        1344,
+        224
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [
+        "node_87"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_87",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1248,
+        128,
+        1440,
+        320
+      ],
+      "center": [
+        1344,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_86",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    },
+    {
+      "id": "node_88",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Connect TV",
+      "resource_id": "com.google.android.videos:id/media_device_fab",
+      "content_desc": "",
+      "bounds": [
+        778,
+        2272,
+        1376,
+        2496
+      ],
+      "center": [
+        1077,
+        2384
+      ],
+      "area": 133952,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.videos"
+    }
+  ]
+}

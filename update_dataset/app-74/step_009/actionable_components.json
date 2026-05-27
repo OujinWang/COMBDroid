@@ -1,0 +1,439 @@
+{
+  "actionable_component_count": 14,
+  "actionable_components": [
+    {
+      "id": "node_36",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "splid.teamturtle.com.splid:id/tabbed_coordinator",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_37",
+        "node_48"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_40",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Splid",
+      "bounds": [
+        0,
+        96,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        208
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_42",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1280,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1360,
+        208
+      ],
+      "area": 30720,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Overview",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        339,
+        320,
+        715,
+        488
+      ],
+      "center": [
+        527,
+        404
+      ],
+      "area": 63168,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_47",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Expenses",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        715,
+        320,
+        1101,
+        488
+      ],
+      "center": [
+        908,
+        404
+      ],
+      "area": 64848,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_48",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "splid.teamturtle.com.splid:id/tabbed_activity_pager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        520,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1540
+      ],
+      "area": 2937600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_49"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_49",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "splid.teamturtle.com.splid:id/grouped_list_recycler_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        520,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1540
+      ],
+      "area": 2937600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_50",
+        "node_55",
+        "node_60",
+        "node_62"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "splid.teamturtle.com.splid:id/grouped_list_content_row_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        632,
+        1440,
+        848
+      ],
+      "center": [
+        720,
+        740
+      ],
+      "area": 311040,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_51"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_54",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "$10.00",
+      "resource_id": "splid.teamturtle.com.splid:id/amount_row_edit_text",
+      "content_desc": "",
+      "bounds": [
+        1170,
+        664,
+        1368,
+        816
+      ],
+      "center": [
+        1269,
+        740
+      ],
+      "area": 30096,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_55",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "splid.teamturtle.com.splid:id/grouped_list_content_row_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        848,
+        1440,
+        1064
+      ],
+      "center": [
+        720,
+        956
+      ],
+      "area": 311040,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_56"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_59",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "-$10.00",
+      "resource_id": "splid.teamturtle.com.splid:id/amount_row_edit_text",
+      "content_desc": "",
+      "bounds": [
+        1149,
+        880,
+        1368,
+        1032
+      ],
+      "center": [
+        1258,
+        956
+      ],
+      "area": 33288,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_61",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Settle up",
+      "resource_id": "splid.teamturtle.com.splid:id/grouped_list_button",
+      "content_desc": "",
+      "bounds": [
+        534,
+        1160,
+        907,
+        1328
+      ],
+      "center": [
+        720,
+        1244
+      ],
+      "area": 62664,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_63",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Share",
+      "resource_id": "splid.teamturtle.com.splid:id/grouped_list_button",
+      "content_desc": "",
+      "bounds": [
+        544,
+        1376,
+        896,
+        1544
+      ],
+      "center": [
+        720,
+        1460
+      ],
+      "area": 59136,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "splid.teamturtle.com.splid"
+    },
+    {
+      "id": "node_66",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "splid.teamturtle.com.splid:id/floating_action_button",
+      "content_desc": "",
+      "bounds": [
+        1152,
+        2272,
+        1376,
+        2496
+      ],
+      "center": [
+        1264,
+        2384
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "splid.teamturtle.com.splid"
+    }
+  ]
+}

@@ -1,0 +1,1112 @@
+{
+  "screenshot_path": "runs\\71_babbel\\step_002\\screen.png",
+  "xml_path": "runs\\71_babbel\\step_002\\hierarchy.xml",
+  "component_count": 35,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.babbel.mobile.android.en:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_5",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.babbel.mobile.android.en:id/root_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_6",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.babbel.mobile.android.en:id/core_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_7",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_8",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_9",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_10",
+      "type": "Other",
+      "class_name": "d4.v",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_11",
+      "type": "Other",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_12",
+      "type": "ScrollContainer",
+      "class_name": "android.webkit.WebView",
+      "text": "Babbel.com",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_13",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14",
+        "node_18",
+        "node_19",
+        "node_20",
+        "node_21",
+        "node_22",
+        "node_33"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_14",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        352
+      ],
+      "center": [
+        720,
+        224
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15",
+        "node_16"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_15",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "Babbel Logo",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        160,
+        192,
+        288
+      ],
+      "center": [
+        128,
+        224
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_16",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1232,
+        152,
+        1376,
+        296
+      ],
+      "center": [
+        1304,
+        224
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_17"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_17",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "close",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1232,
+        152,
+        1376,
+        296
+      ],
+      "center": [
+        1304,
+        224
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_18",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Get started at the right level",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        384,
+        1312,
+        704
+      ],
+      "center": [
+        720,
+        544
+      ],
+      "area": 378880,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_19",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "You only need ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        160,
+        832,
+        604,
+        912
+      ],
+      "center": [
+        382,
+        872
+      ],
+      "area": 35520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_20",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "2-3 minutes",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        600,
+        832,
+        968,
+        912
+      ],
+      "center": [
+        784,
+        872
+      ],
+      "area": 29440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_21",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " to answer some questions.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        472,
+        832,
+        1280,
+        992
+      ],
+      "center": [
+        876,
+        912
+      ],
+      "area": 129280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_22",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        1248,
+        1312,
+        2408
+      ],
+      "center": [
+        720,
+        1828
+      ],
+      "area": 1373440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_23",
+        "node_24",
+        "node_27",
+        "node_30"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_23",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "First, how much Spanish do you know?",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        1248,
+        1312,
+        1328
+      ],
+      "center": [
+        720,
+        1288
+      ],
+      "area": 94720,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_24",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        1392,
+        1312,
+        1688
+      ],
+      "center": [
+        720,
+        1540
+      ],
+      "area": 350464,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_25",
+        "node_26"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_25",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Not very much",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        196,
+        1500,
+        1020,
+        1580
+      ],
+      "center": [
+        608,
+        1540
+      ],
+      "area": 65920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_26",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1396,
+        1308,
+        1684
+      ],
+      "center": [
+        720,
+        1540
+      ],
+      "area": 338688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_27",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        1752,
+        1312,
+        2048
+      ],
+      "center": [
+        720,
+        1900
+      ],
+      "area": 350464,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_28",
+        "node_29"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_28",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "I know some",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        196,
+        1860,
+        1020,
+        1940
+      ],
+      "center": [
+        608,
+        1900
+      ],
+      "area": 65920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_29",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1756,
+        1308,
+        2044
+      ],
+      "center": [
+        720,
+        1900
+      ],
+      "area": 338688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_30",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2112,
+        1312,
+        2408
+      ],
+      "center": [
+        720,
+        2260
+      ],
+      "area": 350464,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_31",
+        "node_32"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_31",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "I know a lot",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        196,
+        2220,
+        1020,
+        2300
+      ],
+      "center": [
+        608,
+        2260
+      ],
+      "area": 65920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_32",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        2116,
+        1308,
+        2404
+      ],
+      "center": [
+        720,
+        2260
+      ],
+      "area": 338688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_33",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2112,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2336
+      ],
+      "area": 645120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_34"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    },
+    {
+      "id": "node_34",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Start",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2240,
+        1376,
+        2432
+      ],
+      "center": [
+        720,
+        2336
+      ],
+      "area": 251904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.babbel.mobile.android.en"
+    }
+  ]
+}

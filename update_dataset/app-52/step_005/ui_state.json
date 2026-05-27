@@ -1,0 +1,729 @@
+{
+  "screenshot_path": "runs\\268_easyNotes\\step_005\\screen.png",
+  "xml_path": "runs\\268_easyNotes\\step_005\\hierarchy.xml",
+  "component_count": 23,
+  "components": [
+    {
+      "id": "node_27",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_28"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_28",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [
+        "node_29"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_30",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/dialog_common",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_31",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/dialog_custom_view",
+      "content_desc": "",
+      "bounds": [
+        128,
+        632,
+        1312,
+        1927
+      ],
+      "center": [
+        720,
+        1279
+      ],
+      "area": 1533280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_32",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        632,
+        1312,
+        1927
+      ],
+      "center": [
+        720,
+        1279
+      ],
+      "area": 1533280,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33",
+        "node_34",
+        "node_48",
+        "node_49"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_33",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/cancel_view",
+      "content_desc": "",
+      "bounds": [
+        1152,
+        632,
+        1312,
+        792
+      ],
+      "center": [
+        1232,
+        712
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_34",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        824,
+        1312,
+        1927
+      ],
+      "center": [
+        720,
+        1375
+      ],
+      "area": 1305952,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_35",
+        "node_47"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_35",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        824,
+        1312,
+        1927
+      ],
+      "center": [
+        720,
+        1375
+      ],
+      "area": 1305952,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36",
+        "node_37",
+        "node_38",
+        "node_45"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_36",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Congrats! You've Made a Note ..",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/title_fivestar",
+      "content_desc": "",
+      "bounds": [
+        224,
+        920,
+        1216,
+        1003
+      ],
+      "center": [
+        720,
+        961
+      ],
+      "area": 82336,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_37",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Please rate us 5 stars if you like this app",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/five_desc",
+      "content_desc": "",
+      "bounds": [
+        224,
+        1051,
+        1216,
+        1255
+      ],
+      "center": [
+        720,
+        1153
+      ],
+      "area": 202368,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_38",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        1303,
+        1312,
+        1583
+      ],
+      "center": [
+        720,
+        1443
+      ],
+      "area": 331520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_39",
+        "node_40",
+        "node_41",
+        "node_42",
+        "node_43",
+        "node_44"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_39",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/five_star1",
+      "content_desc": "",
+      "bounds": [
+        288,
+        1367,
+        440,
+        1519
+      ],
+      "center": [
+        364,
+        1443
+      ],
+      "area": 23104,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_40",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/five_star2",
+      "content_desc": "",
+      "bounds": [
+        466,
+        1367,
+        618,
+        1519
+      ],
+      "center": [
+        542,
+        1443
+      ],
+      "area": 23104,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_41",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/five_star3",
+      "content_desc": "",
+      "bounds": [
+        644,
+        1367,
+        796,
+        1519
+      ],
+      "center": [
+        720,
+        1443
+      ],
+      "area": 23104,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_42",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/five_star4",
+      "content_desc": "",
+      "bounds": [
+        822,
+        1367,
+        974,
+        1519
+      ],
+      "center": [
+        898,
+        1443
+      ],
+      "area": 23104,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_43",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/lottie",
+      "content_desc": "",
+      "bounds": [
+        936,
+        1303,
+        1216,
+        1583
+      ],
+      "center": [
+        1076,
+        1443
+      ],
+      "area": 78400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/five_star5",
+      "content_desc": "",
+      "bounds": [
+        1000,
+        1367,
+        1152,
+        1519
+      ],
+      "center": [
+        1076,
+        1443
+      ],
+      "area": 23104,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_45",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        224,
+        1647,
+        1216,
+        1831
+      ],
+      "center": [
+        720,
+        1739
+      ],
+      "area": 182528,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_46"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "RATE",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/fivestar_rate_now",
+      "content_desc": "",
+      "bounds": [
+        224,
+        1647,
+        1216,
+        1831
+      ],
+      "center": [
+        720,
+        1739
+      ],
+      "area": 182528,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_47",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        824,
+        1312,
+        1232
+      ],
+      "center": [
+        720,
+        1028
+      ],
+      "area": 483072,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_48",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        480,
+        696,
+        960,
+        896
+      ],
+      "center": [
+        720,
+        796
+      ],
+      "area": 96000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    },
+    {
+      "id": "node_49",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "easynotes.notes.notepad.notebook.privatenotes.note:id/fiver_star_emoji_img",
+      "content_desc": "",
+      "bounds": [
+        480,
+        696,
+        960,
+        896
+      ],
+      "center": [
+        720,
+        796
+      ],
+      "area": 96000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "easynotes.notes.notepad.notebook.privatenotes.note"
+    }
+  ]
+}

@@ -1,0 +1,979 @@
+{
+  "actionable_component_count": 31,
+  "actionable_components": [
+    {
+      "id": "node_12",
+      "type": "ScrollContainer",
+      "class_name": "android.webkit.WebView",
+      "text": "[https://www.patreon.com/collection/14671](https://www.patreon.com/collection/14671) - Brave Search",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2368
+      ],
+      "center": [
+        720,
+        1344
+      ],
+      "area": 2949120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_20",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Brave logo",
+      "bounds": [
+        96,
+        424,
+        224,
+        552
+      ],
+      "center": [
+        160,
+        488
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_21"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_22",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "[https://www.patreon.com/collection/14671](https://www.patreon.com/collection/14671)",
+      "resource_id": "searchbox",
+      "content_desc": "",
+      "bounds": [
+        272,
+        384,
+        644,
+        592
+      ],
+      "center": [
+        458,
+        488
+      ],
+      "area": 77376,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_24",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "clear-query-button",
+      "content_desc": "Clear",
+      "bounds": [
+        644,
+        416,
+        788,
+        560
+      ],
+      "center": [
+        716,
+        488
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_26",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "submit-button",
+      "content_desc": "Search",
+      "bounds": [
+        824,
+        416,
+        968,
+        560
+      ],
+      "center": [
+        896,
+        488
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_27",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "submit-llm-button",
+      "content_desc": "Unavailable for this query",
+      "bounds": [
+        1000,
+        420,
+        1136,
+        556
+      ],
+      "center": [
+        1068,
+        488
+      ],
+      "area": 18496,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_29",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More",
+      "bounds": [
+        1236,
+        412,
+        1388,
+        564
+      ],
+      "center": [
+        1312,
+        488
+      ],
+      "area": 23104,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_32",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ListView",
+      "text": "",
+      "resource_id": "primary-tabs",
+      "content_desc": "",
+      "bounds": [
+        8,
+        628,
+        1168,
+        812
+      ],
+      "center": [
+        588,
+        720
+      ],
+      "area": 213440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33",
+        "node_36",
+        "node_39",
+        "node_42",
+        "node_45",
+        "node_48"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_34",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Ask",
+      "bounds": [
+        28,
+        648,
+        228,
+        792
+      ],
+      "center": [
+        128,
+        720
+      ],
+      "area": 28800,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_35"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_37",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "All",
+      "bounds": [
+        240,
+        648,
+        412,
+        792
+      ],
+      "center": [
+        326,
+        720
+      ],
+      "area": 24768,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_38"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_40",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Images",
+      "bounds": [
+        424,
+        648,
+        720,
+        792
+      ],
+      "center": [
+        572,
+        720
+      ],
+      "area": 42624,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_43",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "News",
+      "bounds": [
+        732,
+        648,
+        984,
+        792
+      ],
+      "center": [
+        858,
+        720
+      ],
+      "area": 36288,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_44"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Videos",
+      "bounds": [
+        996,
+        648,
+        1284,
+        792
+      ],
+      "center": [
+        1140,
+        720
+      ],
+      "area": 41472,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_49",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Goggles",
+      "bounds": [
+        1296,
+        648,
+        1440,
+        792
+      ],
+      "center": [
+        1368,
+        720
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_50"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_53",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ListView",
+      "text": "",
+      "resource_id": "secondary-tabs",
+      "content_desc": "",
+      "bounds": [
+        1200,
+        628,
+        1384,
+        812
+      ],
+      "center": [
+        1292,
+        720
+      ],
+      "area": 33856,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_54"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_54",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Filters",
+      "bounds": [
+        1232,
+        644,
+        1384,
+        796
+      ],
+      "center": [
+        1308,
+        720
+      ],
+      "area": 23104,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_59",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": ".. Patreon patreon.com Where Creator Communities Thrive — Patreon",
+      "bounds": [
+        64,
+        908,
+        1376,
+        1268
+      ],
+      "center": [
+        720,
+        1088
+      ],
+      "area": 472320,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [
+        "node_60",
+        "node_63",
+        "node_64",
+        "node_65"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_67",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Log in or sign up",
+      "bounds": [
+        64,
+        1612,
+        1376,
+        1700
+      ],
+      "center": [
+        720,
+        1656
+      ],
+      "area": 115456,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [
+        "node_68"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_69",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Get Started",
+      "bounds": [
+        64,
+        1768,
+        1376,
+        1856
+      ],
+      "center": [
+        720,
+        1812
+      ],
+      "area": 115456,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [
+        "node_70"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_71",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More Columns in CAS v1.36",
+      "bounds": [
+        64,
+        1924,
+        1376,
+        2012
+      ],
+      "center": [
+        720,
+        1968
+      ],
+      "area": 115456,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [
+        "node_72"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_73",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "UI Cheats Extension v1.51",
+      "bounds": [
+        64,
+        2080,
+        1376,
+        2168
+      ],
+      "center": [
+        720,
+        2124
+      ],
+      "area": 115456,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [
+        "node_74"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_80",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.brave.browser:id/location_bar_status",
+      "content_desc": "",
+      "bounds": [
+        32,
+        96,
+        160,
+        320
+      ],
+      "center": [
+        96,
+        208
+      ],
+      "area": 28672,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_79",
+      "children_ids": [
+        "node_81"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_83",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "search.brave.com/search?q=%5Bhttps%3A%2F%2Fwww.patreon.com%2Fcollection%2F14671%5D(https%3A%2F%2Fwww.patreon.com%2Fcollection%2F",
+      "resource_id": "com.brave.browser:id/url_bar",
+      "content_desc": "",
+      "bounds": [
+        160,
+        96,
+        1260,
+        320
+      ],
+      "center": [
+        710,
+        208
+      ],
+      "area": 246400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_79",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_87",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.brave.browser:id/brave_shields_button",
+      "content_desc": "Enable/Disable Brave Shields",
+      "bounds": [
+        1228,
+        128,
+        1408,
+        288
+      ],
+      "center": [
+        1318,
+        208
+      ],
+      "area": 28800,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_86",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_89",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.brave.browser:id/bottom_controls",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_90"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_93",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.brave.browser:id/bottom_home_button",
+      "content_desc": "Open the home page",
+      "bounds": [
+        48,
+        2368,
+        272,
+        2560
+      ],
+      "center": [
+        160,
+        2464
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_92",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_95",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.brave.browser:id/bottom_bookmark_button",
+      "content_desc": "Bookmark this page",
+      "bounds": [
+        312,
+        2368,
+        536,
+        2560
+      ],
+      "center": [
+        424,
+        2464
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_94",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_96",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.brave.browser:id/search_accelerator",
+      "content_desc": "Search",
+      "bounds": [
+        592,
+        2392,
+        848,
+        2536
+      ],
+      "center": [
+        720,
+        2464
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_92",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_97",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.brave.browser:id/bottom_tab_switcher_button",
+      "content_desc": "Customize and control Google Chrome",
+      "bounds": [
+        904,
+        2368,
+        1128,
+        2560
+      ],
+      "center": [
+        1016,
+        2464
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_92",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_98",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.brave.browser:id/menu_button_wrapper",
+      "content_desc": "Customize and control Google Chrome",
+      "bounds": [
+        1168,
+        2368,
+        1392,
+        2560
+      ],
+      "center": [
+        1280,
+        2464
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_92",
+      "children_ids": [
+        "node_99"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.brave.browser"
+    },
+    {
+      "id": "node_99",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.brave.browser:id/menu_button",
+      "content_desc": "",
+      "bounds": [
+        1168,
+        2368,
+        1392,
+        2560
+      ],
+      "center": [
+        1280,
+        2464
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_98",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.brave.browser"
+    }
+  ]
+}

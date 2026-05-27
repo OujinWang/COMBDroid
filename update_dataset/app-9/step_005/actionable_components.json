@@ -1,0 +1,688 @@
+{
+  "actionable_component_count": 21,
+  "actionable_components": [
+    {
+      "id": "node_18",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        416
+      ],
+      "center": [
+        720,
+        256
+      ],
+      "area": 460800,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_19"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_20",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "net.skyscanner.android.main:id/backAction",
+      "content_desc": "Back",
+      "bounds": [
+        64,
+        128,
+        288,
+        352
+      ],
+      "center": [
+        176,
+        240
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_25",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "net.skyscanner.android.main:id/verticalsContent",
+      "content_desc": "",
+      "bounds": [
+        0,
+        416,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1376
+      ],
+      "area": 2764800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [
+        "node_26",
+        "node_29",
+        "node_41",
+        "node_48",
+        "node_55"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_26",
+      "type": "Clickable",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        416,
+        1440,
+        756
+      ],
+      "center": [
+        720,
+        586
+      ],
+      "area": 489600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_29",
+      "type": "Clickable",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        756,
+        1440,
+        980
+      ],
+      "center": [
+        720,
+        868
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_31",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        788,
+        1440,
+        916
+      ],
+      "center": [
+        720,
+        852
+      ],
+      "area": 184320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32",
+        "node_35",
+        "node_38"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_32",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        756,
+        605,
+        948
+      ],
+      "center": [
+        334,
+        852
+      ],
+      "area": 103872,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33",
+        "node_34"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_34",
+      "type": "Selection",
+      "class_name": "android.widget.CheckBox",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        788,
+        605,
+        916
+      ],
+      "center": [
+        334,
+        852
+      ],
+      "area": 69248,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        637,
+        756,
+        1088,
+        948
+      ],
+      "center": [
+        862,
+        852
+      ],
+      "area": 86592,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_36",
+        "node_37"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_37",
+      "type": "Selection",
+      "class_name": "android.widget.CheckBox",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        637,
+        788,
+        1088,
+        916
+      ],
+      "center": [
+        862,
+        852
+      ],
+      "area": 57728,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1120,
+        756,
+        1440,
+        948
+      ],
+      "center": [
+        1280,
+        852
+      ],
+      "area": 61440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_39",
+        "node_40"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_40",
+      "type": "Selection",
+      "class_name": "android.widget.CheckBox",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1120,
+        788,
+        1440,
+        916
+      ],
+      "center": [
+        1280,
+        852
+      ],
+      "area": 40960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_41",
+      "type": "Clickable",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        980,
+        1440,
+        1447
+      ],
+      "center": [
+        720,
+        1213
+      ],
+      "area": 672480,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_42"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_43",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        980,
+        1376,
+        1383
+      ],
+      "center": [
+        720,
+        1181
+      ],
+      "area": 528736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_44",
+        "node_45",
+        "node_47"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_48",
+      "type": "Clickable",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1447,
+        1440,
+        1914
+      ],
+      "center": [
+        720,
+        1680
+      ],
+      "area": 672480,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_49"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1447,
+        1376,
+        1850
+      ],
+      "center": [
+        720,
+        1648
+      ],
+      "area": 528736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_51",
+        "node_52",
+        "node_54"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_55",
+      "type": "Clickable",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1914,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        2125
+      ],
+      "area": 607680,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_56"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_57",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1914,
+        1376,
+        2317
+      ],
+      "center": [
+        720,
+        2115
+      ],
+      "area": 528736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_58",
+        "node_59",
+        "node_61"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_68",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        360,
+        2336,
+        720,
+        2560
+      ],
+      "center": [
+        540,
+        2448
+      ],
+      "area": 80640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_69",
+        "node_70"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_71",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        720,
+        2336,
+        1080,
+        2560
+      ],
+      "center": [
+        900,
+        2448
+      ],
+      "area": 80640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_72",
+        "node_73"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "net.skyscanner.android.main"
+    },
+    {
+      "id": "node_74",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        1260,
+        2448
+      ],
+      "area": 80640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_75",
+        "node_76",
+        "node_77"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "net.skyscanner.android.main"
+    }
+  ]
+}

@@ -1,0 +1,3034 @@
+{
+  "screenshot_path": "runs\\331_alarmClock\\step_000\\screen.png",
+  "xml_path": "runs\\331_alarmClock\\step_000\\hierarchy.xml",
+  "component_count": 96,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_5",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_68"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_6",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2240
+      ],
+      "center": [
+        720,
+        1120
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_7",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/frl_fragments_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2240
+      ],
+      "center": [
+        720,
+        1120
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_8",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2240
+      ],
+      "center": [
+        720,
+        1120
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_9",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2240
+      ],
+      "center": [
+        720,
+        1120
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10",
+        "node_28",
+        "node_64"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_10",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/abl_appbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        800
+      ],
+      "center": [
+        720,
+        400
+      ],
+      "area": 1152000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_11",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/ctl_toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        800
+      ],
+      "center": [
+        720,
+        400
+      ],
+      "area": 1152000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12",
+        "node_23"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_12",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/frl_header_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        800
+      ],
+      "center": [
+        720,
+        400
+      ],
+      "area": 1152000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_13",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        800
+      ],
+      "center": [
+        720,
+        400
+      ],
+      "area": 1152000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_14",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        800
+      ],
+      "center": [
+        720,
+        400
+      ],
+      "area": 1152000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_15",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/cmv_bedtime",
+      "content_desc": "",
+      "bounds": [
+        96,
+        448,
+        1344,
+        800
+      ],
+      "center": [
+        720,
+        624
+      ],
+      "area": 439296,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_16"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_16",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        448,
+        1344,
+        800
+      ],
+      "center": [
+        720,
+        624
+      ],
+      "area": 439296,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_17",
+        "node_20"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_17",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        448,
+        676,
+        672
+      ],
+      "center": [
+        388,
+        560
+      ],
+      "area": 129024,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [
+        "node_18",
+        "node_19"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_18",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Bedtime",
+      "bounds": [
+        164,
+        488,
+        308,
+        632
+      ],
+      "center": [
+        236,
+        560
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_19",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "No bedtime today",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        364,
+        496,
+        676,
+        624
+      ],
+      "center": [
+        520,
+        560
+      ],
+      "area": 39936,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_20",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        764,
+        448,
+        1340,
+        672
+      ],
+      "center": [
+        1052,
+        560
+      ],
+      "area": 129024,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [
+        "node_21",
+        "node_22"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_21",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Alarm",
+      "bounds": [
+        828,
+        488,
+        964,
+        632
+      ],
+      "center": [
+        896,
+        560
+      ],
+      "area": 19584,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_22",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "No active alarms",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1020,
+        496,
+        1340,
+        624
+      ],
+      "center": [
+        1180,
+        560
+      ],
+      "area": 40960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_23",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        352
+      ],
+      "center": [
+        720,
+        224
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_24"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_24",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        672,
+        112,
+        1440,
+        336
+      ],
+      "center": [
+        1056,
+        224
+      ],
+      "area": 172032,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_25"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_25",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/upgrade",
+      "content_desc": "",
+      "bounds": [
+        672,
+        112,
+        1440,
+        336
+      ],
+      "center": [
+        1056,
+        224
+      ],
+      "area": 172032,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [
+        "node_26",
+        "node_27"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_26",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/view_menu_animation_target",
+      "content_desc": "",
+      "bounds": [
+        672,
+        112,
+        1440,
+        336
+      ],
+      "center": [
+        1056,
+        224
+      ],
+      "area": 172032,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_27",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/prb_menu",
+      "content_desc": "Premium",
+      "bounds": [
+        1248,
+        128,
+        1440,
+        320
+      ],
+      "center": [
+        1344,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_28",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/rcv_recycler",
+      "content_desc": "",
+      "bounds": [
+        0,
+        800,
+        1440,
+        2240
+      ],
+      "center": [
+        720,
+        1520
+      ],
+      "area": 2073600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_29",
+        "node_34",
+        "node_44",
+        "node_54"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        800,
+        1440,
+        1024
+      ],
+      "center": [
+        720,
+        912
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_30",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/cnl_recommendation_announcement",
+      "content_desc": "",
+      "bounds": [
+        0,
+        800,
+        1440,
+        1024
+      ],
+      "center": [
+        720,
+        912
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31",
+        "node_32",
+        "node_33"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_31",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "4",
+      "resource_id": "com.alarmclock.xtreme.free:id/txt_recommendation_count",
+      "content_desc": "",
+      "bounds": [
+        72,
+        872,
+        152,
+        952
+      ],
+      "center": [
+        112,
+        912
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_32",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Check out these reliability tips.",
+      "resource_id": "com.alarmclock.xtreme.free:id/txt_title",
+      "content_desc": "",
+      "bounds": [
+        224,
+        872,
+        1224,
+        952
+      ],
+      "center": [
+        724,
+        912
+      ],
+      "area": 80000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_33",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/img_open",
+      "content_desc": "Cancel",
+      "bounds": [
+        1296,
+        880,
+        1360,
+        944
+      ],
+      "center": [
+        1328,
+        912
+      ],
+      "area": 4096,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_34",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1024,
+        1440,
+        1354
+      ],
+      "center": [
+        720,
+        1189
+      ],
+      "area": 475200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_35",
+        "node_36",
+        "node_37",
+        "node_38",
+        "node_39",
+        "node_40",
+        "node_41",
+        "node_42",
+        "node_43"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/view_alarm_enabled_touch_area",
+      "content_desc": "Turn this alarm on",
+      "bounds": [
+        0,
+        1024,
+        344,
+        1354
+      ],
+      "center": [
+        172,
+        1189
+      ],
+      "area": 113520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_36",
+      "type": "Selection",
+      "class_name": "android.widget.Switch",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/view_alarm_enabled",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1072,
+        256,
+        1264
+      ],
+      "center": [
+        160,
+        1168
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_37",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "8:00",
+      "resource_id": "com.alarmclock.xtreme.free:id/txt_displayed_time",
+      "content_desc": "",
+      "bounds": [
+        344,
+        1056,
+        595,
+        1231
+      ],
+      "center": [
+        469,
+        1143
+      ],
+      "area": 43925,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_38",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "AM",
+      "resource_id": "com.alarmclock.xtreme.free:id/txt_am_pm",
+      "content_desc": "",
+      "bounds": [
+        611,
+        1146,
+        679,
+        1205
+      ],
+      "center": [
+        645,
+        1175
+      ],
+      "area": 4012,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_39",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/img_sound_type_icon",
+      "content_desc": "Alarm options",
+      "bounds": [
+        1168,
+        1088,
+        1264,
+        1184
+      ],
+      "center": [
+        1216,
+        1136
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_40",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/img_overflow_menu",
+      "content_desc": "",
+      "bounds": [
+        1280,
+        1088,
+        1376,
+        1184
+      ],
+      "center": [
+        1328,
+        1136
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_41",
+      "type": "Other",
+      "class_name": "android.widget.ProgressBar",
+      "text": "100.0",
+      "resource_id": "com.alarmclock.xtreme.free:id/prb_volume",
+      "content_desc": "",
+      "bounds": [
+        1168,
+        1200,
+        1264,
+        1208
+      ],
+      "center": [
+        1216,
+        1204
+      ],
+      "area": 768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_42",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "WEEKDAYS",
+      "resource_id": "com.alarmclock.xtreme.free:id/txt_days_of_week",
+      "content_desc": "",
+      "bounds": [
+        344,
+        1231,
+        1408,
+        1290
+      ],
+      "center": [
+        876,
+        1260
+      ],
+      "area": 62776,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_43",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/view_overflow_menu_tappable_area",
+      "content_desc": "Alarm options",
+      "bounds": [
+        1248,
+        1024,
+        1440,
+        1248
+      ],
+      "center": [
+        1344,
+        1136
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_44",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1354,
+        1440,
+        1610
+      ],
+      "center": [
+        720,
+        1482
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_45",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1354,
+        1376,
+        1610
+      ],
+      "center": [
+        720,
+        1482
+      ],
+      "area": 335872,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_46"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_46",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1354,
+        1376,
+        1610
+      ],
+      "center": [
+        720,
+        1482
+      ],
+      "area": 335872,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_47",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1354,
+        1376,
+        1610
+      ],
+      "center": [
+        720,
+        1482
+      ],
+      "area": 335872,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [
+        "node_48"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_48",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/feed_ex_placeholder_loading",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1354,
+        1376,
+        1610
+      ],
+      "center": [
+        720,
+        1482
+      ],
+      "area": 335872,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [
+        "node_49",
+        "node_50",
+        "node_51",
+        "node_52",
+        "node_53"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_49",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/feed_ex_placeholder_img_icon",
+      "content_desc": "This is an icon.",
+      "bounds": [
+        128,
+        1410,
+        272,
+        1554
+      ],
+      "center": [
+        200,
+        1482
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_50",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/feed_ex_placeholder_txt_title_1",
+      "content_desc": "",
+      "bounds": [
+        344,
+        1410,
+        984,
+        1474
+      ],
+      "center": [
+        664,
+        1442
+      ],
+      "area": 40960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_51",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/feed_ex_placeholder_txt_title_2",
+      "content_desc": "",
+      "bounds": [
+        344,
+        1498,
+        744,
+        1562
+      ],
+      "center": [
+        544,
+        1530
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_52",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/feed_ex_placeholder_cta_button",
+      "content_desc": "",
+      "bounds": [
+        1032,
+        1450,
+        1264,
+        1514
+      ],
+      "center": [
+        1148,
+        1482
+      ],
+      "area": 14848,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_53",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Ad",
+      "resource_id": "com.alarmclock.xtreme.free:id/feed_ex_placeholder_ad_badge",
+      "content_desc": "",
+      "bounds": [
+        1305,
+        1546,
+        1376,
+        1610
+      ],
+      "center": [
+        1340,
+        1578
+      ],
+      "area": 4544,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_54",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1610,
+        1440,
+        1940
+      ],
+      "center": [
+        720,
+        1775
+      ],
+      "area": 475200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_55",
+        "node_56",
+        "node_57",
+        "node_58",
+        "node_59",
+        "node_60",
+        "node_61",
+        "node_62",
+        "node_63"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_55",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/view_alarm_enabled_touch_area",
+      "content_desc": "Turn this alarm on",
+      "bounds": [
+        0,
+        1610,
+        344,
+        1940
+      ],
+      "center": [
+        172,
+        1775
+      ],
+      "area": 113520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_56",
+      "type": "Selection",
+      "class_name": "android.widget.Switch",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/view_alarm_enabled",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1658,
+        256,
+        1850
+      ],
+      "center": [
+        160,
+        1754
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_57",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "9:30",
+      "resource_id": "com.alarmclock.xtreme.free:id/txt_displayed_time",
+      "content_desc": "",
+      "bounds": [
+        344,
+        1642,
+        595,
+        1817
+      ],
+      "center": [
+        469,
+        1729
+      ],
+      "area": 43925,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_58",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "AM",
+      "resource_id": "com.alarmclock.xtreme.free:id/txt_am_pm",
+      "content_desc": "",
+      "bounds": [
+        611,
+        1732,
+        679,
+        1791
+      ],
+      "center": [
+        645,
+        1761
+      ],
+      "area": 4012,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_59",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/img_sound_type_icon",
+      "content_desc": "Alarm options",
+      "bounds": [
+        1168,
+        1674,
+        1264,
+        1770
+      ],
+      "center": [
+        1216,
+        1722
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_60",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/img_overflow_menu",
+      "content_desc": "",
+      "bounds": [
+        1280,
+        1674,
+        1376,
+        1770
+      ],
+      "center": [
+        1328,
+        1722
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_61",
+      "type": "Other",
+      "class_name": "android.widget.ProgressBar",
+      "text": "100.0",
+      "resource_id": "com.alarmclock.xtreme.free:id/prb_volume",
+      "content_desc": "",
+      "bounds": [
+        1168,
+        1786,
+        1264,
+        1794
+      ],
+      "center": [
+        1216,
+        1790
+      ],
+      "area": 768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_62",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "WEEKENDS",
+      "resource_id": "com.alarmclock.xtreme.free:id/txt_days_of_week",
+      "content_desc": "",
+      "bounds": [
+        344,
+        1817,
+        1408,
+        1876
+      ],
+      "center": [
+        876,
+        1846
+      ],
+      "area": 62776,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_63",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/view_overflow_menu_tappable_area",
+      "content_desc": "Alarm options",
+      "bounds": [
+        1248,
+        1610,
+        1440,
+        1834
+      ],
+      "center": [
+        1344,
+        1722
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_64",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/fab",
+      "content_desc": "",
+      "bounds": [
+        1136,
+        1936,
+        1360,
+        2160
+      ],
+      "center": [
+        1248,
+        2048
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_65"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_65",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1136,
+        1936,
+        1360,
+        2160
+      ],
+      "center": [
+        1248,
+        2048
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_66"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_66",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/lnl_main_item",
+      "content_desc": "",
+      "bounds": [
+        1136,
+        1936,
+        1360,
+        2160
+      ],
+      "center": [
+        1248,
+        2048
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [
+        "node_67"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_67",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/fab_main",
+      "content_desc": "Add an alarm or reminder",
+      "bounds": [
+        1136,
+        1936,
+        1360,
+        2160
+      ],
+      "center": [
+        1248,
+        2048
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_68",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/tab_navigation",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2240,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2400
+      ],
+      "area": 460800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_69"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_69",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2240,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2400
+      ],
+      "area": 460800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [
+        "node_70",
+        "node_76",
+        "node_81",
+        "node_86",
+        "node_91"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_70",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/alarms",
+      "content_desc": "Alarms",
+      "bounds": [
+        0,
+        2240,
+        288,
+        2560
+      ],
+      "center": [
+        144,
+        2400
+      ],
+      "area": 92160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_71",
+        "node_74"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_71",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_icon_container",
+      "content_desc": "",
+      "bounds": [
+        16,
+        2320,
+        272,
+        2448
+      ],
+      "center": [
+        144,
+        2384
+      ],
+      "area": 32768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_70",
+      "children_ids": [
+        "node_72",
+        "node_73"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_72",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_active_indicator_view",
+      "content_desc": "",
+      "bounds": [
+        16,
+        2320,
+        272,
+        2448
+      ],
+      "center": [
+        144,
+        2384
+      ],
+      "area": 32768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_71",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_73",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_icon_view",
+      "content_desc": "",
+      "bounds": [
+        96,
+        2336,
+        192,
+        2432
+      ],
+      "center": [
+        144,
+        2384
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_71",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_74",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_labels_group",
+      "content_desc": "",
+      "bounds": [
+        72,
+        2465,
+        215,
+        2560
+      ],
+      "center": [
+        143,
+        2512
+      ],
+      "area": 13585,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_70",
+      "children_ids": [
+        "node_75"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_75",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Alarms",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_large_label_view",
+      "content_desc": "",
+      "bounds": [
+        72,
+        2465,
+        215,
+        2524
+      ],
+      "center": [
+        143,
+        2494
+      ],
+      "area": 8437,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_74",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_76",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/timer",
+      "content_desc": "Timer",
+      "bounds": [
+        288,
+        2240,
+        576,
+        2560
+      ],
+      "center": [
+        432,
+        2400
+      ],
+      "area": 92160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_77",
+        "node_79"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_77",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_icon_container",
+      "content_desc": "",
+      "bounds": [
+        304,
+        2320,
+        560,
+        2448
+      ],
+      "center": [
+        432,
+        2384
+      ],
+      "area": 32768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [
+        "node_78"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_78",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_icon_view",
+      "content_desc": "",
+      "bounds": [
+        384,
+        2336,
+        480,
+        2432
+      ],
+      "center": [
+        432,
+        2384
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_77",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_79",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_labels_group",
+      "content_desc": "",
+      "bounds": [
+        372,
+        2465,
+        491,
+        2560
+      ],
+      "center": [
+        431,
+        2512
+      ],
+      "area": 11305,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [
+        "node_80"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_80",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Timer",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_small_label_view",
+      "content_desc": "",
+      "bounds": [
+        372,
+        2465,
+        491,
+        2524
+      ],
+      "center": [
+        431,
+        2494
+      ],
+      "area": 7021,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_79",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_81",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/stopwatch",
+      "content_desc": "Stopwatch",
+      "bounds": [
+        576,
+        2240,
+        864,
+        2560
+      ],
+      "center": [
+        720,
+        2400
+      ],
+      "area": 92160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_82",
+        "node_84"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_82",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_icon_container",
+      "content_desc": "",
+      "bounds": [
+        592,
+        2320,
+        848,
+        2448
+      ],
+      "center": [
+        720,
+        2384
+      ],
+      "area": 32768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_83"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_83",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_icon_view",
+      "content_desc": "",
+      "bounds": [
+        672,
+        2336,
+        768,
+        2432
+      ],
+      "center": [
+        720,
+        2384
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_84",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_labels_group",
+      "content_desc": "",
+      "bounds": [
+        612,
+        2465,
+        828,
+        2560
+      ],
+      "center": [
+        720,
+        2512
+      ],
+      "area": 20520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_85"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_85",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Stopwatch",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_small_label_view",
+      "content_desc": "",
+      "bounds": [
+        612,
+        2465,
+        828,
+        2524
+      ],
+      "center": [
+        720,
+        2494
+      ],
+      "area": 12744,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_84",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_86",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/my_day",
+      "content_desc": "My Day",
+      "bounds": [
+        864,
+        2240,
+        1152,
+        2560
+      ],
+      "center": [
+        1008,
+        2400
+      ],
+      "area": 92160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_87",
+        "node_89"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_87",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_icon_container",
+      "content_desc": "",
+      "bounds": [
+        880,
+        2320,
+        1136,
+        2448
+      ],
+      "center": [
+        1008,
+        2384
+      ],
+      "area": 32768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_86",
+      "children_ids": [
+        "node_88"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_88",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_icon_view",
+      "content_desc": "",
+      "bounds": [
+        960,
+        2336,
+        1056,
+        2432
+      ],
+      "center": [
+        1008,
+        2384
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_87",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_89",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_labels_group",
+      "content_desc": "",
+      "bounds": [
+        932,
+        2465,
+        1083,
+        2560
+      ],
+      "center": [
+        1007,
+        2512
+      ],
+      "area": 14345,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_86",
+      "children_ids": [
+        "node_90"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_90",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "My Day",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_small_label_view",
+      "content_desc": "",
+      "bounds": [
+        932,
+        2465,
+        1083,
+        2524
+      ],
+      "center": [
+        1007,
+        2494
+      ],
+      "area": 8909,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_89",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_91",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/more",
+      "content_desc": "More",
+      "bounds": [
+        1152,
+        2240,
+        1440,
+        2560
+      ],
+      "center": [
+        1296,
+        2400
+      ],
+      "area": 92160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_92",
+        "node_94"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_92",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_icon_container",
+      "content_desc": "",
+      "bounds": [
+        1168,
+        2320,
+        1424,
+        2448
+      ],
+      "center": [
+        1296,
+        2384
+      ],
+      "area": 32768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_91",
+      "children_ids": [
+        "node_93"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_93",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_icon_view",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        2336,
+        1344,
+        2432
+      ],
+      "center": [
+        1296,
+        2384
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_92",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_94",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_labels_group",
+      "content_desc": "",
+      "bounds": [
+        1241,
+        2465,
+        1351,
+        2560
+      ],
+      "center": [
+        1296,
+        2512
+      ],
+      "area": 10450,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_91",
+      "children_ids": [
+        "node_95"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    },
+    {
+      "id": "node_95",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "More",
+      "resource_id": "com.alarmclock.xtreme.free:id/navigation_bar_item_small_label_view",
+      "content_desc": "",
+      "bounds": [
+        1241,
+        2465,
+        1351,
+        2524
+      ],
+      "center": [
+        1296,
+        2494
+      ],
+      "area": 6490,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_94",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.alarmclock.xtreme.free"
+    }
+  ]
+}

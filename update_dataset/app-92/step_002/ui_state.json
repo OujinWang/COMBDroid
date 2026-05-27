@@ -1,0 +1,829 @@
+{
+  "screenshot_path": "runs\\330_snapseed\\step_002\\screen.png",
+  "xml_path": "runs\\330_snapseed\\step_002\\hierarchy.xml",
+  "component_count": 26,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "android"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "android"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "android"
+    },
+    {
+      "id": "node_3",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "android:id/contentPanel",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4",
+        "node_6",
+        "node_7",
+        "node_21"
+      ],
+      "depth": 3,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "android:id/title_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1594,
+        1440,
+        1848
+      ],
+      "center": [
+        720,
+        1721
+      ],
+      "area": 365760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_5",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Open with",
+      "resource_id": "android:id/title",
+      "content_desc": "",
+      "bounds": [
+        96,
+        1666,
+        1344,
+        1752
+      ],
+      "center": [
+        720,
+        1709
+      ],
+      "area": 107328,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_6",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "android:id/divider",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1848,
+        1440,
+        1852
+      ],
+      "center": [
+        720,
+        1850
+      ],
+      "area": 5760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [],
+      "depth": 4,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_7",
+      "type": "Other",
+      "class_name": "android.widget.TabHost",
+      "text": "",
+      "resource_id": "android:id/profile_tabhost",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1852,
+        1440,
+        2300
+      ],
+      "center": [
+        720,
+        2076
+      ],
+      "area": 645120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 4,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_8",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1852,
+        1440,
+        2300
+      ],
+      "center": [
+        720,
+        2076
+      ],
+      "area": 645120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9"
+      ],
+      "depth": 5,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_9",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/tabcontent",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1852,
+        1440,
+        2300
+      ],
+      "center": [
+        720,
+        2076
+      ],
+      "area": 645120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10"
+      ],
+      "depth": 6,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_10",
+      "type": "ScrollContainer",
+      "class_name": "com.android.internal.widget.ViewPager",
+      "text": "",
+      "resource_id": "android:id/profile_pager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1852,
+        1440,
+        2300
+      ],
+      "center": [
+        720,
+        2076
+      ],
+      "area": 645120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_11",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1852,
+        1440,
+        2300
+      ],
+      "center": [
+        720,
+        2076
+      ],
+      "area": 645120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_12",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ListView",
+      "text": "",
+      "resource_id": "android:id/resolver_list",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1852,
+        1440,
+        2300
+      ],
+      "center": [
+        720,
+        2076
+      ],
+      "area": 645120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13",
+        "node_17"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_13",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1852,
+        1440,
+        2076
+      ],
+      "center": [
+        720,
+        1964
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14",
+        "node_15"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_14",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "android:id/icon",
+      "content_desc": "",
+      "bounds": [
+        32,
+        1900,
+        160,
+        2028
+      ],
+      "center": [
+        96,
+        1964
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_15",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        192,
+        1921,
+        563,
+        2007
+      ],
+      "center": [
+        377,
+        1964
+      ],
+      "area": 31906,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_16"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_16",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Snapseed",
+      "resource_id": "android:id/text1",
+      "content_desc": "",
+      "bounds": [
+        192,
+        1921,
+        467,
+        2007
+      ],
+      "center": [
+        329,
+        1964
+      ],
+      "area": 23650,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_17",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2076,
+        1440,
+        2300
+      ],
+      "center": [
+        720,
+        2188
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_18",
+        "node_19"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_18",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "android:id/icon",
+      "content_desc": "",
+      "bounds": [
+        32,
+        2124,
+        160,
+        2252
+      ],
+      "center": [
+        96,
+        2188
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_19",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        192,
+        2145,
+        480,
+        2231
+      ],
+      "center": [
+        336,
+        2188
+      ],
+      "area": 24768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_20",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Gallery",
+      "resource_id": "android:id/text1",
+      "content_desc": "",
+      "bounds": [
+        192,
+        2145,
+        384,
+        2231
+      ],
+      "center": [
+        288,
+        2188
+      ],
+      "area": 16512,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_21",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "android:id/button_bar_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2300,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2430
+      ],
+      "area": 374400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_22",
+        "node_23"
+      ],
+      "depth": 4,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_22",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "android:id/resolver_button_bar_divider",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2300,
+        1440,
+        2304
+      ],
+      "center": [
+        720,
+        2302
+      ],
+      "area": 5760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_23",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "android:id/button_bar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2304,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2432
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_24",
+        "node_25"
+      ],
+      "depth": 5,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_24",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Just once",
+      "resource_id": "android:id/button_once",
+      "content_desc": "",
+      "bounds": [
+        751,
+        2336,
+        1093,
+        2528
+      ],
+      "center": [
+        922,
+        2432
+      ],
+      "area": 65664,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": true,
+      "package_name": "android"
+    },
+    {
+      "id": "node_25",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Always",
+      "resource_id": "android:id/button_always",
+      "content_desc": "",
+      "bounds": [
+        1093,
+        2336,
+        1368,
+        2528
+      ],
+      "center": [
+        1230,
+        2432
+      ],
+      "area": 52800,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": true,
+      "package_name": "android"
+    }
+  ]
+}

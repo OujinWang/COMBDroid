@@ -1,0 +1,389 @@
+{
+  "actionable_component_count": 12,
+  "actionable_components": [
+    {
+      "id": "node_9",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Navigate up",
+      "bounds": [
+        0,
+        96,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        208
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.candl.atlas"
+    },
+    {
+      "id": "node_10",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Tokyo",
+      "resource_id": "com.candl.atlas:id/input_place_search",
+      "content_desc": "",
+      "bounds": [
+        288,
+        159,
+        1248,
+        256
+      ],
+      "center": [
+        768,
+        207
+      ],
+      "area": 93120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.candl.atlas"
+    },
+    {
+      "id": "node_12",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.candl.atlas:id/item_add_tz",
+      "content_desc": "TIMEZONES",
+      "bounds": [
+        1248,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1344,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.candl.atlas"
+    },
+    {
+      "id": "node_13",
+      "type": "Clickable",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.candl.atlas:id/layout_search_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2272
+      ],
+      "center": [
+        720,
+        1296
+      ],
+      "area": 2810880,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_14",
+        "node_15"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.candl.atlas"
+    },
+    {
+      "id": "node_15",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.candl.atlas:id/list_place_search",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2272
+      ],
+      "center": [
+        720,
+        1296
+      ],
+      "area": 2810880,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_16"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.candl.atlas"
+    },
+    {
+      "id": "node_16",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        640
+      ],
+      "center": [
+        720,
+        480
+      ],
+      "area": 460800,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_17",
+        "node_20"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.candl.atlas"
+    },
+    {
+      "id": "node_23",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.candl.atlas:id/list_places",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        1920
+      ],
+      "center": [
+        720,
+        1120
+      ],
+      "area": 2304000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_24",
+        "node_35",
+        "node_45"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.candl.atlas"
+    },
+    {
+      "id": "node_24",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        704
+      ],
+      "center": [
+        720,
+        512
+      ],
+      "area": 552960,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_25"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.candl.atlas"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        704,
+        1440,
+        1088
+      ],
+      "center": [
+        720,
+        896
+      ],
+      "area": 552960,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.candl.atlas"
+    },
+    {
+      "id": "node_45",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1088,
+        1440,
+        1472
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 552960,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_46"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.candl.atlas"
+    },
+    {
+      "id": "node_55",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.candl.atlas:id/scroller_timeline",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1920,
+        1440,
+        2240
+      ],
+      "center": [
+        720,
+        2080
+      ],
+      "area": 460800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_56"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "com.candl.atlas"
+    },
+    {
+      "id": "node_60",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.candl.atlas:id/layout_inhouse_ads",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [
+        "node_61",
+        "node_62",
+        "node_66"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.candl.atlas"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "actionable_component_count": 6,
+  "actionable_components": [
+    {
+      "id": "node_43",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Navigate up",
+      "bounds": [
+        0,
+        96,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        208
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.android.settings"
+    },
+    {
+      "id": "node_50",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.android.settings:id/recycler_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        576,
+        1440,
+        1357
+      ],
+      "center": [
+        720,
+        966
+      ],
+      "area": 1124640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_51",
+        "node_57",
+        "node_62"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.android.settings"
+    },
+    {
+      "id": "node_51",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        576,
+        1440,
+        887
+      ],
+      "center": [
+        720,
+        731
+      ],
+      "area": 447840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_52",
+        "node_54"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.android.settings"
+    },
+    {
+      "id": "node_57",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        887,
+        1440,
+        1122
+      ],
+      "center": [
+        720,
+        1004
+      ],
+      "area": 338400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_58",
+        "node_60"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.android.settings"
+    },
+    {
+      "id": "node_62",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1122,
+        1440,
+        1357
+      ],
+      "center": [
+        720,
+        1239
+      ],
+      "area": 338400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_63",
+        "node_65",
+        "node_67"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.android.settings"
+    },
+    {
+      "id": "node_68",
+      "type": "Selection",
+      "class_name": "android.widget.Switch",
+      "text": "",
+      "resource_id": "android:id/switch_widget",
+      "content_desc": "",
+      "bounds": [
+        1152,
+        1143,
+        1376,
+        1335
+      ],
+      "center": [
+        1264,
+        1239
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.android.settings"
+    }
+  ]
+}

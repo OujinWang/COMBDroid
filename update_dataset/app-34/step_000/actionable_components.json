@@ -1,0 +1,597 @@
+{
+  "actionable_component_count": 19,
+  "actionable_components": [
+    {
+      "id": "node_57",
+      "type": "Clickable",
+      "class_name": "com.maxmpz.widget.base.FastTextView",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/cmd_nav_to_lib",
+      "content_desc": "Library",
+      "bounds": [
+        40,
+        2344,
+        380,
+        2520
+      ],
+      "center": [
+        210,
+        2432
+      ],
+      "area": 59840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_58",
+      "type": "Clickable",
+      "class_name": "com.maxmpz.widget.base.FastTextView",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/cmd_nav_to_eq",
+      "content_desc": "Equ/Effects",
+      "bounds": [
+        380,
+        2344,
+        720,
+        2520
+      ],
+      "center": [
+        550,
+        2432
+      ],
+      "area": 59840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_59",
+      "type": "Clickable",
+      "class_name": "com.maxmpz.widget.base.FastTextView",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/cmd_nav_to_search",
+      "content_desc": "Search",
+      "bounds": [
+        720,
+        2344,
+        1060,
+        2520
+      ],
+      "center": [
+        890,
+        2432
+      ],
+      "area": 59840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_60",
+      "type": "Clickable",
+      "class_name": "com.maxmpz.widget.base.FastTextView",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/cmd_nav_more",
+      "content_desc": "Main Menu",
+      "bounds": [
+        1060,
+        2344,
+        1400,
+        2520
+      ],
+      "center": [
+        1230,
+        2432
+      ],
+      "area": 59840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_61",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ListView",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/list",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_62"
+      ],
+      "depth": 4,
+      "in_scroll_container": true,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_64",
+      "type": "Clickable",
+      "class_name": "com.maxmpz.widget.base.FastTextView",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/button",
+      "content_desc": "Settings",
+      "bounds": [
+        608,
+        907,
+        832,
+        1067
+      ],
+      "center": [
+        720,
+        987
+      ],
+      "area": 35840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": true,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_70",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/vis_button_layout",
+      "content_desc": "Visualization",
+      "bounds": [
+        32,
+        1536,
+        264,
+        1656
+      ],
+      "center": [
+        148,
+        1596
+      ],
+      "area": 27840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_71"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_72",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/sleep_timer_layout",
+      "content_desc": "Sleep Timer",
+      "bounds": [
+        280,
+        1536,
+        512,
+        1656
+      ],
+      "center": [
+        396,
+        1596
+      ],
+      "area": 27840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_73"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_74",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/repeat_button_layout",
+      "content_desc": "Repeat",
+      "bounds": [
+        928,
+        1536,
+        1160,
+        1656
+      ],
+      "center": [
+        1044,
+        1596
+      ],
+      "area": 27840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_75"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_77",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/shuffle_button_layout",
+      "content_desc": "Shuffle",
+      "bounds": [
+        1176,
+        1536,
+        1408,
+        1656
+      ],
+      "center": [
+        1292,
+        1596
+      ],
+      "area": 27840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_78"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_80",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/waveseek_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1656,
+        1440,
+        2240
+      ],
+      "center": [
+        720,
+        1948
+      ],
+      "area": 840960,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_81",
+        "node_82",
+        "node_83",
+        "node_84",
+        "node_85",
+        "node_86",
+        "node_87",
+        "node_88",
+        "node_89"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_81",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/waveseek",
+      "content_desc": "Track progress scroller",
+      "bounds": [
+        0,
+        1724,
+        1440,
+        2236
+      ],
+      "center": [
+        720,
+        1980
+      ],
+      "area": 737280,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_82",
+      "type": "Clickable",
+      "class_name": "com.maxmpz.widget.base.FastTextView",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/prev_cat",
+      "content_desc": "Prev. category",
+      "bounds": [
+        140,
+        1896,
+        308,
+        2064
+      ],
+      "center": [
+        224,
+        1980
+      ],
+      "area": 28224,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_83",
+      "type": "Clickable",
+      "class_name": "com.maxmpz.widget.base.FastTextView",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/rw",
+      "content_desc": "Previous track",
+      "bounds": [
+        316,
+        1864,
+        548,
+        2096
+      ],
+      "center": [
+        432,
+        1980
+      ],
+      "area": 53824,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_85",
+      "type": "Clickable",
+      "class_name": "com.maxmpz.widget.base.FastTextView",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/play",
+      "content_desc": "Play",
+      "bounds": [
+        556,
+        1816,
+        884,
+        2144
+      ],
+      "center": [
+        720,
+        1980
+      ],
+      "area": 107584,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_86",
+      "type": "Clickable",
+      "class_name": "com.maxmpz.widget.base.FastTextView",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/play_pause_behind",
+      "content_desc": "",
+      "bounds": [
+        610,
+        1870,
+        830,
+        2090
+      ],
+      "center": [
+        720,
+        1980
+      ],
+      "area": 48400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_87",
+      "type": "Clickable",
+      "class_name": "com.maxmpz.widget.base.FastTextView",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/ff",
+      "content_desc": "Next track",
+      "bounds": [
+        892,
+        1864,
+        1124,
+        2096
+      ],
+      "center": [
+        1008,
+        1980
+      ],
+      "area": 53824,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_88",
+      "type": "Clickable",
+      "class_name": "com.maxmpz.widget.base.FastTextView",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/next_cat",
+      "content_desc": "Next category",
+      "bounds": [
+        1132,
+        1896,
+        1300,
+        2064
+      ],
+      "center": [
+        1216,
+        1980
+      ],
+      "area": 28224,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    },
+    {
+      "id": "node_93",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.maxmpz.audioplayer:id/meta_info",
+      "content_desc": "",
+      "bounds": [
+        682,
+        2241,
+        758,
+        2318
+      ],
+      "center": [
+        720,
+        2279
+      ],
+      "area": 5852,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_92",
+      "children_ids": [
+        "node_94"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.maxmpz.audioplayer"
+    }
+  ]
+}

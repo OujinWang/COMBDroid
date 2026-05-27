@@ -1,0 +1,497 @@
+{
+  "actionable_component_count": 16,
+  "actionable_components": [
+    {
+      "id": "node_42",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        208
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_45",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/doneAction",
+      "content_desc": "Save",
+      "bounds": [
+        1248,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1344,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/tokenLayout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        544
+      ],
+      "center": [
+        720,
+        432
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_47",
+        "node_48",
+        "node_49",
+        "node_52"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_49",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        485,
+        360,
+        1199,
+        504
+      ],
+      "center": [
+        842,
+        432
+      ],
+      "area": 102816,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [
+        "node_50",
+        "node_51"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_52",
+      "type": "Clickable",
+      "class_name": "android.widget.AutoCompleteTextView",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/autoCompleteTextView",
+      "content_desc": "",
+      "bounds": [
+        1207,
+        352,
+        1376,
+        512
+      ],
+      "center": [
+        1291,
+        432
+      ],
+      "area": 27040,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_53",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        544,
+        1440,
+        2152
+      ],
+      "center": [
+        720,
+        1348
+      ],
+      "area": 2315520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_54"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_55",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/categoryButton",
+      "content_desc": "",
+      "bounds": [
+        224,
+        672,
+        416,
+        864
+      ],
+      "center": [
+        320,
+        768
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [
+        "node_56"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_57",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Enter a description",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/descriptionView",
+      "content_desc": "",
+      "bounds": [
+        448,
+        712,
+        1216,
+        860
+      ],
+      "center": [
+        832,
+        786
+      ],
+      "area": 113664,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_58",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "$",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/currency",
+      "content_desc": "",
+      "bounds": [
+        224,
+        920,
+        416,
+        1112
+      ],
+      "center": [
+        320,
+        1016
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_59",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "0.00",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/amountView",
+      "content_desc": "",
+      "bounds": [
+        448,
+        920,
+        1216,
+        1108
+      ],
+      "center": [
+        832,
+        1014
+      ],
+      "area": 144384,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_63",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "you",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/payerButton",
+      "content_desc": "",
+      "bounds": [
+        369,
+        1210,
+        607,
+        1370
+      ],
+      "center": [
+        488,
+        1290
+      ],
+      "area": 38080,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_66",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "equally",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/splitButton",
+      "content_desc": "",
+      "bounds": [
+        922,
+        1210,
+        1266,
+        1370
+      ],
+      "center": [
+        1094,
+        1290
+      ],
+      "area": 55040,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_71",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Test Group",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/groupButton",
+      "content_desc": "",
+      "bounds": [
+        32,
+        2152,
+        864,
+        2392
+      ],
+      "center": [
+        448,
+        2272
+      ],
+      "area": 199680,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_72",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/dateButton",
+      "content_desc": "Choose date",
+      "bounds": [
+        928,
+        2208,
+        1056,
+        2336
+      ],
+      "center": [
+        992,
+        2272
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_73",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/detailImageButton",
+      "content_desc": "Attach an image",
+      "bounds": [
+        1088,
+        2192,
+        1248,
+        2352
+      ],
+      "center": [
+        1168,
+        2272
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_74",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/notesButton",
+      "content_desc": "Add notes",
+      "bounds": [
+        1280,
+        2208,
+        1408,
+        2336
+      ],
+      "center": [
+        1344,
+        2272
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    }
+  ]
+}

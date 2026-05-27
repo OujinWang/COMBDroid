@@ -1,0 +1,705 @@
+{
+  "actionable_component_count": 22,
+  "actionable_components": [
+    {
+      "id": "node_7",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.booking:id/touch_outside",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_16",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.booking:id/bui_tab_container_tab_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        945,
+        1440,
+        1137
+      ],
+      "center": [
+        720,
+        1041
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_17"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_21",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "I'm flexible",
+      "bounds": [
+        720,
+        945,
+        1440,
+        1137
+      ],
+      "center": [
+        1080,
+        1041
+      ],
+      "area": 138240,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_22"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_25",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1141,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1850
+      ],
+      "area": 2043360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_26"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_26",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1141,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1850
+      ],
+      "area": 2043360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_33",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1337,
+        1440,
+        1968
+      ],
+      "center": [
+        720,
+        1652
+      ],
+      "area": 908640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_34"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_69",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        436,
+        1905,
+        623,
+        1968
+      ],
+      "center": [
+        529,
+        1936
+      ],
+      "area": 11781,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [
+        "node_70",
+        "node_71",
+        "node_72"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_72",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        438,
+        1913,
+        625,
+        1968
+      ],
+      "center": [
+        531,
+        1940
+      ],
+      "area": 10285,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_74",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        623,
+        1905,
+        810,
+        1968
+      ],
+      "center": [
+        716,
+        1936
+      ],
+      "area": 11781,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [
+        "node_75",
+        "node_76",
+        "node_77"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_77",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        625,
+        1913,
+        812,
+        1968
+      ],
+      "center": [
+        718,
+        1940
+      ],
+      "area": 10285,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_74",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_79",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        810,
+        1905,
+        997,
+        1968
+      ],
+      "center": [
+        903,
+        1936
+      ],
+      "area": 11781,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [
+        "node_80",
+        "node_81",
+        "node_82"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_82",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        812,
+        1913,
+        999,
+        1968
+      ],
+      "center": [
+        905,
+        1940
+      ],
+      "area": 10285,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_79",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_84",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        997,
+        1905,
+        1184,
+        1968
+      ],
+      "center": [
+        1090,
+        1936
+      ],
+      "area": 11781,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [
+        "node_85",
+        "node_86",
+        "node_87"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_87",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        999,
+        1913,
+        1186,
+        1968
+      ],
+      "center": [
+        1092,
+        1940
+      ],
+      "area": 10285,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_84",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_89",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1184,
+        1905,
+        1376,
+        1968
+      ],
+      "center": [
+        1280,
+        1936
+      ],
+      "area": 12096,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_88",
+      "children_ids": [
+        "node_90",
+        "node_91",
+        "node_92"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_92",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1186,
+        1913,
+        1373,
+        1968
+      ],
+      "center": [
+        1279,
+        1940
+      ],
+      "area": 10285,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_89",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_94",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.booking:id/facet_date_picker_flexibility_window_selector",
+      "content_desc": "Date flexibility",
+      "bounds": [
+        0,
+        1984,
+        1440,
+        2192
+      ],
+      "center": [
+        720,
+        2088
+      ],
+      "area": 299520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [
+        "node_95"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_96",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.booking:id/facet_date_picker_exact_dates",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2016,
+        450,
+        2160
+      ],
+      "center": [
+        257,
+        2088
+      ],
+      "area": 55584,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [
+        "node_97"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_99",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.booking:id/facet_date_picker_flexibility_1_day",
+      "content_desc": "",
+      "bounds": [
+        482,
+        2016,
+        756,
+        2160
+      ],
+      "center": [
+        619,
+        2088
+      ],
+      "area": 39456,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [
+        "node_100"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_102",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.booking:id/facet_date_picker_flexibility_2_days",
+      "content_desc": "",
+      "bounds": [
+        788,
+        2016,
+        1091,
+        2160
+      ],
+      "center": [
+        939,
+        2088
+      ],
+      "area": 43632,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [
+        "node_103"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_105",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.booking:id/facet_date_picker_flexibility_3_days",
+      "content_desc": "",
+      "bounds": [
+        1123,
+        2016,
+        1426,
+        2160
+      ],
+      "center": [
+        1274,
+        2088
+      ],
+      "area": 43632,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [
+        "node_106"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_109",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Select dates",
+      "resource_id": "com.booking:id/facet_date_picker_confirm",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2304,
+        1376,
+        2496
+      ],
+      "center": [
+        720,
+        2400
+      ],
+      "area": 251904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    }
+  ]
+}

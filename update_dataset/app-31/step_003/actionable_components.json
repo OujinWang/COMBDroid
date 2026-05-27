@@ -1,0 +1,297 @@
+{
+  "actionable_component_count": 9,
+  "actionable_components": [
+    {
+      "id": "node_7",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/single_stream_page_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8",
+        "node_9",
+        "node_13"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_11",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Navigate up",
+      "bounds": [
+        0,
+        112,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        216
+      ],
+      "area": 46592,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_14",
+      "type": "ScrollContainer",
+      "class_name": "android.support.v7.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/brick_list_recycler_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15",
+        "node_24",
+        "node_42",
+        "node_45",
+        "node_46",
+        "node_48",
+        "node_49"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_16",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/thumbnail",
+      "content_desc": "Book cover, ",
+      "bounds": [
+        128,
+        416,
+        532,
+        1005
+      ],
+      "center": [
+        330,
+        710
+      ],
+      "area": 237956,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_17"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_24",
+      "type": "ScrollContainer",
+      "class_name": "android.support.v7.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/action_tile_recycler_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1391,
+        1440,
+        1674
+      ],
+      "center": [
+        720,
+        1532
+      ],
+      "area": 407520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_25",
+        "node_30",
+        "node_34",
+        "node_38"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Eligible for Family Library",
+      "bounds": [
+        1081,
+        1391,
+        1440,
+        1674
+      ],
+      "center": [
+        1260,
+        1532
+      ],
+      "area": 101597,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [
+        "node_39",
+        "node_41"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_43",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Free sample",
+      "resource_id": "",
+      "content_desc": "Free sample",
+      "bounds": [
+        128,
+        1698,
+        704,
+        1890
+      ],
+      "center": [
+        416,
+        1794
+      ],
+      "area": 110592,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_44",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Buy $22.08",
+      "resource_id": "",
+      "content_desc": "Buy $22.08",
+      "bounds": [
+        736,
+        1698,
+        1312,
+        1890
+      ],
+      "center": [
+        1024,
+        1794
+      ],
+      "area": 110592,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_47",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Switch to the audiobook",
+      "resource_id": "",
+      "content_desc": "Switch to the audiobook",
+      "bounds": [
+        350,
+        2045,
+        1090,
+        2237
+      ],
+      "center": [
+        720,
+        2141
+      ],
+      "area": 142080,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    }
+  ]
+}

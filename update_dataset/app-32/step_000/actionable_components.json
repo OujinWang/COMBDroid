@@ -1,0 +1,700 @@
+{
+  "actionable_component_count": 22,
+  "actionable_components": [
+    {
+      "id": "node_7",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/topbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8",
+        "node_9",
+        "node_10"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_8",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Moon+ Reader",
+      "bounds": [
+        0,
+        96,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        208
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_11",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/mmMenu",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1344,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_13",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/mainPager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_15",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/rv",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_16",
+        "node_24",
+        "node_28",
+        "node_45"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_18",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/more2",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        384,
+        1408,
+        566
+      ],
+      "center": [
+        1328,
+        475
+      ],
+      "area": 29120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_19",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/rv",
+      "content_desc": "",
+      "bounds": [
+        0,
+        566,
+        1440,
+        1207
+      ],
+      "center": [
+        720,
+        886
+      ],
+      "area": 923040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_20",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        24,
+        566,
+        491,
+        1207
+      ],
+      "center": [
+        257,
+        886
+      ],
+      "area": 299347,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_21"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_23",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/overflow1",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1011,
+        240,
+        1203
+      ],
+      "center": [
+        144,
+        1107
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_26",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/iv",
+      "content_desc": "",
+      "bounds": [
+        428,
+        1346,
+        588,
+        1506
+      ],
+      "center": [
+        508,
+        1426
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_27",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/more2",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        1335,
+        1408,
+        1517
+      ],
+      "center": [
+        1328,
+        1426
+      ],
+      "area": 29120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_30",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/iv",
+      "content_desc": "",
+      "bounds": [
+        300,
+        1656,
+        460,
+        1816
+      ],
+      "center": [
+        380,
+        1736
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_31",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/more2",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        1645,
+        1408,
+        1827
+      ],
+      "center": [
+        1328,
+        1736
+      ],
+      "area": 29120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_32",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/rv",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1827,
+        1440,
+        2243
+      ],
+      "center": [
+        720,
+        2035
+      ],
+      "area": 599040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_33",
+        "node_36",
+        "node_39",
+        "node_42"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_33",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        24,
+        1827,
+        440,
+        2243
+      ],
+      "center": [
+        232,
+        2035
+      ],
+      "area": 173056,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34",
+        "node_35"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_36",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        440,
+        1827,
+        856,
+        2243
+      ],
+      "center": [
+        648,
+        2035
+      ],
+      "area": 173056,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_37",
+        "node_38"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_39",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        856,
+        1827,
+        1272,
+        2243
+      ],
+      "center": [
+        1064,
+        2035
+      ],
+      "area": 173056,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_40",
+        "node_41"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_42",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1272,
+        1827,
+        1440,
+        2243
+      ],
+      "center": [
+        1356,
+        2035
+      ],
+      "area": 69888,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_43",
+        "node_44"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_47",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/more2",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        2371,
+        1408,
+        2553
+      ],
+      "center": [
+        1328,
+        2462
+      ],
+      "area": 29120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_48",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.flyersoft.moonreader:id/rv",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2553,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2556
+      ],
+      "area": 10080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [
+        "node_49",
+        "node_50"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_49",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        24,
+        2553,
+        440,
+        2560
+      ],
+      "center": [
+        232,
+        2556
+      ],
+      "area": 2912,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        440,
+        2553,
+        856,
+        2560
+      ],
+      "center": [
+        648,
+        2556
+      ],
+      "area": 2912,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.flyersoft.moonreader"
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "screenshot_path": "runs\\279_yourDiary\\step_005\\screen.png",
+  "xml_path": "runs\\279_yourDiary\\step_005\\hierarchy.xml",
+  "component_count": 16,
+  "components": [
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        144,
+        764,
+        1296,
+        1916
+      ],
+      "center": [
+        720,
+        1340
+      ],
+      "area": 1327104,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_30",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        144,
+        764,
+        1296,
+        1916
+      ],
+      "center": [
+        720,
+        1340
+      ],
+      "area": 1327104,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_31",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        144,
+        764,
+        1296,
+        1916
+      ],
+      "center": [
+        720,
+        1340
+      ],
+      "area": 1327104,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_32",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        144,
+        764,
+        1296,
+        1916
+      ],
+      "center": [
+        720,
+        1340
+      ],
+      "area": 1327104,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33",
+        "node_44"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_33",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/btn_record",
+      "content_desc": "",
+      "bounds": [
+        174,
+        794,
+        1266,
+        1886
+      ],
+      "center": [
+        720,
+        1340
+      ],
+      "area": 1192464,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_34",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        174,
+        794,
+        1266,
+        1886
+      ],
+      "center": [
+        720,
+        1340
+      ],
+      "area": 1192464,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_35",
+        "node_36",
+        "node_37",
+        "node_43"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_35",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/iconView",
+      "content_desc": "",
+      "bounds": [
+        611,
+        925,
+        829,
+        1143
+      ],
+      "center": [
+        720,
+        1034
+      ],
+      "area": 47524,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_36",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Fair",
+      "resource_id": "com.lp.diary.time.lock:id/contentDesc",
+      "content_desc": "",
+      "bounds": [
+        673,
+        1203,
+        767,
+        1279
+      ],
+      "center": [
+        720,
+        1241
+      ],
+      "area": 7144,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_37",
+      "type": "Clickable",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/rate_view",
+      "content_desc": "",
+      "bounds": [
+        314,
+        1338,
+        1126,
+        1538
+      ],
+      "center": [
+        720,
+        1438
+      ],
+      "area": 162400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_38",
+        "node_39",
+        "node_40",
+        "node_41",
+        "node_42"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_38",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        314,
+        1338,
+        460,
+        1538
+      ],
+      "center": [
+        387,
+        1438
+      ],
+      "area": 29200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_39",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        480,
+        1338,
+        626,
+        1538
+      ],
+      "center": [
+        553,
+        1438
+      ],
+      "area": 29200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_40",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        646,
+        1338,
+        792,
+        1538
+      ],
+      "center": [
+        719,
+        1438
+      ],
+      "area": 29200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_41",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        812,
+        1338,
+        959,
+        1538
+      ],
+      "center": [
+        885,
+        1438
+      ],
+      "area": 29400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_42",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        979,
+        1338,
+        1126,
+        1538
+      ],
+      "center": [
+        1052,
+        1438
+      ],
+      "area": 29400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_43",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Submit",
+      "resource_id": "com.lp.diary.time.lock:id/btn_ok",
+      "content_desc": "",
+      "bounds": [
+        334,
+        1598,
+        1106,
+        1774
+      ],
+      "center": [
+        720,
+        1686
+      ],
+      "area": 135872,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_44",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/helpLine",
+      "content_desc": "",
+      "bounds": [
+        718,
+        894,
+        722,
+        898
+      ],
+      "center": [
+        720,
+        896
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    }
+  ]
+}

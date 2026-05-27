@@ -1,0 +1,1393 @@
+{
+  "screenshot_path": "runs\\6_booking.com\\step_011\\screen.png",
+  "xml_path": "runs\\6_booking.com\\step_011\\hierarchy.xml",
+  "component_count": 44,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_3",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.booking:id/decor_content_parent",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4",
+        "node_40"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_5",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.booking:id/bp_root_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_7"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_6",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.booking:id/status_bar_space",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        160
+      ],
+      "area": 460800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_7",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.booking:id/bp_root_content_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_8",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.booking:id/bp_content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_9",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_10",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11",
+        "node_32"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_11",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2056
+      ],
+      "center": [
+        720,
+        1188
+      ],
+      "area": 2499840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12",
+        "node_15",
+        "node_19",
+        "node_23",
+        "node_29"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_12",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        448,
+        1376,
+        736
+      ],
+      "center": [
+        720,
+        592
+      ],
+      "area": 377856,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13",
+        "node_14"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_13",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "First Name *",
+      "resource_id": "",
+      "content_desc": "First Name, Input required",
+      "bounds": [
+        64,
+        448,
+        1376,
+        528
+      ],
+      "center": [
+        720,
+        488
+      ],
+      "area": 104960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_14",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        112,
+        544,
+        1376,
+        736
+      ],
+      "center": [
+        744,
+        640
+      ],
+      "area": 242688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_15",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "欧槿",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        800,
+        1376,
+        1088
+      ],
+      "center": [
+        720,
+        944
+      ],
+      "area": 377856,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_16",
+        "node_17"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_16",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Last Name *",
+      "resource_id": "",
+      "content_desc": "Last Name, Input required",
+      "bounds": [
+        64,
+        800,
+        1376,
+        880
+      ],
+      "center": [
+        720,
+        840
+      ],
+      "area": 104960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_17",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        112,
+        896,
+        1376,
+        1088
+      ],
+      "center": [
+        744,
+        992
+      ],
+      "area": 242688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_18"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_18",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        952,
+        1328,
+        1032
+      ],
+      "center": [
+        1288,
+        992
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_19",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "oujin0703@gmail.com",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1152,
+        1376,
+        1440
+      ],
+      "center": [
+        720,
+        1296
+      ],
+      "area": 377856,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_20",
+        "node_21"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_20",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Email Address *",
+      "resource_id": "",
+      "content_desc": "Email Address, Input required",
+      "bounds": [
+        64,
+        1152,
+        1376,
+        1232
+      ],
+      "center": [
+        720,
+        1192
+      ],
+      "area": 104960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_21",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        112,
+        1248,
+        1376,
+        1440
+      ],
+      "center": [
+        744,
+        1344
+      ],
+      "area": 242688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_22"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_22",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        1304,
+        1328,
+        1384
+      ],
+      "center": [
+        1288,
+        1344
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_23",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1504,
+        1376,
+        1792
+      ],
+      "center": [
+        720,
+        1648
+      ],
+      "area": 377856,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_24",
+        "node_25",
+        "node_26",
+        "node_27",
+        "node_28"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_24",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Country/Region *",
+      "resource_id": "",
+      "content_desc": "Country/Region Input required",
+      "bounds": [
+        64,
+        1504,
+        497,
+        1584
+      ],
+      "center": [
+        280,
+        1544
+      ],
+      "area": 34640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_25",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Singapore",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        112,
+        1656,
+        1072,
+        1736
+      ],
+      "center": [
+        592,
+        1696
+      ],
+      "area": 76800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_26",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1120,
+        1656,
+        1200,
+        1736
+      ],
+      "center": [
+        1160,
+        1696
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_27",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        1656,
+        1328,
+        1736
+      ],
+      "center": [
+        1288,
+        1696
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_28",
+      "type": "Dropdown",
+      "class_name": "android.widget.Spinner",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1504,
+        1376,
+        1792
+      ],
+      "center": [
+        720,
+        1648
+      ],
+      "area": 377856,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_29",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1856,
+        1376,
+        2100
+      ],
+      "center": [
+        720,
+        1978
+      ],
+      "area": 320128,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_30",
+        "node_31"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_30",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Mobile Phone *",
+      "resource_id": "",
+      "content_desc": "Mobile Phone, Input required",
+      "bounds": [
+        64,
+        1856,
+        1376,
+        1936
+      ],
+      "center": [
+        720,
+        1896
+      ],
+      "area": 104960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_31",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        112,
+        1952,
+        1376,
+        2056
+      ],
+      "center": [
+        744,
+        2004
+      ],
+      "area": 131456,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_32",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2056,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2308
+      ],
+      "area": 725760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_33",
+        "node_37"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_33",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2100,
+        1376,
+        2292
+      ],
+      "center": [
+        720,
+        2196
+      ],
+      "area": 251904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34",
+        "node_35",
+        "node_36"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_34",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "£309",
+      "resource_id": "",
+      "content_desc": "Original price £309",
+      "bounds": [
+        64,
+        2120,
+        193,
+        2200
+      ],
+      "center": [
+        128,
+        2160
+      ],
+      "area": 10320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_35",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "£153",
+      "resource_id": "",
+      "content_desc": "Current price £153",
+      "bounds": [
+        209,
+        2120,
+        338,
+        2200
+      ],
+      "center": [
+        273,
+        2160
+      ],
+      "area": 10320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_36",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Includes taxes and fees",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2200,
+        565,
+        2272
+      ],
+      "center": [
+        314,
+        2236
+      ],
+      "area": 36072,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_37",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2304,
+        1376,
+        2496
+      ],
+      "center": [
+        720,
+        2400
+      ],
+      "area": 251904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_38",
+        "node_39"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_38",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Add missing details",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        438,
+        2352,
+        1002,
+        2448
+      ],
+      "center": [
+        720,
+        2400
+      ],
+      "area": 54144,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_39",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2304,
+        1376,
+        2496
+      ],
+      "center": [
+        720,
+        2400
+      ],
+      "area": 251904,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_40",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.booking:id/action_bar_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_41",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.booking:id/action_bar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_42",
+        "node_43"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_42",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Navigate up",
+      "bounds": [
+        0,
+        96,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        208
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    },
+    {
+      "id": "node_43",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Fill in your info",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        154,
+        813,
+        261
+      ],
+      "center": [
+        550,
+        207
+      ],
+      "area": 56175,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.booking"
+    }
+  ]
+}

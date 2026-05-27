@@ -1,0 +1,3249 @@
+{
+  "screenshot_path": "runs\\33_glassdoor\\step_000\\screen.png",
+  "xml_path": "runs\\33_glassdoor\\step_000\\hierarchy.xml",
+  "component_count": 103,
+  "components": [
+    {
+      "id": "node_26",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_27"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_27",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [
+        "node_28"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_28",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [
+        "node_29"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.glassdoor.app:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_30",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31",
+        "node_127"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_31",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.glassdoor.app:id/main_fragment_container_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_32",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.glassdoor.app:id/main_fragment_container_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_33",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_34",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_35"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_35",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_36",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_37",
+        "node_80",
+        "node_114"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_37",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        352,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1344
+      ],
+      "area": 2856960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_38"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_38",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        352,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1344
+      ],
+      "area": 2856960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [
+        "node_39",
+        "node_62",
+        "node_63",
+        "node_64",
+        "node_70"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_39",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        352,
+        1376,
+        1586
+      ],
+      "center": [
+        720,
+        969
+      ],
+      "area": 1619008,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_40",
+        "node_41",
+        "node_43"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_40",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Good evening, Coco!",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        448,
+        879,
+        543
+      ],
+      "center": [
+        471,
+        495
+      ],
+      "area": 77425,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_41",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        497,
+        888,
+        689
+      ],
+      "center": [
+        476,
+        593
+      ],
+      "area": 158208,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_42"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_42",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Maximize your profile in 3 ways",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        559,
+        888,
+        626
+      ],
+      "center": [
+        476,
+        592
+      ],
+      "area": 55208,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_43",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        722,
+        1376,
+        1586
+      ],
+      "center": [
+        720,
+        1154
+      ],
+      "area": 1133568,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_44",
+        "node_50",
+        "node_56"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        706,
+        1376,
+        898
+      ],
+      "center": [
+        720,
+        802
+      ],
+      "area": 251904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_45",
+        "node_47",
+        "node_48",
+        "node_49"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_45",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        706,
+        240,
+        898
+      ],
+      "center": [
+        144,
+        802
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_46"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_46",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "1",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        134,
+        763,
+        155,
+        841
+      ],
+      "center": [
+        144,
+        802
+      ],
+      "area": 1638,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_47",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Add your resume",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        737,
+        762,
+        804
+      ],
+      "center": [
+        525,
+        770
+      ],
+      "area": 31758,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_48",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Get more accurate job recommendations",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        820,
+        1080,
+        867
+      ],
+      "center": [
+        684,
+        843
+      ],
+      "area": 37224,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_49",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Select profile step",
+      "bounds": [
+        1280,
+        754,
+        1376,
+        850
+      ],
+      "center": [
+        1328,
+        802
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        994,
+        1376,
+        1186
+      ],
+      "center": [
+        720,
+        1090
+      ],
+      "area": 251904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_51",
+        "node_53",
+        "node_54",
+        "node_55"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_51",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        994,
+        240,
+        1186
+      ],
+      "center": [
+        144,
+        1090
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_52"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_52",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "2",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        127,
+        1051,
+        161,
+        1129
+      ],
+      "center": [
+        144,
+        1090
+      ],
+      "area": 2652,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_53",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Let employers find you",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        1025,
+        918,
+        1092
+      ],
+      "center": [
+        603,
+        1058
+      ],
+      "area": 42210,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_54",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Make your resume visible to hiring employers",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        1108,
+        1147,
+        1155
+      ],
+      "center": [
+        717,
+        1131
+      ],
+      "area": 40373,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_55",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Select profile step",
+      "bounds": [
+        1280,
+        1042,
+        1376,
+        1138
+      ],
+      "center": [
+        1328,
+        1090
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_56",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1282,
+        1376,
+        1474
+      ],
+      "center": [
+        720,
+        1378
+      ],
+      "area": 251904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_57",
+        "node_59",
+        "node_60",
+        "node_61"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_57",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1282,
+        240,
+        1474
+      ],
+      "center": [
+        144,
+        1378
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_58"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_58",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "3",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        1339,
+        161,
+        1417
+      ],
+      "center": [
+        144,
+        1378
+      ],
+      "area": 2574,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_59",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Add job preferences",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        1313,
+        848,
+        1380
+      ],
+      "center": [
+        568,
+        1346
+      ],
+      "area": 37520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_60",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "See jobs that match your goals",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        1396,
+        879,
+        1443
+      ],
+      "center": [
+        583,
+        1419
+      ],
+      "area": 27777,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_61",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Select profile step",
+      "bounds": [
+        1280,
+        1330,
+        1376,
+        1426
+      ],
+      "center": [
+        1328,
+        1378
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_62",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1492,
+        1440,
+        1684
+      ],
+      "center": [
+        720,
+        1588
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_63",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1558,
+        1440,
+        1750
+      ],
+      "center": [
+        720,
+        1654
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_64",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1718,
+        1440,
+        2014
+      ],
+      "center": [
+        720,
+        1866
+      ],
+      "area": 426240,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_65"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_65",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1718,
+        1440,
+        2014
+      ],
+      "center": [
+        720,
+        1866
+      ],
+      "area": 426240,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_66",
+        "node_67",
+        "node_69"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_66",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Top jobs for you",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1740,
+        617,
+        1825
+      ],
+      "center": [
+        340,
+        1782
+      ],
+      "area": 47005,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_67",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        1718,
+        1376,
+        1846
+      ],
+      "center": [
+        1312,
+        1782
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [
+        "node_68"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_68",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Expand",
+      "bounds": [
+        1216,
+        1686,
+        1408,
+        1878
+      ],
+      "center": [
+        1312,
+        1782
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_69",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Based on your profile and search history",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1878,
+        1037,
+        1934
+      ],
+      "center": [
+        558,
+        1906
+      ],
+      "area": 53592,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_70",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2014,
+        1376,
+        2336
+      ],
+      "center": [
+        720,
+        2175
+      ],
+      "area": 422464,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_71",
+        "node_72",
+        "node_73",
+        "node_76",
+        "node_77"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_71",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2030,
+        272,
+        2222
+      ],
+      "center": [
+        176,
+        2126
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_72",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Town of Greenwich logo",
+      "bounds": [
+        128,
+        2078,
+        224,
+        2174
+      ],
+      "center": [
+        176,
+        2126
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_73",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Town of GreenwichEmployer rating 4.1",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        256,
+        2098,
+        839,
+        2154
+      ],
+      "center": [
+        547,
+        2126
+      ],
+      "area": 32648,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [
+        "node_74",
+        "node_75"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_74",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "4.1",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        710,
+        2098,
+        765,
+        2151
+      ],
+      "center": [
+        737,
+        2124
+      ],
+      "area": 2915,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_75",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Employer rating 4.1",
+      "bounds": [
+        765,
+        2101,
+        813,
+        2149
+      ],
+      "center": [
+        789,
+        2125
+      ],
+      "area": 2304,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_76",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Food Service Worker (Part-time) @ Greenwich Public Schools",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2190,
+        1184,
+        2336
+      ],
+      "center": [
+        656,
+        2263
+      ],
+      "area": 154176,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_77",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1200,
+        2030,
+        1392,
+        2222
+      ],
+      "center": [
+        1296,
+        2126
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [
+        "node_78",
+        "node_79"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_78",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Save Town of Greenwich Food Service Worker (Part-time) @ Greenwich Public Schools job",
+      "bounds": [
+        1216,
+        2046,
+        1376,
+        2206
+      ],
+      "center": [
+        1296,
+        2126
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_77",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_79",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1216,
+        2046,
+        1376,
+        2206
+      ],
+      "center": [
+        1296,
+        2126
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_77",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_80",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_81"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_81",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_82"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_82",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_83",
+        "node_90",
+        "node_96",
+        "node_102",
+        "node_108"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_83",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        263,
+        2560
+      ],
+      "center": [
+        131,
+        2448
+      ],
+      "area": 58912,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_82",
+      "children_ids": [
+        "node_84",
+        "node_85",
+        "node_87",
+        "node_88",
+        "node_89"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_84",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1,
+        2313,
+        261,
+        2505
+      ],
+      "center": [
+        131,
+        2409
+      ],
+      "area": 49920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_85",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        36,
+        2417,
+        228,
+        2560
+      ],
+      "center": [
+        132,
+        2488
+      ],
+      "area": 27456,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [
+        "node_86"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_86",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Home",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        71,
+        2489,
+        192,
+        2536
+      ],
+      "center": [
+        131,
+        2512
+      ],
+      "area": 5687,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_87",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        81,
+        2361,
+        181,
+        2457
+      ],
+      "center": [
+        131,
+        2409
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_88",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1,
+        2313,
+        261,
+        2505
+      ],
+      "center": [
+        131,
+        2409
+      ],
+      "area": 49920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_89",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        263,
+        2560
+      ],
+      "center": [
+        131,
+        2448
+      ],
+      "area": 58912,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_90",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        295,
+        2336,
+        558,
+        2560
+      ],
+      "center": [
+        426,
+        2448
+      ],
+      "area": 58912,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [
+        "node_91",
+        "node_93",
+        "node_94",
+        "node_95"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_91",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        313,
+        2417,
+        539,
+        2560
+      ],
+      "center": [
+        426,
+        2488
+      ],
+      "area": 32318,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [
+        "node_92"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_92",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Community",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        313,
+        2489,
+        539,
+        2536
+      ],
+      "center": [
+        426,
+        2512
+      ],
+      "area": 10622,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_91",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_93",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        376,
+        2361,
+        476,
+        2457
+      ],
+      "center": [
+        426,
+        2409
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_94",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        296,
+        2313,
+        556,
+        2505
+      ],
+      "center": [
+        426,
+        2409
+      ],
+      "area": 49920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_95",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        295,
+        2336,
+        558,
+        2560
+      ],
+      "center": [
+        426,
+        2448
+      ],
+      "area": 58912,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_96",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        590,
+        2336,
+        852,
+        2560
+      ],
+      "center": [
+        721,
+        2448
+      ],
+      "area": 58688,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [
+        "node_97",
+        "node_99",
+        "node_100",
+        "node_101"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_97",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        625,
+        2417,
+        817,
+        2560
+      ],
+      "center": [
+        721,
+        2488
+      ],
+      "area": 27456,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [
+        "node_98"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_98",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Jobs",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        674,
+        2489,
+        767,
+        2536
+      ],
+      "center": [
+        720,
+        2512
+      ],
+      "area": 4371,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_97",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_99",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        673,
+        2361,
+        769,
+        2457
+      ],
+      "center": [
+        721,
+        2409
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_100",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        593,
+        2313,
+        849,
+        2505
+      ],
+      "center": [
+        721,
+        2409
+      ],
+      "area": 49152,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_101",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        590,
+        2336,
+        852,
+        2560
+      ],
+      "center": [
+        721,
+        2448
+      ],
+      "area": 58688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_102",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        884,
+        2336,
+        1146,
+        2560
+      ],
+      "center": [
+        1015,
+        2448
+      ],
+      "area": 58688,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [
+        "node_103",
+        "node_105",
+        "node_106",
+        "node_107"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_103",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        904,
+        2417,
+        1125,
+        2560
+      ],
+      "center": [
+        1014,
+        2488
+      ],
+      "area": 31603,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_102",
+      "children_ids": [
+        "node_104"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_104",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Companies",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        904,
+        2489,
+        1125,
+        2536
+      ],
+      "center": [
+        1014,
+        2512
+      ],
+      "area": 10387,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_103",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_105",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        965,
+        2361,
+        1065,
+        2457
+      ],
+      "center": [
+        1015,
+        2409
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_102",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_106",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        885,
+        2313,
+        1145,
+        2505
+      ],
+      "center": [
+        1015,
+        2409
+      ],
+      "area": 49920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_102",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_107",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        884,
+        2336,
+        1146,
+        2560
+      ],
+      "center": [
+        1015,
+        2448
+      ],
+      "area": 58688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_102",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_108",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1178,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        1309,
+        2448
+      ],
+      "area": 58688,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [
+        "node_109",
+        "node_111",
+        "node_112",
+        "node_113"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_109",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1213,
+        2417,
+        1405,
+        2560
+      ],
+      "center": [
+        1309,
+        2488
+      ],
+      "area": 27456,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_108",
+      "children_ids": [
+        "node_110"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_110",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Salaries",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1231,
+        2489,
+        1386,
+        2536
+      ],
+      "center": [
+        1308,
+        2512
+      ],
+      "area": 7285,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_109",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_111",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1261,
+        2361,
+        1357,
+        2457
+      ],
+      "center": [
+        1309,
+        2409
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_108",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_112",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1181,
+        2313,
+        1437,
+        2505
+      ],
+      "center": [
+        1309,
+        2409
+      ],
+      "area": 49152,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_108",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_113",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1178,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        1309,
+        2448
+      ],
+      "area": 58688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_108",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_114",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        352
+      ],
+      "center": [
+        720,
+        224
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_115"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_115",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        352
+      ],
+      "center": [
+        720,
+        224
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_114",
+      "children_ids": [
+        "node_116"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_116",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        352
+      ],
+      "center": [
+        720,
+        224
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [
+        "node_117",
+        "node_123",
+        "node_125"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_117",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        128,
+        1104,
+        320
+      ],
+      "center": [
+        584,
+        224
+      ],
+      "area": 199680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_116",
+      "children_ids": [
+        "node_118",
+        "node_119"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_118",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Glassdoor logo",
+      "bounds": [
+        32,
+        128,
+        224,
+        320
+      ],
+      "center": [
+        128,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_117",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_119",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        224,
+        128,
+        1104,
+        320
+      ],
+      "center": [
+        664,
+        224
+      ],
+      "area": 168960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_117",
+      "children_ids": [
+        "node_120"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_120",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        224,
+        128,
+        1104,
+        320
+      ],
+      "center": [
+        664,
+        224
+      ],
+      "area": 168960,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_119",
+      "children_ids": [
+        "node_121",
+        "node_122"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_121",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Search jobs",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        416,
+        190,
+        733,
+        257
+      ],
+      "center": [
+        574,
+        223
+      ],
+      "area": 21239,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_120",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_122",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        224,
+        142,
+        1120,
+        305
+      ],
+      "center": [
+        672,
+        223
+      ],
+      "area": 146048,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_120",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_123",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1136,
+        160,
+        1232,
+        288
+      ],
+      "center": [
+        1184,
+        224
+      ],
+      "area": 12288,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_116",
+      "children_ids": [
+        "node_124"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_124",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Notifications",
+      "bounds": [
+        1104,
+        128,
+        1232,
+        320
+      ],
+      "center": [
+        1168,
+        224
+      ],
+      "area": 24576,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_123",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_125",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1264,
+        160,
+        1392,
+        288
+      ],
+      "center": [
+        1328,
+        224
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_116",
+      "children_ids": [
+        "node_126"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_126",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Profile",
+      "bounds": [
+        1232,
+        128,
+        1424,
+        320
+      ],
+      "center": [
+        1328,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_125",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_127",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_128"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    },
+    {
+      "id": "node_128",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_127",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.glassdoor.app"
+    }
+  ]
+}

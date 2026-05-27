@@ -1,0 +1,4302 @@
+{
+  "screenshot_path": "runs\\338_smartQuickSettings\\step_003\\screen.png",
+  "xml_path": "runs\\338_smartQuickSettings\\step_003\\hierarchy.xml",
+  "component_count": 137,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_5",
+      "type": "Other",
+      "class_name": "androidx.drawerlayout.widget.DrawerLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/drawer_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_6",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7",
+        "node_15"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_7",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_8",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9",
+        "node_10",
+        "node_13"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_9",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Open navigation drawer",
+      "bounds": [
+        0,
+        96,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        208
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_10",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        96,
+        1280,
+        320
+      ],
+      "center": [
+        784,
+        208
+      ],
+      "area": 222208,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_11",
+        "node_12"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_11",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "QUICK SETTINGS 1",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/acionbar_title",
+      "content_desc": "",
+      "bounds": [
+        288,
+        96,
+        1046,
+        320
+      ],
+      "center": [
+        667,
+        208
+      ],
+      "area": 169792,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_12",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "EN",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/btn_language",
+      "content_desc": "",
+      "bounds": [
+        1046,
+        144,
+        1280,
+        272
+      ],
+      "center": [
+        1163,
+        208
+      ],
+      "area": 29952,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_13",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1280,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        1360,
+        208
+      ],
+      "area": 35840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_14"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_14",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1280,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1360,
+        208
+      ],
+      "area": 30720,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_15",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_16"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_16",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/fragment_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_17"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_17",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [
+        "node_18"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_18",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/main_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_19"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_19",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2492
+      ],
+      "center": [
+        720,
+        1406
+      ],
+      "area": 3127680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_20",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2115
+      ],
+      "center": [
+        720,
+        1217
+      ],
+      "area": 2584800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_21"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_21",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2099
+      ],
+      "center": [
+        720,
+        1209
+      ],
+      "area": 2561760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_22",
+        "node_27",
+        "node_28",
+        "node_38",
+        "node_48",
+        "node_49",
+        "node_59",
+        "node_60",
+        "node_70",
+        "node_71",
+        "node_81",
+        "node_82",
+        "node_92",
+        "node_93",
+        "node_103",
+        "node_104",
+        "node_114",
+        "node_115",
+        "node_125",
+        "node_126",
+        "node_136"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_22",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        504
+      ],
+      "center": [
+        720,
+        412
+      ],
+      "area": 264960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_23",
+        "node_24",
+        "node_25",
+        "node_26"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_23",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "SET 1",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/buttonMain01",
+      "content_desc": "",
+      "bounds": [
+        16,
+        336,
+        356,
+        504
+      ],
+      "center": [
+        186,
+        420
+      ],
+      "area": 57120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_24",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "SET 2",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/buttonMain02",
+      "content_desc": "",
+      "bounds": [
+        372,
+        336,
+        712,
+        504
+      ],
+      "center": [
+        542,
+        420
+      ],
+      "area": 57120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_25",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "SET 3",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/buttonMain03",
+      "content_desc": "",
+      "bounds": [
+        728,
+        336,
+        1068,
+        504
+      ],
+      "center": [
+        898,
+        420
+      ],
+      "area": 57120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_26",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "SET 4",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/buttonMain04",
+      "content_desc": "",
+      "bounds": [
+        1084,
+        336,
+        1424,
+        504
+      ],
+      "center": [
+        1254,
+        420
+      ],
+      "area": 57120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_27",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        16,
+        504,
+        1424,
+        532
+      ],
+      "center": [
+        720,
+        518
+      ],
+      "area": 39424,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_28",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/linearWifi",
+      "content_desc": "",
+      "bounds": [
+        4,
+        534,
+        1436,
+        701
+      ],
+      "center": [
+        720,
+        617
+      ],
+      "area": 239144,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_29",
+        "node_30",
+        "node_33",
+        "node_34",
+        "node_35"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_29",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageLogoWifi",
+      "content_desc": "Image",
+      "bounds": [
+        44,
+        557,
+        164,
+        677
+      ],
+      "center": [
+        104,
+        617
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_30",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        204,
+        542,
+        936,
+        693
+      ],
+      "center": [
+        570,
+        617
+      ],
+      "area": 110532,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_31",
+        "node_32"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_31",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Wi-Fi",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textTitleWifi",
+      "content_desc": "",
+      "bounds": [
+        204,
+        550,
+        330,
+        626
+      ],
+      "center": [
+        267,
+        588
+      ],
+      "area": 9576,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_32",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Wi-Fi is turned on.",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textDetailWifi",
+      "content_desc": "",
+      "bounds": [
+        204,
+        626,
+        558,
+        685
+      ],
+      "center": [
+        381,
+        655
+      ],
+      "area": 20886,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_33",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Image",
+      "bounds": [
+        940,
+        557,
+        1060,
+        677
+      ],
+      "center": [
+        1000,
+        617
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_34",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageMoreWifi",
+      "content_desc": "Image",
+      "bounds": [
+        1068,
+        615,
+        1072,
+        619
+      ],
+      "center": [
+        1070,
+        617
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.widget.RadioGroup",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingWifi",
+      "content_desc": "",
+      "bounds": [
+        1076,
+        553,
+        1416,
+        681
+      ],
+      "center": [
+        1246,
+        617
+      ],
+      "area": 43520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_36",
+        "node_37"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_36",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "OFF",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingWifiOff",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        557,
+        1246,
+        677
+      ],
+      "center": [
+        1163,
+        617
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_37",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "ON",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingWifiOn",
+      "content_desc": "",
+      "bounds": [
+        1246,
+        557,
+        1412,
+        677
+      ],
+      "center": [
+        1329,
+        617
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/linearMobileData",
+      "content_desc": "",
+      "bounds": [
+        4,
+        690,
+        1436,
+        857
+      ],
+      "center": [
+        720,
+        773
+      ],
+      "area": 239144,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_39",
+        "node_40",
+        "node_43",
+        "node_44",
+        "node_45"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_39",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageLogoMobileData",
+      "content_desc": "Image",
+      "bounds": [
+        44,
+        713,
+        164,
+        833
+      ],
+      "center": [
+        104,
+        773
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_40",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        204,
+        698,
+        936,
+        849
+      ],
+      "center": [
+        570,
+        773
+      ],
+      "area": 110532,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_41",
+        "node_42"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_41",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Mobile Data",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textTitleMobileData",
+      "content_desc": "",
+      "bounds": [
+        204,
+        706,
+        505,
+        782
+      ],
+      "center": [
+        354,
+        744
+      ],
+      "area": 22876,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_42",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Mobile data is not connected.",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textDetailMobileData",
+      "content_desc": "",
+      "bounds": [
+        204,
+        782,
+        788,
+        841
+      ],
+      "center": [
+        496,
+        811
+      ],
+      "area": 34456,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_43",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Image",
+      "bounds": [
+        940,
+        713,
+        1060,
+        833
+      ],
+      "center": [
+        1000,
+        773
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageMoreMobileData",
+      "content_desc": "Image",
+      "bounds": [
+        1068,
+        771,
+        1072,
+        775
+      ],
+      "center": [
+        1070,
+        773
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_45",
+      "type": "Clickable",
+      "class_name": "android.widget.RadioGroup",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingMobileData",
+      "content_desc": "",
+      "bounds": [
+        1076,
+        709,
+        1416,
+        837
+      ],
+      "center": [
+        1246,
+        773
+      ],
+      "area": 43520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_46",
+        "node_47"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_46",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "OFF",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingMobileDataOff",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        713,
+        1246,
+        833
+      ],
+      "center": [
+        1163,
+        773
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_47",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "ON",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingMobileDataOn",
+      "content_desc": "",
+      "bounds": [
+        1246,
+        713,
+        1412,
+        833
+      ],
+      "center": [
+        1329,
+        773
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_48",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        695,
+        1392,
+        696
+      ],
+      "center": [
+        720,
+        695
+      ],
+      "area": 1344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_49",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/linearDnd",
+      "content_desc": "",
+      "bounds": [
+        4,
+        846,
+        1436,
+        1013
+      ],
+      "center": [
+        720,
+        929
+      ],
+      "area": 239144,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_50",
+        "node_51",
+        "node_54",
+        "node_55",
+        "node_56"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_50",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageLogoDnd",
+      "content_desc": "Image",
+      "bounds": [
+        44,
+        869,
+        164,
+        989
+      ],
+      "center": [
+        104,
+        929
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_51",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        204,
+        854,
+        936,
+        1005
+      ],
+      "center": [
+        570,
+        929
+      ],
+      "area": 110532,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_52",
+        "node_53"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_52",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Do Not Disturb",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textTitleDnd",
+      "content_desc": "",
+      "bounds": [
+        204,
+        862,
+        574,
+        938
+      ],
+      "center": [
+        389,
+        900
+      ],
+      "area": 28120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_53",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Manage Do Not Disturb mode",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textDetailDnd",
+      "content_desc": "",
+      "bounds": [
+        204,
+        938,
+        787,
+        997
+      ],
+      "center": [
+        495,
+        967
+      ],
+      "area": 34397,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_54",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Image",
+      "bounds": [
+        940,
+        869,
+        1060,
+        989
+      ],
+      "center": [
+        1000,
+        929
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_55",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageMoreDnd",
+      "content_desc": "Image",
+      "bounds": [
+        1068,
+        927,
+        1072,
+        931
+      ],
+      "center": [
+        1070,
+        929
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_56",
+      "type": "Clickable",
+      "class_name": "android.widget.RadioGroup",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingDnd",
+      "content_desc": "",
+      "bounds": [
+        1076,
+        865,
+        1416,
+        993
+      ],
+      "center": [
+        1246,
+        929
+      ],
+      "area": 43520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_57",
+        "node_58"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_57",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "OFF",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingDndOff",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        869,
+        1246,
+        989
+      ],
+      "center": [
+        1163,
+        929
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_58",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "ON",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingDndOn",
+      "content_desc": "",
+      "bounds": [
+        1246,
+        869,
+        1412,
+        989
+      ],
+      "center": [
+        1329,
+        929
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_59",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        851,
+        1392,
+        852
+      ],
+      "center": [
+        720,
+        851
+      ],
+      "area": 1344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_60",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/linearAirplane",
+      "content_desc": "",
+      "bounds": [
+        4,
+        1002,
+        1436,
+        1169
+      ],
+      "center": [
+        720,
+        1085
+      ],
+      "area": 239144,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_61",
+        "node_62",
+        "node_65",
+        "node_66",
+        "node_67"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_61",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageLogoAirplane",
+      "content_desc": "Image",
+      "bounds": [
+        44,
+        1025,
+        164,
+        1145
+      ],
+      "center": [
+        104,
+        1085
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_62",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1010,
+        936,
+        1161
+      ],
+      "center": [
+        570,
+        1085
+      ],
+      "area": 110532,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [
+        "node_63",
+        "node_64"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_63",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Airplane Mode",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textTitleAirplane",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1018,
+        569,
+        1094
+      ],
+      "center": [
+        386,
+        1056
+      ],
+      "area": 27740,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_64",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Airplane mode is turned off.",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textDetailAirplane",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1094,
+        753,
+        1153
+      ],
+      "center": [
+        478,
+        1123
+      ],
+      "area": 32391,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_65",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Image",
+      "bounds": [
+        940,
+        1025,
+        1060,
+        1145
+      ],
+      "center": [
+        1000,
+        1085
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_66",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageMoreAirplane",
+      "content_desc": "Image",
+      "bounds": [
+        1068,
+        1083,
+        1072,
+        1087
+      ],
+      "center": [
+        1070,
+        1085
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_67",
+      "type": "Clickable",
+      "class_name": "android.widget.RadioGroup",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingAirplane",
+      "content_desc": "",
+      "bounds": [
+        1076,
+        1021,
+        1416,
+        1149
+      ],
+      "center": [
+        1246,
+        1085
+      ],
+      "area": 43520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [
+        "node_68",
+        "node_69"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_68",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "OFF",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingAirplaneOff",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        1025,
+        1246,
+        1145
+      ],
+      "center": [
+        1163,
+        1085
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_69",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "ON",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingAirplaneOn",
+      "content_desc": "",
+      "bounds": [
+        1246,
+        1025,
+        1412,
+        1145
+      ],
+      "center": [
+        1329,
+        1085
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_70",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1007,
+        1392,
+        1008
+      ],
+      "center": [
+        720,
+        1007
+      ],
+      "area": 1344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_71",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/linearBluetooth",
+      "content_desc": "",
+      "bounds": [
+        4,
+        1158,
+        1436,
+        1325
+      ],
+      "center": [
+        720,
+        1241
+      ],
+      "area": 239144,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_72",
+        "node_73",
+        "node_76",
+        "node_77",
+        "node_78"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_72",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageLogoBluetooth",
+      "content_desc": "Image",
+      "bounds": [
+        44,
+        1181,
+        164,
+        1301
+      ],
+      "center": [
+        104,
+        1241
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_73",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1166,
+        936,
+        1317
+      ],
+      "center": [
+        570,
+        1241
+      ],
+      "area": 110532,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [
+        "node_74",
+        "node_75"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_74",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Bluetooth",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textTitleBluetooth",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1174,
+        447,
+        1250
+      ],
+      "center": [
+        325,
+        1212
+      ],
+      "area": 18468,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_75",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Bluetooth is turned off.",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textDetailBluetooth",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1250,
+        658,
+        1309
+      ],
+      "center": [
+        431,
+        1279
+      ],
+      "area": 26786,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_76",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Image",
+      "bounds": [
+        940,
+        1181,
+        1060,
+        1301
+      ],
+      "center": [
+        1000,
+        1241
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_77",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageMoreBluetooth",
+      "content_desc": "Image",
+      "bounds": [
+        1068,
+        1239,
+        1072,
+        1243
+      ],
+      "center": [
+        1070,
+        1241
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_78",
+      "type": "Clickable",
+      "class_name": "android.widget.RadioGroup",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingBluetooth",
+      "content_desc": "",
+      "bounds": [
+        1076,
+        1177,
+        1416,
+        1305
+      ],
+      "center": [
+        1246,
+        1241
+      ],
+      "area": 43520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [
+        "node_79",
+        "node_80"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_79",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "OFF",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingBluetoothOff",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        1181,
+        1246,
+        1301
+      ],
+      "center": [
+        1163,
+        1241
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_80",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "ON",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingBluetoothOn",
+      "content_desc": "",
+      "bounds": [
+        1246,
+        1181,
+        1412,
+        1301
+      ],
+      "center": [
+        1329,
+        1241
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_81",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1163,
+        1392,
+        1164
+      ],
+      "center": [
+        720,
+        1163
+      ],
+      "area": 1344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_82",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/linearDarkMode",
+      "content_desc": "",
+      "bounds": [
+        4,
+        1314,
+        1436,
+        1481
+      ],
+      "center": [
+        720,
+        1397
+      ],
+      "area": 239144,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_83",
+        "node_84",
+        "node_87",
+        "node_88",
+        "node_89"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_83",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageLogoDarkMode",
+      "content_desc": "Image",
+      "bounds": [
+        44,
+        1337,
+        164,
+        1457
+      ],
+      "center": [
+        104,
+        1397
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_84",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1322,
+        936,
+        1473
+      ],
+      "center": [
+        570,
+        1397
+      ],
+      "area": 110532,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [
+        "node_85",
+        "node_86"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_85",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Dark Mode",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textTitleDarkMode",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1330,
+        477,
+        1406
+      ],
+      "center": [
+        340,
+        1368
+      ],
+      "area": 20748,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_84",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_86",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Toggle dark/light theme",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textDetailDarkMode",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1406,
+        674,
+        1465
+      ],
+      "center": [
+        439,
+        1435
+      ],
+      "area": 27730,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_84",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_87",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Image",
+      "bounds": [
+        940,
+        1337,
+        1060,
+        1457
+      ],
+      "center": [
+        1000,
+        1397
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_88",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageMoreDarkMode",
+      "content_desc": "Image",
+      "bounds": [
+        1068,
+        1395,
+        1072,
+        1399
+      ],
+      "center": [
+        1070,
+        1397
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_89",
+      "type": "Clickable",
+      "class_name": "android.widget.RadioGroup",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingDarkMode",
+      "content_desc": "",
+      "bounds": [
+        1076,
+        1333,
+        1416,
+        1461
+      ],
+      "center": [
+        1246,
+        1397
+      ],
+      "area": 43520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [
+        "node_90",
+        "node_91"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_90",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "OFF",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingDarkModeOff",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        1337,
+        1246,
+        1457
+      ],
+      "center": [
+        1163,
+        1397
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_89",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_91",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "ON",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingDarkModeOn",
+      "content_desc": "",
+      "bounds": [
+        1246,
+        1337,
+        1412,
+        1457
+      ],
+      "center": [
+        1329,
+        1397
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_89",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_92",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1319,
+        1392,
+        1320
+      ],
+      "center": [
+        720,
+        1319
+      ],
+      "area": 1344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_93",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/linearRinger",
+      "content_desc": "",
+      "bounds": [
+        4,
+        1470,
+        1436,
+        1637
+      ],
+      "center": [
+        720,
+        1553
+      ],
+      "area": 239144,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_94",
+        "node_95",
+        "node_98",
+        "node_99",
+        "node_100"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_94",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageLogoRinger",
+      "content_desc": "Image",
+      "bounds": [
+        44,
+        1493,
+        164,
+        1613
+      ],
+      "center": [
+        104,
+        1553
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_95",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1478,
+        936,
+        1629
+      ],
+      "center": [
+        570,
+        1553
+      ],
+      "area": 110532,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [
+        "node_96",
+        "node_97"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_96",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Ringer Volume",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textTitleRinger",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1486,
+        571,
+        1562
+      ],
+      "center": [
+        387,
+        1524
+      ],
+      "area": 27892,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_97",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Ringer mode is turned on.",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textDetailRinger",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1562,
+        708,
+        1621
+      ],
+      "center": [
+        456,
+        1591
+      ],
+      "area": 29736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_98",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageCustomRinger",
+      "content_desc": "Image",
+      "bounds": [
+        940,
+        1493,
+        1060,
+        1613
+      ],
+      "center": [
+        1000,
+        1553
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_99",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageMoreRinger",
+      "content_desc": "Image",
+      "bounds": [
+        1068,
+        1551,
+        1072,
+        1555
+      ],
+      "center": [
+        1070,
+        1553
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_100",
+      "type": "Clickable",
+      "class_name": "android.widget.RadioGroup",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingRinger",
+      "content_desc": "",
+      "bounds": [
+        1076,
+        1489,
+        1416,
+        1617
+      ],
+      "center": [
+        1246,
+        1553
+      ],
+      "area": 43520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [
+        "node_101",
+        "node_102"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_101",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "OFF",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingRingerOff",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        1493,
+        1246,
+        1613
+      ],
+      "center": [
+        1163,
+        1553
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_100",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_102",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "ON",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingRingerOn",
+      "content_desc": "",
+      "bounds": [
+        1246,
+        1493,
+        1412,
+        1613
+      ],
+      "center": [
+        1329,
+        1553
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_100",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_103",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1475,
+        1392,
+        1476
+      ],
+      "center": [
+        720,
+        1475
+      ],
+      "area": 1344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_104",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/linearVibrate",
+      "content_desc": "",
+      "bounds": [
+        4,
+        1626,
+        1436,
+        1793
+      ],
+      "center": [
+        720,
+        1709
+      ],
+      "area": 239144,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_105",
+        "node_106",
+        "node_109",
+        "node_110",
+        "node_111"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_105",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageLogoVibrate",
+      "content_desc": "Image",
+      "bounds": [
+        44,
+        1649,
+        164,
+        1769
+      ],
+      "center": [
+        104,
+        1709
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_106",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1634,
+        936,
+        1785
+      ],
+      "center": [
+        570,
+        1709
+      ],
+      "area": 110532,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [
+        "node_107",
+        "node_108"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_107",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Vibration",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textTitleVibrate",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1642,
+        432,
+        1718
+      ],
+      "center": [
+        318,
+        1680
+      ],
+      "area": 17328,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_106",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_108",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Vibration is turned off.",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textDetailVibrate",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1718,
+        645,
+        1777
+      ],
+      "center": [
+        424,
+        1747
+      ],
+      "area": 26019,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_106",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_109",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageCustomVibrate",
+      "content_desc": "Image",
+      "bounds": [
+        940,
+        1649,
+        1060,
+        1769
+      ],
+      "center": [
+        1000,
+        1709
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_110",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageMoreVibrate",
+      "content_desc": "Image",
+      "bounds": [
+        1068,
+        1707,
+        1072,
+        1711
+      ],
+      "center": [
+        1070,
+        1709
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_111",
+      "type": "Clickable",
+      "class_name": "android.widget.RadioGroup",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingVibrate",
+      "content_desc": "",
+      "bounds": [
+        1076,
+        1645,
+        1416,
+        1773
+      ],
+      "center": [
+        1246,
+        1709
+      ],
+      "area": 43520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [
+        "node_112",
+        "node_113"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_112",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "OFF",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingVibrateOff",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        1649,
+        1246,
+        1769
+      ],
+      "center": [
+        1163,
+        1709
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_111",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_113",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "ON",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingVibrateOn",
+      "content_desc": "",
+      "bounds": [
+        1246,
+        1649,
+        1412,
+        1769
+      ],
+      "center": [
+        1329,
+        1709
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_111",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_114",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1631,
+        1392,
+        1632
+      ],
+      "center": [
+        720,
+        1631
+      ],
+      "area": 1344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_115",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/linearRotation",
+      "content_desc": "",
+      "bounds": [
+        4,
+        1782,
+        1436,
+        1949
+      ],
+      "center": [
+        720,
+        1865
+      ],
+      "area": 239144,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_116",
+        "node_117",
+        "node_120",
+        "node_121",
+        "node_122"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_116",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageLogoRotation",
+      "content_desc": "Image",
+      "bounds": [
+        44,
+        1805,
+        164,
+        1925
+      ],
+      "center": [
+        104,
+        1865
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_117",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1790,
+        936,
+        1941
+      ],
+      "center": [
+        570,
+        1865
+      ],
+      "area": 110532,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [
+        "node_118",
+        "node_119"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_118",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Auto Screen Rotation",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textTitleRotation",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1798,
+        736,
+        1874
+      ],
+      "center": [
+        470,
+        1836
+      ],
+      "area": 40432,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_117",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_119",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Auto screen rotation is turned on.",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textDetailRotation",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1874,
+        859,
+        1933
+      ],
+      "center": [
+        531,
+        1903
+      ],
+      "area": 38645,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_117",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_120",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Image",
+      "bounds": [
+        940,
+        1805,
+        1060,
+        1925
+      ],
+      "center": [
+        1000,
+        1865
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_121",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageMoreRotation",
+      "content_desc": "Image",
+      "bounds": [
+        1068,
+        1863,
+        1072,
+        1867
+      ],
+      "center": [
+        1070,
+        1865
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_122",
+      "type": "Clickable",
+      "class_name": "android.widget.RadioGroup",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingRotation",
+      "content_desc": "",
+      "bounds": [
+        1076,
+        1801,
+        1416,
+        1929
+      ],
+      "center": [
+        1246,
+        1865
+      ],
+      "area": 43520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [
+        "node_123",
+        "node_124"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_123",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "OFF",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingRotationOff",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        1805,
+        1246,
+        1925
+      ],
+      "center": [
+        1163,
+        1865
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_122",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_124",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "ON",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingRotationOn",
+      "content_desc": "",
+      "bounds": [
+        1246,
+        1805,
+        1412,
+        1925
+      ],
+      "center": [
+        1329,
+        1865
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_122",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_125",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1787,
+        1392,
+        1788
+      ],
+      "center": [
+        720,
+        1787
+      ],
+      "area": 1344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_126",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/linearBright",
+      "content_desc": "",
+      "bounds": [
+        4,
+        1938,
+        1436,
+        2099
+      ],
+      "center": [
+        720,
+        2018
+      ],
+      "area": 230552,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_127",
+        "node_128",
+        "node_131",
+        "node_132",
+        "node_133"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_127",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageLogoBright",
+      "content_desc": "Image",
+      "bounds": [
+        44,
+        1961,
+        164,
+        2081
+      ],
+      "center": [
+        104,
+        2021
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_126",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_128",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1946,
+        936,
+        2097
+      ],
+      "center": [
+        570,
+        2021
+      ],
+      "area": 110532,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_126",
+      "children_ids": [
+        "node_129",
+        "node_130"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_129",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Auto Brightness",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textTitleBright",
+      "content_desc": "",
+      "bounds": [
+        204,
+        1954,
+        606,
+        2030
+      ],
+      "center": [
+        405,
+        1992
+      ],
+      "area": 30552,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_128",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_130",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Mode:Manual, Bright:40%",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/textDetailBright",
+      "content_desc": "",
+      "bounds": [
+        204,
+        2030,
+        708,
+        2089
+      ],
+      "center": [
+        456,
+        2059
+      ],
+      "area": 29736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_128",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_131",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Image",
+      "bounds": [
+        940,
+        1961,
+        1060,
+        2081
+      ],
+      "center": [
+        1000,
+        2021
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_126",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_132",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/imageMoreBright",
+      "content_desc": "Image",
+      "bounds": [
+        1068,
+        2019,
+        1072,
+        2023
+      ],
+      "center": [
+        1070,
+        2021
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_126",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_133",
+      "type": "Clickable",
+      "class_name": "android.widget.RadioGroup",
+      "text": "",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingBright",
+      "content_desc": "",
+      "bounds": [
+        1076,
+        1957,
+        1416,
+        2085
+      ],
+      "center": [
+        1246,
+        2021
+      ],
+      "area": 43520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_126",
+      "children_ids": [
+        "node_134",
+        "node_135"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_134",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "OFF",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingBrightOff",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        1961,
+        1246,
+        2081
+      ],
+      "center": [
+        1163,
+        2021
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_133",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_135",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "ON",
+      "resource_id": "com.smartwho.SmartQuickSettings:id/toggleSettingBrightOn",
+      "content_desc": "",
+      "bounds": [
+        1246,
+        1961,
+        1412,
+        2081
+      ],
+      "center": [
+        1329,
+        2021
+      ],
+      "area": 19920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_133",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    },
+    {
+      "id": "node_136",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1943,
+        1392,
+        1944
+      ],
+      "center": [
+        720,
+        1943
+      ],
+      "area": 1344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.smartwho.SmartQuickSettings"
+    }
+  ]
+}

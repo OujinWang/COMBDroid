@@ -1,0 +1,378 @@
+{
+  "actionable_component_count": 12,
+  "actionable_components": [
+    {
+      "id": "node_30",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_39",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/viewPager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2340
+      ],
+      "center": [
+        720,
+        1170
+      ],
+      "area": 3369600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_40"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_48",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/btnSearch",
+      "content_desc": "Search",
+      "bounds": [
+        992,
+        128,
+        1168,
+        304
+      ],
+      "center": [
+        1080,
+        216
+      ],
+      "area": 30976,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_49",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/btnTemplate",
+      "content_desc": "My Templates",
+      "bounds": [
+        1200,
+        128,
+        1376,
+        304
+      ],
+      "center": [
+        1288,
+        216
+      ],
+      "area": 30976,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_50",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/diaryList",
+      "content_desc": "",
+      "bounds": [
+        0,
+        336,
+        1440,
+        2340
+      ],
+      "center": [
+        720,
+        1338
+      ],
+      "area": 2885760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [
+        "node_51"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_51",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/lyParent",
+      "content_desc": "",
+      "bounds": [
+        0,
+        416,
+        1440,
+        1007
+      ],
+      "center": [
+        720,
+        711
+      ],
+      "area": 851040,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_52",
+        "node_54",
+        "node_55"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_63",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/mShadowLayout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2300,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2430
+      ],
+      "area": 374400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [
+        "node_64"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_65",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/menuTimeline",
+      "content_desc": "",
+      "bounds": [
+        33,
+        2340,
+        253,
+        2560
+      ],
+      "center": [
+        143,
+        2450
+      ],
+      "area": 48400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_66",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/menuCalendar",
+      "content_desc": "",
+      "bounds": [
+        287,
+        2340,
+        507,
+        2560
+      ],
+      "center": [
+        397,
+        2450
+      ],
+      "area": 48400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_69",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/menuChart",
+      "content_desc": "",
+      "bounds": [
+        933,
+        2340,
+        1153,
+        2560
+      ],
+      "center": [
+        1043,
+        2450
+      ],
+      "area": 48400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_71",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/menuMine",
+      "content_desc": "",
+      "bounds": [
+        1187,
+        2340,
+        1407,
+        2560
+      ],
+      "center": [
+        1297,
+        2450
+      ],
+      "area": 48400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    },
+    {
+      "id": "node_72",
+      "type": "Clickable",
+      "class_name": "androidx.cardview.widget.CardView",
+      "text": "",
+      "resource_id": "com.lp.diary.time.lock:id/menuAdd",
+      "content_desc": "",
+      "bounds": [
+        576,
+        2192,
+        864,
+        2480
+      ],
+      "center": [
+        720,
+        2336
+      ],
+      "area": 82944,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [
+        "node_73",
+        "node_74"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.lp.diary.time.lock"
+    }
+  ]
+}

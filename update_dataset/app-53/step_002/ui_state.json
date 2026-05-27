@@ -1,0 +1,322 @@
+{
+  "screenshot_path": "runs\\270_smartBudget\\step_002\\screen.png",
+  "xml_path": "runs\\270_smartBudget\\step_002\\hierarchy.xml",
+  "component_count": 10,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.SmartBudget.GoldFlyApps:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_5",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.SmartBudget.GoldFlyApps:id/wrapper",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_7",
+        "node_8",
+        "node_9"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_6",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Select Currency",
+      "resource_id": "com.SmartBudget.GoldFlyApps:id/titleLabel",
+      "content_desc": "",
+      "bounds": [
+        325,
+        296,
+        1114,
+        446
+      ],
+      "center": [
+        719,
+        371
+      ],
+      "area": 118350,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_7",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "What is your favourite currency?",
+      "resource_id": "com.SmartBudget.GoldFlyApps:id/detailLabel",
+      "content_desc": "",
+      "bounds": [
+        208,
+        526,
+        1231,
+        623
+      ],
+      "center": [
+        719,
+        574
+      ],
+      "area": 99231,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_8",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "USD - United States Dollar($)",
+      "resource_id": "com.SmartBudget.GoldFlyApps:id/currencyEditText",
+      "content_desc": "",
+      "bounds": [
+        96,
+        743,
+        1344,
+        963
+      ],
+      "center": [
+        720,
+        853
+      ],
+      "area": 274560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    },
+    {
+      "id": "node_9",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.SmartBudget.GoldFlyApps:id/nextButton",
+      "content_desc": "",
+      "bounds": [
+        40,
+        1163,
+        1400,
+        1522
+      ],
+      "center": [
+        720,
+        1342
+      ],
+      "area": 488240,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.SmartBudget.GoldFlyApps"
+    }
+  ]
+}

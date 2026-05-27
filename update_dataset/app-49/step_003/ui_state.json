@@ -1,0 +1,1999 @@
+{
+  "screenshot_path": "runs\\264_obsidian\\step_003\\screen.png",
+  "xml_path": "runs\\264_obsidian\\step_003\\hierarchy.xml",
+  "component_count": 63,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "md.obsidian:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_5",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_6",
+      "type": "Other",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_7",
+      "type": "ScrollContainer",
+      "class_name": "android.webkit.WebView",
+      "text": "test - Obsidian",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_8",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_9",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_10",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11",
+        "node_62"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_11",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_12",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13",
+        "node_19",
+        "node_21"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_13",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2312,
+        1168,
+        2496
+      ],
+      "center": [
+        648,
+        2404
+      ],
+      "area": 191360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14",
+        "node_18"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_14",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2312,
+        352,
+        2416
+      ],
+      "center": [
+        240,
+        2364
+      ],
+      "area": 23296,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15",
+        "node_16",
+        "node_17"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_15",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "test",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2316,
+        264,
+        2408
+      ],
+      "center": [
+        196,
+        2362
+      ],
+      "area": 12512,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_16",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        268,
+        2320,
+        352,
+        2404
+      ],
+      "center": [
+        310,
+        2362
+      ],
+      "area": 7056,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_17",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "test",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2312,
+        1168,
+        2492
+      ],
+      "center": [
+        648,
+        2402
+      ],
+      "area": 187200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_18",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "1 file, 0 folders",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2428,
+        1168,
+        2496
+      ],
+      "center": [
+        648,
+        2462
+      ],
+      "area": 70720,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_19",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1200,
+        2316,
+        1376,
+        2496
+      ],
+      "center": [
+        1288,
+        2406
+      ],
+      "area": 31680,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_20",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1240,
+        2356,
+        1336,
+        2456
+      ],
+      "center": [
+        1288,
+        2406
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_21",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2268
+      ],
+      "center": [
+        720,
+        1182
+      ],
+      "area": 3127680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_22"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_22",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2268
+      ],
+      "center": [
+        720,
+        1182
+      ],
+      "area": 3127680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_23",
+        "node_44"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_23",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        2056,
+        1392,
+        2268
+      ],
+      "center": [
+        720,
+        2162
+      ],
+      "area": 284928,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_24",
+        "node_29"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_24",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        2056,
+        1392,
+        2268
+      ],
+      "center": [
+        720,
+        2162
+      ],
+      "area": 284928,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_25"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_25",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        2056,
+        1392,
+        2268
+      ],
+      "center": [
+        720,
+        2162
+      ],
+      "area": 284928,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [
+        "node_26",
+        "node_27",
+        "node_28"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_26",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2112,
+        224,
+        2212
+      ],
+      "center": [
+        176,
+        2162
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_27",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Files",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        256,
+        2124,
+        396,
+        2200
+      ],
+      "center": [
+        326,
+        2162
+      ],
+      "area": 10640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_28",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1240,
+        2124,
+        1312,
+        2200
+      ],
+      "center": [
+        1276,
+        2162
+      ],
+      "area": 5472,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_29",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        2024,
+        1392,
+        2268
+      ],
+      "center": [
+        720,
+        2146
+      ],
+      "area": 327936,
+      "visible": true,
+      "clickable": true,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_30",
+        "node_34",
+        "node_38",
+        "node_42"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_30",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "Files",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2056,
+        1340,
+        2220
+      ],
+      "center": [
+        710,
+        2138
+      ],
+      "area": 206640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_31",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2056,
+        1340,
+        2220
+      ],
+      "center": [
+        710,
+        2138
+      ],
+      "area": 206640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32",
+        "node_33"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_32",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2088,
+        224,
+        2188
+      ],
+      "center": [
+        176,
+        2138
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_33",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Files",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        256,
+        2096,
+        1292,
+        2180
+      ],
+      "center": [
+        774,
+        2138
+      ],
+      "area": 87024,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_34",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "Search",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2216,
+        1340,
+        2380
+      ],
+      "center": [
+        710,
+        2298
+      ],
+      "area": 206640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_35"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_35",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2216,
+        1340,
+        2380
+      ],
+      "center": [
+        710,
+        2298
+      ],
+      "area": 206640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36",
+        "node_37"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_36",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2248,
+        224,
+        2348
+      ],
+      "center": [
+        176,
+        2298
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_37",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Search",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        256,
+        2256,
+        1292,
+        2340
+      ],
+      "center": [
+        774,
+        2298
+      ],
+      "area": 87024,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "Tags",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2376,
+        1340,
+        2540
+      ],
+      "center": [
+        710,
+        2458
+      ],
+      "area": 206640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_39"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_39",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2376,
+        1340,
+        2540
+      ],
+      "center": [
+        710,
+        2458
+      ],
+      "area": 206640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_40",
+        "node_41"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_40",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2408,
+        224,
+        2508
+      ],
+      "center": [
+        176,
+        2458
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_41",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Tags",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        256,
+        2416,
+        1292,
+        2500
+      ],
+      "center": [
+        774,
+        2458
+      ],
+      "area": 87024,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_42",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "All properties",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2536,
+        1340,
+        2560
+      ],
+      "center": [
+        710,
+        2548
+      ],
+      "area": 30240,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_43"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_43",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2536,
+        1340,
+        2560
+      ],
+      "center": [
+        710,
+        2548
+      ],
+      "area": 30240,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_44",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2060
+      ],
+      "center": [
+        720,
+        1078
+      ],
+      "area": 2828160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_45",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2060
+      ],
+      "center": [
+        720,
+        1078
+      ],
+      "area": 2828160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_46",
+        "node_47"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2060
+      ],
+      "center": [
+        720,
+        1078
+      ],
+      "area": 2828160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_47",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2060
+      ],
+      "center": [
+        720,
+        1078
+      ],
+      "area": 2828160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [
+        "node_48",
+        "node_59"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_48",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1832,
+        1440,
+        2060
+      ],
+      "center": [
+        720,
+        1946
+      ],
+      "area": 328320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [
+        "node_49",
+        "node_51",
+        "node_53",
+        "node_55",
+        "node_57"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_49",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "New note",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        216,
+        1848,
+        392,
+        2028
+      ],
+      "center": [
+        304,
+        1938
+      ],
+      "area": 31680,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_50"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_50",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        256,
+        1888,
+        352,
+        1988
+      ],
+      "center": [
+        304,
+        1938
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_51",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "New folder",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        424,
+        1848,
+        600,
+        2028
+      ],
+      "center": [
+        512,
+        1938
+      ],
+      "area": 31680,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_52"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_52",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        464,
+        1888,
+        560,
+        1988
+      ],
+      "center": [
+        512,
+        1938
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_53",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "Change sort order",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        632,
+        1848,
+        808,
+        2028
+      ],
+      "center": [
+        720,
+        1938
+      ],
+      "area": 31680,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_54"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_54",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        672,
+        1888,
+        768,
+        1988
+      ],
+      "center": [
+        720,
+        1938
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_55",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "Auto-reveal current file",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        840,
+        1848,
+        1016,
+        2028
+      ],
+      "center": [
+        928,
+        1938
+      ],
+      "area": 31680,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_56"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_56",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        880,
+        1888,
+        976,
+        1988
+      ],
+      "center": [
+        928,
+        1938
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_57",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "Expand all",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1048,
+        1848,
+        1224,
+        2028
+      ],
+      "center": [
+        1136,
+        1938
+      ],
+      "area": 31680,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_58"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_58",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1088,
+        1888,
+        1184,
+        1988
+      ],
+      "center": [
+        1136,
+        1938
+      ],
+      "area": 9600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_59",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        112,
+        1440,
+        2060
+      ],
+      "center": [
+        720,
+        1086
+      ],
+      "area": 2805120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [
+        "node_60"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_60",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        144,
+        1392,
+        292
+      ],
+      "center": [
+        720,
+        218
+      ],
+      "area": 198912,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [
+        "node_61"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_61",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "test",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        144,
+        176,
+        256,
+        260
+      ],
+      "center": [
+        200,
+        218
+      ],
+      "area": 9408,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    },
+    {
+      "id": "node_62",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "md.obsidian"
+    }
+  ]
+}

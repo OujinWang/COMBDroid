@@ -1,0 +1,100 @@
+{
+  "actionable_component_count": 3,
+  "actionable_components": [
+    {
+      "id": "node_36",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.habitrpg.android.habitica:id/touch_outside",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.habitrpg.android.habitica"
+    },
+    {
+      "id": "node_41",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.habitrpg.android.habitica:id/recyclerView",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2192,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2376
+      ],
+      "area": 529920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_42"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.habitrpg.android.habitica"
+    },
+    {
+      "id": "node_42",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2192,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2376
+      ],
+      "area": 529920,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [
+        "node_43",
+        "node_44"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.habitrpg.android.habitica"
+    }
+  ]
+}

@@ -1,0 +1,2699 @@
+{
+  "screenshot_path": "runs\\175_loseIt!\\step_004\\screen.png",
+  "xml_path": "runs\\175_loseIt!\\step_004\\hierarchy.xml",
+  "component_count": 85,
+  "components": [
+    {
+      "id": "node_25",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_26"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_26",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_27",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [
+        "node_28"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_28",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.fitnow.loseit:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [
+        "node_29"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_30",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31",
+        "node_37"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_31",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.fitnow.loseit:id/toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        160
+      ],
+      "area": 460800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32",
+        "node_33",
+        "node_34"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_32",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Navigate up",
+      "bounds": [
+        0,
+        96,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        208
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_33",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Lose It!",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        149,
+        575,
+        266
+      ],
+      "center": [
+        431,
+        207
+      ],
+      "area": 33579,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_34",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1056,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        1248,
+        208
+      ],
+      "area": 86016,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_35",
+        "node_36"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_35",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.fitnow.loseit:id/share_menu_item",
+      "content_desc": "Share",
+      "bounds": [
+        1056,
+        112,
+        1248,
+        304
+      ],
+      "center": [
+        1152,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_36",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.fitnow.loseit:id/open_in_browser_menu_item",
+      "content_desc": "Open in Browser",
+      "bounds": [
+        1248,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1344,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_37",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_38"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_38",
+      "type": "Other",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [
+        "node_39"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_39",
+      "type": "ScrollContainer",
+      "class_name": "android.webkit.WebView",
+      "text": "10 Snacks to Eat and Avoid Before Bed",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_40",
+        "node_100"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_40",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_41",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_42",
+        "node_70",
+        "node_80",
+        "node_94"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_42",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        576
+      ],
+      "center": [
+        720,
+        448
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [
+        "node_43"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_43",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        576
+      ],
+      "center": [
+        720,
+        448
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_44"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_44",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        576
+      ],
+      "center": [
+        720,
+        448
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_45",
+        "node_46"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_45",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "adDiv111track",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        576
+      ],
+      "center": [
+        720,
+        448
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_46",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "Advertisement",
+      "resource_id": "adDiv111",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        576
+      ],
+      "center": [
+        720,
+        448
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_47",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "google_ads_iframe_/4213/loseit/android-free/contentarticle_1__container__",
+      "content_desc": "",
+      "bounds": [
+        80,
+        320,
+        1360,
+        576
+      ],
+      "center": [
+        720,
+        448
+      ],
+      "area": 327680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [
+        "node_48",
+        "node_49"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_48",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Advertisement",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        328,
+        1360,
+        368
+      ],
+      "center": [
+        720,
+        348
+      ],
+      "area": 51200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_49",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "google_ads_iframe_/4213/loseit/android-free/contentarticle_1",
+      "content_desc": "",
+      "bounds": [
+        80,
+        376,
+        1360,
+        576
+      ],
+      "center": [
+        720,
+        476
+      ],
+      "area": 256000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [
+        "node_50"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_50",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "SafeFrame Container",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        376,
+        1360,
+        576
+      ],
+      "center": [
+        720,
+        476
+      ],
+      "area": 256000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_51",
+        "node_52",
+        "node_59"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_51",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        376,
+        1360,
+        576
+      ],
+      "center": [
+        720,
+        476
+      ],
+      "area": 256000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_52",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "abgcp",
+      "content_desc": "",
+      "bounds": [
+        1200,
+        376,
+        1360,
+        476
+      ],
+      "center": [
+        1280,
+        426
+      ],
+      "area": 16000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_53"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_53",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "abgc",
+      "content_desc": "",
+      "bounds": [
+        1236,
+        380,
+        1356,
+        440
+      ],
+      "center": [
+        1296,
+        410
+      ],
+      "area": 7200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [
+        "node_54",
+        "node_58"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_54",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "abgb",
+      "content_desc": "",
+      "bounds": [
+        1236,
+        380,
+        1296,
+        440
+      ],
+      "center": [
+        1266,
+        410
+      ],
+      "area": 3600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [
+        "node_55"
+      ],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_55",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1236,
+        380,
+        1296,
+        440
+      ],
+      "center": [
+        1266,
+        410
+      ],
+      "area": 3600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [
+        "node_56"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_56",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1236,
+        380,
+        1296,
+        440
+      ],
+      "center": [
+        1266,
+        410
+      ],
+      "area": 3600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [
+        "node_57"
+      ],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_57",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1236,
+        380,
+        1296,
+        440
+      ],
+      "center": [
+        1266,
+        410
+      ],
+      "area": 3600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_58",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "cbb",
+      "content_desc": "",
+      "bounds": [
+        1296,
+        380,
+        1356,
+        440
+      ],
+      "center": [
+        1326,
+        410
+      ],
+      "area": 3600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_59",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "dclk-studio-creative_1773726628613",
+      "content_desc": "",
+      "bounds": [
+        80,
+        376,
+        1360,
+        576
+      ],
+      "center": [
+        720,
+        476
+      ],
+      "area": 256000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_60"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_60",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        376,
+        1360,
+        576
+      ],
+      "center": [
+        720,
+        476
+      ],
+      "area": 256000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [
+        "node_61"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_61",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "200_268_dfa7banner_html_inpage_0.if",
+      "content_desc": "",
+      "bounds": [
+        80,
+        376,
+        1360,
+        576
+      ],
+      "center": [
+        720,
+        476
+      ],
+      "area": 256000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [
+        "node_62"
+      ],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_62",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        376,
+        1360,
+        576
+      ],
+      "center": [
+        720,
+        476
+      ],
+      "area": 256000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [
+        "node_63",
+        "node_64"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_63",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "clickTag",
+      "bounds": [
+        80,
+        376,
+        1360,
+        576
+      ],
+      "center": [
+        720,
+        476
+      ],
+      "area": 256000,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_64",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "designContainer",
+      "content_desc": "",
+      "bounds": [
+        80,
+        376,
+        1360,
+        576
+      ],
+      "center": [
+        720,
+        476
+      ],
+      "area": 256000,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [
+        "node_65"
+      ],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_65",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "slide-14",
+      "content_desc": "",
+      "bounds": [
+        80,
+        376,
+        1360,
+        576
+      ],
+      "center": [
+        720,
+        476
+      ],
+      "area": 256000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_66"
+      ],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_66",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "element-15",
+      "content_desc": "",
+      "bounds": [
+        480,
+        392,
+        1080,
+        488
+      ],
+      "center": [
+        780,
+        440
+      ],
+      "area": 57600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [
+        "node_67"
+      ],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_67",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "effIn15",
+      "content_desc": "",
+      "bounds": [
+        480,
+        392,
+        1080,
+        488
+      ],
+      "center": [
+        780,
+        440
+      ],
+      "area": 57600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [
+        "node_68"
+      ],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_68",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "effOut15",
+      "content_desc": "",
+      "bounds": [
+        480,
+        392,
+        1080,
+        488
+      ],
+      "center": [
+        780,
+        440
+      ],
+      "area": 57600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [
+        "node_69"
+      ],
+      "depth": 26,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_69",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Elevate Your Days",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        480,
+        392,
+        1080,
+        488
+      ],
+      "center": [
+        780,
+        440
+      ],
+      "area": 57600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_70",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        672,
+        1440,
+        1200
+      ],
+      "center": [
+        720,
+        936
+      ],
+      "area": 760320,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [
+        "node_71"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_71",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        672,
+        1440,
+        1200
+      ],
+      "center": [
+        720,
+        936
+      ],
+      "area": 760320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [
+        "node_72",
+        "node_78"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_72",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        672,
+        1376,
+        864
+      ],
+      "center": [
+        720,
+        768
+      ],
+      "area": 251904,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [
+        "node_73",
+        "node_75",
+        "node_76"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_73",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "NUTRITION & FITNESS",
+      "bounds": [
+        64,
+        688,
+        760,
+        760
+      ],
+      "center": [
+        412,
+        724
+      ],
+      "area": 50112,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_72",
+      "children_ids": [
+        "node_74"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_74",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "NUTRITION & FITNESS",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        684,
+        760,
+        760
+      ],
+      "center": [
+        412,
+        722
+      ],
+      "area": 52896,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_75",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        788,
+        708,
+        824,
+        740
+      ],
+      "center": [
+        806,
+        724
+      ],
+      "area": 1152,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_72",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_76",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "DIET & NUTRITION",
+      "bounds": [
+        64,
+        776,
+        644,
+        848
+      ],
+      "center": [
+        354,
+        812
+      ],
+      "area": 41760,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_72",
+      "children_ids": [
+        "node_77"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_77",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "DIET & NUTRITION",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        772,
+        644,
+        848
+      ],
+      "center": [
+        354,
+        810
+      ],
+      "area": 44080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_78",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        928,
+        1440,
+        1200
+      ],
+      "center": [
+        720,
+        1064
+      ],
+      "area": 391680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [
+        "node_79"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_79",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "The 10 Best and Worst Bedtime Snacks",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        928,
+        1376,
+        1200
+      ],
+      "center": [
+        720,
+        1064
+      ],
+      "area": 356864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_80",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1280,
+        1376,
+        1624
+      ],
+      "center": [
+        720,
+        1452
+      ],
+      "area": 451328,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [
+        "node_81"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_81",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1280,
+        1376,
+        1624
+      ],
+      "center": [
+        720,
+        1452
+      ],
+      "area": 451328,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_82",
+        "node_86",
+        "node_87"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_82",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1280,
+        576,
+        1360
+      ],
+      "center": [
+        320,
+        1320
+      ],
+      "area": 40960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_83",
+        "node_84"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_83",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "By",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1280,
+        132,
+        1356
+      ],
+      "center": [
+        98,
+        1318
+      ],
+      "area": 5168,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_84",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Lauren Bedosky",
+      "bounds": [
+        144,
+        1280,
+        560,
+        1356
+      ],
+      "center": [
+        352,
+        1318
+      ],
+      "area": 31616,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [
+        "node_85"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_85",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Lauren Bedosky",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        144,
+        1280,
+        560,
+        1356
+      ],
+      "center": [
+        352,
+        1318
+      ],
+      "area": 31616,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_84",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_86",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Updated on March 17, 2026",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1376,
+        668,
+        1440
+      ],
+      "center": [
+        366,
+        1408
+      ],
+      "area": 38656,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_87",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1456,
+        1376,
+        1624
+      ],
+      "center": [
+        720,
+        1540
+      ],
+      "area": 220416,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_88",
+        "node_91",
+        "node_92"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_88",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1456,
+        684,
+        1544
+      ],
+      "center": [
+        374,
+        1500
+      ],
+      "area": 54560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_87",
+      "children_ids": [
+        "node_89",
+        "node_90"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_89",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1468,
+        128,
+        1532
+      ],
+      "center": [
+        96,
+        1500
+      ],
+      "area": 4096,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_88",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_90",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Medically Reviewed",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        152,
+        1460,
+        684,
+        1544
+      ],
+      "center": [
+        418,
+        1502
+      ],
+      "area": 44688,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_88",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_91",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " by",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        680,
+        1464,
+        764,
+        1540
+      ],
+      "center": [
+        722,
+        1502
+      ],
+      "area": 6384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_87",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_92",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Kara Andrew, RDN, LDN",
+      "bounds": [
+        64,
+        1464,
+        1248,
+        1620
+      ],
+      "center": [
+        656,
+        1542
+      ],
+      "area": 184704,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_87",
+      "children_ids": [
+        "node_93"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_93",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Kara Andrew, RDN, LDN",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1464,
+        1248,
+        1620
+      ],
+      "center": [
+        656,
+        1542
+      ],
+      "area": 184704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_92",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_94",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1740,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2150
+      ],
+      "area": 1075840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [
+        "node_95"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_95",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1740,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2150
+      ],
+      "area": 1075840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_94",
+      "children_ids": [
+        "node_96"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_96",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1740,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2150
+      ],
+      "area": 1075840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [
+        "node_97",
+        "node_99"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_97",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1740,
+        1376,
+        2484
+      ],
+      "center": [
+        720,
+        2112
+      ],
+      "area": 976128,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [
+        "node_98"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_98",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "Best and Worst Bedtime Snacks",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1740,
+        1376,
+        2484
+      ],
+      "center": [
+        720,
+        2112
+      ],
+      "area": 976128,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_97",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_99",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "Fried foods, nuts, and fruit: Which options are smart to eat in the evening and at night?",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2512,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2536
+      ],
+      "area": 62976,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_100",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1160,
+        2264,
+        1440,
+        2504
+      ],
+      "center": [
+        1300,
+        2384
+      ],
+      "area": 67200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_101"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_101",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1160,
+        2264,
+        1440,
+        2528
+      ],
+      "center": [
+        1300,
+        2396
+      ],
+      "area": 73920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_100",
+      "children_ids": [
+        "node_102"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_102",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1160,
+        2264,
+        1440,
+        2504
+      ],
+      "center": [
+        1300,
+        2384
+      ],
+      "area": 67200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_101",
+      "children_ids": [
+        "node_103"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_103",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "reCAPTCHA",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1160,
+        2264,
+        1440,
+        2504
+      ],
+      "center": [
+        1300,
+        2384
+      ],
+      "area": 67200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_102",
+      "children_ids": [
+        "node_104",
+        "node_105"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_104",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "rc-anchor-alert",
+      "content_desc": "",
+      "bounds": [
+        1168,
+        2272,
+        1440,
+        2504
+      ],
+      "center": [
+        1304,
+        2388
+      ],
+      "area": 63104,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_103",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_105",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1160,
+        2452,
+        1440,
+        2492
+      ],
+      "center": [
+        1300,
+        2472
+      ],
+      "area": 11200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_103",
+      "children_ids": [
+        "node_106",
+        "node_108"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_106",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Privacy",
+      "bounds": [
+        1180,
+        2444,
+        1296,
+        2500
+      ],
+      "center": [
+        1238,
+        2472
+      ],
+      "area": 6496,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_105",
+      "children_ids": [
+        "node_107"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_107",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Privacy",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1184,
+        2452,
+        1292,
+        2492
+      ],
+      "center": [
+        1238,
+        2472
+      ],
+      "area": 4320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_106",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_108",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Terms",
+      "bounds": [
+        1316,
+        2444,
+        1420,
+        2500
+      ],
+      "center": [
+        1368,
+        2472
+      ],
+      "area": 5824,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_105",
+      "children_ids": [
+        "node_109"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    },
+    {
+      "id": "node_109",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Terms",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1320,
+        2452,
+        1416,
+        2492
+      ],
+      "center": [
+        1368,
+        2472
+      ],
+      "area": 3840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_108",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.fitnow.loseit"
+    }
+  ]
+}

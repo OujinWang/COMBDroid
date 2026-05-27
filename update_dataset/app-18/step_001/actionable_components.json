@@ -1,0 +1,437 @@
+{
+  "actionable_component_count": 14,
+  "actionable_components": [
+    {
+      "id": "node_9",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.eterno:id/news_detail_pager",
+      "content_desc": "Pager to navigate between photos of an article.",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_10",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_14",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.eterno:id/details_list",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15",
+        "node_24",
+        "node_29"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_16",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.eterno:id/news_detail_image",
+      "content_desc": "Story content image",
+      "bounds": [
+        0,
+        96,
+        1440,
+        906
+      ],
+      "center": [
+        720,
+        501
+      ],
+      "area": 1166400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_19",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "New LPG Aadhaar e-KYC Rule: Govt Makes Biometric Authentication Mandatory for Domestic Consumers",
+      "resource_id": "com.eterno:id/news_details_news_title",
+      "content_desc": "",
+      "bounds": [
+        128,
+        858,
+        1312,
+        1253
+      ],
+      "center": [
+        720,
+        1055
+      ],
+      "area": 467680,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_20",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.eterno:id/source_icon",
+      "content_desc": "",
+      "bounds": [
+        128,
+        1317,
+        208,
+        1397
+      ],
+      "center": [
+        168,
+        1357
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_21",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Good Returns",
+      "resource_id": "com.eterno:id/display_name",
+      "content_desc": "",
+      "bounds": [
+        224,
+        1328,
+        533,
+        1386
+      ],
+      "center": [
+        378,
+        1357
+      ],
+      "area": 17922,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_27",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "he Ministry of Petroleum and Natural Gas on March 15 announced that all domestic LPG consumers must complete Biometric Aadhaar Authentication or e-KYC to continue receiving LPG services and subsidies.",
+      "resource_id": "com.eterno:id/tv_body",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1541,
+        1360,
+        2237
+      ],
+      "center": [
+        720,
+        1889
+      ],
+      "area": 890880,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_28",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "T ",
+      "resource_id": "com.eterno:id/tv_cap",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1541,
+        276,
+        1833
+      ],
+      "center": [
+        178,
+        1687
+      ],
+      "area": 57232,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_36",
+      "type": "ScrollContainer",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2413,
+        1360,
+        2560
+      ],
+      "center": [
+        720,
+        2486
+      ],
+      "area": 188160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_37"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_46",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        120,
+        2413,
+        1320,
+        2560
+      ],
+      "center": [
+        720,
+        2486
+      ],
+      "area": 176400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 31,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.eterno:id/actionbar_back_button_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        240,
+        320
+      ],
+      "center": [
+        120,
+        208
+      ],
+      "area": 53760,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_51"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_54",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "1.8k",
+      "resource_id": "com.eterno:id/share_count_tv",
+      "content_desc": "",
+      "bounds": [
+        945,
+        96,
+        1248,
+        320
+      ],
+      "center": [
+        1096,
+        208
+      ],
+      "area": 67872,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_56",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.eterno:id/action_more_newsdetail",
+      "content_desc": "More",
+      "bounds": [
+        1248,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1344,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    }
+  ]
+}

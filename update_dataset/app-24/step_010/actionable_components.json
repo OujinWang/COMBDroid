@@ -1,0 +1,739 @@
+{
+  "actionable_component_count": 23,
+  "actionable_components": [
+    {
+      "id": "node_9",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.google.android.apps.youtube.kids:id/browse_coordinator_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10",
+        "node_36"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_16",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.youtube.kids:id/mdx_media_route_button",
+      "content_desc": "Cast. Disconnected",
+      "bounds": [
+        864,
+        0,
+        1056,
+        192
+      ],
+      "center": [
+        960,
+        96
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_17",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.youtube.kids:id/menu_privacy",
+      "content_desc": "Privacy",
+      "bounds": [
+        1056,
+        0,
+        1248,
+        192
+      ],
+      "center": [
+        1152,
+        96
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_18",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.youtube.kids:id/menu_settings",
+      "content_desc": "Settings",
+      "bounds": [
+        1248,
+        0,
+        1440,
+        192
+      ],
+      "center": [
+        1344,
+        96
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_20",
+      "type": "ScrollContainer",
+      "class_name": "android.support.v7.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.google.android.apps.youtube.kids:id/chip_bar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        192,
+        1440,
+        384
+      ],
+      "center": [
+        720,
+        288
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_21",
+        "node_25",
+        "node_29",
+        "node_33"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_21",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        192,
+        380,
+        384
+      ],
+      "center": [
+        222,
+        288
+      ],
+      "area": 60672,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_22"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_24",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "All",
+      "resource_id": "com.google.android.apps.youtube.kids:id/chip_text",
+      "content_desc": "",
+      "bounds": [
+        264,
+        250,
+        332,
+        325
+      ],
+      "center": [
+        298,
+        287
+      ],
+      "area": 5100,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_22",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_25",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        412,
+        192,
+        827,
+        384
+      ],
+      "center": [
+        619,
+        288
+      ],
+      "area": 79680,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_26"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_28",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Shows",
+      "resource_id": "com.google.android.apps.youtube.kids:id/chip_text",
+      "content_desc": "",
+      "bounds": [
+        612,
+        250,
+        779,
+        325
+      ],
+      "center": [
+        695,
+        287
+      ],
+      "area": 12525,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_29",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        859,
+        192,
+        1260,
+        384
+      ],
+      "center": [
+        1059,
+        288
+      ],
+      "area": 76992,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_32",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Music",
+      "resource_id": "com.google.android.apps.youtube.kids:id/chip_text",
+      "content_desc": "",
+      "bounds": [
+        1059,
+        250,
+        1212,
+        325
+      ],
+      "center": [
+        1135,
+        287
+      ],
+      "area": 11475,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_33",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1292,
+        192,
+        1440,
+        384
+      ],
+      "center": [
+        1366,
+        288
+      ],
+      "area": 28416,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_34"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_38",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.GridView",
+      "text": "",
+      "resource_id": "com.google.android.apps.youtube.kids:id/recycler_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        408,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1484
+      ],
+      "area": 3098880,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [
+        "node_39",
+        "node_47",
+        "node_55"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_40",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Construction Vehicles, Cars, Shapes & Animals For Kids .. .. ..️ .. | Ms Moni | Kids Learning Videos - 40 minutes - Go to channel - Ms Moni - Toddler Learning Videos - 11 million views - 1 year ago - play video",
+      "bounds": [
+        64,
+        440,
+        1376,
+        1398
+      ],
+      "center": [
+        720,
+        919
+      ],
+      "area": 1256896,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_41",
+        "node_43",
+        "node_46"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Action menu",
+      "bounds": [
+        1248,
+        1206,
+        1344,
+        1302
+      ],
+      "center": [
+        1296,
+        1254
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_48",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "All The Countries of the World! | KLT Geography - 1 hour, 12 minutes - Go to channel - KLT Geography - 7.7 million views - 2 years ago - play video",
+      "bounds": [
+        64,
+        1462,
+        1376,
+        2420
+      ],
+      "center": [
+        720,
+        1941
+      ],
+      "area": 1256896,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [
+        "node_49",
+        "node_51",
+        "node_54"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_54",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Action menu",
+      "bounds": [
+        1248,
+        2228,
+        1344,
+        2324
+      ],
+      "center": [
+        1296,
+        2276
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_56",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Let's Go To The Doctor! | Caitie's Classroom Field Trip | First Time Experience for Kids - 9 minutes, 19 seconds - Go to channel - Super Simple Play with Caitie! - 16 million views - 3 years ago - play video",
+      "bounds": [
+        64,
+        2484,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2522
+      ],
+      "area": 99712,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [
+        "node_57"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_64",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.google.android.apps.youtube.kids:id/pivot_bar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2256,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2408
+      ],
+      "area": 437760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_63",
+      "children_ids": [
+        "node_65"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_66",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Home",
+      "bounds": [
+        0,
+        2256,
+        360,
+        2560
+      ],
+      "center": [
+        180,
+        2408
+      ],
+      "area": 109440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_65",
+      "children_ids": [
+        "node_67",
+        "node_69"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_70",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Search",
+      "bounds": [
+        360,
+        2256,
+        720,
+        2560
+      ],
+      "center": [
+        540,
+        2408
+      ],
+      "area": 109440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [
+        "node_71",
+        "node_73"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_74",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Your stuff",
+      "bounds": [
+        720,
+        2256,
+        1080,
+        2560
+      ],
+      "center": [
+        900,
+        2408
+      ],
+      "area": 109440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [
+        "node_75",
+        "node_77"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    },
+    {
+      "id": "node_78",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Sign in",
+      "bounds": [
+        1080,
+        2256,
+        1440,
+        2560
+      ],
+      "center": [
+        1260,
+        2408
+      ],
+      "area": 109440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [
+        "node_79",
+        "node_81"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.youtube.kids"
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "actionable_component_count": 18,
+  "actionable_components": [
+    {
+      "id": "node_12",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        112,
+        224,
+        336
+      ],
+      "center": [
+        112,
+        224
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_15",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.droid4you.application.wallet:id/menu_ring",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        128,
+        1440,
+        320
+      ],
+      "center": [
+        1344,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_16"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_18",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.droid4you.application.wallet:id/tab_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        352,
+        1440,
+        544
+      ],
+      "center": [
+        720,
+        448
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_19"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_22",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Budgets & Goals",
+      "bounds": [
+        720,
+        352,
+        1440,
+        544
+      ],
+      "center": [
+        1080,
+        448
+      ],
+      "area": 138240,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_23"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_26",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.droid4you.application.wallet:id/view_pager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        544,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1552
+      ],
+      "area": 2903040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_27",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        544,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1552
+      ],
+      "area": 2903040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [
+        "node_28"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_31",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.droid4you.application.wallet:id/vRecyclerView",
+      "content_desc": "",
+      "bounds": [
+        0,
+        544,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1552
+      ],
+      "area": 2903040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32",
+        "node_53",
+        "node_74"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_36",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.droid4you.application.wallet:id/icon_account_settings",
+      "content_desc": "",
+      "bounds": [
+        1232,
+        576,
+        1392,
+        768
+      ],
+      "center": [
+        1312,
+        672
+      ],
+      "area": 30720,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_41",
+      "type": "Clickable",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        800,
+        720,
+        1005
+      ],
+      "center": [
+        376,
+        902
+      ],
+      "area": 141040,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_42"
+      ],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        720,
+        800,
+        1408,
+        1008
+      ],
+      "center": [
+        1064,
+        904
+      ],
+      "area": 143104,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_50",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Account Detail",
+      "resource_id": "com.droid4you.application.wallet:id/button_account_detail",
+      "content_desc": "",
+      "bounds": [
+        48,
+        1040,
+        548,
+        1232
+      ],
+      "center": [
+        298,
+        1136
+      ],
+      "area": 96000,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_51",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Records",
+      "resource_id": "com.droid4you.application.wallet:id/button_records",
+      "content_desc": "",
+      "bounds": [
+        942,
+        1040,
+        1392,
+        1232
+      ],
+      "center": [
+        1167,
+        1136
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_55",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.droid4you.application.wallet:id/view_pager_swipe",
+      "content_desc": "",
+      "bounds": [
+        40,
+        1308,
+        1400,
+        1892
+      ],
+      "center": [
+        720,
+        1600
+      ],
+      "area": 794240,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [
+        "node_56"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_65",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "More details",
+      "resource_id": "com.droid4you.application.wallet:id/button_cta",
+      "content_desc": "",
+      "bounds": [
+        88,
+        1668,
+        534,
+        1860
+      ],
+      "center": [
+        311,
+        1764
+      ],
+      "area": 85632,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_66",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.droid4you.application.wallet:id/button_close",
+      "content_desc": "",
+      "bounds": [
+        1240,
+        1308,
+        1400,
+        1468
+      ],
+      "center": [
+        1320,
+        1388
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_82",
+      "type": "Clickable",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.droid4you.application.wallet:id/vLayoutIcon",
+      "content_desc": "",
+      "bounds": [
+        104,
+        2092,
+        264,
+        2252
+      ],
+      "center": [
+        184,
+        2172
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_83"
+      ],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_90",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Get Wallet Premium",
+      "resource_id": "com.droid4you.application.wallet:id/premium_widget_button",
+      "content_desc": "",
+      "bounds": [
+        104,
+        2461,
+        1336,
+        2560
+      ],
+      "center": [
+        720,
+        2510
+      ],
+      "area": 121968,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_89",
+      "children_ids": [],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.droid4you.application.wallet"
+    },
+    {
+      "id": "node_93",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Toggle menu",
+      "bounds": [
+        1152,
+        2272,
+        1376,
+        2496
+      ],
+      "center": [
+        1264,
+        2384
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_92",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.droid4you.application.wallet"
+    }
+  ]
+}

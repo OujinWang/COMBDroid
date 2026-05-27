@@ -1,0 +1,835 @@
+{
+  "actionable_component_count": 26,
+  "actionable_components": [
+    {
+      "id": "node_13",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Search Play Books",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        96,
+        1376,
+        288
+      ],
+      "center": [
+        720,
+        192
+      ],
+      "area": 251904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14",
+        "node_15",
+        "node_17"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_14",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        96,
+        272,
+        288
+      ],
+      "center": [
+        176,
+        192
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_18",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/account_particle_disc",
+      "content_desc": "Signed in as 欧槿 oujin0703@gmail.com\nAccount and settings.",
+      "bounds": [
+        1172,
+        96,
+        1376,
+        288
+      ],
+      "center": [
+        1274,
+        192
+      ],
+      "area": 39168,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_19"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_22",
+      "type": "ScrollContainer",
+      "class_name": "android.support.v7.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/bindable_recycler_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2304
+      ],
+      "center": [
+        720,
+        1152
+      ],
+      "area": 3317760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_23",
+        "node_31",
+        "node_35",
+        "node_47",
+        "node_52",
+        "node_63"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_23",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/bindable_tabs",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        512
+      ],
+      "center": [
+        720,
+        416
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_24"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_27",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Audiobooks",
+      "bounds": [
+        516,
+        320,
+        924,
+        512
+      ],
+      "center": [
+        720,
+        416
+      ],
+      "area": 78336,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [
+        "node_28"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_29",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Comics",
+      "bounds": [
+        924,
+        320,
+        1332,
+        512
+      ],
+      "center": [
+        1128,
+        416
+      ],
+      "area": 78336,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_31",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/header_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        560,
+        1440,
+        780
+      ],
+      "center": [
+        720,
+        670
+      ],
+      "area": 316800,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_32",
+        "node_34"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_36",
+      "type": "ScrollContainer",
+      "class_name": "android.support.v7.widget.StaggeredGridLayoutManager",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/brick_list_recycler_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        780,
+        1440,
+        1308
+      ],
+      "center": [
+        720,
+        1044
+      ],
+      "area": 760320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_37",
+        "node_39",
+        "node_41",
+        "node_43",
+        "node_45"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_38",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Business & investing",
+      "resource_id": "",
+      "content_desc": "Business & investing",
+      "bounds": [
+        96,
+        852,
+        828,
+        1044
+      ],
+      "center": [
+        462,
+        948
+      ],
+      "area": 140544,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_40",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Arts & entertainment",
+      "resource_id": "",
+      "content_desc": "Arts & entertainment",
+      "bounds": [
+        876,
+        852,
+        1440,
+        1044
+      ],
+      "center": [
+        1158,
+        948
+      ],
+      "area": 108288,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_42",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Romance",
+      "resource_id": "",
+      "content_desc": "Romance",
+      "bounds": [
+        96,
+        1044,
+        533,
+        1236
+      ],
+      "center": [
+        314,
+        1140
+      ],
+      "area": 83904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_44",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Health, mind & body",
+      "resource_id": "",
+      "content_desc": "Health, mind & body",
+      "bounds": [
+        581,
+        1044,
+        1310,
+        1236
+      ],
+      "center": [
+        945,
+        1140
+      ],
+      "area": 139968,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_46",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Biographies & memoirs",
+      "resource_id": "",
+      "content_desc": "Biographies & memoirs",
+      "bounds": [
+        1358,
+        1044,
+        1440,
+        1236
+      ],
+      "center": [
+        1399,
+        1140
+      ],
+      "area": 15744,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_47",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/header_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1308,
+        1440,
+        1528
+      ],
+      "center": [
+        720,
+        1418
+      ],
+      "area": 316800,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_48",
+        "node_49",
+        "node_51"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_54",
+      "type": "ScrollContainer",
+      "class_name": "android.support.v7.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/brick_list_recycler_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1528,
+        1440,
+        1720
+      ],
+      "center": [
+        720,
+        1624
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [
+        "node_55",
+        "node_57",
+        "node_59",
+        "node_61"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_56",
+      "type": "Button",
+      "class_name": "android.widget.CompoundButton",
+      "text": "Top selling",
+      "resource_id": "",
+      "content_desc": "Top selling",
+      "bounds": [
+        96,
+        1528,
+        570,
+        1720
+      ],
+      "center": [
+        333,
+        1624
+      ],
+      "area": 91008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_58",
+      "type": "Button",
+      "class_name": "android.widget.CompoundButton",
+      "text": "Deals",
+      "resource_id": "",
+      "content_desc": "Deals",
+      "bounds": [
+        618,
+        1528,
+        956,
+        1720
+      ],
+      "center": [
+        787,
+        1624
+      ],
+      "area": 64896,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_60",
+      "type": "Button",
+      "class_name": "android.widget.CompoundButton",
+      "text": "New",
+      "resource_id": "",
+      "content_desc": "New",
+      "bounds": [
+        1004,
+        1528,
+        1311,
+        1720
+      ],
+      "center": [
+        1157,
+        1624
+      ],
+      "area": 58944,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_62",
+      "type": "Button",
+      "class_name": "android.widget.CompoundButton",
+      "text": "Free",
+      "resource_id": "",
+      "content_desc": "Free",
+      "bounds": [
+        1359,
+        1528,
+        1440,
+        1720
+      ],
+      "center": [
+        1399,
+        1624
+      ],
+      "area": 15552,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_64",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.GridView",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/brick_list_recycler_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1720,
+        1440,
+        2304
+      ],
+      "center": [
+        720,
+        2012
+      ],
+      "area": 840960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_63",
+      "children_ids": [
+        "node_65",
+        "node_75"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_65",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/card_image_body_button_list_item_root",
+      "content_desc": "1, The King Is Coming: It's Time to Prepare for the Return of Christ, John Bevere, Ebook. 3.5 stars, Discounted from $31.55 to $22.08, New",
+      "bounds": [
+        64,
+        1800,
+        1256,
+        2304
+      ],
+      "center": [
+        660,
+        2052
+      ],
+      "area": 600768,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_66"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_75",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/card_image_body_button_list_item_root",
+      "content_desc": "4, Lord, I Want to Be Whole Workbook and Journal: A Personal Prayer Journey, Stormie Omartian, Ebook. 5.0 stars, Discounted from $23.13 to $15.73",
+      "bounds": [
+        1256,
+        1800,
+        1440,
+        2304
+      ],
+      "center": [
+        1348,
+        2052
+      ],
+      "area": 92736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_76"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_81",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/bottom_home",
+      "content_desc": "Home",
+      "bounds": [
+        0,
+        2304,
+        360,
+        2560
+      ],
+      "center": [
+        180,
+        2432
+      ],
+      "area": 92160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_82"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_88",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/bottom_library",
+      "content_desc": "Library",
+      "bounds": [
+        360,
+        2304,
+        720,
+        2560
+      ],
+      "center": [
+        540,
+        2432
+      ],
+      "area": 92160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_89"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_95",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/bottom_wishlist",
+      "content_desc": "Wishlist",
+      "bounds": [
+        720,
+        2304,
+        1080,
+        2560
+      ],
+      "center": [
+        900,
+        2432
+      ],
+      "area": 92160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_96"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    }
+  ]
+}

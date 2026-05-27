@@ -1,0 +1,6165 @@
+{
+  "screenshot_path": "runs\\110_playBooks\\step_005\\screen.png",
+  "xml_path": "runs\\110_playBooks\\step_005\\hierarchy.xml",
+  "component_count": 196,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_3",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/decor_content_parent",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_5",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/activity_reader",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_7",
+        "node_194"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_6",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/reader",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_7",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/fragment_reader",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_8",
+        "node_9"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_8",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_9",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/info_cards_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_10"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_10",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/fragment_reader_content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11",
+        "node_173",
+        "node_174",
+        "node_176"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_11",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/webview_holder",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_12",
+      "type": "Other",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_13",
+      "type": "ScrollContainer",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14",
+        "node_15"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_14",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "rects_layer",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        5760,
+        0
+      ],
+      "center": [
+        2880,
+        0
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_15",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "gb-container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        17920,
+        28800,
+        2560
+      ],
+      "center": [
+        14400,
+        10240
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_16",
+        "node_30",
+        "node_39"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_16",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        20480,
+        28800,
+        2560
+      ],
+      "center": [
+        14400,
+        11520
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_17"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_17",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        20480,
+        28800,
+        2560
+      ],
+      "center": [
+        14400,
+        11520
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [
+        "node_18"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_18",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        20592,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        11576
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_19",
+        "node_29"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_19",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "Week 1",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        20908,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        11734
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_20",
+        "node_21",
+        "node_22",
+        "node_26"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_20",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR12.w.0.0.0.0.1",
+      "content_desc": "",
+      "bounds": [
+        100,
+        20908,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        11734
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_21",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "1",
+      "resource_id": "page_1",
+      "content_desc": "",
+      "bounds": [
+        100,
+        20908,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        11734
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_22",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "Week 1",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        20908,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        11734
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_23",
+        "node_24"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_23",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR12.w.0.0.0.0.2",
+      "content_desc": "",
+      "bounds": [
+        100,
+        20908,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        11734
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_24",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "pt1",
+      "content_desc": "Week 1",
+      "bounds": [
+        560,
+        20908,
+        836,
+        2560
+      ],
+      "center": [
+        698,
+        11734
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_25"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_25",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Week 1",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        560,
+        20908,
+        836,
+        2560
+      ],
+      "center": [
+        698,
+        11734
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_26",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "The Divine Master Plan",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        21188,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        11874
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_27"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_27",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "The Divine Master Plan",
+      "bounds": [
+        112,
+        21188,
+        1284,
+        2560
+      ],
+      "center": [
+        698,
+        11874
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [
+        "node_28"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_28",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "The Divine Master Plan",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        112,
+        21188,
+        1284,
+        2560
+      ],
+      "center": [
+        698,
+        11874
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_29",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PA1.w.0.0.0.0.1",
+      "content_desc": "",
+      "bounds": [
+        100,
+        22160,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        12360
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_30",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        23040,
+        28800,
+        2560
+      ],
+      "center": [
+        14400,
+        12800
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_31",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        23040,
+        28800,
+        2560
+      ],
+      "center": [
+        14400,
+        12800
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_32",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        23152,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        12856
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33",
+        "node_38"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_33",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        23392,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        12976
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34",
+        "node_35",
+        "node_36",
+        "node_37"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_34",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PA2.w.0.0.0.0.1",
+      "content_desc": "",
+      "bounds": [
+        100,
+        23392,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        12976
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_35",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "2",
+      "resource_id": "page_2",
+      "content_desc": "",
+      "bounds": [
+        100,
+        23392,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        12976
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_36",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "THEY WILL SAY, “WHAT HAPPENED TO THE PROMISE THAT JESUS IS COMING AGAIN? FROM BEFORE THE TIMES OF OUR ANCESTORS, EVERYTHING HAS REMAINED THE SAME SINCE THE WORLD WAS FIRST CREATED.”",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        23392,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        12976
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_37",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "2 PETER 3:4",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        24580,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        13570
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_38",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PA2.w.6.0.4.0.1",
+      "content_desc": "",
+      "bounds": [
+        100,
+        24688,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        13624
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_39",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        17920,
+        28800,
+        2560
+      ],
+      "center": [
+        14400,
+        10240
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_40"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_40",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        17920,
+        28800,
+        2560
+      ],
+      "center": [
+        14400,
+        10240
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_41",
+        "node_51",
+        "node_65",
+        "node_77",
+        "node_95",
+        "node_114",
+        "node_126",
+        "node_141",
+        "node_152",
+        "node_163"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_41",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        18032,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_42"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_42",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "How to Journey Through This Book",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        18464,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        10512
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [
+        "node_43",
+        "node_44",
+        "node_45",
+        "node_49",
+        "node_50"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_43",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR9.w.0.0.0.0.1",
+      "content_desc": "",
+      "bounds": [
+        100,
+        18464,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        10512
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_44",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "ix",
+      "resource_id": "page_ix",
+      "content_desc": "",
+      "bounds": [
+        100,
+        18464,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        10512
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_45",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "How to Journey Through This Book",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        18464,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        10512
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_46",
+        "node_47"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_46",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR9.w.0.0.0.0.2",
+      "content_desc": "",
+      "bounds": [
+        100,
+        18464,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        10512
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_47",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "fm1",
+      "content_desc": "How to Journey Through This Book",
+      "bounds": [
+        116,
+        18468,
+        1280,
+        2560
+      ],
+      "center": [
+        698,
+        10514
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [
+        "node_48"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_48",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "How to Journey Through This Book",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        116,
+        18468,
+        1280,
+        2560
+      ],
+      "center": [
+        698,
+        10514
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_49",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Dear Reader,",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        19328,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        10944
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_50",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "This is a message that has taken years to receive from the Holy Spirit, and several months to write. It’s a critical and urgent message; one that, if believed and acted on, will prepare you for the soon arrival of our King. I know, because the truths contained",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        19436,
+        1296,
+        2560
+      ],
+      "center": [
+        698,
+        10998
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_51",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1540,
+        18032,
+        2736,
+        2560
+      ],
+      "center": [
+        2138,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_52"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_52",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "How to Journey Through This Book",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1540,
+        18032,
+        2736,
+        2560
+      ],
+      "center": [
+        2138,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [
+        "node_53",
+        "node_60",
+        "node_61"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_53",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1540,
+        18032,
+        2736,
+        2560
+      ],
+      "center": [
+        2138,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [
+        "node_54",
+        "node_55",
+        "node_56",
+        "node_57",
+        "node_59"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_54",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "within these pages changed my personal life, and I share vulnerably about this transformation",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1540,
+        18032,
+        2600,
+        2560
+      ],
+      "center": [
+        2070,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_55",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR9.w.3.0.69",
+      "content_desc": "",
+      "bounds": [
+        1540,
+        18032,
+        2736,
+        2560
+      ],
+      "center": [
+        2138,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_56",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " in ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        2068,
+        18356,
+        2172,
+        2560
+      ],
+      "center": [
+        2120,
+        10458
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_57",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "chapter 1",
+      "bounds": [
+        2168,
+        18356,
+        2480,
+        2560
+      ],
+      "center": [
+        2324,
+        10458
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [
+        "node_58"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_58",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "chapter 1",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        2168,
+        18356,
+        2480,
+        2560
+      ],
+      "center": [
+        2324,
+        10458
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_59",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": ".",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        2476,
+        18356,
+        2504,
+        2560
+      ],
+      "center": [
+        2490,
+        10458
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_60",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Due to its importance, I took time and contemplative prayer to determine how to present it. I considered the ebb and flow of our present day—the demands of our schedules and the rapid pace at which we move, so I felt the need to adapt. I determined it would be beneficial to present the truths in bite-size chunks so you can deeply ponder them.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1540,
+        18464,
+        2736,
+        2560
+      ],
+      "center": [
+        2138,
+        10512
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_61",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1540,
+        19652,
+        2736,
+        2560
+      ],
+      "center": [
+        2138,
+        11106
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [
+        "node_62",
+        "node_63",
+        "node_64"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_62",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "At first glance you may think this",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1540,
+        19652,
+        2628,
+        2560
+      ],
+      "center": [
+        2084,
+        11106
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_63",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR9.w.3.2.6",
+      "content_desc": "",
+      "bounds": [
+        1540,
+        19652,
+        2736,
+        2560
+      ],
+      "center": [
+        2138,
+        11106
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_64",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " is a devotional. I assure you it’s not. Let me explain. A devotional usually has different topics for each day that don’t necessarily build into a concise and",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1540,
+        19760,
+        2736,
+        2560
+      ],
+      "center": [
+        2138,
+        11160
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_65",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        2980,
+        18032,
+        4176,
+        2560
+      ],
+      "center": [
+        3578,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_66"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_66",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "How to Journey Through This Book",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        2980,
+        18032,
+        4176,
+        2560
+      ],
+      "center": [
+        3578,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [
+        "node_67",
+        "node_71"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_67",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        2980,
+        18032,
+        4176,
+        2560
+      ],
+      "center": [
+        3578,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [
+        "node_68",
+        "node_69",
+        "node_70"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_68",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "systematic message. Even though this book is structured like a devotional, each day builds on the previous day’s chapter to form what we normally get in a nonfiction book. Now here is the great news: It certainly can be read in a day or two,",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        2980,
+        18032,
+        4168,
+        2560
+      ],
+      "center": [
+        3574,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_69",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR9.w.3.2.87",
+      "content_desc": "",
+      "bounds": [
+        2980,
+        18032,
+        4176,
+        2560
+      ],
+      "center": [
+        3578,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_70",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " if that is your preference, but I strongly recommend you read it in either a four-week or two-week time period. If four weeks, you’ll read a chapter per day. If two weeks, you’ll read a chapter for the morning and one for the evening each day. A hint for either choice to stay the course: Set a time (or times) and hold to it for each day.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        2980,
+        18788,
+        4144,
+        2560
+      ],
+      "center": [
+        3562,
+        10674
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_71",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        2980,
+        19976,
+        4176,
+        2560
+      ],
+      "center": [
+        3578,
+        11268
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [
+        "node_72",
+        "node_73",
+        "node_74",
+        "node_75",
+        "node_76"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_72",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR9.w.3.2.87.0.1",
+      "content_desc": "",
+      "bounds": [
+        2980,
+        19976,
+        4176,
+        2560
+      ],
+      "center": [
+        3578,
+        11268
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_73",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "x",
+      "resource_id": "page_x",
+      "content_desc": "",
+      "bounds": [
+        2980,
+        19976,
+        4176,
+        2560
+      ],
+      "center": [
+        3578,
+        11268
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_74",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "At the conclusion of each chapter, you will find five tools",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        2980,
+        19976,
+        4028,
+        2560
+      ],
+      "center": [
+        3504,
+        11268
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_75",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR10",
+      "content_desc": "",
+      "bounds": [
+        2980,
+        19976,
+        4176,
+        2560
+      ],
+      "center": [
+        3578,
+        11268
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_76",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " to help deepen the benefit of its",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        2980,
+        20084,
+        4112,
+        2560
+      ],
+      "center": [
+        3546,
+        11322
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_77",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4420,
+        18032,
+        5616,
+        2560
+      ],
+      "center": [
+        5018,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_78"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_78",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "How to Journey Through This Book",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4420,
+        18032,
+        5616,
+        2560
+      ],
+      "center": [
+        5018,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_77",
+      "children_ids": [
+        "node_79",
+        "node_80"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_79",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "content. Let’s call them the 5 Ps:",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4420,
+        18032,
+        5616,
+        2560
+      ],
+      "center": [
+        5018,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_80",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ListView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4676,
+        18240,
+        5520,
+        2560
+      ],
+      "center": [
+        5098,
+        10400
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [
+        "node_81",
+        "node_85",
+        "node_91"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_81",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4676,
+        18240,
+        5520,
+        2560
+      ],
+      "center": [
+        5098,
+        10400
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_82",
+        "node_83",
+        "node_84"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_82",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "1. ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4604,
+        18240,
+        4680,
+        2560
+      ],
+      "center": [
+        4642,
+        10400
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_83",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Passage:",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4696,
+        18240,
+        4976,
+        2560
+      ],
+      "center": [
+        4836,
+        10400
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_84",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " A passage from Scripture that is crucial to that day’s message found in the body of the text, or one that was not brought up in the main body of that chapter but adds strength to what was presented. I recommend memorizing these passages.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4696,
+        18240,
+        5504,
+        2560
+      ],
+      "center": [
+        5100,
+        10400
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_85",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4676,
+        19308,
+        5520,
+        2560
+      ],
+      "center": [
+        5098,
+        10934
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_86",
+        "node_87",
+        "node_88",
+        "node_89",
+        "node_90"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_86",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "2. ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4604,
+        19308,
+        4680,
+        2560
+      ],
+      "center": [
+        4642,
+        10934
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_87",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Point:",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4696,
+        19308,
+        4900,
+        2560
+      ],
+      "center": [
+        4798,
+        10934
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_88",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " This is a main thought contained within the chapter to drive home its importance.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4696,
+        19308,
+        5492,
+        2560
+      ],
+      "center": [
+        5094,
+        10934
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_89",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR10.w.2.1.15",
+      "content_desc": "",
+      "bounds": [
+        4676,
+        19308,
+        5520,
+        2560
+      ],
+      "center": [
+        5098,
+        10934
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_90",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " Seeing it again will only strengthen its effectiveness and give you a quick reference for coming back and reviewing the chapter.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4696,
+        19600,
+        5508,
+        2560
+      ],
+      "center": [
+        5102,
+        11080
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_91",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4676,
+        20180,
+        5520,
+        2560
+      ],
+      "center": [
+        5098,
+        11370
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_92",
+        "node_93",
+        "node_94"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_92",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "3. ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4604,
+        20180,
+        4680,
+        2560
+      ],
+      "center": [
+        4642,
+        11370
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_91",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_93",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Ponder:",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4696,
+        20180,
+        4960,
+        2560
+      ],
+      "center": [
+        4828,
+        11370
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_91",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_94",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " This is crucial.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        4956,
+        20180,
+        5420,
+        2560
+      ],
+      "center": [
+        5188,
+        11370
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_91",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_95",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        5860,
+        18032,
+        7056,
+        2560
+      ],
+      "center": [
+        6458,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_96"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_96",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "How to Journey Through This Book",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        5860,
+        18032,
+        7056,
+        2560
+      ],
+      "center": [
+        6458,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [
+        "node_97"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_97",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ListView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6116,
+        18032,
+        6960,
+        2560
+      ],
+      "center": [
+        6538,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [
+        "node_98",
+        "node_104",
+        "node_108"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_98",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6116,
+        18032,
+        6960,
+        2560
+      ],
+      "center": [
+        6538,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_97",
+      "children_ids": [
+        "node_99",
+        "node_100",
+        "node_101",
+        "node_102",
+        "node_103"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_99",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "The psalmist states, “I will meditate on Your precepts, and contemplate Your ways” (Psalm 119:15 ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6136,
+        18032,
+        6948,
+        2560
+      ],
+      "center": [
+        6542,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_98",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_100",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "nkjv",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6136,
+        18420,
+        6304,
+        2560
+      ],
+      "center": [
+        6220,
+        10490
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_98",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_101",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "). We meditate by rolling over in our mind how the Word of God applies to us in our present state. In doing so we are told our ways will be prosperous",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6136,
+        18420,
+        6904,
+        2560
+      ],
+      "center": [
+        6520,
+        10490
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_98",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_102",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR10.w.2.2.51",
+      "content_desc": "",
+      "bounds": [
+        6116,
+        18032,
+        6960,
+        2560
+      ],
+      "center": [
+        6538,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_98",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_103",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " and we will have good success (Joshua 1:8; Psalm 1).",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6136,
+        19004,
+        6940,
+        2560
+      ],
+      "center": [
+        6538,
+        10782
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_98",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_104",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6116,
+        19296,
+        6960,
+        2560
+      ],
+      "center": [
+        6538,
+        10928
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_97",
+      "children_ids": [
+        "node_105",
+        "node_106",
+        "node_107"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_105",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "4. ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6044,
+        19296,
+        6120,
+        2560
+      ],
+      "center": [
+        6082,
+        10928
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_106",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Prayer:",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6136,
+        19296,
+        6384,
+        2560
+      ],
+      "center": [
+        6260,
+        10928
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_107",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " A prayer that reflects the teaching of the chapter. It’s so important that God hears our voice and that we give Him permission to change us according to His Word.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6136,
+        19296,
+        6956,
+        2560
+      ],
+      "center": [
+        6546,
+        10928
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_108",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6116,
+        19976,
+        6960,
+        2560
+      ],
+      "center": [
+        6538,
+        11268
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_97",
+      "children_ids": [
+        "node_109",
+        "node_110",
+        "node_111",
+        "node_112",
+        "node_113"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_109",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "5. ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6044,
+        19976,
+        6120,
+        2560
+      ],
+      "center": [
+        6082,
+        11268
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_108",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_110",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Profession:",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6136,
+        19976,
+        6516,
+        2560
+      ],
+      "center": [
+        6326,
+        11268
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_108",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_111",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " We are told that ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6136,
+        19976,
+        6872,
+        2560
+      ],
+      "center": [
+        6504,
+        11268
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_108",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_112",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "death and life",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6276,
+        20072,
+        6676,
+        2560
+      ],
+      "center": [
+        6476,
+        11316
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_108",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_113",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " are in the power of what we say",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        6136,
+        20072,
+        6908,
+        2560
+      ],
+      "center": [
+        6522,
+        11316
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_108",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_114",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        7300,
+        18032,
+        8496,
+        2560
+      ],
+      "center": [
+        7898,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_115"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_115",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "How to Journey Through This Book",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        7300,
+        18032,
+        8496,
+        2560
+      ],
+      "center": [
+        7898,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_114",
+      "children_ids": [
+        "node_116",
+        "node_121",
+        "node_122"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_116",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ListView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        7556,
+        18032,
+        8400,
+        2560
+      ],
+      "center": [
+        7978,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [
+        "node_117"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_117",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        7556,
+        18032,
+        8400,
+        2560
+      ],
+      "center": [
+        7978,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_116",
+      "children_ids": [
+        "node_118",
+        "node_119",
+        "node_120"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_118",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "(Proverbs 18:21). In speaking what He declares over us we come into alignment—spirit, soul, and",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        7576,
+        18032,
+        8392,
+        2560
+      ],
+      "center": [
+        7984,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_117",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_119",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR10.w.2.4.32",
+      "content_desc": "",
+      "bounds": [
+        7556,
+        18032,
+        8400,
+        2560
+      ],
+      "center": [
+        7978,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_117",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_120",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " body—with His will for us, which is the proven way to experience life to the fullest.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        7576,
+        18420,
+        8396,
+        2560
+      ],
+      "center": [
+        7986,
+        10490
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_117",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_121",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "I recommend that you read the chapters and go through the 5 Ps with a journal alongside you. Put your thoughts and prayers into the journal day by day so that when you go back through the message later you will have all the Holy Spirit revealed to your mind on paper.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        7300,
+        18908,
+        8496,
+        2560
+      ],
+      "center": [
+        7898,
+        10734
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_122",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        7300,
+        19880,
+        8496,
+        2560
+      ],
+      "center": [
+        7898,
+        11220
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [
+        "node_123",
+        "node_124",
+        "node_125"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_123",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "To enhance your experience, we have created",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        7300,
+        19880,
+        8392,
+        2560
+      ],
+      "center": [
+        7846,
+        11220
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_122",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_124",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR10.w.3.1.6",
+      "content_desc": "",
+      "bounds": [
+        7300,
+        19880,
+        8496,
+        2560
+      ],
+      "center": [
+        7898,
+        11220
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_122",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_125",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " twenty-eight four-to-five-minute videos that highlight the core truths from",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        7300,
+        19988,
+        8488,
+        2560
+      ],
+      "center": [
+        7894,
+        11274
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_122",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_126",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        8740,
+        18032,
+        9936,
+        2560
+      ],
+      "center": [
+        9338,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_127"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_127",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "How to Journey Through This Book",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        8740,
+        18032,
+        9936,
+        2560
+      ],
+      "center": [
+        9338,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_126",
+      "children_ids": [
+        "node_128",
+        "node_129"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_128",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "each chapter. These are meant to complement your daily reading and will not have the same impact if you don’t read the chapter first before viewing. To access them, scan the QR code at the bottom of the next page.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        8740,
+        18032,
+        9936,
+        2560
+      ],
+      "center": [
+        9338,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_127",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_129",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        8740,
+        18788,
+        9936,
+        2560
+      ],
+      "center": [
+        9338,
+        10674
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_127",
+      "children_ids": [
+        "node_130",
+        "node_131",
+        "node_132",
+        "node_133",
+        "node_134",
+        "node_135",
+        "node_137",
+        "node_138",
+        "node_140"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_130",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR10.w.3.1.6.0.1",
+      "content_desc": "",
+      "bounds": [
+        8740,
+        18788,
+        9936,
+        2560
+      ],
+      "center": [
+        9338,
+        10674
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_129",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_131",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "xi",
+      "resource_id": "page_xi",
+      "content_desc": "",
+      "bounds": [
+        8740,
+        18788,
+        9936,
+        2560
+      ],
+      "center": [
+        9338,
+        10674
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_129",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_132",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "A few more recommendations: Use your smartphone to time how long it takes to read the chapter, go through",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        8740,
+        18788,
+        9928,
+        2560
+      ],
+      "center": [
+        9334,
+        10674
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_129",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_133",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR11",
+      "content_desc": "",
+      "bounds": [
+        8740,
+        18788,
+        9936,
+        2560
+      ],
+      "center": [
+        9338,
+        10674
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_129",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_134",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " the 5 Ps, journal, and view the chapter’s short video. Don’t rush; it’s not a race. The reason for the timer is that after three or four chapters you will develop an average time for wise planning for future chapters because they are all relatively the same length (with the exception of ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        8740,
+        19112,
+        9936,
+        2560
+      ],
+      "center": [
+        9338,
+        10836
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_129",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_135",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "chapters 23",
+      "bounds": [
+        9300,
+        19976,
+        9692,
+        2560
+      ],
+      "center": [
+        9496,
+        11268
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_129",
+      "children_ids": [
+        "node_136"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_136",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "chapters 23",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        9300,
+        19976,
+        9692,
+        2560
+      ],
+      "center": [
+        9496,
+        11268
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_135",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_137",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " and ",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        9688,
+        19976,
+        9832,
+        2560
+      ],
+      "center": [
+        9760,
+        11268
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_129",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_138",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "28",
+      "bounds": [
+        8740,
+        20084,
+        8820,
+        2560
+      ],
+      "center": [
+        8780,
+        11322
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_129",
+      "children_ids": [
+        "node_139"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_139",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "28",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        8740,
+        20084,
+        8820,
+        2560
+      ],
+      "center": [
+        8780,
+        11322
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_138",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_140",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "; plan five minutes more for each of them).",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        8740,
+        20084,
+        9928,
+        2560
+      ],
+      "center": [
+        9334,
+        11322
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_129",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_141",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        10180,
+        18032,
+        11376,
+        2560
+      ],
+      "center": [
+        10778,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_142"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_142",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "How to Journey Through This Book",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        10180,
+        18032,
+        11376,
+        2560
+      ],
+      "center": [
+        10778,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_141",
+      "children_ids": [
+        "node_143",
+        "node_147",
+        "node_151"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_143",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        10180,
+        18032,
+        11376,
+        2560
+      ],
+      "center": [
+        10778,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_142",
+      "children_ids": [
+        "node_144",
+        "node_145",
+        "node_146"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_144",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Form a habit; don’t allow anything to get in",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        10180,
+        18032,
+        11144,
+        2560
+      ],
+      "center": [
+        10662,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_143",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_145",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR11.w.1.1.9",
+      "content_desc": "",
+      "bounds": [
+        10180,
+        18032,
+        11376,
+        2560
+      ],
+      "center": [
+        10778,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_143",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_146",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " the way of your set time(s) each day. It’s my prayer and hope that what God has done in me over the past several years He will do with you in four weeks, two weeks, or whatever time you allot to go through the book.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        10180,
+        18140,
+        11344,
+        2560
+      ],
+      "center": [
+        10762,
+        10350
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_143",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_147",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        10180,
+        18896,
+        11376,
+        2560
+      ],
+      "center": [
+        10778,
+        10728
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_142",
+      "children_ids": [
+        "node_148",
+        "node_149",
+        "node_150"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_148",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "A few more thoughts. A message always brings the greatest benefit when I teach it or read it with a group of friends. Choose some close friends and go through it together. First go",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        10180,
+        18896,
+        11364,
+        2560
+      ],
+      "center": [
+        10772,
+        10728
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_147",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_149",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR11.w.1.2.36",
+      "content_desc": "",
+      "bounds": [
+        10180,
+        18896,
+        11376,
+        2560
+      ],
+      "center": [
+        10778,
+        10728
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_147",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_150",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " through the chapter alone, just you and the Holy Spirit, then set a time to talk with your friends about what He shows you. You can do this on a daily or weekly basis.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        10180,
+        19436,
+        11332,
+        2560
+      ],
+      "center": [
+        10756,
+        10998
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_147",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_151",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Scripture instructs us to “teach these truths to other trustworthy",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        10180,
+        20084,
+        11376,
+        2560
+      ],
+      "center": [
+        10778,
+        11322
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_142",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_152",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        11620,
+        18032,
+        12816,
+        2560
+      ],
+      "center": [
+        12218,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_153"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_153",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "How to Journey Through This Book",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        11620,
+        18032,
+        12816,
+        2560
+      ],
+      "center": [
+        12218,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_152",
+      "children_ids": [
+        "node_154",
+        "node_158",
+        "node_162"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_154",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        11620,
+        18032,
+        12816,
+        2560
+      ],
+      "center": [
+        12218,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_153",
+      "children_ids": [
+        "node_155",
+        "node_156",
+        "node_157"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_155",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "people who will be able to pass them on to others” (2 Timothy 2:2). To help you do that, we’ve also developed a weekly course that you alone or your small group",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        11620,
+        18032,
+        12816,
+        2560
+      ],
+      "center": [
+        12218,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_154",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_156",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR11.w.1.3.49",
+      "content_desc": "",
+      "bounds": [
+        11620,
+        18032,
+        12816,
+        2560
+      ],
+      "center": [
+        12218,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_154",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_157",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " of friends can go through together, available for purchase anywhere books are sold. This gives you even more tools to discuss the Word of God on this topic.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        11620,
+        18464,
+        12792,
+        2560
+      ],
+      "center": [
+        12206,
+        10512
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_154",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_158",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        11620,
+        19112,
+        12816,
+        2560
+      ],
+      "center": [
+        12218,
+        10836
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_153",
+      "children_ids": [
+        "node_159",
+        "node_160",
+        "node_161"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_159",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Finally, you will find other related messages on our easy-to-download app called MessengerX that will help mature your walk with our soon-coming King. You can download the app at no charge and benefit from dozens of books, courses, and other",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        11620,
+        19112,
+        12800,
+        2560
+      ],
+      "center": [
+        12210,
+        10836
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_158",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_160",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR11.w.1.4.49",
+      "content_desc": "",
+      "bounds": [
+        11620,
+        19112,
+        12816,
+        2560
+      ],
+      "center": [
+        12218,
+        10836
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_158",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_161",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": " discipleship materials. Just scan the QR code on this page.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        11620,
+        19868,
+        12720,
+        2560
+      ],
+      "center": [
+        12170,
+        11214
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_158",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_162",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "I pray you grow more intimate",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        11620,
+        20192,
+        12816,
+        2560
+      ],
+      "center": [
+        12218,
+        11376
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_153",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_163",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        13060,
+        18032,
+        14256,
+        2560
+      ],
+      "center": [
+        13658,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_164",
+        "node_172"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_164",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "How to Journey Through This Book",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        13060,
+        18032,
+        14256,
+        2560
+      ],
+      "center": [
+        13658,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_163",
+      "children_ids": [
+        "node_165",
+        "node_166",
+        "node_167",
+        "node_168",
+        "node_170",
+        "node_171"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_165",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "with God as you journey through The King Is Coming.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        13060,
+        18032,
+        14256,
+        2560
+      ],
+      "center": [
+        13658,
+        10296
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_164",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_166",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Sincerely,",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        13060,
+        18248,
+        14184,
+        2560
+      ],
+      "center": [
+        13622,
+        10404
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_164",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_167",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "John Bevere",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        13060,
+        18356,
+        14256,
+        2560
+      ],
+      "center": [
+        13658,
+        10458
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_164",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_168",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        13536,
+        18536,
+        13780,
+        2560
+      ],
+      "center": [
+        13658,
+        10548
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_164",
+      "children_ids": [
+        "node_169"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_169",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "A Q R code for accessing related online content.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        13536,
+        18608,
+        13780,
+        2560
+      ],
+      "center": [
+        13658,
+        10584
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_168",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_170",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR11.w.1.4.67.0.1",
+      "content_desc": "",
+      "bounds": [
+        13060,
+        18944,
+        14256,
+        2560
+      ],
+      "center": [
+        13658,
+        10752
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_164",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_171",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "xii",
+      "resource_id": "page_xii",
+      "content_desc": "",
+      "bounds": [
+        13060,
+        18944,
+        14256,
+        2560
+      ],
+      "center": [
+        13658,
+        10752
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_164",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_172",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "GBS.PR11.w.2.0.3.0.1",
+      "content_desc": "",
+      "bounds": [
+        13060,
+        18944,
+        14256,
+        2560
+      ],
+      "center": [
+        13658,
+        10752
+      ],
+      "area": 0,
+      "visible": false,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_163",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_173",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/pagesview_stub",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_174",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/selection_menu_overlay",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_175"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_175",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_174",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_176",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/book_view",
+      "content_desc": "How to Journey Through This Book, page 1 of 320",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_177",
+        "node_178"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_177",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/background",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_176",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_178",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_176",
+      "children_ids": [
+        "node_179",
+        "node_184",
+        "node_189"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_179",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_178",
+      "children_ids": [
+        "node_180",
+        "node_181"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_180",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_179",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_181",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_179",
+      "children_ids": [
+        "node_182",
+        "node_183"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_182",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_181",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_183",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/reading_progress_overlay",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2439,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2499
+      ],
+      "area": 174240,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_181",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_184",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_178",
+      "children_ids": [
+        "node_185",
+        "node_186"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_185",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_184",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_186",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_184",
+      "children_ids": [
+        "node_187",
+        "node_188"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_187",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_186",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_188",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/reading_progress_overlay",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2439,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2499
+      ],
+      "area": 174240,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_186",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_189",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_178",
+      "children_ids": [
+        "node_190",
+        "node_191"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_190",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_189",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_191",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_189",
+      "children_ids": [
+        "node_192",
+        "node_193"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_192",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_191",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_193",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/reading_progress_overlay",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2439,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2499
+      ],
+      "area": 174240,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_191",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_194",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.books:id/hidden_pages",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_195"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    },
+    {
+      "id": "node_195",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "\n\n\nWeek 1\nThe Divine Master Plan\n\n",
+      "resource_id": "com.google.android.apps.books:id/left_page",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2559
+      ],
+      "center": [
+        720,
+        1279
+      ],
+      "area": 3684960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_194",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.books"
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "screenshot_path": "runs\\habitTracker_20260313_161501\\step_001\\screen.png",
+  "xml_path": "runs\\habitTracker_20260313_161501\\step_001\\hierarchy.xml",
+  "component_count": 12,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        30,
+        929,
+        1410,
+        2560
+      ],
+      "center": [
+        720,
+        1744
+      ],
+      "area": 2250780,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "habittracker.todolist.tickit.daily.planner"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        30,
+        929,
+        1410,
+        2560
+      ],
+      "center": [
+        720,
+        1744
+      ],
+      "area": 2250780,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "habittracker.todolist.tickit.daily.planner"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        30,
+        929,
+        1410,
+        2560
+      ],
+      "center": [
+        720,
+        1744
+      ],
+      "area": 2250780,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "habittracker.todolist.tickit.daily.planner"
+    },
+    {
+      "id": "node_3",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        30,
+        929,
+        1410,
+        2500
+      ],
+      "center": [
+        720,
+        1714
+      ],
+      "area": 2167980,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4",
+        "node_11"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "habittracker.todolist.tickit.daily.planner"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        30,
+        1121,
+        1410,
+        2500
+      ],
+      "center": [
+        720,
+        1810
+      ],
+      "area": 1903020,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "habittracker.todolist.tickit.daily.planner"
+    },
+    {
+      "id": "node_5",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        30,
+        1121,
+        1410,
+        2500
+      ],
+      "center": [
+        720,
+        1810
+      ],
+      "area": 1903020,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_7",
+        "node_8",
+        "node_9",
+        "node_10"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "habittracker.todolist.tickit.daily.planner"
+    },
+    {
+      "id": "node_6",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "habittracker.todolist.tickit.daily.planner:id/imageView1",
+      "content_desc": "",
+      "bounds": [
+        30,
+        1121,
+        1410,
+        1582
+      ],
+      "center": [
+        720,
+        1351
+      ],
+      "area": 636180,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "habittracker.todolist.tickit.daily.planner"
+    },
+    {
+      "id": "node_7",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "CONGRATULATIONS!",
+      "resource_id": "habittracker.todolist.tickit.daily.planner:id/subtitle",
+      "content_desc": "",
+      "bounds": [
+        446,
+        1617,
+        995,
+        1686
+      ],
+      "center": [
+        720,
+        1651
+      ],
+      "area": 37881,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "habittracker.todolist.tickit.daily.planner"
+    },
+    {
+      "id": "node_8",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "ALL CLEARED!",
+      "resource_id": "habittracker.todolist.tickit.daily.planner:id/title",
+      "content_desc": "",
+      "bounds": [
+        320,
+        1709,
+        1121,
+        1909
+      ],
+      "center": [
+        720,
+        1809
+      ],
+      "area": 160200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "habittracker.todolist.tickit.daily.planner"
+    },
+    {
+      "id": "node_9",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "You have cleared all scheduled habits today!",
+      "resource_id": "habittracker.todolist.tickit.daily.planner:id/content",
+      "content_desc": "",
+      "bounds": [
+        30,
+        1951,
+        1410,
+        2100
+      ],
+      "center": [
+        720,
+        2025
+      ],
+      "area": 205620,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "habittracker.todolist.tickit.daily.planner"
+    },
+    {
+      "id": "node_10",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "KEEP GOING!",
+      "resource_id": "habittracker.todolist.tickit.daily.planner:id/button",
+      "content_desc": "",
+      "bounds": [
+        88,
+        2200,
+        1352,
+        2423
+      ],
+      "center": [
+        720,
+        2311
+      ],
+      "area": 281872,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "habittracker.todolist.tickit.daily.planner"
+    },
+    {
+      "id": "node_11",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "habittracker.todolist.tickit.daily.planner:id/icon",
+      "content_desc": "",
+      "bounds": [
+        413,
+        929,
+        1027,
+        1543
+      ],
+      "center": [
+        720,
+        1236
+      ],
+      "area": 376996,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "habittracker.todolist.tickit.daily.planner"
+    }
+  ]
+}

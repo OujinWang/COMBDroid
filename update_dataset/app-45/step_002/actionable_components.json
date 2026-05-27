@@ -1,0 +1,616 @@
+{
+  "actionable_component_count": 20,
+  "actionable_components": [
+    {
+      "id": "node_37",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.google.android.apps.translate:id/content_area",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_38",
+        "node_45"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_40",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Navigate up",
+      "bounds": [
+        0,
+        112,
+        224,
+        336
+      ],
+      "center": [
+        112,
+        224
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_42",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.translate:id/item_clear",
+      "content_desc": "Clear",
+      "bounds": [
+        848,
+        128,
+        1040,
+        320
+      ],
+      "center": [
+        944,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_43",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.translate:id/item_save",
+      "content_desc": "Add to phrasebook",
+      "bounds": [
+        1040,
+        128,
+        1232,
+        320
+      ],
+      "center": [
+        1136,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1232,
+        128,
+        1424,
+        320
+      ],
+      "center": [
+        1328,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_45",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.google.android.apps.translate:id/nested_scroll_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        352,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1456
+      ],
+      "area": 3179520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [
+        "node_46"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_49",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "English",
+      "resource_id": "com.google.android.apps.translate:id/language_label",
+      "content_desc": "",
+      "bounds": [
+        96,
+        352,
+        1344,
+        544
+      ],
+      "center": [
+        720,
+        448
+      ],
+      "area": 239616,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_50",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Hello",
+      "resource_id": "com.google.android.apps.translate:id/original_text",
+      "content_desc": "",
+      "bounds": [
+        96,
+        544,
+        1344,
+        764
+      ],
+      "center": [
+        720,
+        654
+      ],
+      "area": 274560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_52",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.translate:id/speak_text_button",
+      "content_desc": "Speak original text",
+      "bounds": [
+        44,
+        764,
+        236,
+        956
+      ],
+      "center": [
+        140,
+        860
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_53",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.translate:id/copy_text_button",
+      "content_desc": "Copy original text",
+      "bounds": [
+        1204,
+        764,
+        1396,
+        956
+      ],
+      "center": [
+        1300,
+        860
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_54",
+      "type": "ScrollContainer",
+      "class_name": "android.support.v7.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.google.android.apps.translate:id/result_cards_list",
+      "content_desc": "",
+      "bounds": [
+        0,
+        956,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1758
+      ],
+      "area": 2309760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [
+        "node_55",
+        "node_56",
+        "node_59",
+        "node_65",
+        "node_66"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_58",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Spanish",
+      "resource_id": "com.google.android.apps.translate:id/language_label",
+      "content_desc": "",
+      "bounds": [
+        96,
+        1060,
+        1316,
+        1252
+      ],
+      "center": [
+        706,
+        1156
+      ],
+      "area": 234240,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_62",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.translate:id/speak_text_button",
+      "content_desc": "Speak translated text",
+      "bounds": [
+        44,
+        1496,
+        236,
+        1688
+      ],
+      "center": [
+        140,
+        1592
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_63",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.translate:id/translation_feedback_button",
+      "content_desc": "Submit Translation Feedback",
+      "bounds": [
+        1012,
+        1496,
+        1204,
+        1688
+      ],
+      "center": [
+        1108,
+        1592
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_64",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.translate:id/copy_text_button",
+      "content_desc": "Copy translated text",
+      "bounds": [
+        1204,
+        1496,
+        1396,
+        1688
+      ],
+      "center": [
+        1300,
+        1592
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_69",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Expand all",
+      "resource_id": "com.google.android.apps.translate:id/btn_expand_collapse_all",
+      "content_desc": "",
+      "bounds": [
+        967,
+        1892,
+        1368,
+        2083
+      ],
+      "center": [
+        1167,
+        1987
+      ],
+      "area": 76591,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_72",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "¡Hola!",
+      "resource_id": "com.google.android.apps.translate:id/translated_text",
+      "content_desc": "",
+      "bounds": [
+        96,
+        2171,
+        1224,
+        2282
+      ],
+      "center": [
+        660,
+        2226
+      ],
+      "area": 125208,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_75",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.google.android.apps.translate:id/expand_collapse_icon",
+      "content_desc": "Expand",
+      "bounds": [
+        1224,
+        2171,
+        1344,
+        2363
+      ],
+      "center": [
+        1284,
+        2267
+      ],
+      "area": 23040,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_78",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "¡Caramba!",
+      "resource_id": "com.google.android.apps.translate:id/translated_text",
+      "content_desc": "",
+      "bounds": [
+        96,
+        2507,
+        1224,
+        2560
+      ],
+      "center": [
+        660,
+        2533
+      ],
+      "area": 59784,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    },
+    {
+      "id": "node_79",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.google.android.apps.translate:id/expand_collapse_icon",
+      "content_desc": "Expand",
+      "bounds": [
+        1224,
+        2507,
+        1344,
+        2560
+      ],
+      "center": [
+        1284,
+        2533
+      ],
+      "area": 6360,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.translate"
+    }
+  ]
+}

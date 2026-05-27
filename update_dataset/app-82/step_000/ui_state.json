@@ -1,0 +1,1305 @@
+{
+  "screenshot_path": "runs\\318_weNote\\step_000\\screen.png",
+  "xml_path": "runs\\318_weNote\\step_000\\hierarchy.xml",
+  "component_count": 41,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_5",
+      "type": "Other",
+      "class_name": "androidx.drawerlayout.widget.DrawerLayout",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/drawer_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_6",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7",
+        "node_16"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_7",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/app_bar_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        160
+      ],
+      "area": 460800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_8",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/toolbar_frame_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_9",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10",
+        "node_11",
+        "node_12"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_10",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Open navigation drawer",
+      "bounds": [
+        0,
+        96,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        208
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_11",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "WeNote",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        154,
+        573,
+        261
+      ],
+      "center": [
+        430,
+        207
+      ],
+      "area": 30495,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_12",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        896,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        1168,
+        208
+      ],
+      "area": 121856,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_13",
+        "node_14",
+        "node_15"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_13",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/action_add_note",
+      "content_desc": "Add note",
+      "bounds": [
+        896,
+        112,
+        1088,
+        304
+      ],
+      "center": [
+        992,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_14",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/action_add_checklist",
+      "content_desc": "Add to-do list",
+      "bounds": [
+        1088,
+        112,
+        1280,
+        304
+      ],
+      "center": [
+        1184,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_15",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1280,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1360,
+        208
+      ],
+      "area": 30720,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_16",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_17"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_17",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [
+        "node_18",
+        "node_33"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_18",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        480
+      ],
+      "center": [
+        720,
+        400
+      ],
+      "area": 230400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_19",
+        "node_32"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_19",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/tab_linear_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        464
+      ],
+      "center": [
+        720,
+        392
+      ],
+      "area": 207360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_20",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/tab_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        464
+      ],
+      "center": [
+        720,
+        392
+      ],
+      "area": 207360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_21"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_21",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        464
+      ],
+      "center": [
+        720,
+        392
+      ],
+      "area": 207360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_22",
+        "node_24",
+        "node_26",
+        "node_28",
+        "node_30"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_22",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "All",
+      "bounds": [
+        0,
+        320,
+        288,
+        464
+      ],
+      "center": [
+        144,
+        392
+      ],
+      "area": 41472,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_23"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_23",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "All",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        111,
+        354,
+        176,
+        430
+      ],
+      "center": [
+        143,
+        392
+      ],
+      "area": 4940,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_22",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_24",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Calendar",
+      "bounds": [
+        288,
+        320,
+        608,
+        464
+      ],
+      "center": [
+        448,
+        392
+      ],
+      "area": 46080,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_25"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_25",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Calendar",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        336,
+        354,
+        560,
+        430
+      ],
+      "center": [
+        448,
+        392
+      ],
+      "area": 17024,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_26",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Home",
+      "bounds": [
+        608,
+        320,
+        896,
+        464
+      ],
+      "center": [
+        752,
+        392
+      ],
+      "area": 41472,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_27"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_27",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Home",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        676,
+        354,
+        827,
+        430
+      ],
+      "center": [
+        751,
+        392
+      ],
+      "area": 11476,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_28",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Work",
+      "bounds": [
+        896,
+        320,
+        1184,
+        464
+      ],
+      "center": [
+        1040,
+        392
+      ],
+      "area": 41472,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_29"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_29",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Work",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        975,
+        354,
+        1105,
+        430
+      ],
+      "center": [
+        1040,
+        392
+      ],
+      "area": 9880,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_30",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1184,
+        320,
+        1376,
+        464
+      ],
+      "center": [
+        1280,
+        392
+      ],
+      "area": 27648,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_31",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1232,
+        344,
+        1328,
+        440
+      ],
+      "center": [
+        1280,
+        392
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_32",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/tab_layout_bottom_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        464,
+        1440,
+        480
+      ],
+      "center": [
+        720,
+        472
+      ],
+      "area": 23040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_33",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/view_pager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        480,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1520
+      ],
+      "area": 2995200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_34"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_34",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        480,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1520
+      ],
+      "area": 2995200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_35"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_35",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        480,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1520
+      ],
+      "area": 2995200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_36",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/child_fragment_linear_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        480,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1520
+      ],
+      "area": 2995200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_37"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_37",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/empty_loading_frame_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        480,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1520
+      ],
+      "area": 2995200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_38"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/empty_linear_layout",
+      "content_desc": "",
+      "bounds": [
+        323,
+        1183,
+        1116,
+        1856
+      ],
+      "center": [
+        719,
+        1519
+      ],
+      "area": 533689,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [
+        "node_39",
+        "node_40"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_39",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/image_view",
+      "content_desc": "",
+      "bounds": [
+        527,
+        1247,
+        911,
+        1631
+      ],
+      "center": [
+        719,
+        1439
+      ],
+      "area": 147456,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_40",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Tap to add note",
+      "resource_id": "com.yocto.wenote:id/text_view",
+      "content_desc": "",
+      "bounds": [
+        387,
+        1663,
+        1052,
+        1792
+      ],
+      "center": [
+        719,
+        1727
+      ],
+      "area": 85785,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.yocto.wenote"
+    }
+  ]
+}

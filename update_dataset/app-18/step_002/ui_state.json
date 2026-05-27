@@ -1,0 +1,2195 @@
+{
+  "screenshot_path": "runs\\45_dailyhunt\\step_002\\screen.png",
+  "xml_path": "runs\\45_dailyhunt\\step_002\\hierarchy.xml",
+  "component_count": 69,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.eterno:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_5",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.eterno:id/dh_root_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_6",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.eterno:id/mainContent",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_7",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.eterno:id/dh_base_container_fragment",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_8",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_9",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.eterno:id/news_detail_pager",
+      "content_desc": "Pager to navigate between photos of an article.",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_10",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_11",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_12",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_13",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.eterno:id/post_root_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14",
+        "node_59"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_14",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.eterno:id/details_list",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15",
+        "node_20",
+        "node_41"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_15",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.eterno:id/chunk1_parent",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        927
+      ],
+      "center": [
+        720,
+        511
+      ],
+      "area": 1196640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_16"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_16",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.eterno:id/news_details_chunk1",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        927
+      ],
+      "center": [
+        720,
+        511
+      ],
+      "area": 1196640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_17"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_17",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        135,
+        1360,
+        831
+      ],
+      "center": [
+        720,
+        483
+      ],
+      "area": 890880,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [
+        "node_18",
+        "node_19"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_18",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "he Ministry of Petroleum and Natural Gas on March 15 announced that all domestic LPG consumers must complete Biometric Aadhaar Authentication or e-KYC to continue receiving LPG services and subsidies.",
+      "resource_id": "com.eterno:id/tv_body",
+      "content_desc": "",
+      "bounds": [
+        80,
+        135,
+        1360,
+        831
+      ],
+      "center": [
+        720,
+        483
+      ],
+      "area": 890880,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_19",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "T ",
+      "resource_id": "com.eterno:id/tv_cap",
+      "content_desc": "",
+      "bounds": [
+        80,
+        135,
+        276,
+        427
+      ],
+      "center": [
+        178,
+        281
+      ],
+      "area": 57232,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_20",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.eterno:id/external_ad_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        927,
+        1440,
+        2179
+      ],
+      "center": [
+        720,
+        1553
+      ],
+      "area": 1802880,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_21",
+        "node_22",
+        "node_39",
+        "node_40"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_21",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.eterno:id/external_ad_layout",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1007,
+        1360,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1280000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_22",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.eterno:id/publisher_ad_id",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1007,
+        1360,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1280000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_23"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_23",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1007,
+        1360,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1280000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_24"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_24",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1007,
+        1360,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1280000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_25"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_25",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1007,
+        1360,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1280000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [
+        "node_26"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_26",
+      "type": "Other",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1007,
+        1360,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1280000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27"
+      ],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_27",
+      "type": "ScrollContainer",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1007,
+        1360,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1280000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [
+        "node_28"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_28",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "ad_iframe",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1007,
+        1320,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1200000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [
+        "node_29"
+      ],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_29",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1007,
+        1320,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1200000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_30",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1007,
+        1320,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1200000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31",
+        "node_38"
+      ],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_31",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "mys-wrapper",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1007,
+        1320,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1200000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32"
+      ],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_32",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "mys-content",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1007,
+        1320,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1200000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33"
+      ],
+      "depth": 26,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_33",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1007,
+        1320,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1200000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34"
+      ],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_34",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "fixed",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1007,
+        1320,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1200000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_35"
+      ],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_35",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "html5-display-area-och-anchor",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1007,
+        1320,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1200000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 29,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_36",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "inner-iframe-101427510505",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1007,
+        1320,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1200000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_37"
+      ],
+      "depth": 30,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_37",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1007,
+        1320,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1200000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [],
+      "depth": 31,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_38",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1007,
+        1320,
+        2007
+      ],
+      "center": [
+        720,
+        1507
+      ],
+      "area": 1200000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_39",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Promoted",
+      "resource_id": "com.eterno:id/sponsored_text",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2023,
+        307,
+        2080
+      ],
+      "center": [
+        193,
+        2051
+      ],
+      "area": 12939,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_40",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.eterno:id/bottom_divider",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2111,
+        1360,
+        2115
+      ],
+      "center": [
+        720,
+        2113
+      ],
+      "area": 5120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_41",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.eterno:id/web_chunk2",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2179,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2369
+      ],
+      "area": 548640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_42"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_42",
+      "type": "Other",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2179,
+        1360,
+        2560
+      ],
+      "center": [
+        720,
+        2369
+      ],
+      "area": 487680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [
+        "node_43"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_43",
+      "type": "ScrollContainer",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2179,
+        1360,
+        2560
+      ],
+      "center": [
+        720,
+        2369
+      ],
+      "area": 487680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_44"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_44",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2179,
+        1360,
+        2560
+      ],
+      "center": [
+        720,
+        2369
+      ],
+      "area": 487680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_45",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "dh-audio-player",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2215,
+        1360,
+        2560
+      ],
+      "center": [
+        720,
+        2387
+      ],
+      "area": 441600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_46"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_46",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2215,
+        1360,
+        2560
+      ],
+      "center": [
+        720,
+        2387
+      ],
+      "area": 441600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_47",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "audioPlayerContainer",
+      "content_desc": "",
+      "bounds": [
+        104,
+        2239,
+        1336,
+        2560
+      ],
+      "center": [
+        720,
+        2399
+      ],
+      "area": 395472,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [
+        "node_48",
+        "node_49",
+        "node_50",
+        "node_51",
+        "node_53",
+        "node_54"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_48",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Listen to the Story",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        104,
+        2239,
+        1336,
+        2351
+      ],
+      "center": [
+        720,
+        2295
+      ],
+      "area": 137984,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_49",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "playPauseBtn",
+      "content_desc": "",
+      "bounds": [
+        120,
+        2319,
+        312,
+        2511
+      ],
+      "center": [
+        216,
+        2415
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_50",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "0:00",
+      "resource_id": "currentTime",
+      "content_desc": "",
+      "bounds": [
+        376,
+        2375,
+        484,
+        2455
+      ],
+      "center": [
+        430,
+        2415
+      ],
+      "area": 8640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_51",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        512,
+        2403,
+        1152,
+        2427
+      ],
+      "center": [
+        832,
+        2415
+      ],
+      "area": 15360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [
+        "node_52"
+      ],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_52",
+      "type": "Clickable",
+      "class_name": "android.widget.SeekBar",
+      "text": "0.0",
+      "resource_id": "seekbar",
+      "content_desc": "",
+      "bounds": [
+        512,
+        2403,
+        1152,
+        2427
+      ],
+      "center": [
+        832,
+        2415
+      ],
+      "area": 15360,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_53",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "3:00",
+      "resource_id": "duration",
+      "content_desc": "",
+      "bounds": [
+        1180,
+        2375,
+        1288,
+        2455
+      ],
+      "center": [
+        1234,
+        2415
+      ],
+      "area": 8640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_54",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        104,
+        2479,
+        1336,
+        2560
+      ],
+      "center": [
+        720,
+        2519
+      ],
+      "area": 99792,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [
+        "node_55",
+        "node_56",
+        "node_58"
+      ],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_55",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "playback15",
+      "content_desc": "",
+      "bounds": [
+        432,
+        2511,
+        560,
+        2560
+      ],
+      "center": [
+        496,
+        2535
+      ],
+      "area": 6272,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_56",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        656,
+        2511,
+        784,
+        2560
+      ],
+      "center": [
+        720,
+        2535
+      ],
+      "area": 6272,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [
+        "node_57"
+      ],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_57",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "1.0x",
+      "resource_id": "currentSpeed",
+      "content_desc": "",
+      "bounds": [
+        656,
+        2511,
+        784,
+        2560
+      ],
+      "center": [
+        720,
+        2535
+      ],
+      "area": 6272,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_58",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "playAhead15",
+      "content_desc": "",
+      "bounds": [
+        880,
+        2511,
+        1008,
+        2560
+      ],
+      "center": [
+        944,
+        2535
+      ],
+      "area": 6272,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_59",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.eterno:id/actionbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_60",
+        "node_67"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_60",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.eterno:id/lll2",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1248,
+        320
+      ],
+      "center": [
+        624,
+        208
+      ],
+      "area": 279552,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [
+        "node_61",
+        "node_63"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_61",
+      "type": "Clickable",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.eterno:id/actionbar_back_button_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        240,
+        320
+      ],
+      "center": [
+        120,
+        208
+      ],
+      "area": 53760,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [
+        "node_62"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_62",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.eterno:id/actionbar_back_button",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        240,
+        320
+      ],
+      "center": [
+        120,
+        208
+      ],
+      "area": 53760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_63",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.eterno:id/social_icon_holder",
+      "content_desc": "",
+      "bounds": [
+        240,
+        96,
+        1248,
+        320
+      ],
+      "center": [
+        744,
+        208
+      ],
+      "area": 225792,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [
+        "node_64"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_64",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.eterno:id/social_icon_container_ll",
+      "content_desc": "",
+      "bounds": [
+        699,
+        96,
+        1248,
+        320
+      ],
+      "center": [
+        973,
+        208
+      ],
+      "area": 122976,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_63",
+      "children_ids": [
+        "node_65",
+        "node_66"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_65",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "7",
+      "resource_id": "com.eterno:id/comment_count_tv",
+      "content_desc": "",
+      "bounds": [
+        699,
+        96,
+        945,
+        320
+      ],
+      "center": [
+        822,
+        208
+      ],
+      "area": 55104,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_66",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "1.8k",
+      "resource_id": "com.eterno:id/share_count_tv",
+      "content_desc": "",
+      "bounds": [
+        945,
+        96,
+        1248,
+        320
+      ],
+      "center": [
+        1096,
+        208
+      ],
+      "area": 67872,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_67",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        1344,
+        208
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [
+        "node_68"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    },
+    {
+      "id": "node_68",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.eterno:id/action_more_newsdetail",
+      "content_desc": "More",
+      "bounds": [
+        1248,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1344,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.eterno"
+    }
+  ]
+}

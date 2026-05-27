@@ -1,0 +1,418 @@
+{
+  "screenshot_path": "runs\\330_snapseed\\step_004\\screen.png",
+  "xml_path": "runs\\330_snapseed\\step_004\\hierarchy.xml",
+  "component_count": 13,
+  "components": [
+    {
+      "id": "node_26",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_27"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    },
+    {
+      "id": "node_27",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "android:id/decor_content_parent",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [
+        "node_28",
+        "node_32"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    },
+    {
+      "id": "node_28",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [
+        "node_29"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    },
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.android.gallery3d:id/gallery_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30",
+        "node_31"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    },
+    {
+      "id": "node_30",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.android.gallery3d:id/gl_root_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    },
+    {
+      "id": "node_31",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.android.gallery3d:id/photopage_bottom_controls",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2520,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2540
+      ],
+      "area": 57600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    },
+    {
+      "id": "node_32",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/action_bar_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        288
+      ],
+      "center": [
+        720,
+        192
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [
+        "node_33"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    },
+    {
+      "id": "node_33",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "android:id/action_bar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        288
+      ],
+      "center": [
+        720,
+        192
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34",
+        "node_37"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    },
+    {
+      "id": "node_34",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        96,
+        192,
+        288
+      ],
+      "center": [
+        112,
+        192
+      ],
+      "area": 30720,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_35"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    },
+    {
+      "id": "node_35",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        96,
+        192,
+        288
+      ],
+      "center": [
+        112,
+        192
+      ],
+      "area": 30720,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    },
+    {
+      "id": "node_36",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "android:id/home",
+      "content_desc": "",
+      "bounds": [
+        48,
+        128,
+        176,
+        256
+      ],
+      "center": [
+        112,
+        192
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    },
+    {
+      "id": "node_37",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1216,
+        96,
+        1440,
+        288
+      ],
+      "center": [
+        1328,
+        192
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_38"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    },
+    {
+      "id": "node_38",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1216,
+        96,
+        1440,
+        288
+      ],
+      "center": [
+        1328,
+        192
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.android.gallery3d"
+    }
+  ]
+}

@@ -1,0 +1,2024 @@
+{
+  "screenshot_path": "runs\\307_moneyManager\\step_005\\screen.png",
+  "xml_path": "runs\\307_moneyManager\\step_005\\hierarchy.xml",
+  "component_count": 64,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_5",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/contentView",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_19"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_6",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/toolbarView",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        512
+      ],
+      "center": [
+        720,
+        304
+      ],
+      "area": 599040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7",
+        "node_13"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_7",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8",
+        "node_9",
+        "node_10"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_8",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Navigate up",
+      "bounds": [
+        0,
+        96,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        208
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_9",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Select Category",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        154,
+        855,
+        261
+      ],
+      "center": [
+        571,
+        207
+      ],
+      "area": 60669,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_10",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1008,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        1224,
+        208
+      ],
+      "area": 96768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_11",
+        "node_12"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_11",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/menu_action_search",
+      "content_desc": "Search",
+      "bounds": [
+        1008,
+        112,
+        1224,
+        304
+      ],
+      "center": [
+        1116,
+        208
+      ],
+      "area": 41472,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_12",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/menu_action_setting",
+      "content_desc": "Settings",
+      "bounds": [
+        1224,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1332,
+        208
+      ],
+      "area": 41472,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_13",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/tabLayout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        512
+      ],
+      "center": [
+        720,
+        416
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_14"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_14",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        512
+      ],
+      "center": [
+        720,
+        416
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15",
+        "node_17"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_15",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "INCOME",
+      "bounds": [
+        0,
+        320,
+        720,
+        512
+      ],
+      "center": [
+        360,
+        416
+      ],
+      "area": 138240,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_16"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_16",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "INCOME",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        253,
+        378,
+        466,
+        454
+      ],
+      "center": [
+        359,
+        416
+      ],
+      "area": 16188,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_17",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "EXPENSE",
+      "bounds": [
+        720,
+        320,
+        1440,
+        512
+      ],
+      "center": [
+        1080,
+        416
+      ],
+      "area": 138240,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_18"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_18",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "EXPENSE",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        959,
+        378,
+        1200,
+        454
+      ],
+      "center": [
+        1079,
+        416
+      ],
+      "area": 18316,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_17",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_19",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/viewPager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        512,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1536
+      ],
+      "area": 2949120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 6,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_20",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        512,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1536
+      ],
+      "area": 2949120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_21"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_21",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        512,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1536
+      ],
+      "area": 2949120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_22"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_22",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        512,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1536
+      ],
+      "area": 2949120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_23"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_23",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/recyclerView",
+      "content_desc": "",
+      "bounds": [
+        0,
+        512,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1536
+      ],
+      "area": 2949120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_24",
+        "node_29",
+        "node_34",
+        "node_39",
+        "node_44",
+        "node_49",
+        "node_54",
+        "node_59"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_24",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        512,
+        1440,
+        768
+      ],
+      "center": [
+        720,
+        640
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_25",
+        "node_27",
+        "node_28"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_25",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/colorView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        560,
+        224,
+        720
+      ],
+      "center": [
+        144,
+        640
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [
+        "node_26"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_26",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        84,
+        580,
+        204,
+        700
+      ],
+      "center": [
+        144,
+        640
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_27",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Bills",
+      "resource_id": "com.ktwapps.walletmanager:id/categoryLabel",
+      "content_desc": "",
+      "bounds": [
+        288,
+        587,
+        1264,
+        694
+      ],
+      "center": [
+        776,
+        640
+      ],
+      "area": 104432,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_28",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/doneWrapper",
+      "content_desc": "",
+      "bounds": [
+        1296,
+        600,
+        1376,
+        680
+      ],
+      "center": [
+        1336,
+        640
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_29",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        768,
+        1440,
+        1024
+      ],
+      "center": [
+        720,
+        896
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_30",
+        "node_32",
+        "node_33"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_30",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/colorView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        816,
+        224,
+        976
+      ],
+      "center": [
+        144,
+        896
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_31",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        84,
+        836,
+        204,
+        956
+      ],
+      "center": [
+        144,
+        896
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_32",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Clothing",
+      "resource_id": "com.ktwapps.walletmanager:id/categoryLabel",
+      "content_desc": "",
+      "bounds": [
+        288,
+        843,
+        1264,
+        950
+      ],
+      "center": [
+        776,
+        896
+      ],
+      "area": 104432,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_33",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/doneWrapper",
+      "content_desc": "",
+      "bounds": [
+        1296,
+        856,
+        1376,
+        936
+      ],
+      "center": [
+        1336,
+        896
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_34",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1024,
+        1440,
+        1280
+      ],
+      "center": [
+        720,
+        1152
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_35",
+        "node_37",
+        "node_38"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_35",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/colorView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1072,
+        224,
+        1232
+      ],
+      "center": [
+        144,
+        1152
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_36",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        84,
+        1092,
+        204,
+        1212
+      ],
+      "center": [
+        144,
+        1152
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_37",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Education",
+      "resource_id": "com.ktwapps.walletmanager:id/categoryLabel",
+      "content_desc": "",
+      "bounds": [
+        288,
+        1099,
+        1264,
+        1206
+      ],
+      "center": [
+        776,
+        1152
+      ],
+      "area": 104432,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_38",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/doneWrapper",
+      "content_desc": "",
+      "bounds": [
+        1296,
+        1112,
+        1376,
+        1192
+      ],
+      "center": [
+        1336,
+        1152
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_39",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1280,
+        1440,
+        1536
+      ],
+      "center": [
+        720,
+        1408
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_40",
+        "node_42",
+        "node_43"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_40",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/colorView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1328,
+        224,
+        1488
+      ],
+      "center": [
+        144,
+        1408
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_41",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        84,
+        1348,
+        204,
+        1468
+      ],
+      "center": [
+        144,
+        1408
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_42",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Entertainment",
+      "resource_id": "com.ktwapps.walletmanager:id/categoryLabel",
+      "content_desc": "",
+      "bounds": [
+        288,
+        1355,
+        1264,
+        1462
+      ],
+      "center": [
+        776,
+        1408
+      ],
+      "area": 104432,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_43",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/doneWrapper",
+      "content_desc": "",
+      "bounds": [
+        1296,
+        1368,
+        1376,
+        1448
+      ],
+      "center": [
+        1336,
+        1408
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1536,
+        1440,
+        1792
+      ],
+      "center": [
+        720,
+        1664
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_45",
+        "node_47",
+        "node_48"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_45",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/colorView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1584,
+        224,
+        1744
+      ],
+      "center": [
+        144,
+        1664
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_46"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_46",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        84,
+        1604,
+        204,
+        1724
+      ],
+      "center": [
+        144,
+        1664
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_47",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Fitness",
+      "resource_id": "com.ktwapps.walletmanager:id/categoryLabel",
+      "content_desc": "",
+      "bounds": [
+        288,
+        1611,
+        1264,
+        1718
+      ],
+      "center": [
+        776,
+        1664
+      ],
+      "area": 104432,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_48",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/doneWrapper",
+      "content_desc": "",
+      "bounds": [
+        1296,
+        1624,
+        1376,
+        1704
+      ],
+      "center": [
+        1336,
+        1664
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_49",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1792,
+        1440,
+        2048
+      ],
+      "center": [
+        720,
+        1920
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_50",
+        "node_52",
+        "node_53"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_50",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/colorView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1840,
+        224,
+        2000
+      ],
+      "center": [
+        144,
+        1920
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_51"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_51",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        84,
+        1860,
+        204,
+        1980
+      ],
+      "center": [
+        144,
+        1920
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_52",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Food",
+      "resource_id": "com.ktwapps.walletmanager:id/categoryLabel",
+      "content_desc": "",
+      "bounds": [
+        288,
+        1867,
+        1264,
+        1974
+      ],
+      "center": [
+        776,
+        1920
+      ],
+      "area": 104432,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_53",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/doneWrapper",
+      "content_desc": "",
+      "bounds": [
+        1296,
+        1880,
+        1376,
+        1960
+      ],
+      "center": [
+        1336,
+        1920
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_54",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2048,
+        1440,
+        2304
+      ],
+      "center": [
+        720,
+        2176
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_55",
+        "node_57",
+        "node_58"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_55",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/colorView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2096,
+        224,
+        2256
+      ],
+      "center": [
+        144,
+        2176
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [
+        "node_56"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_56",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        84,
+        2116,
+        204,
+        2236
+      ],
+      "center": [
+        144,
+        2176
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_57",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Gifts",
+      "resource_id": "com.ktwapps.walletmanager:id/categoryLabel",
+      "content_desc": "",
+      "bounds": [
+        288,
+        2123,
+        1264,
+        2230
+      ],
+      "center": [
+        776,
+        2176
+      ],
+      "area": 104432,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_58",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/doneWrapper",
+      "content_desc": "",
+      "bounds": [
+        1296,
+        2136,
+        1376,
+        2216
+      ],
+      "center": [
+        1336,
+        2176
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_59",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2304,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2432
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_60",
+        "node_62",
+        "node_63"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_60",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/colorView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2352,
+        224,
+        2512
+      ],
+      "center": [
+        144,
+        2432
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [
+        "node_61"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_61",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        84,
+        2372,
+        204,
+        2492
+      ],
+      "center": [
+        144,
+        2432
+      ],
+      "area": 14400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_62",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Health",
+      "resource_id": "com.ktwapps.walletmanager:id/categoryLabel",
+      "content_desc": "",
+      "bounds": [
+        288,
+        2379,
+        1264,
+        2486
+      ],
+      "center": [
+        776,
+        2432
+      ],
+      "area": 104432,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    },
+    {
+      "id": "node_63",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.ktwapps.walletmanager:id/doneWrapper",
+      "content_desc": "",
+      "bounds": [
+        1296,
+        2392,
+        1376,
+        2472
+      ],
+      "center": [
+        1336,
+        2432
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.ktwapps.walletmanager"
+    }
+  ]
+}

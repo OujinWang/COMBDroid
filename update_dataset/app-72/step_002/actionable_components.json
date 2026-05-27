@@ -1,0 +1,1192 @@
+{
+  "actionable_component_count": 39,
+  "actionable_components": [
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/backButton",
+      "content_desc": "Back",
+      "bounds": [
+        0,
+        96,
+        204,
+        272
+      ],
+      "center": [
+        102,
+        184
+      ],
+      "area": 35904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_37",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/flBookMark",
+      "content_desc": "",
+      "bounds": [
+        1216,
+        96,
+        1420,
+        272
+      ],
+      "center": [
+        1318,
+        184
+      ],
+      "area": 35904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_38",
+        "node_39"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/faBookMark",
+      "content_desc": "Bookmarks",
+      "bounds": [
+        1216,
+        96,
+        1420,
+        272
+      ],
+      "center": [
+        1318,
+        184
+      ],
+      "area": 35904,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_41",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/scrollView1",
+      "content_desc": "",
+      "bounds": [
+        0,
+        272,
+        1440,
+        1432
+      ],
+      "center": [
+        720,
+        852
+      ],
+      "area": 1670400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_42"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_45",
+      "type": "Button",
+      "class_name": "android.widget.ToggleButton",
+      "text": "Income",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/optionKind1",
+      "content_desc": "",
+      "bounds": [
+        60,
+        332,
+        478,
+        452
+      ],
+      "center": [
+        269,
+        392
+      ],
+      "area": 50160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_46",
+      "type": "Button",
+      "class_name": "android.widget.ToggleButton",
+      "text": "Expense",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/optionKind2",
+      "content_desc": "",
+      "bounds": [
+        510,
+        332,
+        929,
+        452
+      ],
+      "center": [
+        719,
+        392
+      ],
+      "area": 50280,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_47",
+      "type": "Button",
+      "class_name": "android.widget.ToggleButton",
+      "text": "Transfer",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/optionKind3",
+      "content_desc": "",
+      "bounds": [
+        961,
+        332,
+        1380,
+        452
+      ],
+      "center": [
+        1170,
+        392
+      ],
+      "area": 50280,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_49",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Date",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/lable1",
+      "content_desc": "",
+      "bounds": [
+        68,
+        512,
+        312,
+        684
+      ],
+      "center": [
+        190,
+        598
+      ],
+      "area": 41968,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/input1Block",
+      "content_desc": "",
+      "bounds": [
+        312,
+        512,
+        1360,
+        684
+      ],
+      "center": [
+        836,
+        598
+      ],
+      "area": 180256,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_51",
+        "node_54"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_53",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "1:37 PM",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/writeTime",
+      "content_desc": "",
+      "bounds": [
+        766,
+        512,
+        1192,
+        684
+      ],
+      "center": [
+        979,
+        598
+      ],
+      "area": 73272,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_54",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/llRepeatOrInst",
+      "content_desc": "",
+      "bounds": [
+        1192,
+        512,
+        1360,
+        684
+      ],
+      "center": [
+        1276,
+        598
+      ],
+      "area": 28896,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_55",
+        "node_56"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_55",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/faRepeatOrInst",
+      "content_desc": "",
+      "bounds": [
+        1192,
+        512,
+        1360,
+        605
+      ],
+      "center": [
+        1276,
+        558
+      ],
+      "area": 15624,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_56",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Rep/Inst.",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/tvRepeatOrInst",
+      "content_desc": "",
+      "bounds": [
+        1195,
+        605,
+        1357,
+        684
+      ],
+      "center": [
+        1276,
+        644
+      ],
+      "area": 12798,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_60",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Amount",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/lable4",
+      "content_desc": "",
+      "bounds": [
+        68,
+        684,
+        312,
+        856
+      ],
+      "center": [
+        190,
+        770
+      ],
+      "area": 41968,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_61",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/input4Block",
+      "content_desc": "",
+      "bounds": [
+        312,
+        684,
+        1360,
+        856
+      ],
+      "center": [
+        836,
+        770
+      ],
+      "area": 180256,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [
+        "node_62"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_65",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Category",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/lable3",
+      "content_desc": "",
+      "bounds": [
+        68,
+        856,
+        312,
+        1028
+      ],
+      "center": [
+        190,
+        942
+      ],
+      "area": 41968,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_66",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/input3Block",
+      "content_desc": "",
+      "bounds": [
+        312,
+        856,
+        1360,
+        1028
+      ],
+      "center": [
+        836,
+        942
+      ],
+      "area": 180256,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_67"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_69",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Account",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/lable2",
+      "content_desc": "",
+      "bounds": [
+        68,
+        1028,
+        312,
+        1200
+      ],
+      "center": [
+        190,
+        1114
+      ],
+      "area": 41968,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_70",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/input2Block",
+      "content_desc": "",
+      "bounds": [
+        312,
+        1028,
+        1360,
+        1200
+      ],
+      "center": [
+        836,
+        1114
+      ],
+      "area": 180256,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [
+        "node_71"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_73",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Note",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/lable5",
+      "content_desc": "",
+      "bounds": [
+        68,
+        1200,
+        312,
+        1372
+      ],
+      "center": [
+        190,
+        1286
+      ],
+      "area": 41968,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_72",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_75",
+      "type": "Clickable",
+      "class_name": "android.widget.AutoCompleteTextView",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/memo",
+      "content_desc": "",
+      "bounds": [
+        312,
+        1200,
+        1360,
+        1364
+      ],
+      "center": [
+        836,
+        1282
+      ],
+      "area": 171872,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_74",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_81",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/currencySettingBtn",
+      "content_desc": "",
+      "bounds": [
+        1032,
+        1432,
+        1236,
+        1600
+      ],
+      "center": [
+        1134,
+        1516
+      ],
+      "area": 34272,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_82",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/numberCancelButton",
+      "content_desc": "",
+      "bounds": [
+        1236,
+        1432,
+        1440,
+        1600
+      ],
+      "center": [
+        1338,
+        1516
+      ],
+      "area": 34272,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_86",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "1",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/pad1",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1600,
+        360,
+        1840
+      ],
+      "center": [
+        180,
+        1720
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_87",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "2",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/pad2",
+      "content_desc": "",
+      "bounds": [
+        360,
+        1600,
+        720,
+        1840
+      ],
+      "center": [
+        540,
+        1720
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_88",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "3",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/pad3",
+      "content_desc": "",
+      "bounds": [
+        720,
+        1600,
+        1080,
+        1840
+      ],
+      "center": [
+        900,
+        1720
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_89",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/padback",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        1600,
+        1440,
+        1840
+      ],
+      "center": [
+        1260,
+        1720
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_91",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "4",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/pad4",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1840,
+        360,
+        2080
+      ],
+      "center": [
+        180,
+        1960
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_92",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "5",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/pad5",
+      "content_desc": "",
+      "bounds": [
+        360,
+        1840,
+        720,
+        2080
+      ],
+      "center": [
+        540,
+        1960
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_93",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "6",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/pad6",
+      "content_desc": "",
+      "bounds": [
+        720,
+        1840,
+        1080,
+        2080
+      ],
+      "center": [
+        900,
+        1960
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_94",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "-",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/padMinus",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        1840,
+        1440,
+        2080
+      ],
+      "center": [
+        1260,
+        1960
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_96",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "7",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/pad7",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2080,
+        360,
+        2320
+      ],
+      "center": [
+        180,
+        2200
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_97",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "8",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/pad8",
+      "content_desc": "",
+      "bounds": [
+        360,
+        2080,
+        720,
+        2320
+      ],
+      "center": [
+        540,
+        2200
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_98",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "9",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/pad9",
+      "content_desc": "",
+      "bounds": [
+        720,
+        2080,
+        1080,
+        2320
+      ],
+      "center": [
+        900,
+        2200
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_99",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/calButton",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        2080,
+        1440,
+        2320
+      ],
+      "center": [
+        1260,
+        2200
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_101",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/pad00",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2320,
+        360,
+        2560
+      ],
+      "center": [
+        180,
+        2440
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_100",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_102",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "0",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/pad0",
+      "content_desc": "",
+      "bounds": [
+        360,
+        2320,
+        720,
+        2560
+      ],
+      "center": [
+        540,
+        2440
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_100",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_103",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": ".",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/padDot",
+      "content_desc": "",
+      "bounds": [
+        720,
+        2320,
+        1080,
+        2560
+      ],
+      "center": [
+        900,
+        2440
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_100",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    },
+    {
+      "id": "node_104",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Done",
+      "resource_id": "com.realbyteapps.moneymanagerfree:id/numberDoneButton",
+      "content_desc": "",
+      "bounds": [
+        1080,
+        2320,
+        1440,
+        2560
+      ],
+      "center": [
+        1260,
+        2440
+      ],
+      "area": 86400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_100",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.realbyteapps.moneymanagerfree"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "actionable_component_count": 11,
+  "actionable_components": [
+    {
+      "id": "node_35",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Add expense",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/fab",
+      "content_desc": "Add expense",
+      "bounds": [
+        647,
+        2080,
+        1376,
+        2272
+      ],
+      "center": [
+        1011,
+        2176
+      ],
+      "area": 139968,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_41",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/searchAction",
+      "content_desc": "Search",
+      "bounds": [
+        1040,
+        112,
+        1232,
+        304
+      ],
+      "center": [
+        1136,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_42",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/addGroupAction",
+      "content_desc": "Create a group",
+      "bounds": [
+        1232,
+        112,
+        1424,
+        304
+      ],
+      "center": [
+        1328,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_44",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/balancesOverviewRecyclerview",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 2903040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_45",
+        "node_48",
+        "node_53"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_45",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        581
+      ],
+      "center": [
+        720,
+        450
+      ],
+      "area": 375840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_46",
+        "node_47"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_47",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/current_user_balance_change_filter_button",
+      "content_desc": "Change",
+      "bounds": [
+        1248,
+        386,
+        1408,
+        546
+      ],
+      "center": [
+        1328,
+        466
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_48",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/entity_balance_info_wrapper_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        581,
+        1440,
+        965
+      ],
+      "center": [
+        720,
+        773
+      ],
+      "area": 552960,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_49",
+        "node_50"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_55",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Show 1 settled-up group",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/settledRelationshipsButton",
+      "content_desc": "",
+      "bounds": [
+        304,
+        1285,
+        1136,
+        1477
+      ],
+      "center": [
+        720,
+        1381
+      ],
+      "area": 159744,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_63",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/friends",
+      "content_desc": "Friends",
+      "bounds": [
+        360,
+        2336,
+        720,
+        2560
+      ],
+      "center": [
+        540,
+        2448
+      ],
+      "area": 80640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [
+        "node_64",
+        "node_66"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_68",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/activity",
+      "content_desc": "Activity",
+      "bounds": [
+        720,
+        2336,
+        1080,
+        2560
+      ],
+      "center": [
+        900,
+        2448
+      ],
+      "area": 80640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [
+        "node_69",
+        "node_71"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    },
+    {
+      "id": "node_73",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.Splitwise.SplitwiseMobile:id/account",
+      "content_desc": "Account",
+      "bounds": [
+        1080,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        1260,
+        2448
+      ],
+      "area": 80640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [
+        "node_74",
+        "node_76"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.Splitwise.SplitwiseMobile"
+    }
+  ]
+}

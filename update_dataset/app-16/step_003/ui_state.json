@@ -1,0 +1,2127 @@
+{
+  "screenshot_path": "runs\\43_cnn\\step_003\\screen.png",
+  "xml_path": "runs\\43_cnn\\step_003\\hierarchy.xml",
+  "component_count": 67,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.cnn.mobile.android.phone:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_5",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_11",
+        "node_65"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_6",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.cnn.mobile.android.phone:id/toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        312
+      ],
+      "center": [
+        720,
+        204
+      ],
+      "area": 311040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7",
+        "node_9",
+        "node_10"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_7",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.cnn.mobile.android.phone:id/toolbar_back_button_container",
+      "content_desc": "Back Button",
+      "bounds": [
+        0,
+        96,
+        240,
+        312
+      ],
+      "center": [
+        120,
+        204
+      ],
+      "area": 51840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_8",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.cnn.mobile.android.phone:id/toolbar_back_button",
+      "content_desc": "",
+      "bounds": [
+        64,
+        96,
+        176,
+        312
+      ],
+      "center": [
+        120,
+        204
+      ],
+      "area": 24192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_9",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.cnn.mobile.android.phone:id/toolbar_share",
+      "content_desc": "Share",
+      "bounds": [
+        1120,
+        148,
+        1232,
+        260
+      ],
+      "center": [
+        1176,
+        204
+      ],
+      "area": 12544,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_10",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.cnn.mobile.android.phone:id/toolbar_bookmark",
+      "content_desc": "Bookmark",
+      "bounds": [
+        1296,
+        148,
+        1408,
+        260
+      ],
+      "center": [
+        1352,
+        204
+      ],
+      "area": 12544,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_11",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.cnn.mobile.android.phone:id/main_activity_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1436
+      ],
+      "area": 3237120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_12"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_12",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1436
+      ],
+      "area": 3237120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_13",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1436
+      ],
+      "area": 3237120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_14",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1436
+      ],
+      "area": 3237120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15",
+        "node_51"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_15",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.viewinterop.ViewFactoryHolder",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2914560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_16"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_16",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.cnn.mobile.android.phone:id/content_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2914560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_17"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_17",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.cnn.mobile.android.phone:id/single_fragment_frame",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2914560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [
+        "node_18"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_18",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.cnn.mobile.android.phone:id/root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2914560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_19"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_19",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.cnn.mobile.android.phone:id/swipe_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2914560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_20",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2914560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_21"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_21",
+      "type": "Other",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2914560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_22"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_22",
+      "type": "ScrollContainer",
+      "class_name": "android.webkit.WebView",
+      "text": "(1) Live updates: Iran war news; Trump urges China, allies to help with Strait of Hormuz crisis | CNN",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2914560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_23"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_23",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2914560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_22",
+      "children_ids": [
+        "node_24"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_24",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2914560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_25"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_25",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1324
+      ],
+      "area": 2914560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [
+        "node_26",
+        "node_46"
+      ],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_26",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        2176
+      ],
+      "center": [
+        720,
+        1244
+      ],
+      "area": 2684160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27",
+        "node_28",
+        "node_29",
+        "node_30"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_27",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Trump warns of ‘very bad future’ for NATO if countries do not help secure Strait of Hormuz",
+      "resource_id": "maincontent",
+      "content_desc": "",
+      "bounds": [
+        0,
+        312,
+        1440,
+        568
+      ],
+      "center": [
+        720,
+        440
+      ],
+      "area": 368640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_28",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Israel announces \"limited and targeted\" ground operations against Hezbollah in Lebanon as Middle East rocked by fresh strikes.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        612,
+        1360,
+        1080
+      ],
+      "center": [
+        720,
+        846
+      ],
+      "area": 599040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_29",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Updated 6:58 AM EDT, Mon March 16, 2026",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1156,
+        1360,
+        1240
+      ],
+      "center": [
+        720,
+        1198
+      ],
+      "area": 107520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_30",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1364,
+        1440,
+        2176
+      ],
+      "center": [
+        720,
+        1770
+      ],
+      "area": 1169280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_26",
+      "children_ids": [
+        "node_31",
+        "node_40"
+      ],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_31",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "player-cms.cnn.com/_components/video-player/instances/cmmse85sv00093b6r05duv5ew@published",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1364,
+        1440,
+        2176
+      ],
+      "center": [
+        720,
+        1770
+      ],
+      "area": 1169280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32"
+      ],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_32",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "player-player-cms.cnn.com/_components/video-player/instances/cmmse85sv00093b6r05duv5ew@published",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1364,
+        1440,
+        2176
+      ],
+      "center": [
+        720,
+        1770
+      ],
+      "area": 1169280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33",
+        "node_37",
+        "node_38"
+      ],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_33",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "player-player-cms.cnn.com/_components/video-player/instances/cmmse85sv00093b6r05duv5ew@published-pui-wrapper",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1364,
+        1440,
+        2176
+      ],
+      "center": [
+        720,
+        1770
+      ],
+      "area": 1169280,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34"
+      ],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_34",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1364,
+        1440,
+        2176
+      ],
+      "center": [
+        720,
+        1770
+      ],
+      "area": 1169280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_35"
+      ],
+      "depth": 26,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "Play",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1364,
+        1440,
+        2176
+      ],
+      "center": [
+        720,
+        1770
+      ],
+      "area": 1169280,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_36",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Play",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        576,
+        1616,
+        864,
+        1924
+      ],
+      "center": [
+        720,
+        1770
+      ],
+      "area": 88704,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 28,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_37",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "Unable to play media.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1364,
+        1440,
+        2176
+      ],
+      "center": [
+        720,
+        1770
+      ],
+      "area": 1169280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1364,
+        1440,
+        2176
+      ],
+      "center": [
+        720,
+        1770
+      ],
+      "area": 1169280,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_39"
+      ],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_39",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "overlay-root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1364,
+        1440,
+        2176
+      ],
+      "center": [
+        720,
+        1770
+      ],
+      "area": 1169280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 26,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_40",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1364,
+        1440,
+        2176
+      ],
+      "center": [
+        720,
+        1770
+      ],
+      "area": 1169280,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_41",
+        "node_43",
+        "node_45"
+      ],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_41",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1852,
+        320,
+        2112
+      ],
+      "center": [
+        192,
+        1982
+      ],
+      "area": 66560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_42"
+      ],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_42",
+      "type": "Other",
+      "class_name": "android.widget.Image",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1856,
+        276,
+        2108
+      ],
+      "center": [
+        204,
+        1982
+      ],
+      "area": 36288,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_43",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        368,
+        1852,
+        1376,
+        2016
+      ],
+      "center": [
+        872,
+        1934
+      ],
+      "area": 165312,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_44"
+      ],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_44",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Strait of Hormuz likely the 'biggest risk point' to US ...",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        368,
+        1852,
+        1376,
+        2016
+      ],
+      "center": [
+        872,
+        1934
+      ],
+      "area": 165312,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_45",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "04:45",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        368,
+        2044,
+        500,
+        2112
+      ],
+      "center": [
+        434,
+        2078
+      ],
+      "area": 8976,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_46",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2300,
+        1360,
+        2336
+      ],
+      "center": [
+        720,
+        2318
+      ],
+      "area": 46080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_47",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2300,
+        1360,
+        2336
+      ],
+      "center": [
+        720,
+        2318
+      ],
+      "area": 46080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [
+        "node_48"
+      ],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_48",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2300,
+        1360,
+        2336
+      ],
+      "center": [
+        720,
+        2318
+      ],
+      "area": 46080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [
+        "node_49"
+      ],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_49",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2300,
+        1360,
+        2336
+      ],
+      "center": [
+        720,
+        2318
+      ],
+      "area": 46080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_50"
+      ],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_50",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        2300,
+        1360,
+        2336
+      ],
+      "center": [
+        720,
+        2318
+      ],
+      "area": 46080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_51",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_52"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_52",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [
+        "node_53",
+        "node_57",
+        "node_61"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_53",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        171,
+        2336,
+        403,
+        2560
+      ],
+      "center": [
+        287,
+        2448
+      ],
+      "area": 51968,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_52",
+      "children_ids": [
+        "node_54",
+        "node_55",
+        "node_56"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_54",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Home",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        219,
+        2464,
+        355,
+        2528
+      ],
+      "center": [
+        287,
+        2496
+      ],
+      "area": 8704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_55",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Home",
+      "bounds": [
+        239,
+        2368,
+        335,
+        2464
+      ],
+      "center": [
+        287,
+        2416
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_56",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        171,
+        2336,
+        403,
+        2560
+      ],
+      "center": [
+        287,
+        2448
+      ],
+      "area": 51968,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_57",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        573,
+        2336,
+        814,
+        2560
+      ],
+      "center": [
+        693,
+        2448
+      ],
+      "area": 53984,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [
+        "node_58",
+        "node_59",
+        "node_60"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_58",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Watch",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        621,
+        2464,
+        766,
+        2528
+      ],
+      "center": [
+        693,
+        2496
+      ],
+      "area": 9280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_59",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Watch",
+      "bounds": [
+        645,
+        2368,
+        741,
+        2464
+      ],
+      "center": [
+        693,
+        2416
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_60",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        573,
+        2336,
+        814,
+        2560
+      ],
+      "center": [
+        693,
+        2448
+      ],
+      "area": 53984,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_61",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        985,
+        2336,
+        1270,
+        2560
+      ],
+      "center": [
+        1127,
+        2448
+      ],
+      "area": 63840,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [
+        "node_62",
+        "node_63",
+        "node_64"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_62",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Settings",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1033,
+        2464,
+        1222,
+        2528
+      ],
+      "center": [
+        1127,
+        2496
+      ],
+      "area": 12096,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_63",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Settings",
+      "bounds": [
+        1079,
+        2368,
+        1175,
+        2464
+      ],
+      "center": [
+        1127,
+        2416
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_64",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        985,
+        2336,
+        1270,
+        2560
+      ],
+      "center": [
+        1127,
+        2448
+      ],
+      "area": 63840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_65",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.cnn.mobile.android.phone:id/snackbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_66"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    },
+    {
+      "id": "node_66",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.cnn.mobile.android.phone"
+    }
+  ]
+}

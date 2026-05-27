@@ -1,0 +1,351 @@
+{
+  "actionable_component_count": 11,
+  "actionable_components": [
+    {
+      "id": "node_32",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "notas.notepad.basenote:id/btnBack",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        200,
+        336
+      ],
+      "center": [
+        100,
+        216
+      ],
+      "area": 48000,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "notas.notepad.basenote"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "notas.notepad.basenote:id/btnUndo",
+      "content_desc": "",
+      "bounds": [
+        544,
+        96,
+        720,
+        336
+      ],
+      "center": [
+        632,
+        216
+      ],
+      "area": 42240,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "notas.notepad.basenote"
+    },
+    {
+      "id": "node_37",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "notas.notepad.basenote:id/btnRedo",
+      "content_desc": "",
+      "bounds": [
+        720,
+        96,
+        896,
+        336
+      ],
+      "center": [
+        808,
+        216
+      ],
+      "area": 42240,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_38"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "notas.notepad.basenote"
+    },
+    {
+      "id": "node_39",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "My New Note",
+      "resource_id": "notas.notepad.basenote:id/editTitle",
+      "content_desc": "",
+      "bounds": [
+        0,
+        336,
+        1440,
+        520
+      ],
+      "center": [
+        720,
+        428
+      ],
+      "area": 264960,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "notas.notepad.basenote"
+    },
+    {
+      "id": "node_40",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "notas.notepad.basenote:id/scrollEdit",
+      "content_desc": "",
+      "bounds": [
+        0,
+        520,
+        1440,
+        2340
+      ],
+      "center": [
+        720,
+        1430
+      ],
+      "area": 2620800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "notas.notepad.basenote"
+    },
+    {
+      "id": "node_41",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "This is the content of my new note.",
+      "resource_id": "notas.notepad.basenote:id/editContent",
+      "content_desc": "",
+      "bounds": [
+        0,
+        520,
+        1440,
+        2340
+      ],
+      "center": [
+        720,
+        1430
+      ],
+      "area": 2620800,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "notas.notepad.basenote"
+    },
+    {
+      "id": "node_43",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "notas.notepad.basenote:id/btnBold",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2340,
+        200,
+        2560
+      ],
+      "center": [
+        100,
+        2450
+      ],
+      "area": 44000,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_44"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "notas.notepad.basenote"
+    },
+    {
+      "id": "node_45",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "notas.notepad.basenote:id/btnStrikeThrough",
+      "content_desc": "",
+      "bounds": [
+        200,
+        2340,
+        400,
+        2560
+      ],
+      "center": [
+        300,
+        2450
+      ],
+      "area": 44000,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_46"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "notas.notepad.basenote"
+    },
+    {
+      "id": "node_47",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "notas.notepad.basenote:id/btnBgSpan",
+      "content_desc": "",
+      "bounds": [
+        400,
+        2340,
+        600,
+        2560
+      ],
+      "center": [
+        500,
+        2450
+      ],
+      "area": 44000,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_48"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "notas.notepad.basenote"
+    },
+    {
+      "id": "node_49",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "notas.notepad.basenote:id/btnBullet",
+      "content_desc": "",
+      "bounds": [
+        600,
+        2340,
+        800,
+        2560
+      ],
+      "center": [
+        700,
+        2450
+      ],
+      "area": 44000,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_50"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "notas.notepad.basenote"
+    },
+    {
+      "id": "node_52",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "notas.notepad.basenote:id/btnSave",
+      "content_desc": "",
+      "bounds": [
+        1240,
+        2370,
+        1400,
+        2530
+      ],
+      "center": [
+        1320,
+        2450
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "notas.notepad.basenote"
+    }
+  ]
+}

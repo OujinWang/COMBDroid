@@ -1,0 +1,3241 @@
+{
+  "screenshot_path": "runs\\8_agoda\\step_007\\screen.png",
+  "xml_path": "runs\\8_agoda\\step_007\\hierarchy.xml",
+  "component_count": 103,
+  "components": [
+    {
+      "id": "node_28",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_29"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_30",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_31",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_32",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33",
+        "node_94",
+        "node_95",
+        "node_96",
+        "node_101",
+        "node_102",
+        "node_103",
+        "node_104",
+        "node_122"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_33",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        376,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1468
+      ],
+      "area": 3144960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34"
+      ],
+      "depth": 5,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_34",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "SSR_List_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        376,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1468
+      ],
+      "area": 3144960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_35",
+        "node_42",
+        "node_77",
+        "node_78"
+      ],
+      "depth": 6,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_35",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "SSR_banner_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        376,
+        1440,
+        838
+      ],
+      "center": [
+        720,
+        607
+      ],
+      "area": 665280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_36",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        112,
+        488,
+        1328,
+        726
+      ],
+      "center": [
+        720,
+        607
+      ],
+      "area": 289408,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_37",
+        "node_38",
+        "node_39"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_37",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        552,
+        240,
+        632
+      ],
+      "center": [
+        152,
+        592
+      ],
+      "area": 14080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_38",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "ONE-HOUR AGODASALE! Claim now to instantly lower prices by up to 10%",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        240,
+        488,
+        1126,
+        726
+      ],
+      "center": [
+        683,
+        607
+      ],
+      "area": 210868,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_39",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1147,
+        552,
+        1339,
+        622
+      ],
+      "center": [
+        1243,
+        587
+      ],
+      "area": 13440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_40",
+        "node_41"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_40",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "CLAIM",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1158,
+        552,
+        1328,
+        564
+      ],
+      "center": [
+        1243,
+        558
+      ],
+      "area": 2040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_41",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1158,
+        488,
+        1328,
+        564
+      ],
+      "center": [
+        1243,
+        526
+      ],
+      "area": 12920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_42",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "HotelListItem_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        838,
+        1440,
+        1812
+      ],
+      "center": [
+        720,
+        1325
+      ],
+      "area": 1402560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_43"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_43",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        886,
+        1376,
+        1748
+      ],
+      "center": [
+        720,
+        1317
+      ],
+      "area": 1130944,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_44",
+        "node_56",
+        "node_60",
+        "node_61",
+        "node_63",
+        "node_64",
+        "node_66",
+        "node_68",
+        "node_69",
+        "node_70"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_44",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        886,
+        497,
+        1748
+      ],
+      "center": [
+        280,
+        1317
+      ],
+      "area": 373246,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_45",
+        "node_46",
+        "node_48"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_45",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        886,
+        497,
+        1606
+      ],
+      "center": [
+        280,
+        1246
+      ],
+      "area": 311760,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "SSR_FavoriteButton_button",
+      "content_desc": "",
+      "bounds": [
+        305,
+        886,
+        497,
+        1078
+      ],
+      "center": [
+        401,
+        982
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_47",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        361,
+        942,
+        441,
+        1022
+      ],
+      "center": [
+        401,
+        982
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_48",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "SSR_OfferSection_container",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1606,
+        497,
+        1798
+      ],
+      "center": [
+        280,
+        1702
+      ],
+      "area": 83136,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_49"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_49",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1606,
+        497,
+        1798
+      ],
+      "center": [
+        280,
+        1702
+      ],
+      "area": 83136,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_50",
+        "node_52"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_50",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        8,
+        1606,
+        200,
+        1798
+      ],
+      "center": [
+        104,
+        1702
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_51"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_51",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        8,
+        1606,
+        200,
+        1798
+      ],
+      "center": [
+        104,
+        1702
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_52",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        1606,
+        497,
+        1798
+      ],
+      "center": [
+        312,
+        1702
+      ],
+      "area": 70848,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_53",
+        "node_54",
+        "node_55"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_53",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        58,
+        1606,
+        250,
+        1798
+      ],
+      "center": [
+        154,
+        1702
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_54",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        46,
+        1606,
+        238,
+        1798
+      ],
+      "center": [
+        142,
+        1702
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_55",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "VIP Deal",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        179,
+        1664,
+        392,
+        1740
+      ],
+      "center": [
+        285,
+        1702
+      ],
+      "area": 16188,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_56",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "SSR_RatingAndAreaSection_container",
+      "content_desc": "",
+      "bounds": [
+        994,
+        1000,
+        1138,
+        1048
+      ],
+      "center": [
+        1066,
+        1024
+      ],
+      "area": 6912,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_57",
+        "node_58",
+        "node_59"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_57",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        922,
+        928,
+        1114,
+        1067
+      ],
+      "center": [
+        1018,
+        997
+      ],
+      "area": 26688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_58",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        970,
+        928,
+        1162,
+        1067
+      ],
+      "center": [
+        1066,
+        997
+      ],
+      "area": 26688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_59",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1018,
+        928,
+        1210,
+        1067
+      ],
+      "center": [
+        1114,
+        997
+      ],
+      "area": 26688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_60",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Greater London East - 9.5 km to center",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        545,
+        1067,
+        1361,
+        1132
+      ],
+      "center": [
+        953,
+        1099
+      ],
+      "area": 53040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_61",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        545,
+        1085,
+        773,
+        1277
+      ],
+      "center": [
+        659,
+        1181
+      ],
+      "area": 43776,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_62"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_62",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Sponsored",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        545,
+        1148,
+        773,
+        1213
+      ],
+      "center": [
+        659,
+        1180
+      ],
+      "area": 14820,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_63",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        695,
+        1085,
+        802,
+        1232
+      ],
+      "center": [
+        748,
+        1158
+      ],
+      "area": 15729,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_64",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        802,
+        1085,
+        994,
+        1277
+      ],
+      "center": [
+        898,
+        1181
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_65"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_65",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Boosted",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        809,
+        1148,
+        986,
+        1213
+      ],
+      "center": [
+        897,
+        1180
+      ],
+      "area": 11505,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_66",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        513,
+        1179,
+        705,
+        1371
+      ],
+      "center": [
+        609,
+        1275
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_67"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_67",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "8.6",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        569,
+        1237,
+        649,
+        1313
+      ],
+      "center": [
+        609,
+        1275
+      ],
+      "area": 6080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_68",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Excellent",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        689,
+        1232,
+        948,
+        1318
+      ],
+      "center": [
+        818,
+        1275
+      ],
+      "area": 22274,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_69",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "1,102 reviews",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        964,
+        1237,
+        1304,
+        1313
+      ],
+      "center": [
+        1134,
+        1275
+      ],
+      "area": 25840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_70",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "SSR_PriceSection_container",
+      "content_desc": "",
+      "bounds": [
+        545,
+        1369,
+        1376,
+        1748
+      ],
+      "center": [
+        960,
+        1558
+      ],
+      "area": 314949,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_71",
+        "node_72",
+        "node_73",
+        "node_74"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_71",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Only 1 left",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1093,
+        1385,
+        1344,
+        1461
+      ],
+      "center": [
+        1218,
+        1423
+      ],
+      "area": 19076,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_72",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "‪S$ 65",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1195,
+        1477,
+        1376,
+        1584
+      ],
+      "center": [
+        1285,
+        1530
+      ],
+      "area": 19367,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_73",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "per night with taxes",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        959,
+        1584,
+        1376,
+        1603
+      ],
+      "center": [
+        1167,
+        1593
+      ],
+      "area": 7923,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_74",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        915,
+        1603,
+        1376,
+        1795
+      ],
+      "center": [
+        1145,
+        1699
+      ],
+      "area": 88512,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [
+        "node_75"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_75",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "or S$ 22/month�",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        947,
+        1665,
+        1344,
+        1732
+      ],
+      "center": [
+        1145,
+        1698
+      ],
+      "area": 26599,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_74",
+      "children_ids": [
+        "node_76"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_76",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "[INSTALLMENTS_INFO_ID]",
+      "content_desc": "",
+      "bounds": [
+        1280,
+        1667,
+        1344,
+        1731
+      ],
+      "center": [
+        1312,
+        1699
+      ],
+      "area": 4096,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_75",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_77",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1732,
+        1440,
+        1924
+      ],
+      "center": [
+        720,
+        1828
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_78",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "SSR_banner_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1844,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2202
+      ],
+      "area": 1031040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_79",
+        "node_80"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_79",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Promotional offers",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1908,
+        670,
+        2005
+      ],
+      "center": [
+        367,
+        1956
+      ],
+      "area": 58782,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_80",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2053,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2306
+      ],
+      "area": 665184,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [
+        "node_81",
+        "node_91"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_81",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2053,
+        1184,
+        2560
+      ],
+      "center": [
+        624,
+        2306
+      ],
+      "area": 567840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_82",
+        "node_83",
+        "node_84",
+        "node_85",
+        "node_86",
+        "node_89"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_82",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2053,
+        384,
+        2560
+      ],
+      "center": [
+        224,
+        2306
+      ],
+      "area": 162240,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_83",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        104,
+        2243,
+        384,
+        2523
+      ],
+      "center": [
+        244,
+        2383
+      ],
+      "area": 78400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_84",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "‪Enjoy 10% off worldwide! (capped at S$20 per booking)",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        472,
+        2101,
+        1136,
+        2263
+      ],
+      "center": [
+        804,
+        2182
+      ],
+      "area": 107568,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_85",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "‪Pay with your HSBC credit card to enjoy the offer (Limited redemptions available)",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        472,
+        2279,
+        1136,
+        2441
+      ],
+      "center": [
+        804,
+        2360
+      ],
+      "area": 107568,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_86",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        472,
+        2383,
+        1016,
+        2560
+      ],
+      "center": [
+        744,
+        2471
+      ],
+      "area": 96288,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_87",
+        "node_88"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_87",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Terms and conditions",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1007,
+        2441,
+        1016,
+        2517
+      ],
+      "center": [
+        1011,
+        2479
+      ],
+      "area": 684,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_86",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_88",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        472,
+        2441,
+        1016,
+        2517
+      ],
+      "center": [
+        744,
+        2479
+      ],
+      "area": 41344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_86",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_89",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        964,
+        2521,
+        1156,
+        2560
+      ],
+      "center": [
+        1060,
+        2540
+      ],
+      "area": 7488,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_90"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_90",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        936,
+        2521,
+        1128,
+        2560
+      ],
+      "center": [
+        1032,
+        2540
+      ],
+      "area": 7488,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_89",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_91",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        2053,
+        1440,
+        2560
+      ],
+      "center": [
+        1344,
+        2306
+      ],
+      "area": 97344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_92",
+        "node_93"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_92",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        2053,
+        1440,
+        2560
+      ],
+      "center": [
+        1344,
+        2306
+      ],
+      "area": 97344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_91",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_93",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1288,
+        2243,
+        1440,
+        2523
+      ],
+      "center": [
+        1364,
+        2383
+      ],
+      "area": 42560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_91",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_94",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        376
+      ],
+      "center": [
+        720,
+        188
+      ],
+      "area": 541440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_95",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        40,
+        120,
+        232,
+        312
+      ],
+      "center": [
+        136,
+        216
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_96",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        272,
+        140,
+        976,
+        332
+      ],
+      "center": [
+        624,
+        236
+      ],
+      "area": 135168,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_97",
+        "node_98",
+        "node_99",
+        "node_100"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_97",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "London",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        272,
+        160,
+        460,
+        236
+      ],
+      "center": [
+        366,
+        198
+      ],
+      "area": 14288,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_98",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "(5879)",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        476,
+        160,
+        644,
+        236
+      ],
+      "center": [
+        560,
+        198
+      ],
+      "area": 12768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_99",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Tue, Mar 17 - Wed, Mar 18 • 2 Guests",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        272,
+        236,
+        864,
+        312
+      ],
+      "center": [
+        568,
+        274
+      ],
+      "area": 44992,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_100",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        896,
+        196,
+        976,
+        276
+      ],
+      "center": [
+        936,
+        236
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_101",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1016,
+        120,
+        1208,
+        312
+      ],
+      "center": [
+        1112,
+        216
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_102",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1208,
+        120,
+        1400,
+        312
+      ],
+      "center": [
+        1304,
+        216
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_103",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        444,
+        96,
+        636
+      ],
+      "center": [
+        48,
+        540
+      ],
+      "area": 18432,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_104",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        376,
+        1440,
+        540
+      ],
+      "center": [
+        720,
+        458
+      ],
+      "area": 236160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_105",
+        "node_121"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_105",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        360,
+        1392,
+        552
+      ],
+      "center": [
+        720,
+        456
+      ],
+      "area": 258048,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [
+        "node_106",
+        "node_109",
+        "node_110",
+        "node_113",
+        "node_114",
+        "node_117",
+        "node_118"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_106",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        360,
+        381,
+        552
+      ],
+      "center": [
+        214,
+        456
+      ],
+      "area": 63936,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_105",
+      "children_ids": [
+        "node_107",
+        "node_108"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_107",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Filters",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        105,
+        418,
+        260,
+        494
+      ],
+      "center": [
+        182,
+        456
+      ],
+      "area": 11780,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_106",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_108",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        204,
+        360,
+        385,
+        552
+      ],
+      "center": [
+        294,
+        456
+      ],
+      "area": 34752,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_106",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_109",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        287,
+        360,
+        385,
+        552
+      ],
+      "center": [
+        336,
+        456
+      ],
+      "area": 18816,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_105",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_110",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        385,
+        360,
+        718,
+        552
+      ],
+      "center": [
+        551,
+        456
+      ],
+      "area": 63936,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_105",
+      "children_ids": [
+        "node_111",
+        "node_112"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_111",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Price",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        456,
+        418,
+        583,
+        494
+      ],
+      "center": [
+        519,
+        456
+      ],
+      "area": 9652,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_110",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_112",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        527,
+        360,
+        719,
+        552
+      ],
+      "center": [
+        623,
+        456
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_110",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_113",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        624,
+        360,
+        722,
+        552
+      ],
+      "center": [
+        673,
+        456
+      ],
+      "area": 18816,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_105",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_114",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        722,
+        360,
+        1055,
+        552
+      ],
+      "center": [
+        888,
+        456
+      ],
+      "area": 63936,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_105",
+      "children_ids": [
+        "node_115",
+        "node_116"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_115",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Sort",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        805,
+        418,
+        909,
+        494
+      ],
+      "center": [
+        857,
+        456
+      ],
+      "area": 7904,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_114",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_116",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        853,
+        360,
+        1045,
+        552
+      ],
+      "center": [
+        949,
+        456
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_114",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_117",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        961,
+        360,
+        1059,
+        552
+      ],
+      "center": [
+        1010,
+        456
+      ],
+      "area": 18816,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_105",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_118",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1059,
+        360,
+        1392,
+        552
+      ],
+      "center": [
+        1225,
+        456
+      ],
+      "area": 63936,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_105",
+      "children_ids": [
+        "node_119",
+        "node_120"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_119",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Area",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1136,
+        418,
+        1252,
+        494
+      ],
+      "center": [
+        1194,
+        456
+      ],
+      "area": 8816,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_118",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_120",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1196,
+        360,
+        1388,
+        552
+      ],
+      "center": [
+        1292,
+        456
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_118",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_121",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        442,
+        1440,
+        634
+      ],
+      "center": [
+        720,
+        538
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_122",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        434,
+        2340,
+        1007,
+        2512
+      ],
+      "center": [
+        720,
+        2426
+      ],
+      "area": 98556,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_123"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_123",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        434,
+        2330,
+        1007,
+        2522
+      ],
+      "center": [
+        720,
+        2426
+      ],
+      "area": 110016,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_122",
+      "children_ids": [
+        "node_124",
+        "node_127",
+        "node_128"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_124",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        478,
+        2330,
+        670,
+        2522
+      ],
+      "center": [
+        574,
+        2426
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_123",
+      "children_ids": [
+        "node_125",
+        "node_126"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_125",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        482,
+        2398,
+        538,
+        2454
+      ],
+      "center": [
+        510,
+        2426
+      ],
+      "area": 3136,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_124",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_126",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Map",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        554,
+        2388,
+        665,
+        2464
+      ],
+      "center": [
+        609,
+        2426
+      ],
+      "area": 8436,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_124",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_127",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        603,
+        2330,
+        733,
+        2522
+      ],
+      "center": [
+        668,
+        2426
+      ],
+      "area": 24960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_123",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_128",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        733,
+        2330,
+        959,
+        2522
+      ],
+      "center": [
+        846,
+        2426
+      ],
+      "area": 43392,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_123",
+      "children_ids": [
+        "node_129",
+        "node_130"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_129",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        733,
+        2398,
+        789,
+        2454
+      ],
+      "center": [
+        761,
+        2426
+      ],
+      "area": 3136,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_128",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    },
+    {
+      "id": "node_130",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Saved",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        805,
+        2388,
+        959,
+        2464
+      ],
+      "center": [
+        882,
+        2426
+      ],
+      "area": 11704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_128",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.agoda.mobile.consumer"
+    }
+  ]
+}

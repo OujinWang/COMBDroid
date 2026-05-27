@@ -1,0 +1,1682 @@
+{
+  "screenshot_path": "runs\\330_snapseed\\step_001\\screen.png",
+  "xml_path": "runs\\330_snapseed\\step_001\\hierarchy.xml",
+  "component_count": 53,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_5",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/coordinator_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_6",
+      "type": "Other",
+      "class_name": "androidx.drawerlayout.widget.DrawerLayout",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/drawer_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_7",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8",
+        "node_37"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_8",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/app_bar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        1193
+      ],
+      "center": [
+        720,
+        644
+      ],
+      "area": 1579680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_9",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/collapsing_toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        1193
+      ],
+      "center": [
+        720,
+        644
+      ],
+      "area": 1579680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10",
+        "node_31"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_10",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        1193
+      ],
+      "center": [
+        720,
+        644
+      ],
+      "area": 1579680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_11",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/directory_header",
+      "content_desc": "",
+      "bounds": [
+        0,
+        288,
+        1440,
+        1193
+      ],
+      "center": [
+        720,
+        740
+      ],
+      "area": 1303200,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12",
+        "node_17",
+        "node_27"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_12",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        288,
+        1440,
+        480
+      ],
+      "center": [
+        720,
+        384
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_13",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        288,
+        1155,
+        480
+      ],
+      "center": [
+        577,
+        384
+      ],
+      "area": 221760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_14",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/search_chip_group",
+      "content_desc": "",
+      "bounds": [
+        80,
+        288,
+        1075,
+        480
+      ],
+      "center": [
+        577,
+        384
+      ],
+      "area": 191040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15",
+        "node_16"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_15",
+      "type": "Button",
+      "class_name": "android.widget.CompoundButton",
+      "text": "Large files",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        288,
+        566,
+        480
+      ],
+      "center": [
+        331,
+        384
+      ],
+      "area": 90240,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_16",
+      "type": "Button",
+      "class_name": "android.widget.CompoundButton",
+      "text": "This week",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        598,
+        288,
+        1059,
+        480
+      ],
+      "center": [
+        828,
+        384
+      ],
+      "area": 88512,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_17",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/apps_row",
+      "content_desc": "",
+      "bounds": [
+        0,
+        480,
+        1440,
+        953
+      ],
+      "center": [
+        720,
+        716
+      ],
+      "area": 681120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_18",
+        "node_19"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_18",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "BROWSE FILES IN OTHER APPS",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        480,
+        736,
+        672
+      ],
+      "center": [
+        368,
+        576
+      ],
+      "area": 141312,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_19",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        672,
+        1440,
+        953
+      ],
+      "center": [
+        720,
+        812
+      ],
+      "area": 404640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_20",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/apps_group",
+      "content_desc": "",
+      "bounds": [
+        0,
+        672,
+        1440,
+        953
+      ],
+      "center": [
+        720,
+        812
+      ],
+      "area": 404640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_21",
+        "node_24"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_21",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        672,
+        720,
+        953
+      ],
+      "center": [
+        360,
+        812
+      ],
+      "area": 202320,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_22",
+        "node_23"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_22",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/app_icon",
+      "content_desc": "",
+      "bounds": [
+        296,
+        696,
+        424,
+        824
+      ],
+      "center": [
+        360,
+        760
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_23",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Gallery",
+      "resource_id": "android:id/title",
+      "content_desc": "Gallery",
+      "bounds": [
+        286,
+        864,
+        434,
+        929
+      ],
+      "center": [
+        360,
+        896
+      ],
+      "area": 9620,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_24",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        720,
+        672,
+        1440,
+        953
+      ],
+      "center": [
+        1080,
+        812
+      ],
+      "area": 202320,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_25",
+        "node_26"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_25",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/app_icon",
+      "content_desc": "",
+      "bounds": [
+        1016,
+        696,
+        1144,
+        824
+      ],
+      "center": [
+        1080,
+        760
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_26",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Root Explorer",
+      "resource_id": "android:id/title",
+      "content_desc": "Root Explorer",
+      "bounds": [
+        937,
+        864,
+        1223,
+        929
+      ],
+      "center": [
+        1080,
+        896
+      ],
+      "area": 18590,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_27",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        953,
+        1344,
+        1193
+      ],
+      "center": [
+        720,
+        1073
+      ],
+      "area": 299520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_28",
+        "node_29"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_28",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Recent images",
+      "resource_id": "com.android.documentsui:id/header_title",
+      "content_desc": "",
+      "bounds": [
+        96,
+        953,
+        1152,
+        1193
+      ],
+      "center": [
+        624,
+        1073
+      ],
+      "area": 253440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/sub_menu",
+      "content_desc": "",
+      "bounds": [
+        1152,
+        977,
+        1344,
+        1169
+      ],
+      "center": [
+        1248,
+        1073
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_30",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/sub_menu_list",
+      "content_desc": "List view",
+      "bounds": [
+        1152,
+        977,
+        1344,
+        1169
+      ],
+      "center": [
+        1248,
+        1073
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_31",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        288
+      ],
+      "center": [
+        720,
+        192
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_32",
+        "node_33",
+        "node_34"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_32",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Show roots",
+      "bounds": [
+        0,
+        96,
+        224,
+        288
+      ],
+      "center": [
+        112,
+        192
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_33",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Recent",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        288,
+        138,
+        538,
+        245
+      ],
+      "center": [
+        413,
+        191
+      ],
+      "area": 26750,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_34",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1056,
+        96,
+        1440,
+        288
+      ],
+      "center": [
+        1248,
+        192
+      ],
+      "area": 73728,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_35",
+        "node_36"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/option_menu_search",
+      "content_desc": "Search",
+      "bounds": [
+        1056,
+        96,
+        1248,
+        288
+      ],
+      "center": [
+        1152,
+        192
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_36",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1248,
+        96,
+        1440,
+        288
+      ],
+      "center": [
+        1344,
+        192
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_37",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_38",
+        "node_39",
+        "node_52"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_38",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/container_search_fragment",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_39",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/container_directory",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [
+        "node_40"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_40",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_41",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/refresh_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_42"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_42",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/dir_list",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [
+        "node_43"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_43",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "image_20260214_16_29_26.jpg, 624 kB, Feb 14",
+      "bounds": [
+        96,
+        1209,
+        490,
+        1603
+      ],
+      "center": [
+        293,
+        1406
+      ],
+      "area": 155236,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_44"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_44",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        1209,
+        490,
+        1603
+      ],
+      "center": [
+        293,
+        1406
+      ],
+      "area": 155236,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_45",
+        "node_46",
+        "node_49",
+        "node_50"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_45",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        1209,
+        490,
+        1603
+      ],
+      "center": [
+        293,
+        1406
+      ],
+      "area": 155236,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_46",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/thumbnail",
+      "content_desc": "",
+      "bounds": [
+        96,
+        1209,
+        490,
+        1603
+      ],
+      "center": [
+        293,
+        1406
+      ],
+      "area": 155236,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_47",
+        "node_48"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_47",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/icon_thumb",
+      "content_desc": "",
+      "bounds": [
+        96,
+        1209,
+        490,
+        1603
+      ],
+      "center": [
+        293,
+        1406
+      ],
+      "area": 155236,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_48",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/icon_mime_lg",
+      "content_desc": "",
+      "bounds": [
+        213,
+        1326,
+        373,
+        1486
+      ],
+      "center": [
+        293,
+        1406
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_49",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        96,
+        1209,
+        288,
+        1401
+      ],
+      "center": [
+        192,
+        1305
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/preview_icon",
+      "content_desc": "Preview the file image_20260214_16_29_26.jpg",
+      "bounds": [
+        298,
+        1209,
+        490,
+        1401
+      ],
+      "center": [
+        394,
+        1305
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_51"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_51",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        346,
+        1257,
+        442,
+        1353
+      ],
+      "center": [
+        394,
+        1305
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    },
+    {
+      "id": "node_52",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.android.documentsui:id/drawer_edge",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        48,
+        2560
+      ],
+      "center": [
+        24,
+        1328
+      ],
+      "area": 118272,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.android.documentsui"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "actionable_component_count": 9,
+  "actionable_components": [
+    {
+      "id": "node_18",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.calm.android:id/scenes_timer",
+      "content_desc": "",
+      "bounds": [
+        64,
+        408,
+        1376,
+        555
+      ],
+      "center": [
+        720,
+        481
+      ],
+      "area": 192864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_19",
+        "node_20",
+        "node_21",
+        "node_22"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.calm.android"
+    },
+    {
+      "id": "node_20",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Play sounds outside of app",
+      "resource_id": "",
+      "content_desc": "Play sounds outside of app",
+      "bounds": [
+        168,
+        440,
+        1116,
+        523
+      ],
+      "center": [
+        642,
+        481
+      ],
+      "area": 78684,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.calm.android"
+    },
+    {
+      "id": "node_26",
+      "type": "Selection",
+      "class_name": "android.widget.Switch",
+      "text": "",
+      "resource_id": "com.calm.android:id/animated_toggle",
+      "content_desc": "",
+      "bounds": [
+        1184,
+        587,
+        1376,
+        779
+      ],
+      "center": [
+        1280,
+        683
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.calm.android"
+    },
+    {
+      "id": "node_31",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.calm.android:id/list",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1071,
+        1440,
+        2191
+      ],
+      "center": [
+        720,
+        1631
+      ],
+      "area": 1612800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_32",
+        "node_39",
+        "node_45"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.calm.android"
+    },
+    {
+      "id": "node_32",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.calm.android:id/scene_root",
+      "content_desc": "Jasper Lake scene",
+      "bounds": [
+        32,
+        1071,
+        686,
+        2191
+      ],
+      "center": [
+        359,
+        1631
+      ],
+      "area": 732480,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33",
+        "node_37",
+        "node_38"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.calm.android"
+    },
+    {
+      "id": "node_37",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.calm.android:id/scene_night",
+      "content_desc": "You’ll see a dark version of scene Jasper Lake when you have Dark theme turned on.",
+      "bounds": [
+        96,
+        1103,
+        192,
+        1199
+      ],
+      "center": [
+        144,
+        1151
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.calm.android"
+    },
+    {
+      "id": "node_39",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.calm.android:id/scene_root",
+      "content_desc": "Mountain Lake scene",
+      "bounds": [
+        686,
+        1071,
+        1340,
+        2191
+      ],
+      "center": [
+        1013,
+        1631
+      ],
+      "area": 732480,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_40",
+        "node_44"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.calm.android"
+    },
+    {
+      "id": "node_45",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.calm.android:id/scene_root",
+      "content_desc": "Rain On Leaves scene",
+      "bounds": [
+        1340,
+        1071,
+        1440,
+        2191
+      ],
+      "center": [
+        1390,
+        1631
+      ],
+      "area": 112000,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_46"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.calm.android"
+    },
+    {
+      "id": "node_53",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Close",
+      "bounds": [
+        0,
+        0,
+        240,
+        224
+      ],
+      "center": [
+        120,
+        112
+      ],
+      "area": 53760,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.calm.android"
+    }
+  ]
+}

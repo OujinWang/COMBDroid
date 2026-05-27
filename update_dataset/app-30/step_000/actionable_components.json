@@ -1,0 +1,771 @@
+{
+  "actionable_component_count": 25,
+  "actionable_components": [
+    {
+      "id": "node_14",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Menu",
+      "bounds": [
+        0,
+        96,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        208
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_17",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/fe",
+      "content_desc": "Search books & documents",
+      "bounds": [
+        1088,
+        112,
+        1280,
+        304
+      ],
+      "center": [
+        1184,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_18",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1280,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1360,
+        208
+      ],
+      "area": 30720,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_23",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.GridView",
+      "text": "",
+      "resource_id": "org.readera:id/hs",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_24",
+        "node_40",
+        "node_56"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_24",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "org.readera:id/rz",
+      "content_desc": "",
+      "bounds": [
+        16,
+        352,
+        1424,
+        992
+      ],
+      "center": [
+        720,
+        672
+      ],
+      "area": 901120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_25"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_26",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "org.readera:id/uj",
+      "content_desc": "",
+      "bounds": [
+        16,
+        352,
+        451,
+        992
+      ],
+      "center": [
+        233,
+        672
+      ],
+      "area": 278400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_34",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/ed",
+      "content_desc": "Add to Favorites",
+      "bounds": [
+        464,
+        784,
+        656,
+        976
+      ],
+      "center": [
+        560,
+        880
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/g7",
+      "content_desc": "Add to To read",
+      "bounds": [
+        656,
+        784,
+        848,
+        976
+      ],
+      "center": [
+        752,
+        880
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_36",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/eh",
+      "content_desc": "Add to Have read",
+      "bounds": [
+        848,
+        784,
+        1040,
+        976
+      ],
+      "center": [
+        944,
+        880
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_37",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/do",
+      "content_desc": "Collections (0)",
+      "bounds": [
+        1040,
+        784,
+        1232,
+        976
+      ],
+      "center": [
+        1136,
+        880
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1232,
+        784,
+        1424,
+        976
+      ],
+      "center": [
+        1328,
+        880
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_40",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "org.readera:id/rz",
+      "content_desc": "",
+      "bounds": [
+        16,
+        1024,
+        1424,
+        1664
+      ],
+      "center": [
+        720,
+        1344
+      ],
+      "area": 901120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_42",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "org.readera:id/uj",
+      "content_desc": "",
+      "bounds": [
+        16,
+        1024,
+        451,
+        1664
+      ],
+      "center": [
+        233,
+        1344
+      ],
+      "area": 278400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [
+        "node_43"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/ed",
+      "content_desc": "Add to Favorites",
+      "bounds": [
+        464,
+        1456,
+        656,
+        1648
+      ],
+      "center": [
+        560,
+        1552
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_51",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/g7",
+      "content_desc": "Add to To read",
+      "bounds": [
+        656,
+        1456,
+        848,
+        1648
+      ],
+      "center": [
+        752,
+        1552
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_52",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/eh",
+      "content_desc": "Add to Have read",
+      "bounds": [
+        848,
+        1456,
+        1040,
+        1648
+      ],
+      "center": [
+        944,
+        1552
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_53",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/do",
+      "content_desc": "Collections (0)",
+      "bounds": [
+        1040,
+        1456,
+        1232,
+        1648
+      ],
+      "center": [
+        1136,
+        1552
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_54",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1232,
+        1456,
+        1424,
+        1648
+      ],
+      "center": [
+        1328,
+        1552
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_56",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "org.readera:id/rz",
+      "content_desc": "",
+      "bounds": [
+        16,
+        1696,
+        1424,
+        2336
+      ],
+      "center": [
+        720,
+        2016
+      ],
+      "area": 901120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [
+        "node_57"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_58",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "org.readera:id/uj",
+      "content_desc": "",
+      "bounds": [
+        16,
+        1696,
+        451,
+        2336
+      ],
+      "center": [
+        233,
+        2016
+      ],
+      "area": 278400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [
+        "node_59"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_67",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/ed",
+      "content_desc": "Add to Favorites",
+      "bounds": [
+        464,
+        2128,
+        656,
+        2320
+      ],
+      "center": [
+        560,
+        2224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_68",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/g7",
+      "content_desc": "Add to To read",
+      "bounds": [
+        656,
+        2128,
+        848,
+        2320
+      ],
+      "center": [
+        752,
+        2224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_69",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/eh",
+      "content_desc": "Add to Have read",
+      "bounds": [
+        848,
+        2128,
+        1040,
+        2320
+      ],
+      "center": [
+        944,
+        2224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_70",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "org.readera:id/do",
+      "content_desc": "Collections (0)",
+      "bounds": [
+        1040,
+        2128,
+        1232,
+        2320
+      ],
+      "center": [
+        1136,
+        2224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    },
+    {
+      "id": "node_71",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1232,
+        2128,
+        1424,
+        2320
+      ],
+      "center": [
+        1328,
+        2224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "org.readera"
+    }
+  ]
+}

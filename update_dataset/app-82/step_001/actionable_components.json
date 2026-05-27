@@ -1,0 +1,403 @@
+{
+  "actionable_component_count": 13,
+  "actionable_components": [
+    {
+      "id": "node_10",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Title",
+      "resource_id": "com.yocto.wenote:id/title_edit_text",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1280,
+        320
+      ],
+      "center": [
+        640,
+        208
+      ],
+      "area": 286720,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_12",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More options",
+      "bounds": [
+        1280,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1360,
+        208
+      ],
+      "area": 30720,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_15",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/top_linear_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        476
+      ],
+      "center": [
+        720,
+        398
+      ],
+      "area": 224640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_16"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_17",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "3:34 PM",
+      "resource_id": "com.yocto.wenote:id/date_time_text_view",
+      "content_desc": "",
+      "bounds": [
+        1171,
+        352,
+        1376,
+        428
+      ],
+      "center": [
+        1273,
+        390
+      ],
+      "area": 15580,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_19",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/scroll_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        476,
+        1440,
+        2200
+      ],
+      "center": [
+        720,
+        1338
+      ],
+      "area": 2482560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_21",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/lined_frame_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        476,
+        1440,
+        2200
+      ],
+      "center": [
+        720,
+        1338
+      ],
+      "area": 2482560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_22"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_22",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/body_edit_text",
+      "content_desc": "",
+      "bounds": [
+        0,
+        476,
+        1440,
+        622
+      ],
+      "center": [
+        720,
+        549
+      ],
+      "area": 210240,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_26",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2200,
+        1248,
+        2392
+      ],
+      "center": [
+        624,
+        2296
+      ],
+      "area": 239616,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_28",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/color_image_button",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2200,
+        192,
+        2392
+      ],
+      "center": [
+        96,
+        2296
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_29",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/label_image_button",
+      "content_desc": "",
+      "bounds": [
+        192,
+        2200,
+        384,
+        2392
+      ],
+      "center": [
+        288,
+        2296
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_30",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/reminder_image_button",
+      "content_desc": "",
+      "bounds": [
+        384,
+        2200,
+        576,
+        2392
+      ],
+      "center": [
+        480,
+        2296
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_31",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/attachment_image_button",
+      "content_desc": "",
+      "bounds": [
+        576,
+        2200,
+        768,
+        2392
+      ],
+      "center": [
+        672,
+        2296
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    },
+    {
+      "id": "node_32",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.yocto.wenote:id/confirm_image_button",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        2200,
+        1440,
+        2392
+      ],
+      "center": [
+        1344,
+        2296
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.yocto.wenote"
+    }
+  ]
+}

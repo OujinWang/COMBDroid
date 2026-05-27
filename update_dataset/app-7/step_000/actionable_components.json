@@ -1,0 +1,785 @@
+{
+  "actionable_component_count": 24,
+  "actionable_components": [
+    {
+      "id": "node_14",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_22",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2240
+      ],
+      "center": [
+        720,
+        1120
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [
+        "node_23",
+        "node_87"
+      ],
+      "depth": 18,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_26",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/search-shop-screen",
+      "content_desc": "",
+      "bounds": [
+        64,
+        352,
+        1172,
+        584
+      ],
+      "center": [
+        618,
+        468
+      ],
+      "area": 257056,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27"
+      ],
+      "depth": 22,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_30",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/VSSearch-search-bar-icon",
+      "content_desc": "search",
+      "bounds": [
+        92,
+        388,
+        252,
+        548
+      ],
+      "center": [
+        172,
+        468
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 26,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_32",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Find artist, team, or venue",
+      "resource_id": "com.vividseats.android:id/VSSearch-search-bar",
+      "content_desc": "Search Bar",
+      "bounds": [
+        276,
+        356,
+        1168,
+        580
+      ],
+      "center": [
+        722,
+        468
+      ],
+      "area": 199808,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [],
+      "depth": 25,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_35",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/VSSearch-search-bar-clear-icon",
+      "content_desc": "clear",
+      "bounds": [
+        984,
+        388,
+        1144,
+        548
+      ],
+      "center": [
+        1064,
+        468
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 27,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_37",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/map-button-shop-screen",
+      "content_desc": "Map",
+      "bounds": [
+        1192,
+        328,
+        1400,
+        608
+      ],
+      "center": [
+        1296,
+        468
+      ],
+      "area": 58240,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_38",
+        "node_43"
+      ],
+      "depth": 22,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_39",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "icon-button",
+      "content_desc": "",
+      "bounds": [
+        1216,
+        352,
+        1376,
+        512
+      ],
+      "center": [
+        1296,
+        432
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_40"
+      ],
+      "depth": 24,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_44",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/row-category-chips",
+      "content_desc": "",
+      "bounds": [
+        0,
+        648,
+        1440,
+        784
+      ],
+      "center": [
+        720,
+        716
+      ],
+      "area": 195840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_47",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/chip-⚾-sports",
+      "content_desc": "⚾ Sports",
+      "bounds": [
+        84,
+        652,
+        428,
+        780
+      ],
+      "center": [
+        256,
+        716
+      ],
+      "area": 44032,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [
+        "node_48"
+      ],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_50",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/chip-..-concerts",
+      "content_desc": ".. Concerts",
+      "bounds": [
+        452,
+        652,
+        867,
+        780
+      ],
+      "center": [
+        659,
+        716
+      ],
+      "area": 53120,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [
+        "node_51"
+      ],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_53",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/chip-..-theater",
+      "content_desc": ".. Theater",
+      "bounds": [
+        891,
+        652,
+        1268,
+        780
+      ],
+      "center": [
+        1079,
+        716
+      ],
+      "area": 48256,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [
+        "node_54"
+      ],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_56",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/chip-..-comedy",
+      "content_desc": ".. Comedy",
+      "bounds": [
+        1292,
+        652,
+        1440,
+        780
+      ],
+      "center": [
+        1366,
+        716
+      ],
+      "area": 18944,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [
+        "node_57"
+      ],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_59",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/section-list-shop",
+      "content_desc": "",
+      "bounds": [
+        0,
+        816,
+        1440,
+        2240
+      ],
+      "center": [
+        720,
+        1528
+      ],
+      "area": 2050560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [
+        "node_60"
+      ],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_63",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/carouselFlatList-large",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1066,
+        1440,
+        1966
+      ],
+      "center": [
+        720,
+        1516
+      ],
+      "area": 1296000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [
+        "node_64"
+      ],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_65",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/card-trending-near-you-event-0",
+      "content_desc": "Brazil Mens National Football, Sat Jun 13,  • 6:00 PM, MetLife Stadium",
+      "bounds": [
+        80,
+        1066,
+        1205,
+        1966
+      ],
+      "center": [
+        642,
+        1516
+      ],
+      "area": 1012500,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_66",
+        "node_67",
+        "node_74",
+        "node_75",
+        "node_76",
+        "node_77",
+        "node_78"
+      ],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_69",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/favorite-heartoutline",
+      "content_desc": "icon button",
+      "bounds": [
+        1061,
+        1098,
+        1173,
+        1210
+      ],
+      "center": [
+        1117,
+        1154
+      ],
+      "area": 12544,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [
+        "node_70"
+      ],
+      "depth": 30,
+      "in_scroll_container": true,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_79",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/card-trending-near-you-event-1",
+      "content_desc": "World Cup Soccer, Sun Jul 19,  + 2 Dates, MetLife Stadium",
+      "bounds": [
+        1237,
+        1066,
+        1440,
+        1966
+      ],
+      "center": [
+        1338,
+        1516
+      ],
+      "area": 182700,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_80",
+        "node_81",
+        "node_82",
+        "node_83",
+        "node_84"
+      ],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_91",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/button-set-location",
+      "content_desc": "New York, NY",
+      "bounds": [
+        437,
+        128,
+        1003,
+        288
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 90560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [
+        "node_92",
+        "node_95",
+        "node_96"
+      ],
+      "depth": 23,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_99",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/button-notifications-center-bell-icon",
+      "content_desc": "icon button",
+      "bounds": [
+        1216,
+        128,
+        1376,
+        288
+      ],
+      "center": [
+        1296,
+        208
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_98",
+      "children_ids": [
+        "node_100"
+      ],
+      "depth": 23,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_106",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/tabBarButton-shop",
+      "content_desc": "Shop",
+      "bounds": [
+        0,
+        2240,
+        360,
+        2560
+      ],
+      "center": [
+        180,
+        2400
+      ],
+      "area": 115200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_104",
+      "children_ids": [
+        "node_107"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_117",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/tabBarButton-tickets",
+      "content_desc": "My Tickets",
+      "bounds": [
+        360,
+        2240,
+        720,
+        2560
+      ],
+      "center": [
+        540,
+        2400
+      ],
+      "area": 115200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [
+        "node_118"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_127",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/tabBarButton-gamecenter",
+      "content_desc": "Play",
+      "bounds": [
+        720,
+        2240,
+        1080,
+        2560
+      ],
+      "center": [
+        900,
+        2400
+      ],
+      "area": 115200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [
+        "node_128"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    },
+    {
+      "id": "node_137",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.vividseats.android:id/tabBarButton-me",
+      "content_desc": "Profile",
+      "bounds": [
+        1080,
+        2240,
+        1440,
+        2560
+      ],
+      "center": [
+        1260,
+        2400
+      ],
+      "area": 115200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_104",
+      "children_ids": [
+        "node_138"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.vividseats.android"
+    }
+  ]
+}

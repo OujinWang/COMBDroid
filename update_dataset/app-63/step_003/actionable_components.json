@@ -1,0 +1,450 @@
+{
+  "actionable_component_count": 14,
+  "actionable_components": [
+    {
+      "id": "node_7",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8",
+        "node_25",
+        "node_44"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_12",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/selected_account_disc",
+      "content_desc": "Signed in as 欧槿 oujin0703@gmail.com\nAccount and settings.",
+      "bounds": [
+        1216,
+        128,
+        1440,
+        320
+      ],
+      "center": [
+        1328,
+        224
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_15",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/tabs",
+      "content_desc": "",
+      "bounds": [
+        0,
+        352,
+        1440,
+        544
+      ],
+      "center": [
+        720,
+        448
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_16"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_17",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/stars_tab",
+      "content_desc": "Starred",
+      "bounds": [
+        32,
+        352,
+        256,
+        544
+      ],
+      "center": [
+        144,
+        448
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [
+        "node_18"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_21",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/list_creation_tab",
+      "content_desc": "New list",
+      "bounds": [
+        496,
+        352,
+        927,
+        544
+      ],
+      "center": [
+        711,
+        448
+      ],
+      "area": 82752,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [
+        "node_22",
+        "node_23"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_25",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/task_lists_pager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        548,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1554
+      ],
+      "area": 2897280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_26"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_29",
+      "type": "ScrollContainer",
+      "class_name": "android.support.v7.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/tasks_list",
+      "content_desc": "",
+      "bounds": [
+        0,
+        548,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1554
+      ],
+      "area": 2897280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30",
+        "node_34",
+        "node_40"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_32",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/sort_order_button",
+      "content_desc": "Change sort order",
+      "bounds": [
+        992,
+        612,
+        1184,
+        804
+      ],
+      "center": [
+        1088,
+        708
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_33",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/more_options_button",
+      "content_desc": "More options",
+      "bounds": [
+        1184,
+        612,
+        1376,
+        804
+      ],
+      "center": [
+        1280,
+        708
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/task_item_layout",
+      "content_desc": "Buy groceries",
+      "bounds": [
+        32,
+        804,
+        1408,
+        996
+      ],
+      "center": [
+        720,
+        900
+      ],
+      "area": 264192,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36",
+        "node_39"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_38",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/star_button",
+      "content_desc": "Add star",
+      "bounds": [
+        1168,
+        804,
+        1360,
+        996
+      ],
+      "center": [
+        1264,
+        900
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_39",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/tasks_item_completed_check",
+      "content_desc": "Mark as complete",
+      "bounds": [
+        80,
+        804,
+        272,
+        996
+      ],
+      "center": [
+        176,
+        900
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_41",
+      "type": "Clickable",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/completed_header",
+      "content_desc": "",
+      "bounds": [
+        32,
+        1092,
+        1408,
+        1304
+      ],
+      "center": [
+        720,
+        1198
+      ],
+      "area": 291712,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_42",
+        "node_43"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    },
+    {
+      "id": "node_44",
+      "type": "Button",
+      "class_name": "com.google.android.material.floatingactionbutton.FloatingActionButton",
+      "text": "",
+      "resource_id": "com.google.android.apps.tasks:id/tasks_fab",
+      "content_desc": "Create new task",
+      "bounds": [
+        1120,
+        2272,
+        1344,
+        2496
+      ],
+      "center": [
+        1232,
+        2384
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.apps.tasks"
+    }
+  ]
+}

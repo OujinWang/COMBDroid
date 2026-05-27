@@ -1,0 +1,976 @@
+{
+  "actionable_component_count": 30,
+  "actionable_components": [
+    {
+      "id": "node_8",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_14",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.android.chrome:id/feed_stream_recycler_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15",
+        "node_53"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_18",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.android.chrome:id/composeplate_button",
+      "content_desc": "Ask AI Mode",
+      "bounds": [
+        64,
+        980,
+        704,
+        1156
+      ],
+      "center": [
+        384,
+        1068
+      ],
+      "area": 112640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_19",
+        "node_20"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_21",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.android.chrome:id/incognito_button",
+      "content_desc": "New Incognito tab",
+      "bounds": [
+        736,
+        980,
+        1376,
+        1156
+      ],
+      "center": [
+        1056,
+        1068
+      ],
+      "area": 112640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_22",
+        "node_23"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_24",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.android.chrome:id/mv_tiles_container",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1256,
+        1376,
+        1729
+      ],
+      "center": [
+        720,
+        1492
+      ],
+      "area": 620576,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_16",
+      "children_ids": [
+        "node_25"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_26",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Facebook: m.facebook.com",
+      "bounds": [
+        112,
+        1324,
+        432,
+        1641
+      ],
+      "center": [
+        272,
+        1482
+      ],
+      "area": 101440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_27",
+        "node_28",
+        "node_29",
+        "node_30"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_32",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "YouTube: m.youtube.com",
+      "bounds": [
+        416,
+        1324,
+        736,
+        1641
+      ],
+      "center": [
+        576,
+        1482
+      ],
+      "area": 101440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_33",
+        "node_34",
+        "node_35",
+        "node_36"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Amazon.com: www.amazon.com",
+      "bounds": [
+        720,
+        1324,
+        1040,
+        1641
+      ],
+      "center": [
+        880,
+        1482
+      ],
+      "area": 101440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_39",
+        "node_40",
+        "node_41",
+        "node_42"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Wikipedia: en.m.wikipedia.org",
+      "bounds": [
+        1024,
+        1324,
+        1344,
+        1641
+      ],
+      "center": [
+        1184,
+        1482
+      ],
+      "area": 101440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_45",
+        "node_46",
+        "node_47",
+        "node_48"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "ESPN.com: www.espn.com",
+      "bounds": [
+        1328,
+        1324,
+        1376,
+        1641
+      ],
+      "center": [
+        1352,
+        1482
+      ],
+      "area": 15216,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [
+        "node_51"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_54",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1793,
+        1376,
+        2529
+      ],
+      "center": [
+        720,
+        2161
+      ],
+      "area": 965632,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [
+        "node_55",
+        "node_56",
+        "node_57"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_56",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Share Gemini in Google Sheets just achieved state-of-the-art performance.",
+      "bounds": [
+        1012,
+        2361,
+        1156,
+        2505
+      ],
+      "center": [
+        1084,
+        2433
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_57",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Card Menu Gemini in Google Sheets just achieved state-of-the-art performance.",
+      "bounds": [
+        1204,
+        2361,
+        1348,
+        2505
+      ],
+      "center": [
+        1276,
+        2433
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_62",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.android.chrome:id/location_bar_status",
+      "content_desc": "",
+      "bounds": [
+        80,
+        96,
+        208,
+        320
+      ],
+      "center": [
+        144,
+        208
+      ],
+      "area": 28672,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [
+        "node_63"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_65",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Search Google or type URL",
+      "resource_id": "com.android.chrome:id/url_bar",
+      "content_desc": "",
+      "bounds": [
+        256,
+        96,
+        1024,
+        320
+      ],
+      "center": [
+        640,
+        208
+      ],
+      "area": 172032,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_66",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.android.chrome:id/mic_button",
+      "content_desc": "Start voice search",
+      "bounds": [
+        1024,
+        96,
+        1216,
+        320
+      ],
+      "center": [
+        1120,
+        208
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_67",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.android.chrome:id/lens_camera_button",
+      "content_desc": "Search with your camera using Google Lens",
+      "bounds": [
+        1216,
+        96,
+        1408,
+        320
+      ],
+      "center": [
+        1312,
+        208
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_69",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.android.chrome:id/omnibox_suggestions_dropdown",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        1856
+      ],
+      "center": [
+        720,
+        1088
+      ],
+      "area": 2211840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [
+        "node_70",
+        "node_75",
+        "node_76",
+        "node_81",
+        "node_86",
+        "node_91",
+        "node_96"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_70",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        320,
+        1408,
+        544
+      ],
+      "center": [
+        720,
+        432
+      ],
+      "area": 308224,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_71",
+        "node_72",
+        "node_74"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_74",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Show clipboard contents",
+      "bounds": [
+        1216,
+        320,
+        1408,
+        544
+      ],
+      "center": [
+        1312,
+        432
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_76",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        704,
+        1408,
+        928
+      ],
+      "center": [
+        720,
+        816
+      ],
+      "area": 308224,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_77",
+        "node_78",
+        "node_80"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_80",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Refine: dbs creative pitch",
+      "bounds": [
+        1216,
+        704,
+        1408,
+        928
+      ],
+      "center": [
+        1312,
+        816
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_81",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        928,
+        1408,
+        1152
+      ],
+      "center": [
+        720,
+        1040
+      ],
+      "area": 308224,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_82",
+        "node_83",
+        "node_85"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_85",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Refine: hong kong hedge funds",
+      "bounds": [
+        1216,
+        928,
+        1408,
+        1152
+      ],
+      "center": [
+        1312,
+        1040
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_86",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        1152,
+        1408,
+        1376
+      ],
+      "center": [
+        720,
+        1264
+      ],
+      "area": 308224,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_87",
+        "node_88",
+        "node_90"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_90",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Refine: arsenal vs everton prediction",
+      "bounds": [
+        1216,
+        1152,
+        1408,
+        1376
+      ],
+      "center": [
+        1312,
+        1264
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_86",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_91",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        1376,
+        1408,
+        1600
+      ],
+      "center": [
+        720,
+        1488
+      ],
+      "area": 308224,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_92",
+        "node_93",
+        "node_95"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_95",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Refine: paper rex vs g2",
+      "bounds": [
+        1216,
+        1376,
+        1408,
+        1600
+      ],
+      "center": [
+        1312,
+        1488
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_91",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_96",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        1600,
+        1408,
+        1824
+      ],
+      "center": [
+        720,
+        1712
+      ],
+      "area": 308224,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_97",
+        "node_98",
+        "node_100"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    },
+    {
+      "id": "node_100",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Refine: 26.3 workout",
+      "bounds": [
+        1216,
+        1600,
+        1408,
+        1824
+      ],
+      "center": [
+        1312,
+        1712
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.android.chrome"
+    }
+  ]
+}

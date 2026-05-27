@@ -1,0 +1,4485 @@
+{
+  "screenshot_path": "runs\\32_indeedJobSearch\\step_002\\screen.png",
+  "xml_path": "runs\\32_indeedJobSearch\\step_002\\hierarchy.xml",
+  "component_count": 142,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.indeed.android.jobsearch:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_5",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.indeed.android.jobsearch:id/app_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_65"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_6",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_7",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_8",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9",
+        "node_59"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_9",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        128,
+        1440,
+        2336
+      ],
+      "center": [
+        736,
+        1232
+      ],
+      "area": 3108864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10",
+        "node_14",
+        "node_25",
+        "node_26",
+        "node_27"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_10",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        176,
+        224,
+        368
+      ],
+      "center": [
+        128,
+        272
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11",
+        "node_13"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_11",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        176,
+        224,
+        368
+      ],
+      "center": [
+        128,
+        272
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_12",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Close",
+      "bounds": [
+        80,
+        224,
+        176,
+        320
+      ],
+      "center": [
+        128,
+        272
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_13",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        40,
+        184,
+        216,
+        360
+      ],
+      "center": [
+        128,
+        272
+      ],
+      "area": 30976,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_14",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        224,
+        160,
+        1376,
+        548
+      ],
+      "center": [
+        800,
+        354
+      ],
+      "area": 446976,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_15",
+        "node_20"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_15",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        224,
+        160,
+        1376,
+        352
+      ],
+      "center": [
+        800,
+        256
+      ],
+      "area": 221184,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_16",
+        "node_17",
+        "node_18"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_16",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        272,
+        208,
+        368,
+        304
+      ],
+      "center": [
+        320,
+        256
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_17",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1345,
+        215,
+        1376,
+        297
+      ],
+      "center": [
+        1360,
+        256
+      ],
+      "area": 2542,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_18",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        416,
+        160,
+        1345,
+        352
+      ],
+      "center": [
+        880,
+        256
+      ],
+      "area": 178368,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_19"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_19",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "Job title, keywords, or company",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        416,
+        215,
+        1345,
+        297
+      ],
+      "center": [
+        880,
+        256
+      ],
+      "area": 76178,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_20",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        224,
+        356,
+        1376,
+        548
+      ],
+      "center": [
+        800,
+        452
+      ],
+      "area": 221184,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_21",
+        "node_22",
+        "node_23"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_21",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        280,
+        412,
+        360,
+        492
+      ],
+      "center": [
+        320,
+        452
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_22",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        416,
+        356,
+        1376,
+        548
+      ],
+      "center": [
+        896,
+        452
+      ],
+      "area": 184320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_23",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        416,
+        356,
+        1298,
+        548
+      ],
+      "center": [
+        857,
+        452
+      ],
+      "area": 169344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [
+        "node_24"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_24",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "City, state, zip code, or remote",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        416,
+        411,
+        1298,
+        493
+      ],
+      "center": [
+        857,
+        452
+      ],
+      "area": 72324,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_23",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_25",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Error",
+      "bounds": [
+        112,
+        596,
+        192,
+        676
+      ],
+      "center": [
+        152,
+        636
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_26",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Add a valid search term.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        224,
+        600,
+        832,
+        672
+      ],
+      "center": [
+        528,
+        636
+      ],
+      "area": 43776,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_27",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        676,
+        1440,
+        2308
+      ],
+      "center": [
+        736,
+        1492
+      ],
+      "area": 2297856,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_28"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_28",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        708,
+        1440,
+        2308
+      ],
+      "center": [
+        752,
+        1508
+      ],
+      "area": 2201600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [
+        "node_29",
+        "node_32",
+        "node_35",
+        "node_38",
+        "node_41",
+        "node_44",
+        "node_47",
+        "node_50",
+        "node_53",
+        "node_56"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_29",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        692,
+        1440,
+        852
+      ],
+      "center": [
+        752,
+        772
+      ],
+      "area": 220160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30",
+        "node_31"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_30",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        740,
+        228,
+        836
+      ],
+      "center": [
+        180,
+        788
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_31",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "part time",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        252,
+        747,
+        521,
+        829
+      ],
+      "center": [
+        386,
+        788
+      ],
+      "area": 22058,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_32",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        852,
+        1440,
+        1012
+      ],
+      "center": [
+        752,
+        932
+      ],
+      "area": 220160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_33",
+        "node_34"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_33",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        900,
+        228,
+        996
+      ],
+      "center": [
+        180,
+        948
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_34",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "hiring immediately",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        252,
+        907,
+        801,
+        989
+      ],
+      "center": [
+        526,
+        948
+      ],
+      "area": 45018,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1012,
+        1440,
+        1172
+      ],
+      "center": [
+        752,
+        1092
+      ],
+      "area": 220160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_36",
+        "node_37"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_36",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1060,
+        228,
+        1156
+      ],
+      "center": [
+        180,
+        1108
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_37",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "full time",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        252,
+        1067,
+        490,
+        1149
+      ],
+      "center": [
+        371,
+        1108
+      ],
+      "area": 19516,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1172,
+        1440,
+        1332
+      ],
+      "center": [
+        752,
+        1252
+      ],
+      "area": 220160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_39",
+        "node_40"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_39",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1220,
+        228,
+        1316
+      ],
+      "center": [
+        180,
+        1268
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_40",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "remote",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        252,
+        1227,
+        469,
+        1309
+      ],
+      "center": [
+        360,
+        1268
+      ],
+      "area": 17794,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_41",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1332,
+        1440,
+        1492
+      ],
+      "center": [
+        752,
+        1412
+      ],
+      "area": 220160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_42",
+        "node_43"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_42",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1380,
+        228,
+        1476
+      ],
+      "center": [
+        180,
+        1428
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_43",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "warehouse",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        252,
+        1387,
+        584,
+        1469
+      ],
+      "center": [
+        418,
+        1428
+      ],
+      "area": 27224,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1492,
+        1440,
+        1652
+      ],
+      "center": [
+        752,
+        1572
+      ],
+      "area": 220160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_45",
+        "node_46"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_45",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1540,
+        228,
+        1636
+      ],
+      "center": [
+        180,
+        1588
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_46",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "remote work from home",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        252,
+        1547,
+        976,
+        1629
+      ],
+      "center": [
+        614,
+        1588
+      ],
+      "area": 59368,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_47",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1652,
+        1440,
+        1812
+      ],
+      "center": [
+        752,
+        1732
+      ],
+      "area": 220160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_48",
+        "node_49"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_48",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1700,
+        228,
+        1796
+      ],
+      "center": [
+        180,
+        1748
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_49",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "work from home",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        252,
+        1707,
+        746,
+        1789
+      ],
+      "center": [
+        499,
+        1748
+      ],
+      "area": 40508,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1812,
+        1440,
+        1972
+      ],
+      "center": [
+        752,
+        1892
+      ],
+      "area": 220160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_51",
+        "node_52"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_51",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1860,
+        228,
+        1956
+      ],
+      "center": [
+        180,
+        1908
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_52",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "receptionist",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        252,
+        1867,
+        606,
+        1949
+      ],
+      "center": [
+        429,
+        1908
+      ],
+      "area": 29028,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_53",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1972,
+        1440,
+        2132
+      ],
+      "center": [
+        752,
+        2052
+      ],
+      "area": 220160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_54",
+        "node_55"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_54",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        2020,
+        228,
+        2116
+      ],
+      "center": [
+        180,
+        2068
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_55",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "urgently hiring",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        252,
+        2027,
+        689,
+        2109
+      ],
+      "center": [
+        470,
+        2068
+      ],
+      "area": 35834,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_56",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2132,
+        1440,
+        2324
+      ],
+      "center": [
+        752,
+        2228
+      ],
+      "area": 264192,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_57",
+        "node_58"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_57",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        2180,
+        228,
+        2276
+      ],
+      "center": [
+        180,
+        2228
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_58",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "server",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        252,
+        2187,
+        440,
+        2269
+      ],
+      "center": [
+        346,
+        2228
+      ],
+      "area": 15416,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_59",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_60"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_60",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        16,
+        2352,
+        1424,
+        2544
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 270336,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [
+        "node_61",
+        "node_64"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_61",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        551,
+        2352,
+        890,
+        2544
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 65088,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [
+        "node_62",
+        "node_63"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_62",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        551,
+        2400,
+        647,
+        2496
+      ],
+      "center": [
+        599,
+        2448
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_63",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Search",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        679,
+        2407,
+        890,
+        2489
+      ],
+      "center": [
+        784,
+        2448
+      ],
+      "area": 17302,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_64",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        16,
+        2360,
+        1424,
+        2536
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 247808,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_65",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.indeed.android.jobsearch:id/mainNavHostFragment",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_66"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_66",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.indeed.android.jobsearch:id/mainNavHostFragment",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [
+        "node_67"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_67",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [
+        "node_68",
+        "node_70"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_68",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.indeed.android.jobsearch:id/proctorRefreshDialogContainer",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [
+        "node_69"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_69",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_70",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [
+        "node_71"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_71",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [
+        "node_72",
+        "node_74",
+        "node_112"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_72",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.indeed.android.jobsearch:id/ianMainDialogContainer",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [
+        "node_73"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_73",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2386
+      ],
+      "center": [
+        720,
+        1241
+      ],
+      "area": 3297600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_72",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_74",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.indeed.android.jobsearch:id/ianMainViewPager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [
+        "node_75"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_75",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2386
+      ],
+      "center": [
+        720,
+        1241
+      ],
+      "area": 3297600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_74",
+      "children_ids": [
+        "node_76"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_76",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2386
+      ],
+      "center": [
+        720,
+        1241
+      ],
+      "area": 3297600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_75",
+      "children_ids": [
+        "node_77"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_77",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2386
+      ],
+      "center": [
+        720,
+        1241
+      ],
+      "area": 3297600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [
+        "node_78"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_78",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2386
+      ],
+      "center": [
+        720,
+        1241
+      ],
+      "area": 3297600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_77",
+      "children_ids": [
+        "node_79",
+        "node_87"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_79",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.indeed.android.jobsearch:id/topNav",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        368
+      ],
+      "center": [
+        720,
+        232
+      ],
+      "area": 391680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [
+        "node_80"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_80",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        368
+      ],
+      "center": [
+        720,
+        232
+      ],
+      "area": 391680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_79",
+      "children_ids": [
+        "node_81"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_81",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        368
+      ],
+      "center": [
+        720,
+        232
+      ],
+      "area": 391680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_82",
+        "node_83"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_82",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "TopNavIndeedLogo",
+      "content_desc": "Indeed logo",
+      "bounds": [
+        112,
+        184,
+        392,
+        280
+      ],
+      "center": [
+        252,
+        232
+      ],
+      "area": 26880,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_83",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1184,
+        136,
+        1376,
+        328
+      ],
+      "center": [
+        1280,
+        232
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_84",
+        "node_86"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_84",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "TopNavNotificationsButton",
+      "content_desc": "Notifications Icon",
+      "bounds": [
+        1232,
+        184,
+        1328,
+        280
+      ],
+      "center": [
+        1280,
+        232
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [
+        "node_85"
+      ],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_85",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "IdlIcon",
+      "content_desc": "",
+      "bounds": [
+        1232,
+        184,
+        1328,
+        280
+      ],
+      "center": [
+        1280,
+        232
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_84",
+      "children_ids": [],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_86",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1184,
+        136,
+        1376,
+        328
+      ],
+      "center": [
+        1280,
+        232
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_87",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        368,
+        1440,
+        2386
+      ],
+      "center": [
+        720,
+        1377
+      ],
+      "area": 2905920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [
+        "node_88"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_88",
+      "type": "Other",
+      "class_name": "android.webkit.WebView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        368,
+        1440,
+        2386
+      ],
+      "center": [
+        720,
+        1377
+      ],
+      "area": 2905920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_87",
+      "children_ids": [
+        "node_89"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_89",
+      "type": "ScrollContainer",
+      "class_name": "android.webkit.WebView",
+      "text": "Job Search | Indeed",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        368,
+        1440,
+        2388
+      ],
+      "center": [
+        720,
+        1378
+      ],
+      "area": 2908800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_88",
+      "children_ids": [
+        "node_90"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_90",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        368,
+        1440,
+        2388
+      ],
+      "center": [
+        720,
+        1378
+      ],
+      "area": 2908800,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_89",
+      "children_ids": [
+        "node_91",
+        "node_93"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_91",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        452,
+        4,
+        460
+      ],
+      "center": [
+        2,
+        456
+      ],
+      "area": 32,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [
+        "node_92"
+      ],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_92",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Indeed",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        452,
+        4,
+        460
+      ],
+      "center": [
+        2,
+        456
+      ],
+      "area": 32,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_91",
+      "children_ids": [],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_93",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "jobsearch-Main",
+      "content_desc": "",
+      "bounds": [
+        0,
+        368,
+        1440,
+        2388
+      ],
+      "center": [
+        720,
+        1378
+      ],
+      "area": 2908800,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [
+        "node_94"
+      ],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_94",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "jobsearch-HomePage",
+      "content_desc": "",
+      "bounds": [
+        0,
+        368,
+        1440,
+        1416
+      ],
+      "center": [
+        720,
+        892
+      ],
+      "area": 1509120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [
+        "node_95"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_95",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "jobsearch-HomepageBody",
+      "content_desc": "",
+      "bounds": [
+        0,
+        368,
+        1440,
+        1416
+      ],
+      "center": [
+        720,
+        892
+      ],
+      "area": 1509120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_94",
+      "children_ids": [
+        "node_96",
+        "node_108",
+        "node_109",
+        "node_110",
+        "node_111"
+      ],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_96",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        368,
+        1440,
+        1416
+      ],
+      "center": [
+        720,
+        892
+      ],
+      "area": 1509120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [
+        "node_97",
+        "node_101",
+        "node_102",
+        "node_105"
+      ],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_97",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "MosaicProviderRichSearchDaemon",
+      "content_desc": "",
+      "bounds": [
+        0,
+        400,
+        1440,
+        576
+      ],
+      "center": [
+        720,
+        488
+      ],
+      "area": 253440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [
+        "node_98"
+      ],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_98",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        400,
+        1440,
+        576
+      ],
+      "center": [
+        720,
+        488
+      ],
+      "area": 253440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_97",
+      "children_ids": [
+        "node_99"
+      ],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_99",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        400,
+        1376,
+        576
+      ],
+      "center": [
+        720,
+        488
+      ],
+      "area": 230912,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_98",
+      "children_ids": [
+        "node_100"
+      ],
+      "depth": 26,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_100",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Find jobs",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        68,
+        408,
+        1372,
+        568
+      ],
+      "center": [
+        720,
+        488
+      ],
+      "area": 208640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_99",
+      "children_ids": [],
+      "depth": 27,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_101",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Jobs for you",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        624,
+        1376,
+        744
+      ],
+      "center": [
+        720,
+        684
+      ],
+      "area": 157440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_102",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        808,
+        1440,
+        968
+      ],
+      "center": [
+        720,
+        888
+      ],
+      "area": 230400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [
+        "node_103",
+        "node_104"
+      ],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_103",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "add pay preference",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        808,
+        468,
+        952
+      ],
+      "center": [
+        266,
+        880
+      ],
+      "area": 58176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_102",
+      "children_ids": [],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_104",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "add location preference",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        496,
+        808,
+        1024,
+        952
+      ],
+      "center": [
+        760,
+        880
+      ],
+      "area": 76032,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_102",
+      "children_ids": [],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_105",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1064,
+        1376,
+        1368
+      ],
+      "center": [
+        720,
+        1216
+      ],
+      "area": 398848,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_96",
+      "children_ids": [
+        "node_106",
+        "node_107"
+      ],
+      "depth": 24,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_106",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        1104,
+        272,
+        1248
+      ],
+      "center": [
+        200,
+        1176
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_105",
+      "children_ids": [],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_107",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "We can't find any job recommendations for you at the moment.",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        272,
+        1104,
+        1312,
+        1328
+      ],
+      "center": [
+        792,
+        1216
+      ],
+      "area": 232960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_105",
+      "children_ids": [],
+      "depth": 25,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_108",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1416,
+        4,
+        1420
+      ],
+      "center": [
+        2,
+        1418
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_109",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1416,
+        4,
+        1420
+      ],
+      "center": [
+        2,
+        1418
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_110",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1416,
+        4,
+        1420
+      ],
+      "center": [
+        2,
+        1418
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_111",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1416,
+        4,
+        1420
+      ],
+      "center": [
+        2,
+        1418
+      ],
+      "area": 16,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_112",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.indeed.android.jobsearch:id/ianMainBottomNav",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2384,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2472
+      ],
+      "area": 253440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [
+        "node_113"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_113",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2384,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2472
+      ],
+      "area": 253440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_112",
+      "children_ids": [
+        "node_114"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_114",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2384,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2472
+      ],
+      "area": 253440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_113",
+      "children_ids": [
+        "node_115"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_115",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2384,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2472
+      ],
+      "area": 253440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_114",
+      "children_ids": [
+        "node_116",
+        "node_117",
+        "node_122",
+        "node_127",
+        "node_132",
+        "node_137"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_116",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2384,
+        1440,
+        2481
+      ],
+      "center": [
+        720,
+        2432
+      ],
+      "area": 139680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_117",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        2384,
+        316,
+        2560
+      ],
+      "center": [
+        182,
+        2472
+      ],
+      "area": 47168,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_115",
+      "children_ids": [
+        "node_118",
+        "node_119",
+        "node_121"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_118",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Home",
+      "bounds": [
+        48,
+        2386,
+        316,
+        2560
+      ],
+      "center": [
+        182,
+        2473
+      ],
+      "area": 46632,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_117",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_119",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        142,
+        2418,
+        222,
+        2498
+      ],
+      "center": [
+        182,
+        2458
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_117",
+      "children_ids": [
+        "node_120"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_120",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        142,
+        2418,
+        222,
+        2498
+      ],
+      "center": [
+        182,
+        2458
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_119",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_121",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        48,
+        2386,
+        316,
+        2560
+      ],
+      "center": [
+        182,
+        2473
+      ],
+      "area": 46632,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_117",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_122",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        316,
+        2384,
+        585,
+        2560
+      ],
+      "center": [
+        450,
+        2472
+      ],
+      "area": 47344,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [
+        "node_123",
+        "node_124",
+        "node_126"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_123",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "My Jobs",
+      "bounds": [
+        316,
+        2386,
+        585,
+        2560
+      ],
+      "center": [
+        450,
+        2473
+      ],
+      "area": 46806,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_122",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_124",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        411,
+        2418,
+        491,
+        2498
+      ],
+      "center": [
+        451,
+        2458
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_122",
+      "children_ids": [
+        "node_125"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_125",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        411,
+        2418,
+        491,
+        2498
+      ],
+      "center": [
+        451,
+        2458
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_124",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_126",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        316,
+        2386,
+        585,
+        2560
+      ],
+      "center": [
+        450,
+        2473
+      ],
+      "area": 46806,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_122",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_127",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        585,
+        2384,
+        854,
+        2560
+      ],
+      "center": [
+        719,
+        2472
+      ],
+      "area": 47344,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [
+        "node_128",
+        "node_129",
+        "node_131"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_128",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Career Scout",
+      "bounds": [
+        585,
+        2386,
+        854,
+        2560
+      ],
+      "center": [
+        719,
+        2473
+      ],
+      "area": 46806,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_127",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_129",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        680,
+        2418,
+        760,
+        2498
+      ],
+      "center": [
+        720,
+        2458
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_127",
+      "children_ids": [
+        "node_130"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_130",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        680,
+        2418,
+        760,
+        2498
+      ],
+      "center": [
+        720,
+        2458
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_129",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_131",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        585,
+        2386,
+        854,
+        2560
+      ],
+      "center": [
+        719,
+        2473
+      ],
+      "area": 46806,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_127",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_132",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        854,
+        2384,
+        1123,
+        2560
+      ],
+      "center": [
+        988,
+        2472
+      ],
+      "area": 47344,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [
+        "node_133",
+        "node_134",
+        "node_136"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_133",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Messages",
+      "bounds": [
+        854,
+        2386,
+        1123,
+        2560
+      ],
+      "center": [
+        988,
+        2473
+      ],
+      "area": 46806,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_132",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_134",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        949,
+        2418,
+        1029,
+        2498
+      ],
+      "center": [
+        989,
+        2458
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_132",
+      "children_ids": [
+        "node_135"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_135",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        949,
+        2418,
+        1029,
+        2498
+      ],
+      "center": [
+        989,
+        2458
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_134",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_136",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        854,
+        2386,
+        1123,
+        2560
+      ],
+      "center": [
+        988,
+        2473
+      ],
+      "area": 46806,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_132",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_137",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1123,
+        2384,
+        1392,
+        2560
+      ],
+      "center": [
+        1257,
+        2472
+      ],
+      "area": 47344,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_115",
+      "children_ids": [
+        "node_138",
+        "node_139",
+        "node_141"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_138",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Profile",
+      "bounds": [
+        1123,
+        2386,
+        1392,
+        2560
+      ],
+      "center": [
+        1257,
+        2473
+      ],
+      "area": 46806,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_137",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_139",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1218,
+        2418,
+        1298,
+        2498
+      ],
+      "center": [
+        1258,
+        2458
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_137",
+      "children_ids": [
+        "node_140"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_140",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1218,
+        2418,
+        1298,
+        2498
+      ],
+      "center": [
+        1258,
+        2458
+      ],
+      "area": 6400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_139",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    },
+    {
+      "id": "node_141",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1123,
+        2386,
+        1392,
+        2560
+      ],
+      "center": [
+        1257,
+        2473
+      ],
+      "area": 46806,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_137",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.indeed.android.jobsearch"
+    }
+  ]
+}

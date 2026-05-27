@@ -1,0 +1,296 @@
+{
+  "actionable_component_count": 9,
+  "actionable_components": [
+    {
+      "id": "node_46",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Back",
+      "bounds": [
+        0,
+        96,
+        192,
+        384
+      ],
+      "center": [
+        96,
+        240
+      ],
+      "area": 55296,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.deskclock"
+    },
+    {
+      "id": "node_48",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Tokyo",
+      "resource_id": "com.google.android.deskclock:id/open_search_view_edit_text",
+      "content_desc": "",
+      "bounds": [
+        192,
+        96,
+        1216,
+        384
+      ],
+      "center": [
+        704,
+        240
+      ],
+      "area": 294912,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.deskclock"
+    },
+    {
+      "id": "node_49",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.google.android.deskclock:id/open_search_view_clear_button",
+      "content_desc": "Clear text",
+      "bounds": [
+        1216,
+        128,
+        1440,
+        352
+      ],
+      "center": [
+        1328,
+        240
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_47",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.deskclock"
+    },
+    {
+      "id": "node_53",
+      "type": "ScrollContainer",
+      "class_name": "android.support.v7.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.google.android.deskclock:id/search_results_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        388,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1474
+      ],
+      "area": 3127680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [
+        "node_54",
+        "node_57",
+        "node_60",
+        "node_63",
+        "node_66"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.deskclock"
+    },
+    {
+      "id": "node_54",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        388,
+        1440,
+        612
+      ],
+      "center": [
+        736,
+        500
+      ],
+      "area": 315392,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [
+        "node_55",
+        "node_56"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.deskclock"
+    },
+    {
+      "id": "node_57",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        612,
+        1440,
+        836
+      ],
+      "center": [
+        736,
+        724
+      ],
+      "area": 315392,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [
+        "node_58",
+        "node_59"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.deskclock"
+    },
+    {
+      "id": "node_60",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        836,
+        1440,
+        1060
+      ],
+      "center": [
+        736,
+        948
+      ],
+      "area": 315392,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [
+        "node_61",
+        "node_62"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.deskclock"
+    },
+    {
+      "id": "node_63",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        1060,
+        1440,
+        1284
+      ],
+      "center": [
+        736,
+        1172
+      ],
+      "area": 315392,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [
+        "node_64",
+        "node_65"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.deskclock"
+    },
+    {
+      "id": "node_66",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        1284,
+        1440,
+        1508
+      ],
+      "center": [
+        736,
+        1396
+      ],
+      "area": 315392,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [
+        "node_67",
+        "node_68"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.deskclock"
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "screenshot_path": "runs\\273_habitNow\\step_008\\screen.png",
+  "xml_path": "runs\\273_habitNow\\step_008\\hierarchy.xml",
+  "component_count": 13,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        815,
+        1360,
+        1841
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 1313280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        815,
+        1360,
+        1841
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 1313280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        80,
+        815,
+        1360,
+        1841
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 1313280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_3",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        815,
+        1360,
+        1841
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 1313280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        815,
+        1360,
+        1841
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 1313280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5",
+        "node_6",
+        "node_7",
+        "node_8",
+        "node_9"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_5",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "To-do list gestures",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        815,
+        1360,
+        1009
+      ],
+      "center": [
+        720,
+        912
+      ],
+      "area": 248320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_6",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.habitnow:id/animationContainer",
+      "content_desc": "",
+      "bounds": [
+        128,
+        1073,
+        1312,
+        1353
+      ],
+      "center": [
+        720,
+        1213
+      ],
+      "area": 331520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_7",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Click on any item in the to-do list to mark it as complete or to update its state",
+      "resource_id": "com.habitnow:id/textAviso",
+      "content_desc": "",
+      "bounds": [
+        144,
+        1417,
+        1296,
+        1549
+      ],
+      "center": [
+        720,
+        1483
+      ],
+      "area": 152064,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_8",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1645,
+        1360,
+        1649
+      ],
+      "center": [
+        720,
+        1647
+      ],
+      "area": 5120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_9",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1649,
+        1360,
+        1841
+      ],
+      "center": [
+        720,
+        1745
+      ],
+      "area": 245760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_10",
+        "node_11",
+        "node_12"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_10",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Back",
+      "resource_id": "com.habitnow:id/buttonBack",
+      "content_desc": "",
+      "bounds": [
+        80,
+        1649,
+        718,
+        1841
+      ],
+      "center": [
+        399,
+        1745
+      ],
+      "area": 122496,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_11",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        718,
+        1649,
+        722,
+        1841
+      ],
+      "center": [
+        720,
+        1745
+      ],
+      "area": 768,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_12",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Next",
+      "resource_id": "com.habitnow:id/buttonNext",
+      "content_desc": "",
+      "bounds": [
+        722,
+        1649,
+        1360,
+        1841
+      ],
+      "center": [
+        1041,
+        1745
+      ],
+      "area": 122496,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    }
+  ]
+}

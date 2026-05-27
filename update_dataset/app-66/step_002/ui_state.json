@@ -1,0 +1,577 @@
+{
+  "screenshot_path": "runs\\293_todoist\\step_002\\screen.png",
+  "xml_path": "runs\\293_todoist\\step_002\\hierarchy.xml",
+  "component_count": 18,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        36,
+        643,
+        1404,
+        2012
+      ],
+      "center": [
+        720,
+        1327
+      ],
+      "area": 1872792,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        963,
+        1308,
+        1692
+      ],
+      "center": [
+        720,
+        1327
+      ],
+      "area": 857304,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        963,
+        1308,
+        1692
+      ],
+      "center": [
+        720,
+        1327
+      ],
+      "area": 857304,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.todoist:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        132,
+        963,
+        1308,
+        1692
+      ],
+      "center": [
+        720,
+        1327
+      ],
+      "area": 857304,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        132,
+        963,
+        1308,
+        1692
+      ],
+      "center": [
+        720,
+        1327
+      ],
+      "area": 857304,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_5",
+      "type": "Container",
+      "class_name": "androidx.appcompat.widget.LinearLayoutCompat",
+      "text": "",
+      "resource_id": "com.todoist:id/parentPanel",
+      "content_desc": "",
+      "bounds": [
+        132,
+        963,
+        1308,
+        1692
+      ],
+      "center": [
+        720,
+        1327
+      ],
+      "area": 857304,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_10",
+        "node_14"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_6",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.todoist:id/topPanel",
+      "content_desc": "",
+      "bounds": [
+        132,
+        963,
+        1308,
+        1196
+      ],
+      "center": [
+        720,
+        1079
+      ],
+      "area": 274008,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7",
+        "node_9"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_7",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.todoist:id/title_template",
+      "content_desc": "",
+      "bounds": [
+        132,
+        963,
+        1308,
+        1132
+      ],
+      "center": [
+        720,
+        1047
+      ],
+      "area": 198744,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_8",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Discard changes?",
+      "resource_id": "com.todoist:id/alertTitle",
+      "content_desc": "",
+      "bounds": [
+        228,
+        1035,
+        814,
+        1132
+      ],
+      "center": [
+        521,
+        1083
+      ],
+      "area": 56842,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_9",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.todoist:id/titleDividerNoCustom",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1132,
+        1308,
+        1196
+      ],
+      "center": [
+        720,
+        1164
+      ],
+      "area": 75264,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_10",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.todoist:id/contentPanel",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1196,
+        1308,
+        1388
+      ],
+      "center": [
+        720,
+        1292
+      ],
+      "area": 225792,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_11"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_11",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.todoist:id/scrollView",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1196,
+        1308,
+        1338
+      ],
+      "center": [
+        720,
+        1267
+      ],
+      "area": 166992,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_12",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1196,
+        1308,
+        1338
+      ],
+      "center": [
+        720,
+        1267
+      ],
+      "area": 166992,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_13",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "The changes you've made will not be saved.",
+      "resource_id": "android:id/message",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1196,
+        1308,
+        1338
+      ],
+      "center": [
+        720,
+        1267
+      ],
+      "area": 166992,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_14",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.todoist:id/buttonPanel",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1388,
+        1308,
+        1692
+      ],
+      "center": [
+        720,
+        1540
+      ],
+      "area": 357504,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_15"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_15",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        132,
+        1388,
+        1308,
+        1692
+      ],
+      "center": [
+        720,
+        1540
+      ],
+      "area": 357504,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_16",
+        "node_17"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_16",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "CANCEL",
+      "resource_id": "android:id/button2",
+      "content_desc": "",
+      "bounds": [
+        541,
+        1444,
+        848,
+        1636
+      ],
+      "center": [
+        694,
+        1540
+      ],
+      "area": 58944,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    },
+    {
+      "id": "node_17",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "DISCARD",
+      "resource_id": "android:id/button1",
+      "content_desc": "",
+      "bounds": [
+        880,
+        1444,
+        1212,
+        1636
+      ],
+      "center": [
+        1046,
+        1540
+      ],
+      "area": 63744,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.todoist"
+    }
+  ]
+}

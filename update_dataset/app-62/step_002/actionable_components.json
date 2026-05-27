@@ -1,0 +1,98 @@
+{
+  "actionable_component_count": 3,
+  "actionable_components": [
+    {
+      "id": "node_8",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "bot.touchkin:id/close_button",
+      "content_desc": "Back",
+      "bounds": [
+        64,
+        140,
+        248,
+        324
+      ],
+      "center": [
+        156,
+        232
+      ],
+      "area": 33856,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_10",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Add a therapist",
+      "resource_id": "bot.touchkin:id/coach_shortcut",
+      "content_desc": "GO TO COACH",
+      "bounds": [
+        878,
+        182,
+        1344,
+        282
+      ],
+      "center": [
+        1111,
+        232
+      ],
+      "area": 46600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_15",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "bot.touchkin:id/messages",
+      "content_desc": "",
+      "bounds": [
+        0,
+        352,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1456
+      ],
+      "area": 3179520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_16",
+        "node_20"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    }
+  ]
+}

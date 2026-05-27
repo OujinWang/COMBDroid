@@ -1,0 +1,506 @@
+{
+  "actionable_component_count": 16,
+  "actionable_components": [
+    {
+      "id": "node_14",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.pinterest:id/home_feed_view_pager_tab_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_19",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.pinterest:id/hf_tuner_icon",
+      "content_desc": "Refine your recommendations button",
+      "bounds": [
+        1232,
+        136,
+        1376,
+        280
+      ],
+      "center": [
+        1304,
+        208
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_20"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_21",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.pinterest:id/icon_button",
+      "content_desc": "",
+      "bounds": [
+        1232,
+        136,
+        1376,
+        280
+      ],
+      "center": [
+        1304,
+        208
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_22",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_23"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_30",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.pinterest:id/recycler_adapter_view",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31",
+        "node_34",
+        "node_37",
+        "node_39"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_32",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_rep_id",
+      "content_desc": "Pin from Aurora, This may contain: the sky is filled with clouds and there is a bright light in the middle of it",
+      "bounds": [
+        16,
+        328,
+        712,
+        1683
+      ],
+      "center": [
+        364,
+        1005
+      ],
+      "area": 943080,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_33",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_overflow_action_id",
+      "content_desc": "",
+      "bounds": [
+        624,
+        1595,
+        688,
+        1659
+      ],
+      "center": [
+        656,
+        1627
+      ],
+      "area": 4096,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_35",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_rep_id",
+      "content_desc": "Pin from Emili, This may contain: a cat wearing a los angeles angels hat and holding flowers",
+      "bounds": [
+        732,
+        336,
+        1420,
+        1680
+      ],
+      "center": [
+        1076,
+        1008
+      ],
+      "area": 924672,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_36",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_overflow_action_id",
+      "content_desc": "",
+      "bounds": [
+        1336,
+        1590,
+        1400,
+        1654
+      ],
+      "center": [
+        1368,
+        1622
+      ],
+      "area": 4096,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_rep_id",
+      "content_desc": "Pin from Reximus Decimus Meridius",
+      "bounds": [
+        16,
+        1699,
+        712,
+        2560
+      ],
+      "center": [
+        364,
+        2129
+      ],
+      "area": 599256,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_40",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "com.pinterest:id/pin_rep_id",
+      "content_desc": "Pin, This may contain: the human heart on an old book page",
+      "bounds": [
+        728,
+        1704,
+        1424,
+        2560
+      ],
+      "center": [
+        1076,
+        2132
+      ],
+      "area": 595776,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.pinterest:id/bottom_nav_home_icon",
+      "content_desc": "Home",
+      "bounds": [
+        80,
+        2368,
+        310,
+        2560
+      ],
+      "center": [
+        195,
+        2464
+      ],
+      "area": 44160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_48",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.pinterest:id/menu_search",
+      "content_desc": "Search",
+      "bounds": [
+        342,
+        2368,
+        572,
+        2560
+      ],
+      "center": [
+        457,
+        2464
+      ],
+      "area": 44160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_49"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_52",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.pinterest:id/menu_creation",
+      "content_desc": "Create",
+      "bounds": [
+        604,
+        2368,
+        834,
+        2560
+      ],
+      "center": [
+        719,
+        2464
+      ],
+      "area": 44160,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_53"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_56",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.pinterest:id/menu_notifications",
+      "content_desc": "Inbox",
+      "bounds": [
+        866,
+        2368,
+        1097,
+        2560
+      ],
+      "center": [
+        981,
+        2464
+      ],
+      "area": 44352,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_57"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    },
+    {
+      "id": "node_61",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.pinterest:id/profile_menu_view",
+      "content_desc": "Saved",
+      "bounds": [
+        1129,
+        2368,
+        1360,
+        2560
+      ],
+      "center": [
+        1244,
+        2464
+      ],
+      "area": 44352,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_62"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.pinterest"
+    }
+  ]
+}

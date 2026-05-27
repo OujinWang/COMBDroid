@@ -1,0 +1,3042 @@
+{
+  "screenshot_path": "runs\\178_madMuscles\\step_000\\screen.png",
+  "xml_path": "runs\\178_madMuscles\\step_000\\hierarchy.xml",
+  "component_count": 96,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_5",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_8"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_6",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/toast_overlay",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_7",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_8",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/nav_host_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_9"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_9",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/nav_host_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_10",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_11",
+        "node_73"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_11",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/coordinatorContainer",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1168
+      ],
+      "area": 3363840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_12"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_12",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/nav_host_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1168
+      ],
+      "area": 3363840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_13",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/nav_host_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1168
+      ],
+      "area": 3363840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_14",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/main_content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1168
+      ],
+      "area": 3363840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_15",
+        "node_54"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_15",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        785
+      ],
+      "center": [
+        720,
+        392
+      ],
+      "area": 1130400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_16",
+        "node_17"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_16",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/toolbar_background_image",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        785
+      ],
+      "center": [
+        720,
+        392
+      ],
+      "area": 1130400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_17",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/toolbar_calendar_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        785
+      ],
+      "center": [
+        720,
+        392
+      ],
+      "area": 1130400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_18",
+        "node_28"
+      ],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_18",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/toolbarCompose",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        456
+      ],
+      "center": [
+        720,
+        228
+      ],
+      "area": 656640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_19"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_19",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        456
+      ],
+      "center": [
+        720,
+        276
+      ],
+      "area": 518400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_20",
+        "node_21",
+        "node_24",
+        "node_27"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_20",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "My program",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        192,
+        984,
+        288
+      ],
+      "center": [
+        524,
+        240
+      ],
+      "area": 88320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_21",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        984,
+        104,
+        1176,
+        296
+      ],
+      "center": [
+        1080,
+        200
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_22",
+        "node_23"
+      ],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_22",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1032,
+        152,
+        1128,
+        248
+      ],
+      "center": [
+        1080,
+        200
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_23",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        992,
+        112,
+        1168,
+        288
+      ],
+      "center": [
+        1080,
+        200
+      ],
+      "area": 30976,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_21",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_24",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1192,
+        104,
+        1384,
+        296
+      ],
+      "center": [
+        1288,
+        200
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_25",
+        "node_26"
+      ],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_25",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1240,
+        152,
+        1336,
+        248
+      ],
+      "center": [
+        1288,
+        200
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_26",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1200,
+        112,
+        1376,
+        288
+      ],
+      "center": [
+        1288,
+        200
+      ],
+      "area": 30976,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [],
+      "depth": 18,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_27",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Strength Program",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        288,
+        831,
+        408
+      ],
+      "center": [
+        447,
+        348
+      ],
+      "area": 92040,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_28",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/includedDaySelector",
+      "content_desc": "",
+      "bounds": [
+        0,
+        456,
+        1440,
+        785
+      ],
+      "center": [
+        720,
+        620
+      ],
+      "area": 473760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_29",
+        "node_37"
+      ],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/dayTitlesContainer",
+      "content_desc": "",
+      "bounds": [
+        0,
+        488,
+        1440,
+        545
+      ],
+      "center": [
+        720,
+        516
+      ],
+      "area": 82080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30",
+        "node_31",
+        "node_32",
+        "node_33",
+        "node_34",
+        "node_35",
+        "node_36"
+      ],
+      "depth": 16,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_30",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "S",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        488,
+        205,
+        545
+      ],
+      "center": [
+        102,
+        516
+      ],
+      "area": 11685,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_31",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "M",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        205,
+        488,
+        410,
+        545
+      ],
+      "center": [
+        307,
+        516
+      ],
+      "area": 11685,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_32",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "T",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        410,
+        488,
+        616,
+        545
+      ],
+      "center": [
+        513,
+        516
+      ],
+      "area": 11742,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_33",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "W",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        616,
+        488,
+        822,
+        545
+      ],
+      "center": [
+        719,
+        516
+      ],
+      "area": 11742,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_34",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "T",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        822,
+        488,
+        1028,
+        545
+      ],
+      "center": [
+        925,
+        516
+      ],
+      "area": 11742,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_35",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "F",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1028,
+        488,
+        1234,
+        545
+      ],
+      "center": [
+        1131,
+        516
+      ],
+      "area": 11742,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_36",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "S",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1234,
+        488,
+        1440,
+        545
+      ],
+      "center": [
+        1337,
+        516
+      ],
+      "area": 11742,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 17,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_37",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/pager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        545,
+        1440,
+        785
+      ],
+      "center": [
+        720,
+        665
+      ],
+      "area": 345600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_38"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_38",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        545,
+        1440,
+        785
+      ],
+      "center": [
+        720,
+        665
+      ],
+      "area": 345600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [
+        "node_39"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_39",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        545,
+        1440,
+        785
+      ],
+      "center": [
+        720,
+        665
+      ],
+      "area": 345600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_40",
+        "node_42",
+        "node_44",
+        "node_46",
+        "node_48",
+        "node_50",
+        "node_52"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_40",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        545,
+        205,
+        785
+      ],
+      "center": [
+        102,
+        665
+      ],
+      "area": 49200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_41",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "15",
+      "resource_id": "com.amomedia.madmuscles:id/dayView",
+      "content_desc": "",
+      "bounds": [
+        31,
+        553,
+        175,
+        697
+      ],
+      "center": [
+        103,
+        625
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_42",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        205,
+        545,
+        410,
+        785
+      ],
+      "center": [
+        307,
+        665
+      ],
+      "area": 49200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_43"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_43",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "16",
+      "resource_id": "com.amomedia.madmuscles:id/dayView",
+      "content_desc": "",
+      "bounds": [
+        236,
+        553,
+        380,
+        697
+      ],
+      "center": [
+        308,
+        625
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        410,
+        545,
+        616,
+        785
+      ],
+      "center": [
+        513,
+        665
+      ],
+      "area": 49440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_45",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "17",
+      "resource_id": "com.amomedia.madmuscles:id/dayView",
+      "content_desc": "",
+      "bounds": [
+        441,
+        553,
+        585,
+        697
+      ],
+      "center": [
+        513,
+        625
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_44",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        616,
+        545,
+        822,
+        785
+      ],
+      "center": [
+        719,
+        665
+      ],
+      "area": 49440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_47",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "18",
+      "resource_id": "com.amomedia.madmuscles:id/dayView",
+      "content_desc": "",
+      "bounds": [
+        647,
+        553,
+        791,
+        697
+      ],
+      "center": [
+        719,
+        625
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_48",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        822,
+        545,
+        1028,
+        785
+      ],
+      "center": [
+        925,
+        665
+      ],
+      "area": 49440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_49"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_49",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "19",
+      "resource_id": "com.amomedia.madmuscles:id/dayView",
+      "content_desc": "",
+      "bounds": [
+        853,
+        553,
+        997,
+        697
+      ],
+      "center": [
+        925,
+        625
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1028,
+        545,
+        1234,
+        785
+      ],
+      "center": [
+        1131,
+        665
+      ],
+      "area": 49440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_51"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_51",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "20",
+      "resource_id": "com.amomedia.madmuscles:id/dayView",
+      "content_desc": "",
+      "bounds": [
+        1059,
+        553,
+        1203,
+        697
+      ],
+      "center": [
+        1131,
+        625
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_52",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1234,
+        545,
+        1440,
+        785
+      ],
+      "center": [
+        1337,
+        665
+      ],
+      "area": 49440,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_53"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_53",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "21",
+      "resource_id": "com.amomedia.madmuscles:id/dayView",
+      "content_desc": "",
+      "bounds": [
+        1265,
+        553,
+        1409,
+        697
+      ],
+      "center": [
+        1337,
+        625
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_54",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/workoutsPager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        785,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1560
+      ],
+      "area": 2233440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_14",
+      "children_ids": [
+        "node_55"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_55",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        785,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1560
+      ],
+      "area": 2233440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [
+        "node_56"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_56",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        785,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1560
+      ],
+      "area": 2233440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [
+        "node_57"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_57",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        785,
+        1440,
+        2336
+      ],
+      "center": [
+        720,
+        1560
+      ],
+      "area": 2233440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_58"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_58",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/contentView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        785,
+        1376,
+        2272
+      ],
+      "center": [
+        720,
+        1528
+      ],
+      "area": 1950944,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [
+        "node_59",
+        "node_64",
+        "node_67"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_59",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        785,
+        1376,
+        1950
+      ],
+      "center": [
+        720,
+        1367
+      ],
+      "area": 1528480,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [
+        "node_60"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_60",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/cardLayout",
+      "content_desc": "",
+      "bounds": [
+        64,
+        785,
+        1376,
+        1950
+      ],
+      "center": [
+        720,
+        1367
+      ],
+      "area": 1528480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [
+        "node_61",
+        "node_62",
+        "node_63"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_61",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Recovery day",
+      "resource_id": "com.amomedia.madmuscles:id/restTitleView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        833,
+        1376,
+        958
+      ],
+      "center": [
+        720,
+        895
+      ],
+      "area": 164000,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_62",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/imageView",
+      "content_desc": "",
+      "bounds": [
+        64,
+        990,
+        1376,
+        1950
+      ],
+      "center": [
+        720,
+        1470
+      ],
+      "area": 1259520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_63",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Let your muscles rest and repair.\nTry going for a walk, easy bike ride, stretching, swimming, or yoga.",
+      "resource_id": "com.amomedia.madmuscles:id/restDescriptionView",
+      "content_desc": "",
+      "bounds": [
+        128,
+        1670,
+        1312,
+        1918
+      ],
+      "center": [
+        720,
+        1794
+      ],
+      "area": 293632,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_64",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1950,
+        1376,
+        2152
+      ],
+      "center": [
+        720,
+        2051
+      ],
+      "area": 265024,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [
+        "node_65"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_65",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1950,
+        1376,
+        2152
+      ],
+      "center": [
+        720,
+        2051
+      ],
+      "area": 265024,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_66"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_66",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Top perks for you",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2046,
+        1376,
+        2152
+      ],
+      "center": [
+        720,
+        2099
+      ],
+      "area": 139072,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_67",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2152,
+        1376,
+        2272
+      ],
+      "center": [
+        720,
+        2212
+      ],
+      "area": 157440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [
+        "node_68"
+      ],
+      "depth": 18,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_68",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2152,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2356
+      ],
+      "area": 535296,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [
+        "node_69"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_69",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2184,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2372
+      ],
+      "area": 493312,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [
+        "node_70"
+      ],
+      "depth": 20,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_70",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2280,
+        1312,
+        2504
+      ],
+      "center": [
+        720,
+        2392
+      ],
+      "area": 265216,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [
+        "node_71",
+        "node_72"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_71",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Printable Guides",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        544,
+        2349,
+        1120,
+        2436
+      ],
+      "center": [
+        832,
+        2392
+      ],
+      "area": 50112,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_72",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2280,
+        1312,
+        2504
+      ],
+      "center": [
+        720,
+        2392
+      ],
+      "area": 265216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_73",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/bottom_nav_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_10",
+      "children_ids": [
+        "node_74"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_74",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/bottom_nav",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [
+        "node_75"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_75",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_74",
+      "children_ids": [
+        "node_76",
+        "node_81",
+        "node_86",
+        "node_91"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_76",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/nav_workout_program",
+      "content_desc": "My program",
+      "bounds": [
+        0,
+        2336,
+        360,
+        2560
+      ],
+      "center": [
+        180,
+        2448
+      ],
+      "area": 80640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_75",
+      "children_ids": [
+        "node_77",
+        "node_79"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_77",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_icon_container",
+      "content_desc": "",
+      "bounds": [
+        132,
+        2360,
+        228,
+        2456
+      ],
+      "center": [
+        180,
+        2408
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_76",
+      "children_ids": [
+        "node_78"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_78",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_icon_view",
+      "content_desc": "",
+      "bounds": [
+        132,
+        2360,
+        228,
+        2456
+      ],
+      "center": [
+        180,
+        2408
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_77",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_79",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_labels_group",
+      "content_desc": "",
+      "bounds": [
+        29,
+        2457,
+        330,
+        2560
+      ],
+      "center": [
+        179,
+        2508
+      ],
+      "area": 31003,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_76",
+      "children_ids": [
+        "node_80"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_80",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "My program",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_large_label_view",
+      "content_desc": "",
+      "bounds": [
+        29,
+        2457,
+        330,
+        2535
+      ],
+      "center": [
+        179,
+        2496
+      ],
+      "area": 23478,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": true,
+      "parent_id": "node_79",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_81",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/explore",
+      "content_desc": "Explore",
+      "bounds": [
+        360,
+        2336,
+        720,
+        2560
+      ],
+      "center": [
+        540,
+        2448
+      ],
+      "area": 80640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_75",
+      "children_ids": [
+        "node_82",
+        "node_84"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_82",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_labels_group",
+      "content_desc": "",
+      "bounds": [
+        443,
+        2457,
+        637,
+        2560
+      ],
+      "center": [
+        540,
+        2508
+      ],
+      "area": 19982,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_83"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_83",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Explore",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_small_label_view",
+      "content_desc": "",
+      "bounds": [
+        457,
+        2466,
+        623,
+        2533
+      ],
+      "center": [
+        540,
+        2499
+      ],
+      "area": 11122,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_84",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_icon_container",
+      "content_desc": "",
+      "bounds": [
+        492,
+        2368,
+        588,
+        2464
+      ],
+      "center": [
+        540,
+        2416
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_85"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_85",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_icon_view",
+      "content_desc": "",
+      "bounds": [
+        492,
+        2368,
+        588,
+        2464
+      ],
+      "center": [
+        540,
+        2416
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_84",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_86",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/meal",
+      "content_desc": "Meals",
+      "bounds": [
+        720,
+        2336,
+        1080,
+        2560
+      ],
+      "center": [
+        900,
+        2448
+      ],
+      "area": 80640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_75",
+      "children_ids": [
+        "node_87",
+        "node_89"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_87",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_labels_group",
+      "content_desc": "",
+      "bounds": [
+        825,
+        2457,
+        974,
+        2560
+      ],
+      "center": [
+        899,
+        2508
+      ],
+      "area": 15347,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_86",
+      "children_ids": [
+        "node_88"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_88",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Meals",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_small_label_view",
+      "content_desc": "",
+      "bounds": [
+        835,
+        2466,
+        964,
+        2533
+      ],
+      "center": [
+        899,
+        2499
+      ],
+      "area": 8643,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_87",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_89",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_icon_container",
+      "content_desc": "",
+      "bounds": [
+        852,
+        2368,
+        948,
+        2464
+      ],
+      "center": [
+        900,
+        2416
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_86",
+      "children_ids": [
+        "node_90"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_90",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_icon_view",
+      "content_desc": "",
+      "bounds": [
+        852,
+        2368,
+        948,
+        2464
+      ],
+      "center": [
+        900,
+        2416
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_89",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_91",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/profile",
+      "content_desc": "Me",
+      "bounds": [
+        1080,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        1260,
+        2448
+      ],
+      "area": 80640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_75",
+      "children_ids": [
+        "node_92",
+        "node_94"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_92",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_icon_container",
+      "content_desc": "",
+      "bounds": [
+        1212,
+        2368,
+        1308,
+        2464
+      ],
+      "center": [
+        1260,
+        2416
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_91",
+      "children_ids": [
+        "node_93"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_93",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_icon_view",
+      "content_desc": "",
+      "bounds": [
+        1212,
+        2368,
+        1308,
+        2464
+      ],
+      "center": [
+        1260,
+        2416
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_92",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_94",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_labels_group",
+      "content_desc": "",
+      "bounds": [
+        1222,
+        2457,
+        1298,
+        2560
+      ],
+      "center": [
+        1260,
+        2508
+      ],
+      "area": 7828,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_91",
+      "children_ids": [
+        "node_95"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    },
+    {
+      "id": "node_95",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Me",
+      "resource_id": "com.amomedia.madmuscles:id/navigation_bar_item_small_label_view",
+      "content_desc": "",
+      "bounds": [
+        1227,
+        2466,
+        1293,
+        2533
+      ],
+      "center": [
+        1260,
+        2499
+      ],
+      "area": 4422,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_94",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.amomedia.madmuscles"
+    }
+  ]
+}

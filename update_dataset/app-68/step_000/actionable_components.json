@@ -1,0 +1,671 @@
+{
+  "actionable_component_count": 21,
+  "actionable_components": [
+    {
+      "id": "node_40",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.anydo:id/icTopBarNotifications",
+      "content_desc": "Smart Cards",
+      "bounds": [
+        40,
+        132,
+        192,
+        284
+      ],
+      "center": [
+        116,
+        208
+      ],
+      "area": 23104,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_43",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.anydo:id/icTopBarUpsell",
+      "content_desc": "",
+      "bounds": [
+        1096,
+        136,
+        1240,
+        280
+      ],
+      "center": [
+        1168,
+        208
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.anydo:id/icTopBarMenu",
+      "content_desc": "Menu",
+      "bounds": [
+        1256,
+        136,
+        1400,
+        280
+      ],
+      "center": [
+        1328,
+        208
+      ],
+      "area": 20736,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_45",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.anydo:id/pager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        352,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1456
+      ],
+      "area": 3179520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_46"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_46",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        352,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1456
+      ],
+      "area": 3179520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_51",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.anydo:id/recycler",
+      "content_desc": "",
+      "bounds": [
+        0,
+        352,
+        1440,
+        2144
+      ],
+      "center": [
+        720,
+        1248
+      ],
+      "area": 2580480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_50",
+      "children_ids": [
+        "node_52",
+        "node_57",
+        "node_68",
+        "node_73",
+        "node_78"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_52",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.anydo:id/listItemLayout",
+      "content_desc": "",
+      "bounds": [
+        40,
+        352,
+        1400,
+        560
+      ],
+      "center": [
+        720,
+        456
+      ],
+      "area": 282880,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [
+        "node_53",
+        "node_54"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_55",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.anydo:id/add_task",
+      "content_desc": "",
+      "bounds": [
+        1256,
+        352,
+        1400,
+        560
+      ],
+      "center": [
+        1328,
+        456
+      ],
+      "area": 29952,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_54",
+      "children_ids": [
+        "node_56"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_57",
+      "type": "Clickable",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.anydo:id/listItemLayout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        560,
+        1440,
+        768
+      ],
+      "center": [
+        720,
+        664
+      ],
+      "area": 299520,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [
+        "node_58",
+        "node_60",
+        "node_66"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_58",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.anydo:id/mark_as_complete_container",
+      "content_desc": "",
+      "bounds": [
+        64,
+        560,
+        200,
+        748
+      ],
+      "center": [
+        132,
+        654
+      ],
+      "area": 25568,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [
+        "node_59"
+      ],
+      "depth": 15,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_59",
+      "type": "Selection",
+      "class_name": "android.widget.CheckBox",
+      "text": "",
+      "resource_id": "com.anydo:id/mark_as_complete",
+      "content_desc": "Mark as complete",
+      "bounds": [
+        104,
+        632,
+        168,
+        708
+      ],
+      "center": [
+        136,
+        670
+      ],
+      "area": 4864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_58",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_67",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "com.anydo:id/btnDelete",
+      "content_desc": "Delete task",
+      "bounds": [
+        1256,
+        600,
+        1384,
+        728
+      ],
+      "center": [
+        1320,
+        664
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_68",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.anydo:id/listItemLayout",
+      "content_desc": "",
+      "bounds": [
+        40,
+        768,
+        1400,
+        976
+      ],
+      "center": [
+        720,
+        872
+      ],
+      "area": 282880,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [
+        "node_69",
+        "node_70"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_71",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.anydo:id/add_task",
+      "content_desc": "",
+      "bounds": [
+        1256,
+        768,
+        1400,
+        976
+      ],
+      "center": [
+        1328,
+        872
+      ],
+      "area": 29952,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [
+        "node_72"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_73",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.anydo:id/listItemLayout",
+      "content_desc": "",
+      "bounds": [
+        40,
+        976,
+        1400,
+        1184
+      ],
+      "center": [
+        720,
+        1080
+      ],
+      "area": 282880,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [
+        "node_74",
+        "node_75"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_76",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.anydo:id/add_task",
+      "content_desc": "",
+      "bounds": [
+        1256,
+        976,
+        1400,
+        1184
+      ],
+      "center": [
+        1328,
+        1080
+      ],
+      "area": 29952,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_75",
+      "children_ids": [
+        "node_77"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_78",
+      "type": "Clickable",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.anydo:id/listItemLayout",
+      "content_desc": "",
+      "bounds": [
+        40,
+        1184,
+        1400,
+        1392
+      ],
+      "center": [
+        720,
+        1288
+      ],
+      "area": 282880,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [
+        "node_79",
+        "node_80"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_81",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.anydo:id/add_task",
+      "content_desc": "",
+      "bounds": [
+        1256,
+        1184,
+        1400,
+        1392
+      ],
+      "center": [
+        1328,
+        1288
+      ],
+      "area": 29952,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_82"
+      ],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_85",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.anydo:id/imgHome",
+      "content_desc": "",
+      "bounds": [
+        96,
+        2272,
+        256,
+        2432
+      ],
+      "center": [
+        176,
+        2352
+      ],
+      "area": 25600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_84",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_88",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "I want to…",
+      "resource_id": "com.anydo:id/txtSuggestions",
+      "content_desc": "",
+      "bounds": [
+        320,
+        2240,
+        1248,
+        2464
+      ],
+      "center": [
+        784,
+        2352
+      ],
+      "area": 207872,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_87",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.anydo"
+    },
+    {
+      "id": "node_89",
+      "type": "Clickable",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.anydo:id/imgAdditionalAction",
+      "content_desc": "",
+      "bounds": [
+        1248,
+        2320,
+        1312,
+        2384
+      ],
+      "center": [
+        1280,
+        2352
+      ],
+      "area": 4096,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_87",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.anydo"
+    }
+  ]
+}

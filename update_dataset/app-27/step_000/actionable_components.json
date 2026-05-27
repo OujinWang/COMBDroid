@@ -1,0 +1,545 @@
+{
+  "actionable_component_count": 17,
+  "actionable_components": [
+    {
+      "id": "node_7",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.cnbc.client:id/coordinator_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8",
+        "node_24"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_10",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Navigate up",
+      "bounds": [
+        0,
+        96,
+        224,
+        320
+      ],
+      "center": [
+        112,
+        208
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_13",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.cnbc.client:id/action_search",
+      "content_desc": "Symbol Search",
+      "bounds": [
+        1248,
+        112,
+        1440,
+        304
+      ],
+      "center": [
+        1344,
+        208
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_14",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.HorizontalScrollView",
+      "text": "",
+      "resource_id": "com.cnbc.client:id/tabs",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        512
+      ],
+      "center": [
+        720,
+        416
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_15"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_18",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Top News",
+      "bounds": [
+        480,
+        320,
+        824,
+        512
+      ],
+      "center": [
+        652,
+        416
+      ],
+      "area": 66048,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_19"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_20",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Trending Now",
+      "bounds": [
+        824,
+        320,
+        1270,
+        512
+      ],
+      "center": [
+        1047,
+        416
+      ],
+      "area": 85632,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_21"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_22",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Watchlist News",
+      "bounds": [
+        1270,
+        320,
+        1440,
+        512
+      ],
+      "center": [
+        1355,
+        416
+      ],
+      "area": 32640,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_15",
+      "children_ids": [
+        "node_23"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_25",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.cnbc.client:id/viewpager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        512,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1536
+      ],
+      "area": 2949120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_24",
+      "children_ids": [
+        "node_26"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_28",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.cnbc.client:id/home_recycler",
+      "content_desc": "",
+      "bounds": [
+        0,
+        512,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1536
+      ],
+      "area": 2949120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_27",
+      "children_ids": [
+        "node_29",
+        "node_68"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_30",
+      "type": "ScrollContainer",
+      "class_name": "androidx.viewpager.widget.ViewPager",
+      "text": "",
+      "resource_id": "com.cnbc.client:id/markets_panel_view_pager",
+      "content_desc": "",
+      "bounds": [
+        0,
+        600,
+        1440,
+        1507
+      ],
+      "center": [
+        720,
+        1053
+      ],
+      "area": 1306080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_33",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.cnbc.client:id/relative_card",
+      "content_desc": "",
+      "bounds": [
+        32,
+        640,
+        1408,
+        1491
+      ],
+      "center": [
+        720,
+        1065
+      ],
+      "area": 1170976,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34",
+        "node_35",
+        "node_36"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_37",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.cnbc.client:id/first_index_color",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1075,
+        490,
+        1459
+      ],
+      "center": [
+        277,
+        1267
+      ],
+      "area": 163584,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_38"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.cnbc.client:id/second_index_color",
+      "content_desc": "",
+      "bounds": [
+        506,
+        1075,
+        933,
+        1459
+      ],
+      "center": [
+        719,
+        1267
+      ],
+      "area": 163968,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_51",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.cnbc.client:id/third_index_color",
+      "content_desc": "",
+      "bounds": [
+        949,
+        1075,
+        1376,
+        1459
+      ],
+      "center": [
+        1162,
+        1267
+      ],
+      "area": 163968,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_52"
+      ],
+      "depth": 19,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_71",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "Top News",
+      "resource_id": "com.cnbc.client:id/section_preview_item_header_title",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1723,
+        1264,
+        1912
+      ],
+      "center": [
+        664,
+        1817
+      ],
+      "area": 226800,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_72",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "See All",
+      "resource_id": "com.cnbc.client:id/section_preview_item_see_all",
+      "content_desc": "",
+      "bounds": [
+        1200,
+        1830,
+        1376,
+        1912
+      ],
+      "center": [
+        1288,
+        1871
+      ],
+      "area": 14432,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    },
+    {
+      "id": "node_73",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1960,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2260
+      ],
+      "area": 864000,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_68",
+      "children_ids": [
+        "node_74"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.cnbc.client"
+    }
+  ]
+}

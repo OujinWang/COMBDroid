@@ -1,0 +1,731 @@
+{
+  "screenshot_path": "runs\\273_habitNow\\step_006\\screen.png",
+  "xml_path": "runs\\273_habitNow\\step_006\\hierarchy.xml",
+  "component_count": 23,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.habitnow:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_5",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.habitnow:id/mainContainer",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_18",
+        "node_19"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_6",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.habitnow:id/new_habit_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2364
+      ],
+      "center": [
+        720,
+        1230
+      ],
+      "area": 3265920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_7",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2364
+      ],
+      "center": [
+        720,
+        1230
+      ],
+      "area": 3265920,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_8",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        1474
+      ],
+      "center": [
+        720,
+        785
+      ],
+      "area": 1984320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [
+        "node_9"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_9",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.habitnow:id/parentLayout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        1474
+      ],
+      "center": [
+        720,
+        785
+      ],
+      "area": 1984320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_8",
+      "children_ids": [
+        "node_10",
+        "node_11"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_10",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "How often do you want to do it?",
+      "resource_id": "com.habitnow:id/sectionTitle",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        410
+      ],
+      "center": [
+        720,
+        253
+      ],
+      "area": 452160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_11",
+      "type": "Other",
+      "class_name": "android.widget.RadioGroup",
+      "text": "",
+      "resource_id": "com.habitnow:id/rbFrec",
+      "content_desc": "",
+      "bounds": [
+        40,
+        410,
+        1400,
+        1442
+      ],
+      "center": [
+        720,
+        926
+      ],
+      "area": 1403520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_9",
+      "children_ids": [
+        "node_12",
+        "node_13",
+        "node_14",
+        "node_15",
+        "node_16",
+        "node_17"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_12",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "Every day",
+      "resource_id": "com.habitnow:id/radioEveryday",
+      "content_desc": "",
+      "bounds": [
+        64,
+        410,
+        1376,
+        582
+      ],
+      "center": [
+        720,
+        496
+      ],
+      "area": 225664,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_13",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "Specific days of the week",
+      "resource_id": "com.habitnow:id/radioSomedays",
+      "content_desc": "",
+      "bounds": [
+        64,
+        582,
+        1376,
+        754
+      ],
+      "center": [
+        720,
+        668
+      ],
+      "area": 225664,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_14",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "Specific days of the month",
+      "resource_id": "com.habitnow:id/radioSomedaysMonth",
+      "content_desc": "",
+      "bounds": [
+        64,
+        754,
+        1376,
+        926
+      ],
+      "center": [
+        720,
+        840
+      ],
+      "area": 225664,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_15",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "Specific days of the year",
+      "resource_id": "com.habitnow:id/radioSomedaysYear",
+      "content_desc": "",
+      "bounds": [
+        64,
+        926,
+        1376,
+        1098
+      ],
+      "center": [
+        720,
+        1012
+      ],
+      "area": 225664,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_16",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "Some days per period",
+      "resource_id": "com.habitnow:id/radioSometimes",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1098,
+        1376,
+        1270
+      ],
+      "center": [
+        720,
+        1184
+      ],
+      "area": 225664,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_17",
+      "type": "Button",
+      "class_name": "android.widget.RadioButton",
+      "text": "Repeat",
+      "resource_id": "com.habitnow:id/radioRepeat",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1270,
+        1376,
+        1442
+      ],
+      "center": [
+        720,
+        1356
+      ],
+      "area": 225664,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_18",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2364,
+        1440,
+        2368
+      ],
+      "center": [
+        720,
+        2366
+      ],
+      "area": 5760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_19",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2368,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2464
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_20",
+        "node_21",
+        "node_22"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_20",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "BACK",
+      "resource_id": "com.habitnow:id/btnBack",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2368,
+        640,
+        2560
+      ],
+      "center": [
+        320,
+        2464
+      ],
+      "area": 122880,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_21",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.habitnow:id/dotos",
+      "content_desc": "",
+      "bounds": [
+        640,
+        2368,
+        800,
+        2560
+      ],
+      "center": [
+        720,
+        2464
+      ],
+      "area": 30720,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    },
+    {
+      "id": "node_22",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "NEXT",
+      "resource_id": "com.habitnow:id/btnFwrd",
+      "content_desc": "",
+      "bounds": [
+        800,
+        2368,
+        1440,
+        2560
+      ],
+      "center": [
+        1120,
+        2464
+      ],
+      "area": 122880,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.habitnow"
+    }
+  ]
+}

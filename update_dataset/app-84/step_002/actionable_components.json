@@ -1,0 +1,954 @@
+{
+  "actionable_component_count": 31,
+  "actionable_components": [
+    {
+      "id": "node_37",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "1+",
+      "resource_id": "com.bng.calculator:id/formula",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        550
+      ],
+      "center": [
+        720,
+        323
+      ],
+      "area": 653760,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_38",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "com.bng.calculator:id/result",
+      "content_desc": "",
+      "bounds": [
+        0,
+        550,
+        1440,
+        790
+      ],
+      "center": [
+        720,
+        670
+      ],
+      "area": 345600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_40",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.bng.calculator:id/history",
+      "content_desc": "",
+      "bounds": [
+        40,
+        790,
+        242,
+        990
+      ],
+      "center": [
+        141,
+        890
+      ],
+      "area": 40400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_42",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.bng.calculator:id/unitConverter",
+      "content_desc": "",
+      "bounds": [
+        242,
+        790,
+        444,
+        990
+      ],
+      "center": [
+        343,
+        890
+      ],
+      "area": 40400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_43"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.bng.calculator:id/switchBtn",
+      "content_desc": "",
+      "bounds": [
+        444,
+        790,
+        646,
+        990
+      ],
+      "center": [
+        545,
+        890
+      ],
+      "area": 40400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.bng.calculator:id/nightMode",
+      "content_desc": "",
+      "bounds": [
+        646,
+        790,
+        848,
+        990
+      ],
+      "center": [
+        747,
+        890
+      ],
+      "area": 40400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_47"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_48",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.bng.calculator:id/settings",
+      "content_desc": "",
+      "bounds": [
+        848,
+        790,
+        1050,
+        990
+      ],
+      "center": [
+        949,
+        890
+      ],
+      "area": 40400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_49"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_50",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.bng.calculator:id/backSpace",
+      "content_desc": "",
+      "bounds": [
+        1050,
+        790,
+        1412,
+        990
+      ],
+      "center": [
+        1231,
+        890
+      ],
+      "area": 72400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_51"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_56",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "C",
+      "resource_id": "com.bng.calculator:id/btn_clear",
+      "content_desc": "",
+      "bounds": [
+        1,
+        991,
+        359,
+        1253
+      ],
+      "center": [
+        180,
+        1122
+      ],
+      "area": 93796,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_57",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "7",
+      "resource_id": "com.bng.calculator:id/btn_7",
+      "content_desc": "",
+      "bounds": [
+        1,
+        1255,
+        359,
+        1517
+      ],
+      "center": [
+        180,
+        1386
+      ],
+      "area": 93796,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_58",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "4",
+      "resource_id": "com.bng.calculator:id/btn_4",
+      "content_desc": "",
+      "bounds": [
+        1,
+        1519,
+        359,
+        1781
+      ],
+      "center": [
+        180,
+        1650
+      ],
+      "area": 93796,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_59",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "1",
+      "resource_id": "com.bng.calculator:id/btn_1",
+      "content_desc": "",
+      "bounds": [
+        1,
+        1783,
+        359,
+        2044
+      ],
+      "center": [
+        180,
+        1913
+      ],
+      "area": 93438,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_60",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "0",
+      "resource_id": "com.bng.calculator:id/_0p_1",
+      "content_desc": "",
+      "bounds": [
+        1,
+        2046,
+        359,
+        2307
+      ],
+      "center": [
+        180,
+        2176
+      ],
+      "area": 93438,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_55",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_62",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "( )",
+      "resource_id": "com.bng.calculator:id/parr",
+      "content_desc": "",
+      "bounds": [
+        361,
+        991,
+        719,
+        1253
+      ],
+      "center": [
+        540,
+        1122
+      ],
+      "area": 93796,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_63",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "8",
+      "resource_id": "com.bng.calculator:id/btn_8",
+      "content_desc": "",
+      "bounds": [
+        361,
+        1255,
+        719,
+        1517
+      ],
+      "center": [
+        540,
+        1386
+      ],
+      "area": 93796,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_64",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "5",
+      "resource_id": "com.bng.calculator:id/btn_5",
+      "content_desc": "",
+      "bounds": [
+        361,
+        1519,
+        719,
+        1781
+      ],
+      "center": [
+        540,
+        1650
+      ],
+      "area": 93796,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_65",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "2",
+      "resource_id": "com.bng.calculator:id/btn_2",
+      "content_desc": "",
+      "bounds": [
+        361,
+        1783,
+        719,
+        2044
+      ],
+      "center": [
+        540,
+        1913
+      ],
+      "area": 93438,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_66",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "00",
+      "resource_id": "com.bng.calculator:id/_0p_2",
+      "content_desc": "",
+      "bounds": [
+        361,
+        2046,
+        719,
+        2307
+      ],
+      "center": [
+        540,
+        2176
+      ],
+      "area": 93438,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_68",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "%",
+      "resource_id": "com.bng.calculator:id/percent",
+      "content_desc": "",
+      "bounds": [
+        721,
+        991,
+        1079,
+        1253
+      ],
+      "center": [
+        900,
+        1122
+      ],
+      "area": 93796,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_69",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "9",
+      "resource_id": "com.bng.calculator:id/btn_9",
+      "content_desc": "",
+      "bounds": [
+        721,
+        1255,
+        1079,
+        1517
+      ],
+      "center": [
+        900,
+        1386
+      ],
+      "area": 93796,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_70",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "6",
+      "resource_id": "com.bng.calculator:id/btn_6",
+      "content_desc": "",
+      "bounds": [
+        721,
+        1519,
+        1079,
+        1781
+      ],
+      "center": [
+        900,
+        1650
+      ],
+      "area": 93796,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_71",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "3",
+      "resource_id": "com.bng.calculator:id/btn_3",
+      "content_desc": "",
+      "bounds": [
+        721,
+        1783,
+        1079,
+        2044
+      ],
+      "center": [
+        900,
+        1913
+      ],
+      "area": 93438,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_72",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": ".",
+      "resource_id": "com.bng.calculator:id/_0p_3",
+      "content_desc": "",
+      "bounds": [
+        721,
+        2046,
+        1079,
+        2307
+      ],
+      "center": [
+        900,
+        2176
+      ],
+      "area": 93438,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_74",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "÷",
+      "resource_id": "com.bng.calculator:id/divi",
+      "content_desc": "",
+      "bounds": [
+        1081,
+        991,
+        1439,
+        1253
+      ],
+      "center": [
+        1260,
+        1122
+      ],
+      "area": 93796,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_75",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "×",
+      "resource_id": "com.bng.calculator:id/multi",
+      "content_desc": "",
+      "bounds": [
+        1081,
+        1255,
+        1439,
+        1517
+      ],
+      "center": [
+        1260,
+        1386
+      ],
+      "area": 93796,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_76",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "−",
+      "resource_id": "com.bng.calculator:id/minus",
+      "content_desc": "",
+      "bounds": [
+        1081,
+        1519,
+        1439,
+        1781
+      ],
+      "center": [
+        1260,
+        1650
+      ],
+      "area": 93796,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_77",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "+",
+      "resource_id": "com.bng.calculator:id/plus",
+      "content_desc": "",
+      "bounds": [
+        1081,
+        1783,
+        1439,
+        2044
+      ],
+      "center": [
+        1260,
+        1913
+      ],
+      "area": 93438,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_78",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "=",
+      "resource_id": "com.bng.calculator:id/equal",
+      "content_desc": "",
+      "bounds": [
+        1081,
+        2046,
+        1439,
+        2307
+      ],
+      "center": [
+        1260,
+        2176
+      ],
+      "area": 93438,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_73",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_93",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_92",
+      "children_ids": [
+        "node_94"
+      ],
+      "depth": 21,
+      "in_scroll_container": true,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_94",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2336,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2448
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [
+        "node_95",
+        "node_99"
+      ],
+      "depth": 22,
+      "in_scroll_container": true,
+      "package_name": "com.bng.calculator"
+    },
+    {
+      "id": "node_99",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1400,
+        2344,
+        1440,
+        2384
+      ],
+      "center": [
+        1420,
+        2364
+      ],
+      "area": 1600,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_94",
+      "children_ids": [
+        "node_100"
+      ],
+      "depth": 23,
+      "in_scroll_container": true,
+      "package_name": "com.bng.calculator"
+    }
+  ]
+}

@@ -1,0 +1,2343 @@
+{
+  "screenshot_path": "runs\\11_glovo\\step_000\\screen.png",
+  "xml_path": "runs\\11_glovo\\step_000\\hierarchy.xml",
+  "component_count": 74,
+  "components": [
+    {
+      "id": "node_28",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_29"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_28",
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_30",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_31",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.glovo:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_32",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_33",
+      "type": "Other",
+      "class_name": "android.view.ViewGroup",
+      "text": "",
+      "resource_id": "com.glovo:id/container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34",
+        "node_80"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_34",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.glovo:id/navHostFragment",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2284
+      ],
+      "center": [
+        720,
+        1142
+      ],
+      "area": 3288960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_35"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_35",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2284
+      ],
+      "center": [
+        720,
+        1142
+      ],
+      "area": 3288960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_36"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_36",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2284
+      ],
+      "center": [
+        720,
+        1142
+      ],
+      "area": 3288960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_37"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_37",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2284
+      ],
+      "center": [
+        720,
+        1142
+      ],
+      "area": 3288960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_38",
+        "node_74"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_38",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2284
+      ],
+      "center": [
+        720,
+        1142
+      ],
+      "area": 3288960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [
+        "node_39",
+        "node_55",
+        "node_56",
+        "node_71"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_39",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        384,
+        1440,
+        1504
+      ],
+      "center": [
+        720,
+        944
+      ],
+      "area": 1612800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_40",
+        "node_43",
+        "node_46",
+        "node_49",
+        "node_52"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_40",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        248,
+        384,
+        696,
+        832
+      ],
+      "center": [
+        472,
+        608
+      ],
+      "area": 200704,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_41",
+        "node_42"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_41",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Food",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        414,
+        768,
+        530,
+        832
+      ],
+      "center": [
+        472,
+        800
+      ],
+      "area": 7424,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_42",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        248,
+        384,
+        696,
+        832
+      ],
+      "center": [
+        472,
+        608
+      ],
+      "area": 200704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_43",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        744,
+        384,
+        1192,
+        832
+      ],
+      "center": [
+        968,
+        608
+      ],
+      "area": 200704,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_44",
+        "node_45"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_44",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Groceries",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        858,
+        768,
+        1077,
+        832
+      ],
+      "center": [
+        967,
+        800
+      ],
+      "area": 14016,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_45",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        744,
+        384,
+        1192,
+        832
+      ],
+      "center": [
+        968,
+        608
+      ],
+      "area": 200704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_46",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        928,
+        448,
+        1376
+      ],
+      "center": [
+        224,
+        1152
+      ],
+      "area": 200704,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_47",
+        "node_48"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_47",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Shops",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        154,
+        1312,
+        293,
+        1376
+      ],
+      "center": [
+        223,
+        1344
+      ],
+      "area": 8896,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_48",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        928,
+        448,
+        1376
+      ],
+      "center": [
+        224,
+        1152
+      ],
+      "area": 200704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_49",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        496,
+        928,
+        944,
+        1376
+      ],
+      "center": [
+        720,
+        1152
+      ],
+      "area": 200704,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_50",
+        "node_51"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_50",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Pharmacy & Beauty",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        528,
+        1280,
+        912,
+        1408
+      ],
+      "center": [
+        720,
+        1344
+      ],
+      "area": 49152,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_51",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        496,
+        928,
+        944,
+        1376
+      ],
+      "center": [
+        720,
+        1152
+      ],
+      "area": 200704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_52",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        992,
+        928,
+        1440,
+        1376
+      ],
+      "center": [
+        1216,
+        1152
+      ],
+      "area": 200704,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_39",
+      "children_ids": [
+        "node_53",
+        "node_54"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_53",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Package Delivery",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1024,
+        1280,
+        1408,
+        1408
+      ],
+      "center": [
+        1216,
+        1344
+      ],
+      "area": 49152,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_54",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        992,
+        928,
+        1440,
+        1376
+      ],
+      "center": [
+        1216,
+        1152
+      ],
+      "area": 200704,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_55",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1568,
+        1440,
+        1760
+      ],
+      "center": [
+        720,
+        1664
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_56",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1760,
+        1440,
+        2284
+      ],
+      "center": [
+        720,
+        2022
+      ],
+      "area": 754560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_57",
+        "node_62"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_57",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1749,
+        1376,
+        1941
+      ],
+      "center": [
+        720,
+        1845
+      ],
+      "area": 251904,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_58",
+        "node_59"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_58",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "These are for you",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1792,
+        774,
+        1897
+      ],
+      "center": [
+        419,
+        1844
+      ],
+      "area": 74550,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_59",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1232,
+        1749,
+        1424,
+        1941
+      ],
+      "center": [
+        1328,
+        1845
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [
+        "node_60",
+        "node_61"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_60",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "More information",
+      "bounds": [
+        1280,
+        1797,
+        1376,
+        1893
+      ],
+      "center": [
+        1328,
+        1845
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_61",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1280,
+        1797,
+        1376,
+        1893
+      ],
+      "center": [
+        1328,
+        1845
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_59",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_62",
+      "type": "ScrollContainer",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        1961,
+        1440,
+        2284
+      ],
+      "center": [
+        720,
+        2122
+      ],
+      "area": 465120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_63",
+        "node_65",
+        "node_67",
+        "node_69"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_63",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1961,
+        368,
+        2284
+      ],
+      "center": [
+        216,
+        2122
+      ],
+      "area": 98192,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [
+        "node_64"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_64",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        1961,
+        368,
+        2284
+      ],
+      "center": [
+        216,
+        2122
+      ],
+      "area": 98192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_63",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_65",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        400,
+        1961,
+        704,
+        2284
+      ],
+      "center": [
+        552,
+        2122
+      ],
+      "area": 98192,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [
+        "node_66"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_66",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        400,
+        1961,
+        704,
+        2284
+      ],
+      "center": [
+        552,
+        2122
+      ],
+      "area": 98192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_67",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        736,
+        1961,
+        1040,
+        2284
+      ],
+      "center": [
+        888,
+        2122
+      ],
+      "area": 98192,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [
+        "node_68"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_68",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        736,
+        1961,
+        1040,
+        2284
+      ],
+      "center": [
+        888,
+        2122
+      ],
+      "area": 98192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_67",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_69",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1072,
+        1961,
+        1376,
+        2284
+      ],
+      "center": [
+        1224,
+        2122
+      ],
+      "area": 98192,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_62",
+      "children_ids": [
+        "node_70"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_70",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1072,
+        1961,
+        1376,
+        2284
+      ],
+      "center": [
+        1224,
+        2122
+      ],
+      "area": 98192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_69",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_71",
+      "type": "Other",
+      "class_name": "l6.y",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1168,
+        1432,
+        1408,
+        1672
+      ],
+      "center": [
+        1288,
+        1552
+      ],
+      "area": 57600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [
+        "node_72"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_72",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1168,
+        1432,
+        1408,
+        1672
+      ],
+      "center": [
+        1288,
+        1552
+      ],
+      "area": 57600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_71",
+      "children_ids": [
+        "node_73"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_73",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1168,
+        1432,
+        1408,
+        1672
+      ],
+      "center": [
+        1288,
+        1552
+      ],
+      "area": 57600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_72",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_74",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        160
+      ],
+      "area": 460800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [
+        "node_75"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_75",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        266,
+        112,
+        1174,
+        304
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 174336,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_74",
+      "children_ids": [
+        "node_76"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_76",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        266,
+        128,
+        1174,
+        288
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 145280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_75",
+      "children_ids": [
+        "node_77"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_77",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        266,
+        112,
+        1174,
+        304
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 174336,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [
+        "node_78",
+        "node_79"
+      ],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_78",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Address: Tbilisi International Airport",
+      "bounds": [
+        266,
+        128,
+        1174,
+        288
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 145280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_77",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_79",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        266,
+        128,
+        1174,
+        288
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 145280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_77",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_80",
+      "type": "Other",
+      "class_name": "androidx.compose.ui.platform.ComposeView",
+      "text": "",
+      "resource_id": "com.glovo:id/composeNavView",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2284,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2422
+      ],
+      "area": 397440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_81"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_81",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2284,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2422
+      ],
+      "area": 397440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_80",
+      "children_ids": [
+        "node_82"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_82",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2284,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2422
+      ],
+      "area": 397440,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_83"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_83",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        16,
+        2288,
+        1424,
+        2560
+      ],
+      "center": [
+        720,
+        2424
+      ],
+      "area": 382976,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_82",
+      "children_ids": [
+        "node_84",
+        "node_89",
+        "node_94",
+        "node_98"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_84",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        123,
+        2288,
+        262,
+        2560
+      ],
+      "center": [
+        192,
+        2424
+      ],
+      "area": 37808,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [
+        "node_85"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_85",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        97,
+        2320,
+        289,
+        2528
+      ],
+      "center": [
+        193,
+        2424
+      ],
+      "area": 39936,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_84",
+      "children_ids": [
+        "node_86",
+        "node_87",
+        "node_88"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_86",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        97,
+        2288,
+        289,
+        2480
+      ],
+      "center": [
+        193,
+        2384
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_87",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        97,
+        2288,
+        289,
+        2480
+      ],
+      "center": [
+        193,
+        2384
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_88",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Home",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        123,
+        2464,
+        262,
+        2528
+      ],
+      "center": [
+        192,
+        2496
+      ],
+      "area": 8896,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_85",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_89",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        444,
+        2288,
+        645,
+        2560
+      ],
+      "center": [
+        544,
+        2424
+      ],
+      "area": 54672,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [
+        "node_90"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_90",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        444,
+        2320,
+        645,
+        2528
+      ],
+      "center": [
+        544,
+        2424
+      ],
+      "area": 41808,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_89",
+      "children_ids": [
+        "node_91",
+        "node_92",
+        "node_93"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_91",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        449,
+        2288,
+        641,
+        2464
+      ],
+      "center": [
+        545,
+        2376
+      ],
+      "area": 33792,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_92",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        489,
+        2284,
+        681,
+        2440
+      ],
+      "center": [
+        585,
+        2362
+      ],
+      "area": 29952,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_93",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Discover",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        444,
+        2464,
+        645,
+        2528
+      ],
+      "center": [
+        544,
+        2496
+      ],
+      "area": 12864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_90",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_94",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        817,
+        2288,
+        975,
+        2560
+      ],
+      "center": [
+        896,
+        2424
+      ],
+      "area": 42976,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [
+        "node_95"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_95",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        800,
+        2320,
+        992,
+        2528
+      ],
+      "center": [
+        896,
+        2424
+      ],
+      "area": 39936,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_94",
+      "children_ids": [
+        "node_96",
+        "node_97"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_96",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        800,
+        2288,
+        992,
+        2480
+      ],
+      "center": [
+        896,
+        2384
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_97",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Orders",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        817,
+        2464,
+        975,
+        2528
+      ],
+      "center": [
+        896,
+        2496
+      ],
+      "area": 10112,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_98",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1172,
+        2288,
+        1324,
+        2560
+      ],
+      "center": [
+        1248,
+        2424
+      ],
+      "area": 41344,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [
+        "node_99"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_99",
+      "type": "Clickable",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1152,
+        2320,
+        1344,
+        2528
+      ],
+      "center": [
+        1248,
+        2424
+      ],
+      "area": 39936,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_98",
+      "children_ids": [
+        "node_100",
+        "node_101"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_100",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1152,
+        2288,
+        1344,
+        2480
+      ],
+      "center": [
+        1248,
+        2384
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_99",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    },
+    {
+      "id": "node_101",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Profile",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1172,
+        2464,
+        1324,
+        2528
+      ],
+      "center": [
+        1248,
+        2496
+      ],
+      "area": 9728,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_99",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.glovo"
+    }
+  ]
+}

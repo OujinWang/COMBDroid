@@ -1,0 +1,813 @@
+{
+  "actionable_component_count": 26,
+  "actionable_components": [
+    {
+      "id": "node_43",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/browse_coordinator_layout",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_44",
+        "node_57",
+        "node_59"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_47",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/menu_button",
+      "content_desc": "Open navigation drawer",
+      "bounds": [
+        16,
+        119,
+        208,
+        311
+      ],
+      "center": [
+        112,
+        215
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_48",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Search Keep",
+      "resource_id": "com.google.android.keep:id/toolbar",
+      "content_desc": "",
+      "bounds": [
+        240,
+        103,
+        1188,
+        327
+      ],
+      "center": [
+        714,
+        215
+      ],
+      "area": 212352,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [
+        "node_49",
+        "node_51"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_52",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/menu_switch_to_list_view",
+      "content_desc": "Single-column view",
+      "bounds": [
+        756,
+        119,
+        948,
+        311
+      ],
+      "center": [
+        852,
+        215
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_53",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/menu_sort_order",
+      "content_desc": "Sort notes",
+      "bounds": [
+        948,
+        119,
+        1172,
+        311
+      ],
+      "center": [
+        1060,
+        215
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_51",
+      "children_ids": [],
+      "depth": 16,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_54",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/account_particle",
+      "content_desc": "Signed in as oujin0703@gmail.com",
+      "bounds": [
+        1220,
+        119,
+        1424,
+        311
+      ],
+      "center": [
+        1322,
+        215
+      ],
+      "area": 39168,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_46",
+      "children_ids": [
+        "node_55"
+      ],
+      "depth": 14,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_61",
+      "type": "Clickable",
+      "class_name": "androidx.cardview.widget.CardView",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/browse_text_note",
+      "content_desc": "Text note. My first note. This is my first note.. ",
+      "bounds": [
+        32,
+        407,
+        704,
+        759
+      ],
+      "center": [
+        368,
+        583
+      ],
+      "area": 236544,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [
+        "node_62"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_68",
+      "type": "Clickable",
+      "class_name": "androidx.cardview.widget.CardView",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/browse_list_note",
+      "content_desc": "List note. test, Checked. ",
+      "bounds": [
+        736,
+        407,
+        1408,
+        648
+      ],
+      "center": [
+        1072,
+        527
+      ],
+      "area": 161952,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [
+        "node_69"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_75",
+      "type": "Clickable",
+      "class_name": "androidx.cardview.widget.CardView",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/browse_text_note",
+      "content_desc": "Text note. Contains photo. Empty note. ",
+      "bounds": [
+        736,
+        680,
+        1408,
+        1868
+      ],
+      "center": [
+        1072,
+        1274
+      ],
+      "area": 798336,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [
+        "node_76"
+      ],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_79",
+      "type": "Selection",
+      "class_name": "android.widget.ViewSwitcher",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/browse_image_view_switcher",
+      "content_desc": "",
+      "bounds": [
+        740,
+        684,
+        1404,
+        1864
+      ],
+      "center": [
+        1072,
+        1274
+      ],
+      "area": 783520,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_78",
+      "children_ids": [
+        "node_80"
+      ],
+      "depth": 17,
+      "in_scroll_container": true,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_82",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/speed_dial_scroll_view",
+      "content_desc": "",
+      "bounds": [
+        1088,
+        2240,
+        1440,
+        2560
+      ],
+      "center": [
+        1264,
+        2400
+      ],
+      "area": 112640,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_81",
+      "children_ids": [
+        "node_83"
+      ],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_84",
+      "type": "Button",
+      "class_name": "com.google.android.material.floatingactionbutton.FloatingActionButton",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/speed_dial_create_close_button",
+      "content_desc": "Create a note",
+      "bounds": [
+        1152,
+        2272,
+        1376,
+        2496
+      ],
+      "center": [
+        1264,
+        2384
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_83",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_89",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/editor_fragment_content_container",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_88",
+      "children_ids": [
+        "node_90",
+        "node_91",
+        "node_92",
+        "node_99",
+        "node_105"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_94",
+      "type": "Button",
+      "class_name": "android.widget.ImageButton",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "Navigate up",
+      "bounds": [
+        0,
+        112,
+        224,
+        336
+      ],
+      "center": [
+        112,
+        224
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_93",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_96",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/toolbar_pin_button",
+      "content_desc": "Pin",
+      "bounds": [
+        784,
+        128,
+        976,
+        320
+      ],
+      "center": [
+        880,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_97",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/toolbar_reminder_button",
+      "content_desc": "Reminder",
+      "bounds": [
+        976,
+        128,
+        1168,
+        320
+      ],
+      "center": [
+        1072,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_98",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/toolbar_archive_button",
+      "content_desc": "Archive",
+      "bounds": [
+        1168,
+        128,
+        1360,
+        320
+      ],
+      "center": [
+        1264,
+        224
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_95",
+      "children_ids": [],
+      "depth": 14,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_100",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/note_content_elv",
+      "content_desc": "",
+      "bounds": [
+        0,
+        352,
+        1440,
+        2272
+      ],
+      "center": [
+        720,
+        1312
+      ],
+      "area": 2764800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_99",
+      "children_ids": [
+        "node_101",
+        "node_104"
+      ],
+      "depth": 12,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_103",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "My first note",
+      "resource_id": "com.google.android.keep:id/editable_title",
+      "content_desc": "",
+      "bounds": [
+        80,
+        400,
+        1416,
+        675
+      ],
+      "center": [
+        748,
+        537
+      ],
+      "area": 367400,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_102",
+      "children_ids": [],
+      "depth": 15,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_104",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "This is my first note.",
+      "resource_id": "com.google.android.keep:id/edit_note_text",
+      "content_desc": "",
+      "bounds": [
+        0,
+        675,
+        1440,
+        867
+      ],
+      "center": [
+        720,
+        771
+      ],
+      "area": 276480,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_100",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_107",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/bs_add_button",
+      "content_desc": "Add",
+      "bounds": [
+        64,
+        2320,
+        256,
+        2512
+      ],
+      "center": [
+        160,
+        2416
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_106",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_108",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/bs_background_button",
+      "content_desc": "Background options",
+      "bounds": [
+        256,
+        2320,
+        448,
+        2512
+      ],
+      "center": [
+        352,
+        2416
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_106",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_109",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/editor_toggle_formatting_button",
+      "content_desc": "Show formatting controls",
+      "bounds": [
+        448,
+        2320,
+        640,
+        2512
+      ],
+      "center": [
+        544,
+        2416
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_106",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_111",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/editor_undo_button",
+      "content_desc": "Undo",
+      "bounds": [
+        800,
+        2320,
+        992,
+        2512
+      ],
+      "center": [
+        896,
+        2416
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_106",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_112",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/editor_redo_button",
+      "content_desc": "Redo",
+      "bounds": [
+        992,
+        2320,
+        1184,
+        2512
+      ],
+      "center": [
+        1088,
+        2416
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": false,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_106",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    },
+    {
+      "id": "node_113",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "",
+      "resource_id": "com.google.android.keep:id/editor_action_button",
+      "content_desc": "Action",
+      "bounds": [
+        1184,
+        2320,
+        1376,
+        2512
+      ],
+      "center": [
+        1280,
+        2416
+      ],
+      "area": 36864,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_106",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": false,
+      "package_name": "com.google.android.keep"
+    }
+  ]
+}

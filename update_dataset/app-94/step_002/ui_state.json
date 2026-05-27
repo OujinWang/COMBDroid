@@ -1,0 +1,2494 @@
+{
+  "screenshot_path": "runs\\332_hourlyChime\\step_002\\screen.png",
+  "xml_path": "runs\\332_hourlyChime\\step_002\\hierarchy.xml",
+  "component_count": 79,
+  "components": [
+    {
+      "id": "node_0",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_1"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_1",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_0",
+      "children_ids": [
+        "node_2"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_2",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_1",
+      "children_ids": [
+        "node_3"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_3",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_2",
+      "children_ids": [
+        "node_4"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_4",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_3",
+      "children_ids": [
+        "node_5",
+        "node_76"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_5",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/editalarmac",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_6",
+        "node_11",
+        "node_75"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_6",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/toolbar",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        320
+      ],
+      "center": [
+        720,
+        208
+      ],
+      "area": 322560,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_7",
+        "node_9",
+        "node_10"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_7",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/imgBack",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        192,
+        320
+      ],
+      "center": [
+        96,
+        208
+      ],
+      "area": 43008,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [
+        "node_8"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_8",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        144,
+        160,
+        272
+      ],
+      "center": [
+        96,
+        208
+      ],
+      "area": 16384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_7",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_9",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Add Chime",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_title",
+      "content_desc": "",
+      "bounds": [
+        192,
+        151,
+        1024,
+        265
+      ],
+      "center": [
+        608,
+        208
+      ],
+      "area": 94848,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_10",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "Save",
+      "resource_id": "com.hourlychime.easytimereminder:id/btn_save",
+      "content_desc": "",
+      "bounds": [
+        1024,
+        144,
+        1376,
+        272
+      ],
+      "center": [
+        1200,
+        208
+      ],
+      "area": 45056,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_6",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_11",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/nestedScrollView",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [
+        "node_12"
+      ],
+      "depth": 6,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_12",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        320,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1440
+      ],
+      "area": 3225600,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_11",
+      "children_ids": [
+        "node_13",
+        "node_64"
+      ],
+      "depth": 7,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_13",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/rl_label",
+      "content_desc": "",
+      "bounds": [
+        64,
+        384,
+        1376,
+        2089
+      ],
+      "center": [
+        720,
+        1236
+      ],
+      "area": 2236960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_14",
+        "node_15",
+        "node_16",
+        "node_17",
+        "node_32",
+        "node_35"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_14",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Chime Name",
+      "resource_id": "com.hourlychime.easytimereminder:id/chime_label",
+      "content_desc": "",
+      "bounds": [
+        96,
+        448,
+        1344,
+        528
+      ],
+      "center": [
+        720,
+        488
+      ],
+      "area": 99840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_15",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "Custom Chime",
+      "resource_id": "com.hourlychime.easytimereminder:id/edit_chime_label",
+      "content_desc": "",
+      "bounds": [
+        128,
+        576,
+        1312,
+        763
+      ],
+      "center": [
+        720,
+        669
+      ],
+      "area": 221408,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_16",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Chime Time",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_reminder_time",
+      "content_desc": "",
+      "bounds": [
+        96,
+        835,
+        1344,
+        915
+      ],
+      "center": [
+        720,
+        875
+      ],
+      "area": 99840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_17",
+      "type": "Other",
+      "class_name": "android.widget.TimePicker",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/edit_alarm_time_picker",
+      "content_desc": "",
+      "bounds": [
+        209,
+        915,
+        1231,
+        1635
+      ],
+      "center": [
+        720,
+        1275
+      ],
+      "area": 735840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_18"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_18",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "android:id/timePickerLayout",
+      "content_desc": "",
+      "bounds": [
+        209,
+        915,
+        1231,
+        1635
+      ],
+      "center": [
+        720,
+        1275
+      ],
+      "area": 735840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_17",
+      "children_ids": [
+        "node_19",
+        "node_29"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_19",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        241,
+        915,
+        879,
+        1635
+      ],
+      "center": [
+        560,
+        1275
+      ],
+      "area": 459360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_20",
+        "node_24",
+        "node_25"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_20",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.NumberPicker",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        273,
+        979,
+        529,
+        1571
+      ],
+      "center": [
+        401,
+        1275
+      ],
+      "area": 151552,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_21",
+        "node_22",
+        "node_23"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_21",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "7",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        273,
+        979,
+        529,
+        1179
+      ],
+      "center": [
+        401,
+        1079
+      ],
+      "area": 51200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_22",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "8",
+      "resource_id": "android:id/numberpicker_input",
+      "content_desc": "",
+      "bounds": [
+        273,
+        1179,
+        529,
+        1371
+      ],
+      "center": [
+        401,
+        1275
+      ],
+      "area": 49152,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_23",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "9",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        273,
+        1371,
+        529,
+        1571
+      ],
+      "center": [
+        401,
+        1471
+      ],
+      "area": 51200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_20",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_24",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": ":",
+      "resource_id": "android:id/divider",
+      "content_desc": "",
+      "bounds": [
+        553,
+        1237,
+        567,
+        1313
+      ],
+      "center": [
+        560,
+        1275
+      ],
+      "area": 1064,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_25",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.NumberPicker",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        591,
+        979,
+        847,
+        1571
+      ],
+      "center": [
+        719,
+        1275
+      ],
+      "area": 151552,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_19",
+      "children_ids": [
+        "node_26",
+        "node_27",
+        "node_28"
+      ],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_26",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "18",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        591,
+        979,
+        847,
+        1179
+      ],
+      "center": [
+        719,
+        1079
+      ],
+      "area": 51200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_27",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "19",
+      "resource_id": "android:id/numberpicker_input",
+      "content_desc": "",
+      "bounds": [
+        591,
+        1179,
+        847,
+        1371
+      ],
+      "center": [
+        719,
+        1275
+      ],
+      "area": 49152,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_28",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "20",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        591,
+        1371,
+        847,
+        1571
+      ],
+      "center": [
+        719,
+        1471
+      ],
+      "area": 51200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_25",
+      "children_ids": [],
+      "depth": 13,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_29",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.NumberPicker",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        911,
+        979,
+        1167,
+        1571
+      ],
+      "center": [
+        1039,
+        1275
+      ],
+      "area": 151552,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_18",
+      "children_ids": [
+        "node_30",
+        "node_31"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_30",
+      "type": "Button",
+      "class_name": "android.widget.Button",
+      "text": "AM",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        911,
+        979,
+        1167,
+        1179
+      ],
+      "center": [
+        1039,
+        1079
+      ],
+      "area": 51200,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_31",
+      "type": "Input",
+      "class_name": "android.widget.EditText",
+      "text": "PM",
+      "resource_id": "android:id/numberpicker_input",
+      "content_desc": "",
+      "bounds": [
+        911,
+        1179,
+        1167,
+        1371
+      ],
+      "center": [
+        1039,
+        1275
+      ],
+      "area": 49152,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_32",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/rl_reminder",
+      "content_desc": "",
+      "bounds": [
+        96,
+        1635,
+        1344,
+        1753
+      ],
+      "center": [
+        720,
+        1694
+      ],
+      "area": 147264,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_33",
+        "node_34"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_33",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Chime Days",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_reminder_day",
+      "content_desc": "",
+      "bounds": [
+        96,
+        1654,
+        1344,
+        1734
+      ],
+      "center": [
+        720,
+        1694
+      ],
+      "area": 99840,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_34",
+      "type": "Clickable",
+      "class_name": "android.widget.TextView",
+      "text": "All",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_all",
+      "content_desc": "",
+      "bounds": [
+        1110,
+        1635,
+        1296,
+        1753
+      ],
+      "center": [
+        1203,
+        1694
+      ],
+      "area": 21948,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_35",
+      "type": "ScrollContainer",
+      "class_name": "androidx.recyclerview.widget.RecyclerView",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/rv_days",
+      "content_desc": "",
+      "bounds": [
+        112,
+        1833,
+        1328,
+        2057
+      ],
+      "center": [
+        720,
+        1945
+      ],
+      "area": 272384,
+      "visible": true,
+      "clickable": false,
+      "scrollable": true,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_13",
+      "children_ids": [
+        "node_36",
+        "node_40",
+        "node_44",
+        "node_48",
+        "node_52",
+        "node_56",
+        "node_60"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_36",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/card_main",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1833,
+        288,
+        2057
+      ],
+      "center": [
+        204,
+        1945
+      ],
+      "area": 37632,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_37"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_37",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/rl_day",
+      "content_desc": "",
+      "bounds": [
+        120,
+        1833,
+        288,
+        2057
+      ],
+      "center": [
+        204,
+        1945
+      ],
+      "area": 37632,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_36",
+      "children_ids": [
+        "node_38",
+        "node_39"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_38",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Sun",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_day",
+      "content_desc": "",
+      "bounds": [
+        153,
+        1877,
+        255,
+        2005
+      ],
+      "center": [
+        204,
+        1941
+      ],
+      "area": 13056,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_39",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        192,
+        2005,
+        216,
+        2013
+      ],
+      "center": [
+        204,
+        2009
+      ],
+      "area": 192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_40",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/card_main",
+      "content_desc": "",
+      "bounds": [
+        304,
+        1833,
+        472,
+        2057
+      ],
+      "center": [
+        388,
+        1945
+      ],
+      "area": 37632,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_41"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_41",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/rl_day",
+      "content_desc": "",
+      "bounds": [
+        304,
+        1833,
+        472,
+        2057
+      ],
+      "center": [
+        388,
+        1945
+      ],
+      "area": 37632,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_40",
+      "children_ids": [
+        "node_42",
+        "node_43"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_42",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Mon",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_day",
+      "content_desc": "",
+      "bounds": [
+        329,
+        1877,
+        446,
+        2005
+      ],
+      "center": [
+        387,
+        1941
+      ],
+      "area": 14976,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_43",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        376,
+        2005,
+        400,
+        2013
+      ],
+      "center": [
+        388,
+        2009
+      ],
+      "area": 192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_41",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/card_main",
+      "content_desc": "",
+      "bounds": [
+        488,
+        1833,
+        656,
+        2057
+      ],
+      "center": [
+        572,
+        1945
+      ],
+      "area": 37632,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_45",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/rl_day",
+      "content_desc": "",
+      "bounds": [
+        488,
+        1833,
+        656,
+        2057
+      ],
+      "center": [
+        572,
+        1945
+      ],
+      "area": 37632,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_46",
+        "node_47"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_46",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Tue",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_day",
+      "content_desc": "",
+      "bounds": [
+        523,
+        1877,
+        621,
+        2005
+      ],
+      "center": [
+        572,
+        1941
+      ],
+      "area": 12544,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_47",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        560,
+        2005,
+        584,
+        2013
+      ],
+      "center": [
+        572,
+        2009
+      ],
+      "area": 192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_48",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/card_main",
+      "content_desc": "",
+      "bounds": [
+        672,
+        1833,
+        840,
+        2057
+      ],
+      "center": [
+        756,
+        1945
+      ],
+      "area": 37632,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_49"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_49",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/rl_day",
+      "content_desc": "",
+      "bounds": [
+        672,
+        1833,
+        840,
+        2057
+      ],
+      "center": [
+        756,
+        1945
+      ],
+      "area": 37632,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_50",
+        "node_51"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_50",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Wed",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_day",
+      "content_desc": "",
+      "bounds": [
+        696,
+        1877,
+        816,
+        2005
+      ],
+      "center": [
+        756,
+        1941
+      ],
+      "area": 15360,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_51",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        744,
+        2005,
+        768,
+        2013
+      ],
+      "center": [
+        756,
+        2009
+      ],
+      "area": 192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_52",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/card_main",
+      "content_desc": "",
+      "bounds": [
+        856,
+        1833,
+        1024,
+        2057
+      ],
+      "center": [
+        940,
+        1945
+      ],
+      "area": 37632,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_53"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_53",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/rl_day",
+      "content_desc": "",
+      "bounds": [
+        856,
+        1833,
+        1024,
+        2057
+      ],
+      "center": [
+        940,
+        1945
+      ],
+      "area": 37632,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [
+        "node_54",
+        "node_55"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_54",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Thu",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_day",
+      "content_desc": "",
+      "bounds": [
+        888,
+        1877,
+        991,
+        2005
+      ],
+      "center": [
+        939,
+        1941
+      ],
+      "area": 13184,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_55",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        928,
+        2005,
+        952,
+        2013
+      ],
+      "center": [
+        940,
+        2009
+      ],
+      "area": 192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_56",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/card_main",
+      "content_desc": "",
+      "bounds": [
+        1040,
+        1833,
+        1208,
+        2057
+      ],
+      "center": [
+        1124,
+        1945
+      ],
+      "area": 37632,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_57"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_57",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/rl_day",
+      "content_desc": "",
+      "bounds": [
+        1040,
+        1833,
+        1208,
+        2057
+      ],
+      "center": [
+        1124,
+        1945
+      ],
+      "area": 37632,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_58",
+        "node_59"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_58",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Fri",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_day",
+      "content_desc": "",
+      "bounds": [
+        1089,
+        1877,
+        1158,
+        2005
+      ],
+      "center": [
+        1123,
+        1941
+      ],
+      "area": 8832,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_59",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1112,
+        2005,
+        1136,
+        2013
+      ],
+      "center": [
+        1124,
+        2009
+      ],
+      "area": 192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_60",
+      "type": "Clickable",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/card_main",
+      "content_desc": "",
+      "bounds": [
+        1224,
+        1833,
+        1328,
+        2057
+      ],
+      "center": [
+        1276,
+        1945
+      ],
+      "area": 23296,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_35",
+      "children_ids": [
+        "node_61"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_61",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/rl_day",
+      "content_desc": "",
+      "bounds": [
+        1224,
+        1833,
+        1328,
+        2057
+      ],
+      "center": [
+        1276,
+        1945
+      ],
+      "area": 23296,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_60",
+      "children_ids": [
+        "node_62",
+        "node_63"
+      ],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_62",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Sat",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_day",
+      "content_desc": "",
+      "bounds": [
+        1263,
+        1877,
+        1328,
+        2005
+      ],
+      "center": [
+        1295,
+        1941
+      ],
+      "area": 8320,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_63",
+      "type": "Other",
+      "class_name": "android.view.View",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        1296,
+        2005,
+        1320,
+        2013
+      ],
+      "center": [
+        1308,
+        2009
+      ],
+      "area": 192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_61",
+      "children_ids": [],
+      "depth": 12,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_64",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/alarm_tts",
+      "content_desc": "",
+      "bounds": [
+        0,
+        2153,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        2356
+      ],
+      "area": 586080,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_12",
+      "children_ids": [
+        "node_65"
+      ],
+      "depth": 8,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_65",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2153,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2356
+      ],
+      "area": 533984,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_64",
+      "children_ids": [
+        "node_66",
+        "node_70"
+      ],
+      "depth": 9,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_66",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/ll_enable_sound",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2185,
+        1376,
+        2409
+      ],
+      "center": [
+        720,
+        2297
+      ],
+      "area": 293888,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [
+        "node_67",
+        "node_68",
+        "node_69"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_67",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2249,
+        224,
+        2345
+      ],
+      "center": [
+        176,
+        2297
+      ],
+      "area": 9216,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_68",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Sound",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_tts_off",
+      "content_desc": "",
+      "bounds": [
+        288,
+        2185,
+        1120,
+        2409
+      ],
+      "center": [
+        704,
+        2297
+      ],
+      "area": 186368,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_69",
+      "type": "Selection",
+      "class_name": "android.widget.Switch",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/switch_enable_sound",
+      "content_desc": "",
+      "bounds": [
+        1130,
+        2201,
+        1302,
+        2393
+      ],
+      "center": [
+        1216,
+        2297
+      ],
+      "area": 33024,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": true,
+      "selected": false,
+      "parent_id": "node_66",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_70",
+      "type": "Clickable",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/ll_sounds",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2409,
+        1376,
+        2560
+      ],
+      "center": [
+        720,
+        2484
+      ],
+      "area": 198112,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_65",
+      "children_ids": [
+        "node_71",
+        "node_72",
+        "node_73",
+        "node_74"
+      ],
+      "depth": 10,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_71",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/imgSound",
+      "content_desc": "",
+      "bounds": [
+        128,
+        2473,
+        224,
+        2560
+      ],
+      "center": [
+        176,
+        2516
+      ],
+      "area": 8352,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_72",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Chime Sound",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_sound_label",
+      "content_desc": "",
+      "bounds": [
+        288,
+        2409,
+        698,
+        2560
+      ],
+      "center": [
+        493,
+        2484
+      ],
+      "area": 61910,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_73",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Double Beep",
+      "resource_id": "com.hourlychime.easytimereminder:id/txt_selected_sound",
+      "content_desc": "",
+      "bounds": [
+        778,
+        2481,
+        1200,
+        2560
+      ],
+      "center": [
+        989,
+        2520
+      ],
+      "area": 33338,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_74",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/iconChevron1",
+      "content_desc": "",
+      "bounds": [
+        1232,
+        2473,
+        1328,
+        2560
+      ],
+      "center": [
+        1280,
+        2516
+      ],
+      "area": 8352,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_70",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": true,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_75",
+      "type": "Button",
+      "class_name": "com.google.android.material.floatingactionbutton.FloatingActionButton",
+      "text": "",
+      "resource_id": "com.hourlychime.easytimereminder:id/fabSound",
+      "content_desc": "",
+      "bounds": [
+        1152,
+        2272,
+        1376,
+        2496
+      ],
+      "center": [
+        1264,
+        2384
+      ],
+      "area": 50176,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_5",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_76",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        32,
+        2340,
+        1408,
+        2528
+      ],
+      "center": [
+        720,
+        2434
+      ],
+      "area": 258688,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_4",
+      "children_ids": [
+        "node_77"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_77",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        64,
+        2340,
+        1376,
+        2528
+      ],
+      "center": [
+        720,
+        2434
+      ],
+      "area": 246656,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_76",
+      "children_ids": [
+        "node_78"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    },
+    {
+      "id": "node_78",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Please enter title",
+      "resource_id": "com.hourlychime.easytimereminder:id/snackbar_text",
+      "content_desc": "",
+      "bounds": [
+        96,
+        2340,
+        1344,
+        2528
+      ],
+      "center": [
+        720,
+        2434
+      ],
+      "area": 234624,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_77",
+      "children_ids": [],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "com.hourlychime.easytimereminder"
+    }
+  ]
+}

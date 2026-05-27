@@ -1,0 +1,985 @@
+{
+  "screenshot_path": "runs\\285_wysa\\step_004\\screen.png",
+  "xml_path": "runs\\285_wysa\\step_004\\hierarchy.xml",
+  "component_count": 31,
+  "components": [
+    {
+      "id": "node_29",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": null,
+      "children_ids": [
+        "node_30"
+      ],
+      "depth": 0,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_30",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1280
+      ],
+      "area": 3686400,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_29",
+      "children_ids": [
+        "node_31"
+      ],
+      "depth": 1,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_31",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_30",
+      "children_ids": [
+        "node_32"
+      ],
+      "depth": 2,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_32",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "bot.touchkin:id/action_bar_root",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_31",
+      "children_ids": [
+        "node_33"
+      ],
+      "depth": 3,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_33",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "android:id/content",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_32",
+      "children_ids": [
+        "node_34"
+      ],
+      "depth": 4,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_34",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "bot.touchkin:id/parent",
+      "content_desc": "",
+      "bounds": [
+        0,
+        96,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1328
+      ],
+      "area": 3548160,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_33",
+      "children_ids": [
+        "node_35",
+        "node_36",
+        "node_37"
+      ],
+      "depth": 5,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_35",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "1 of 16",
+      "resource_id": "bot.touchkin:id/progress_text",
+      "content_desc": "",
+      "bounds": [
+        68,
+        136,
+        232,
+        206
+      ],
+      "center": [
+        150,
+        171
+      ],
+      "area": 11480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_36",
+      "type": "Other",
+      "class_name": "android.widget.SeekBar",
+      "text": "10.0",
+      "resource_id": "bot.touchkin:id/seek_bar",
+      "content_desc": "",
+      "bounds": [
+        20,
+        246,
+        1420,
+        258
+      ],
+      "center": [
+        720,
+        252
+      ],
+      "area": 16800,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_37",
+      "type": "Container",
+      "class_name": "android.widget.RelativeLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        0,
+        338,
+        1440,
+        2560
+      ],
+      "center": [
+        720,
+        1449
+      ],
+      "area": 3199680,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_34",
+      "children_ids": [
+        "node_38",
+        "node_42"
+      ],
+      "depth": 6,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_38",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "bot.touchkin:id/header",
+      "content_desc": "",
+      "bounds": [
+        0,
+        338,
+        1440,
+        1022
+      ],
+      "center": [
+        720,
+        680
+      ],
+      "area": 984960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [
+        "node_39",
+        "node_40",
+        "node_41"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_39",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Over the last 2 weeks how often have you been bothered by any of the following problems?",
+      "resource_id": "bot.touchkin:id/quiz_subtitle",
+      "content_desc": "",
+      "bounds": [
+        88,
+        378,
+        1360,
+        614
+      ],
+      "center": [
+        724,
+        496
+      ],
+      "area": 300192,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_40",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Little interest or pleasure in doing things",
+      "resource_id": "bot.touchkin:id/quiz_title",
+      "content_desc": "",
+      "bounds": [
+        80,
+        654,
+        1360,
+        871
+      ],
+      "center": [
+        720,
+        762
+      ],
+      "area": 277760,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_41",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "",
+      "resource_id": "bot.touchkin:id/txtNote",
+      "content_desc": "",
+      "bounds": [
+        80,
+        931,
+        1360,
+        1022
+      ],
+      "center": [
+        720,
+        976
+      ],
+      "area": 116480,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_38",
+      "children_ids": [],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_42",
+      "type": "ScrollContainer",
+      "class_name": "android.widget.ScrollView",
+      "text": "",
+      "resource_id": "bot.touchkin:id/scrollOptions",
+      "content_desc": "",
+      "bounds": [
+        40,
+        1162,
+        1400,
+        2560
+      ],
+      "center": [
+        720,
+        1861
+      ],
+      "area": 1901280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_37",
+      "children_ids": [
+        "node_43"
+      ],
+      "depth": 7,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_43",
+      "type": "Container",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "bot.touchkin:id/option_button_container",
+      "content_desc": "",
+      "bounds": [
+        40,
+        1162,
+        1400,
+        2560
+      ],
+      "center": [
+        720,
+        1861
+      ],
+      "area": 1901280,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_42",
+      "children_ids": [
+        "node_44",
+        "node_48",
+        "node_52",
+        "node_56"
+      ],
+      "depth": 8,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_44",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        40,
+        1162,
+        1400,
+        1480
+      ],
+      "center": [
+        720,
+        1321
+      ],
+      "area": 432480,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_45"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_45",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        1162,
+        1320,
+        1408
+      ],
+      "center": [
+        710,
+        1285
+      ],
+      "area": 300120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_44",
+      "children_ids": [
+        "node_46",
+        "node_47"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_46",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "bot.touchkin:id/button_background",
+      "content_desc": "",
+      "bounds": [
+        100,
+        1162,
+        1320,
+        1408
+      ],
+      "center": [
+        710,
+        1285
+      ],
+      "area": 300120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_47",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Not at all",
+      "resource_id": "bot.touchkin:id/assessment_tv",
+      "content_desc": "",
+      "bounds": [
+        280,
+        1242,
+        1140,
+        1328
+      ],
+      "center": [
+        710,
+        1285
+      ],
+      "area": 73960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_45",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_48",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        40,
+        1480,
+        1400,
+        1798
+      ],
+      "center": [
+        720,
+        1639
+      ],
+      "area": 432480,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_49"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_49",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        1480,
+        1320,
+        1726
+      ],
+      "center": [
+        710,
+        1603
+      ],
+      "area": 300120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_48",
+      "children_ids": [
+        "node_50",
+        "node_51"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_50",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "bot.touchkin:id/button_background",
+      "content_desc": "",
+      "bounds": [
+        100,
+        1480,
+        1320,
+        1726
+      ],
+      "center": [
+        710,
+        1603
+      ],
+      "area": 300120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_51",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Several days",
+      "resource_id": "bot.touchkin:id/assessment_tv",
+      "content_desc": "",
+      "bounds": [
+        280,
+        1560,
+        1140,
+        1646
+      ],
+      "center": [
+        710,
+        1603
+      ],
+      "area": 73960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_49",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_52",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        40,
+        1798,
+        1400,
+        2116
+      ],
+      "center": [
+        720,
+        1957
+      ],
+      "area": 432480,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_53"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_53",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        1798,
+        1320,
+        2044
+      ],
+      "center": [
+        710,
+        1921
+      ],
+      "area": 300120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_52",
+      "children_ids": [
+        "node_54",
+        "node_55"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_54",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "bot.touchkin:id/button_background",
+      "content_desc": "",
+      "bounds": [
+        100,
+        1798,
+        1320,
+        2044
+      ],
+      "center": [
+        710,
+        1921
+      ],
+      "area": 300120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_55",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "More than half the days",
+      "resource_id": "bot.touchkin:id/assessment_tv",
+      "content_desc": "",
+      "bounds": [
+        280,
+        1878,
+        1140,
+        1964
+      ],
+      "center": [
+        710,
+        1921
+      ],
+      "area": 73960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_53",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_56",
+      "type": "Clickable",
+      "class_name": "android.widget.LinearLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        40,
+        2116,
+        1400,
+        2434
+      ],
+      "center": [
+        720,
+        2275
+      ],
+      "area": 432480,
+      "visible": true,
+      "clickable": true,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_43",
+      "children_ids": [
+        "node_57"
+      ],
+      "depth": 9,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_57",
+      "type": "Container",
+      "class_name": "android.widget.FrameLayout",
+      "text": "",
+      "resource_id": "",
+      "content_desc": "",
+      "bounds": [
+        100,
+        2116,
+        1320,
+        2362
+      ],
+      "center": [
+        710,
+        2239
+      ],
+      "area": 300120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_56",
+      "children_ids": [
+        "node_58",
+        "node_59"
+      ],
+      "depth": 10,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_58",
+      "type": "Image",
+      "class_name": "android.widget.ImageView",
+      "text": "",
+      "resource_id": "bot.touchkin:id/button_background",
+      "content_desc": "",
+      "bounds": [
+        100,
+        2116,
+        1320,
+        2362
+      ],
+      "center": [
+        710,
+        2239
+      ],
+      "area": 300120,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    },
+    {
+      "id": "node_59",
+      "type": "Text",
+      "class_name": "android.widget.TextView",
+      "text": "Nearly every day",
+      "resource_id": "bot.touchkin:id/assessment_tv",
+      "content_desc": "",
+      "bounds": [
+        280,
+        2196,
+        1140,
+        2282
+      ],
+      "center": [
+        710,
+        2239
+      ],
+      "area": 73960,
+      "visible": true,
+      "clickable": false,
+      "scrollable": false,
+      "enabled": true,
+      "checked": false,
+      "selected": false,
+      "parent_id": "node_57",
+      "children_ids": [],
+      "depth": 11,
+      "in_scroll_container": false,
+      "package_name": "bot.touchkin"
+    }
+  ]
+}
